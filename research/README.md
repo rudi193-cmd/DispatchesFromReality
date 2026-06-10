@@ -6,11 +6,12 @@ This section collects the research work that sits behind the public writing and 
 
 ---
 
-## Current public research packet
+## Current public research packets
 
-| Paper | Focus | Status |
-|-------|-------|--------|
+| Packet | Focus | Status |
+|--------|-------|--------|
 | [The Illusion of Sovereign AI](sociotechnical-ai-sovereignty/README.md) | AI chokepoints, capital, hardware dependency, distribution infrastructure, local-first sovereignty | Working drafts v1/v2 summarized publicly |
+| [Post-WWII institutional legacies](postwar-institutional-legacies/README.md) | Operation Paperclip genealogy, institutional contractor lineages, Redstone → MSFC continuity | Working DB + research passes summarized publicly |
 
 ---
 
@@ -29,6 +30,8 @@ This section collects the research work that sits behind the public writing and 
 ## 1. Post-WWII Industrial And Institutional Legacies
 
 This research vector traces how wartime technical expertise, industrial capacity, and intelligence networks moved into postwar institutional frameworks.
+
+→ **Public packet:** [postwar-institutional-legacies/README.md](postwar-institutional-legacies/README.md)
 
 | Area | Examples |
 |------|----------|

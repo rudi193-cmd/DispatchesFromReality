@@ -37,6 +37,13 @@ Most "sovereign AI" narratives confuse model ownership with operational control.
 
 → [Paper packet](research/sociotechnical-ai-sovereignty/README.md) · [Willow systems deep dive](professional/willow-systems-portfolio.md)
 
+### [Post-WWII Institutional Legacies](research/postwar-institutional-legacies/README.md)
+*Operation Paperclip genealogy, contractor lineages, and Redstone Arsenal continuity* · working research DB · 2026-03
+
+Structured evidence base tracing how wartime technical expertise migrated into postwar U.S. institutions — from Paperclip scientist placement through Huntsville's MSFC and present-day aerospace/defense infrastructure.
+
+→ [Research packet](research/postwar-institutional-legacies/README.md) · [Research portfolio map](research/README.md)
+
 ### [Assessment Evidence and Expressive Pathways in AI-Present Schools](education/assessment-visibility-v1.1/white-paper.md)
 *A Framework for Assessment Visibility, Equity, and Teacher-Led Governance* · v1.1 · 2026-05-26
 
