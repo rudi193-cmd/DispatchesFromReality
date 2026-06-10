@@ -1,0 +1,194 @@
+{
+  "schema_version": "1.0",
+  "document": {
+    "id": "assessment-visibility-v1.1",
+    "title": "Assessment Evidence and Expressive Pathways in AI-Present Schools",
+    "subtitle": "A Framework for Assessment Visibility, Equity, and Teacher-Led Governance",
+    "author": "Sean Campbell",
+    "version": "1.1",
+    "date": "2026-05-26",
+    "folder": "Education / Pedagogy",
+    "license": "CC BY 4.0",
+    "language": "en",
+    "prior_version": {
+      "version": "1.0",
+      "date": "2025-12-17",
+      "note": "v1.0 listed appendices as verbatim but did not include full text; v1.1 supplies companion materials."
+    },
+    "source_files": {
+      "main": "white-paper.md",
+      "appendix_a": "appendix-a.md",
+      "appendix_b": "appendix-b.md",
+      "appendix_c": "appendix-c.md",
+      "appendix_d": "appendix-d.md",
+      "appendix_e": "appendix-e.md",
+      "classroom_signals": "classroom-signals.md"
+    },
+    "excluded": ["product names", "platform branding", "vendor pitches"]
+  },
+  "thesis": {
+    "one_line": "Assessment systems optimized for visible output under-see learning; AI intensifies that blind spot; expanding expressive pathways and assessment visibility increases accuracy and equity without lowering standards.",
+    "core_problem": "It is not that students are learning differently—it is that assessment systems are insufficiently sensitive to how learning actually appears.",
+    "shift": "From performance acceleration to assessment visibility"
+  },
+  "principles": [
+    {
+      "id": "p1",
+      "title": "Learning is not synonymous with performance",
+      "summary": "Understanding emerges through reflection, integration, and time."
+    },
+    {
+      "id": "p2",
+      "title": "Assessment visibility is an equity issue",
+      "summary": "When only narrow expression counts, capable learners are systematically under-seen."
+    },
+    {
+      "id": "p3",
+      "title": "Multiple expressive pathways strengthen rigor",
+      "summary": "Diverse demonstrations increase accuracy without diluting expectations."
+    },
+    {
+      "id": "p4",
+      "title": "Teacher judgment is central and irreplaceable",
+      "summary": "No tool or system supersedes professional observation."
+    },
+    {
+      "id": "p5",
+      "title": "Tools must follow cognition, not precede it",
+      "summary": "Engagement and sense-making come before articulation or AI support."
+    }
+  ],
+  "expressive_pathways": [
+    "embodied_performative",
+    "verbal_oral",
+    "reflective_delayed",
+    "in_role_narrative",
+    "written",
+    "visual_representational"
+  ],
+  "ai_position": {
+    "role": "constrained_secondary_scaffold",
+    "legitimate_uses": [
+      "supporting_reflective_articulation",
+      "alternative_prompts_for_explanation",
+      "assisting_teachers_noticing_patterns"
+    ],
+    "prohibited_uses": [
+      "generate_primary_student_thinking",
+      "replace_teacher_judgment",
+      "serve_as_assessment_authority",
+      "precede_engagement_and_sense_making"
+    ],
+    "transparency": "governance_and_trust_not_surveillance"
+  },
+  "sections": [
+    {"id": "executive_summary", "file": "white-paper.md", "anchor": "executive-summary"},
+    {"id": "problem_statement", "file": "white-paper.md", "anchor": "1-education-systems-problem-statement"},
+    {"id": "principles", "file": "white-paper.md", "anchor": "2-core-pedagogical-principles"},
+    {"id": "human_ai_collaboration", "file": "white-paper.md", "anchor": "3-humanai-collaboration-in-education"},
+    {"id": "pattern_insight", "file": "white-paper.md", "anchor": "4-pattern-insight--expressive-pathways-and-assessment-visibility"},
+    {"id": "ethics_equity", "file": "white-paper.md", "anchor": "5-ethics-access-and-equity-framework"},
+    {"id": "implementation", "file": "white-paper.md", "anchor": "6-implementation-considerations"},
+    {"id": "operationalizing", "file": "white-paper.md", "anchor": "7-operationalizing-visibility-from-principle-to-practice"}
+  ],
+  "standardized_assessment_language": [
+    "The student accurately represented the core concept through non-written expression.",
+    "The student demonstrated conceptual transfer by connecting ideas.",
+    "The student articulated understanding after reflection, indicating durable sense-making."
+  ],
+  "appendices": {
+    "A": {
+      "title": "Observational Case Studies",
+      "file": "appendix-a.md",
+      "cases": [
+        {"pseudonym": "Beethoven", "grade": 4, "pathways": ["performative_embodied", "verbal_musical"]},
+        {"pseudonym": "Mozart", "grade": 5, "pathways": ["in_role_narrative", "verbal_recall", "transfer"]}
+      ]
+    },
+    "B": {
+      "title": "Pedagogical Pattern Evidence Mapping",
+      "file": "appendix-b.md"
+    },
+    "C": {
+      "title": "Ethics, Access, and Equity Reference Notes",
+      "file": "appendix-c.md"
+    },
+    "D": {
+      "title": "References and Prior Art (Living)",
+      "file": "appendix-d.md",
+      "status": "living"
+    },
+    "E": {
+      "title": "Educator Implementation Companion",
+      "file": "appendix-e.md",
+      "tools": [
+        {
+          "id": "E1",
+          "title": "Seeing Learning: Expanding Assessment Without Lowering Standards",
+          "audience": "teachers_plc",
+          "time_minutes": 15,
+          "purpose": "belief_shift_before_admin_conversation"
+        },
+        {
+          "id": "E2",
+          "title": "What Counts as Evidence of Understanding?",
+          "audience": "teachers",
+          "time_minutes": 30,
+          "purpose": "rubric_and_pathway_design"
+        },
+        {
+          "id": "E3",
+          "title": "Reflection as Assessment, Not Homework",
+          "audience": "teachers",
+          "time_minutes": 15,
+          "purpose": "reflection_task_filter"
+        },
+        {
+          "id": "E4",
+          "title": "How to Explain This to Your Principal",
+          "audience": "teacher_to_principal",
+          "time_minutes": 5,
+          "purpose": "institutional_alignment",
+          "beats": [
+            {"id": 0, "name": "frame", "seconds": 15},
+            {"id": 1, "name": "problem", "seconds": 20},
+            {"id": 2, "name": "local_proof", "seconds": 60},
+            {"id": 3, "name": "standards_and_evidence", "seconds": 45},
+            {"id": 4, "name": "shared_language", "seconds": 30},
+            {"id": 5, "name": "not_asking", "seconds": 20},
+            {"id": 6, "name": "one_ask", "seconds": 30},
+            {"id": 7, "name": "close", "seconds": 15}
+          ],
+          "principal_outcomes": [
+            "assessment_design_not_cheating",
+            "accuracy_not_easiness",
+            "teacher_judgment_central",
+            "equity_false_negatives",
+            "governance_not_surveillance",
+            "one_concrete_next_step"
+          ]
+        }
+      ]
+    }
+  },
+  "classroom_signals": {
+    "file": "classroom-signals.md",
+    "role": "shared_observational_language"
+  },
+  "links": {
+    "emerging_rule_community": "https://github.com/Emerging-Rule/community",
+    "teachers_app_docs": "docs/assessment-visibility-v1.1/"
+  },
+  "keywords": [
+    "assessment visibility",
+    "expressive pathways",
+    "AI-present schools",
+    "false negatives",
+    "instructional integrity",
+    "teacher judgment",
+    "equity",
+    "classroom signals",
+    "principal conversation",
+    "K-12"
+  ]
+}
