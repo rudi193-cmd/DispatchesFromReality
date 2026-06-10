@@ -58,9 +58,6 @@ Lessons that teach something real through a story. No devices required for the c
 | [The Scribe Who Forgot His Dreams](lessons/cs-k12-the-scribe-who-forgot-his-dreams.md) | K–12 | How AI memory works — warm, knowledgeable, no yesterday |
 | [The Storm That Spoke Her Name](lessons/cs-k12-the-storm-that-spoke-her-name.md) | K–12 | Pattern recognition and AI naming |
 | [Neva and Theo](lessons/science-3-5-neva-and-theo.md) | Grades 3–5 | Scientific observation through story |
-| [The Story Problem Factory](lessons/math-3-5-ai-story-problem-factory.md) | Grades 3–5 | Math reasoning with AI |
-| [Who Wrote This? — AI Authorship](lessons/sel-9-12-who-wrote-this-ai-authorship.md) | Grades 9–12 | Authorship, voice, attribution |
-| [Arguing with AI — Climate Debate](lessons/science-6-8-arguing-with-ai-climate-debate.md) | Grades 6–8 | Fact-checking and evidence |
 
 ---
 
@@ -73,15 +70,6 @@ Lessons that teach something real through a story. No devices required for the c
 | [The Storm](lessons/socialstudies-6-8-the-storm.md) | |
 | [Who Calls You Back?](lessons/socialstudies-6-8-who-calls-you-back.md) | |
 | [Ships and Stations](lessons/socialstudies-6-8-ships-and-stations.md) | |
-
----
-
-## Bilingual Lessons
-
-| Lesson | Languages |
-|--------|-----------|
-| [Mi Robot de Cuentos](lessons/ela-k2-mi-robot-de-cuentos-bilingual.md) | EN / ES · K–2 |
-| [El Jardín de Números](lessons/math-k3-el-jardin-de-numeros-bilingual.md) | EN / ES · K–3 |
 
 ---
 
