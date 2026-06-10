@@ -6,6 +6,8 @@ This document is the deep systems case study behind the summary in [portfolio-ca
 
 **Evidence map:** [willow-ecosystem-inventory.md](willow-ecosystem-inventory.md)
 
+**Conceptual origin:** [The Illusion of Sovereign AI](../research/sociotechnical-ai-sovereignty/README.md), a v1/v2 sociotechnical paper on hardware chokepoints, capital dependency, open-weight distribution, and why local-first infrastructure matters.
+
 ---
 
 ## Executive summary

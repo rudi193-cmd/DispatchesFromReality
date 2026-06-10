@@ -7,6 +7,7 @@ I build tools and learning materials where people stay authoritative, evidence s
 | Core signal | Evidence |
 |-------------|----------|
 | **Backend systems building** | Built Willow from scratch: Postgres data modeling, hybrid retrieval, task queues, MCP tooling, worker isolation, Grove messaging, and release discipline |
+| **Sociotechnical research** | Wrote *The Illusion of Sovereign AI* and maintained broader research vectors across AI sovereignty, institutional lineage, mechanics, and restoration |
 | **Education and governance** | Designed AI literacy lessons and an assessment visibility framework for real classrooms |
 | **Learning velocity** | Moved from limited conventional SWE background into operating a multi-repo local-first agent platform |
 | **Public contribution** | Emerging Rule lesson materials, SAFE app ecosystem, Willow public repos |
@@ -21,7 +22,8 @@ This folder is a technical-employer-facing packet. It translates work from [Disp
 |----------------|-----------|
 | 3 minutes | [portfolio-case-studies.md](portfolio-case-studies.md) |
 | 10 minutes | [willow-systems-portfolio.md](willow-systems-portfolio.md) |
-| Need evidence | [willow-ecosystem-inventory.md](willow-ecosystem-inventory.md) |
+| Need research context | [Research portfolio](../research/README.md) |
+| Need systems evidence | [willow-ecosystem-inventory.md](willow-ecosystem-inventory.md) |
 | Need structure | [case-study-template.md](case-study-template.md) |
 
 **What this packet is:** curated evidence of judgment, writing, systems-building, and design under real constraints.
@@ -47,6 +49,8 @@ This folder is a technical-employer-facing packet. It translates work from [Disp
 |------|-------------|
 | AI literacy curriculum (HS) | [lessons/ai-literacy-9-12-index.md](../lessons/ai-literacy-9-12-index.md) |
 | Assessment & governance framework | [education/assessment-visibility-v1.1/white-paper.md](../education/assessment-visibility-v1.1/white-paper.md) |
+| Research portfolio | [research/README.md](../research/README.md) |
+| Sociotechnical AI paper | [research/sociotechnical-ai-sovereignty/README.md](../research/sociotechnical-ai-sovereignty/README.md) |
 | K–12 story-first AI lesson | [lessons/cs-k12-the-scribe-who-forgot-his-dreams.md](../lessons/cs-k12-the-scribe-who-forgot-his-dreams.md) |
 | Teacher reading list | [education/emerging-rule/ai-education-reading-list.md](../education/emerging-rule/ai-education-reading-list.md) |
 | Local-first agent infrastructure | [willow-2.0](https://github.com/rudi193-cmd/willow-2.0) (public) |

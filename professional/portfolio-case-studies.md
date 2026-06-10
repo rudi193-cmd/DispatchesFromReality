@@ -9,6 +9,7 @@ Three projects that show the same through-line: build real systems for real user
 | **1. AI Literacy Curriculum** | Product thinking for non-technical users; AI risk communication | [AI literacy index](../lessons/ai-literacy-9-12-index.md) |
 | **2. Assessment Visibility** | Governance design; research synthesis; teacher-facing implementation | [White paper](../education/assessment-visibility-v1.1/white-paper.md) |
 | **3. Willow Systems Building** | Backend infrastructure; Postgres data plane; agent orchestration | [Willow systems deep dive](willow-systems-portfolio.md) |
+| **Research thread** | Sociotechnical analysis; institutional lineage; mechanics and systems design | [Research portfolio](../research/README.md) |
 
 ---
 

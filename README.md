@@ -3,9 +3,9 @@
 **Sean Campbell**  
 Human-directed AI systems, local-first agent infrastructure, and classroom materials for teaching AI without losing the conditions of learning.
 
-| Professional packet | Systems evidence | Education work | GitHub |
-|---------------------|------------------|----------------|--------|
-| [Start here](professional/README.md) | [Willow deep dive](professional/willow-systems-portfolio.md) | [AI literacy lessons](lessons/ai-literacy-9-12-index.md) | [rudi193-cmd](https://github.com/rudi193-cmd) |
+| Professional packet | Systems evidence | Research map | Education work | GitHub |
+|---------------------|------------------|--------------|----------------|--------|
+| [Start here](professional/README.md) | [Willow deep dive](professional/willow-systems-portfolio.md) | [Research portfolio](research/README.md) | [AI literacy lessons](lessons/ai-literacy-9-12-index.md) | [rudi193-cmd](https://github.com/rudi193-cmd) |
 
 All materials CC BY 4.0 unless noted. Canonical lesson repo: [Emerging-Rule/community](https://github.com/Emerging-Rule/community).
 
@@ -24,6 +24,18 @@ For technical employers, start with the [professional portfolio packet](professi
 ---
 
 ## Research & White Papers
+
+### [Research Portfolio Map](research/README.md)
+*Sociotechnical AI, postwar institutional legacies, local-first coordination frameworks, tabletop mechanics, and vintage mechanical restoration*
+
+The research section summarizes the major vectors behind this portfolio: structured evidence databases, institutional lineage mapping, backend AI coordination systems, mechanics engines, and hands-on technical restoration.
+
+### [The Illusion of Sovereign AI](research/sociotechnical-ai-sovereignty/README.md)
+*A sociotechnical paper on AI chokepoints, capital, infrastructure dependency, and local-first sovereignty* · working drafts v1/v2 · 2026-06
+
+Most "sovereign AI" narratives confuse model ownership with operational control. This paper maps hardware, capital, talent, and distribution chokepoints using a structured relational evidence base, then connects the argument to local-first deployment and Willow.
+
+→ [Paper packet](research/sociotechnical-ai-sovereignty/README.md) · [Willow systems deep dive](professional/willow-systems-portfolio.md)
 
 ### [Assessment Evidence and Expressive Pathways in AI-Present Schools](education/assessment-visibility-v1.1/white-paper.md)
 *A Framework for Assessment Visibility, Equity, and Teacher-Led Governance* · v1.1 · 2026-05-26
