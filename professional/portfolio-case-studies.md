@@ -137,11 +137,13 @@ Schools responding to AI often frame the issue as cheating detection or output r
 
 ## Case Study 3 — Systems Building: Local-First Agent Memory (Willow)
 
-**One-line summary:** I built Willow from scratch: a local-first agent fleet with Postgres knowledge graph, task queue, MCP tools, Grove messaging, handoffs, and verification loops — designed so AI agents remember, coordinate, and cite evidence without cloud dependency or opaque automation.
+**One-line summary:** I built Willow from scratch: a local-first backend platform for agent workflows with a Postgres knowledge graph, hybrid retrieval, task queue, MCP API surface, Grove message bus, handoffs, and verification loops — designed so AI agents remember, coordinate, execute, and cite evidence without cloud dependency or opaque automation.
 
 **Status:** Working local system and public open-source project ([willow-2.0](https://github.com/rudi193-cmd/willow-2.0)); active development with external contributors
 
 **Evidence:** [willow-2.0](https://github.com/rudi193-cmd/willow-2.0) · [safe-app-store](https://github.com/rudi193-cmd/safe-app-store) · Author background in [ai-education-reading-list.md](../education/emerging-rule/ai-education-reading-list.md)
+
+**Deep dive (this packet):** [willow-systems-portfolio.md](willow-systems-portfolio.md) · [willow-ecosystem-inventory.md](willow-ecosystem-inventory.md)
 
 ---
 
@@ -158,17 +160,18 @@ There was also a personal systems-building challenge: I began this work with ver
 
 ### Constraints
 
-- **Local-first:** Postgres KB, Ollama default, no mandatory cloud APIs
+- **Local-first backend:** Postgres KB, SQLite SOIL stores, Ollama default, no mandatory cloud APIs
 - **Human-directed:** Agents propose; humans ratify — knowledge ingestion gated on redundancy/contradiction checks
 - **Portless / SAFE model:** Apps run without exposing ports or requiring subscription SaaS ([safe-app-store](https://github.com/rudi193-cmd/safe-app-store))
 - **Public release discipline:** External-facing repos kept clean — no hard-coded paths, no sprawling internal docs in the public tree
 
 ### What I built / designed
 
-- **Willow 2.0 core:** Local-first memory, MCP tool surface, fleet coordination — described publicly as *"Postgres KB, Ollama default, Grove LAN remote"*
+- **Willow 2.0 core:** Local-first backend, MCP tool surface, fleet coordination — described publicly as *"Postgres KB, Ollama default, Grove LAN remote"*
+- **Data plane:** Postgres-backed knowledge, tasks, edges, Jeles atoms, Opus atoms, and FRANK ledger entries; SQLite retained for fast local SOIL/session state where appropriate
 - **Knowledge layer:** Hybrid search (pgvector + BM25), lifecycle tiers (frontier → contested → canonical → superseded), tamper-evident FRANK ledger for audit trail
-- **Execution plane:** Kart task queue for shell work — separates reasoning agents from autonomous execution
-- **Coordination:** Grove messaging bus for agent-to-agent communication; dispatch and handoff patterns for session continuity
+- **Execution plane:** Kart Postgres task queue and sandboxed worker pattern for shell work — separates reasoning agents from autonomous execution
+- **Coordination:** Grove Postgres message bus for agent-to-agent communication; dispatch and handoff patterns for session continuity
 - **Curriculum bridge (UTETY):** Faculty persona layer used to draft and stress-test classroom materials (e.g. [Scribe lesson](../lessons/cs-k12-the-scribe-who-forgot-his-dreams.md), [reading list](../education/emerging-rule/ai-education-reading-list.md)) with explicit human author of record
 - **Ecosystem:** SAFE App Store for local-first app distribution; related public repos (stash, ctxvault, holon, mengram, ogham-mcp) forming a coherent agent-memory portfolio
 
@@ -176,7 +179,7 @@ There was also a personal systems-building challenge: I began this work with ver
 
 This is the part a technical employer should evaluate directly: Willow shows that I can learn unfamiliar engineering domains by building the system that forces the learning.
 
-- **From limited SWE background to operating platform:** I did not start with a traditional backend or infrastructure resume. I learned by decomposing the problem into memory, tools, tasks, messages, policies, handoffs, and release hygiene, then making each piece work well enough to support the next.
+- **From limited SWE background to backend platform:** I did not start with a traditional backend or infrastructure resume. I learned by decomposing the problem into persistence, schemas, retrieval, tool APIs, worker queues, message routing, policies, handoffs, and release hygiene, then making each piece work well enough to support the next.
 - **AI-assisted development as a disciplined workflow:** AI accelerated implementation, but it did not replace judgment. I used agents to explore, draft, debug, and refactor while keeping human review, repo hygiene, public/private boundaries, and evidence checks explicit.
 - **Architecture through pressure:** Components emerged from repeated operational failures: session memory loss became handoffs and KB atoms; unreliable shell execution became Kart; unverifiable agent claims became source-trail, ledgers, and ingest gates; cross-agent confusion became Grove and dispatch semantics.
 - **Public/private separation:** The public repos show the distributable system; private operator state, credentials, and data vaults stay out of the portfolio. That boundary is part of the engineering work.
@@ -187,7 +190,7 @@ This is the part a technical employer should evaluate directly: Willow shows tha
 - **Search before build:** KB query required before agents implement — reduces duplicate work across sessions and agents
 - **Gate on ingest:** `mem_check` / redundancy-contradiction gates before knowledge writes — prevents silent graph pollution
 - **Tiered truth:** Not every atom is canonical; lifecycle tiers make epistemic status explicit
-- **Separation of planes:** Named reasoning agents vs. Kart execution — cross-agent dispatch does not require daemons for work that must run unattended
+- **Separation of planes:** Postgres-backed memory, SOIL session state, Grove messaging, and Kart execution each have distinct responsibilities — cross-agent dispatch does not require daemons for work that must run unattended
 - **Local default, cloud optional:** Ollama for inference; provider routing available but not required — fits operators with air-gapped or privacy-sensitive environments
 - **Same principles in education repo:** Assessment framework and curriculum both insist tools follow cognition; Willow encodes that structurally in agent workflows
 
@@ -197,6 +200,8 @@ This is the part a technical employer should evaluate directly: Willow shows tha
 |----------|------|
 | Willow 2.0 (public) | https://github.com/rudi193-cmd/willow-2.0 |
 | SAFE App Store (public) | https://github.com/rudi193-cmd/safe-app-store |
+| Deep systems case study | [willow-systems-portfolio.md](willow-systems-portfolio.md) |
+| Ecosystem inventory (repos, DBs, apps) | [willow-ecosystem-inventory.md](willow-ecosystem-inventory.md) |
 | Author AI-systems background | [education/emerging-rule/ai-education-reading-list.md](../education/emerging-rule/ai-education-reading-list.md) (About the author) |
 | Classroom material stress-tested via UTETY | [lessons/cs-k12-the-scribe-who-forgot-his-dreams.md](../lessons/cs-k12-the-scribe-who-forgot-his-dreams.md) |
 | Portfolio landing | https://rudi193-cmd.github.io |
@@ -257,7 +262,8 @@ These three projects are not three careers — they are one design stance applie
 
 - How the posole criterion shaped lesson structure and what I'd cut if a district had devices in every seat
 - Why assessment visibility is a measurement-design problem, not an AI-detection problem
-- How I built Willow from scratch with limited prior SWE background, and what that taught me about architecture
+- How I built Willow from scratch with limited prior SWE background, and what that taught me about architecture (see [willow-systems-portfolio.md](willow-systems-portfolio.md))
+- How the RH research harness uses the same KB ingest pipeline as the agent fleet — and what I claim vs. what stays research-in-progress
 - How Willow's ingest gates and knowledge tiers map to production RAG hygiene
 - Where I've been wrong — e.g. v1.0 appendix gap in Assessment Visibility and how v1.1 fixed it
 - What I'd prioritize next: Spanish bilingual release for HS lessons, HNS implementation, or contributor onboarding for seed.py cross-platform installs
