@@ -9,6 +9,7 @@ I build tools and learning materials where people stay authoritative, evidence s
 | **Backend systems building** | Built Willow from scratch: Postgres data modeling, hybrid retrieval, task queues, MCP tooling, worker isolation, Grove messaging, and release discipline |
 | **Sociotechnical research** | Wrote *The Illusion of Sovereign AI* and maintained broader research vectors across AI sovereignty, institutional lineage, mechanics, and restoration |
 | **Education and governance** | Designed AI literacy lessons and an assessment visibility framework for real classrooms |
+| **Live facilitation** | Quizmaster for Geeks Who Drink since 2008: public speaking, pacing, audience trust, and real-time room management |
 | **Learning velocity** | Moved from limited conventional SWE background into operating a multi-repo local-first agent platform |
 | **Public contribution** | Emerging Rule lesson materials, SAFE app ecosystem, Willow public repos |
 
@@ -62,6 +63,7 @@ This folder is a technical-employer-facing packet. It translates work from [Disp
 | Area | Detail |
 |------|--------|
 | Education | Master's in Music Education; classroom materials written for working teachers (30 students, limited prep, devices optional) |
+| Live facilitation | Quizmaster for Geeks Who Drink since 2008 |
 | AI systems | Built Willow from scratch: local-first memory, task queue, knowledge graph, MCP tooling, Grove messaging, and verification loops |
 | AI/ML credential | Hugging Face certificate |
 | Contributor | [Emerging-Rule/community](https://github.com/Emerging-Rule/community): reading list, lesson proposals, AI literacy series examples |

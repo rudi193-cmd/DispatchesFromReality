@@ -1,7 +1,7 @@
 # Dispatches From Reality
 
 **Sean Campbell**  
-Human-directed AI systems, local-first agent infrastructure, and classroom materials for teaching AI without losing the conditions of learning.
+Human-directed AI systems, local-first agent infrastructure, classroom materials, and live facilitation rooted in the actual conditions of learning.
 
 | Professional packet | Systems evidence | Research map | Education work | GitHub |
 |---------------------|------------------|--------------|----------------|--------|
