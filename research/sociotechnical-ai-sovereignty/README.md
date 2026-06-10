@@ -2,6 +2,8 @@
 
 **Sean Campbell** · Sociotechnical AI research paper · June 2026
 
+**Tags:** `sovereign-ai`, `ai-infrastructure`, `semiconductor-supply-chain`, `capital-formation`, `open-weights`, `local-first-ai`, `relational-research`
+
 *A structural argument about chokepoints, capital, and what "sovereignty" actually requires.*
 
 This paper is the research thread that led directly into the professional portfolio work in this repository. It connects AI policy language, semiconductor supply chains, capital formation, open-weight distribution, local-first infrastructure, and the practical question that also shaped Willow: **what does it mean to control an AI system rather than merely access one?**

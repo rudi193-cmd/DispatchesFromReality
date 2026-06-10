@@ -2,6 +2,8 @@
 
 **Sean Campbell** · Technical portfolio · 2026-06-10
 
+**Tags:** `backend-platform`, `local-first-ai`, `agent-orchestration`, `postgres`, `mcp`, `retrieval`, `task-queues`, `governance`
+
 This document is the deep systems case study behind the summary in [portfolio-case-studies.md](portfolio-case-studies.md). It is written for technical hiring managers and senior engineers who want evidence of architecture, integration, and learning-by-shipping — not a product pitch.
 
 **Evidence map:** [willow-ecosystem-inventory.md](willow-ecosystem-inventory.md)

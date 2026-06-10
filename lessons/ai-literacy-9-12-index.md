@@ -1,6 +1,8 @@
 # AI Literacy for High School — Series Index
 **Grades 9–12 · AI Literacy · 6-Unit Arc**
 
+**Tags:** `ai-literacy`, `grades-9-12`, `llms`, `bias`, `consent`, `student-agency`, `device-optional`
+
 > **Example submission** — posted for Emerging Rule community review. See [`showcases/ai-literacy-9-12/README.md`](../showcases/ai-literacy-9-12/README.md).
 
 > *"The unexamined tool is not worth using."*

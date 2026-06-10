@@ -5,6 +5,8 @@
 
 Sean Campbell · v1.1 · 2026-05-26 · CC BY 4.0
 
+**Tags:** `assessment-visibility`, `ai-present-schools`, `teacher-governance`, `expressive-pathways`, `equity`, `pedagogy`
+
 ---
 
 ## Start here

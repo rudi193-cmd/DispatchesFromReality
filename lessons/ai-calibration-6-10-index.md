@@ -8,6 +8,7 @@
 **Lessons:** 5  
 **Estimated Time:** 5–6 class periods (standalone unit) or distributed across a semester  
 **Contributed by:** The Emerging Rule Community
+**Tags:** `ai-literacy`, `grades-6-10`, `calibration`, `metacognition`, `human-in-the-loop`, `validation-drift`, `device-optional`
 
 ---
 

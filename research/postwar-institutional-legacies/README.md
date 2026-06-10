@@ -2,11 +2,22 @@
 
 **Sean Campbell** · Institutional lineage research · March–June 2026
 
+**Tags:** `operation-paperclip`, `institutional-lineage`, `osint`, `aerospace-defense`, `redstone-arsenal`, `sqlite`, `research-methods`
+
 *How wartime technical expertise migrated into postwar U.S. institutions — and what that lineage still shapes today.*
 
 This research vector traces the structural aftermath of Operation Paperclip and related postwar transfer programs: not as sensational history, but as **institutional genealogy** — who moved, where they landed, what organizations formed around them, and how those organizations persist in present-day aerospace and defense infrastructure.
 
 For the broader research map, see [Research Portfolio](../README.md). For the AI-sovereignty thread that uses this history as anchor context, see [The Illusion of Sovereign AI](../sociotechnical-ai-sovereignty/README.md).
+
+---
+
+## Current versions
+
+| Version | Form | Status | Purpose |
+|---------|------|--------|---------|
+| **v1** | Working essay | [DRAFT.md](DRAFT.md) | Full prose draft: Paperclip as institutional genealogy, Redstone continuity, contractor lineages, and claim boundaries |
+| **Packet** | Public summary | This file | Scope, method, evidence base, portfolio links |
 
 ---
 

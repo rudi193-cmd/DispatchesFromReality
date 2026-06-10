@@ -2,6 +2,8 @@
 
 **Sean Campbell** · Research vectors behind the professional portfolio
 
+**Tags:** `research-portfolio`, `sociotechnical-ai`, `institutional-lineage`, `local-first-ai`, `systems-design`, `mechanics`, `restoration`
+
 This section collects the research work that sits behind the public writing and Willow systems portfolio. Some artifacts are public packets in this repo; others are summarized from local research databases, drafts, and working notes. The purpose is to show the research method: build structured evidence, trace relationships, state boundaries, and connect systems across time.
 
 ---
@@ -11,7 +13,8 @@ This section collects the research work that sits behind the public writing and 
 | Packet | Focus | Status |
 |--------|-------|--------|
 | [The Illusion of Sovereign AI](sociotechnical-ai-sovereignty/README.md) | AI chokepoints, capital, hardware dependency, distribution infrastructure, local-first sovereignty | Working drafts v1/v2 summarized publicly |
-| [Post-WWII institutional legacies](postwar-institutional-legacies/README.md) | Operation Paperclip genealogy, institutional contractor lineages, Redstone → MSFC continuity | Working DB + research passes summarized publicly |
+| [Post-WWII institutional legacies](postwar-institutional-legacies/README.md) | Operation Paperclip genealogy, institutional contractor lineages, Redstone → MSFC continuity | Working draft v1 + public packet |
+| [Right to fix and mechanical knowledge](vintage-mechanical-restoration/README.md) | Disassembly epistemology, repair literacy, skilled labor, AI enclosure, right-to-fix | Working draft v1 + public packet |
 
 ---
 
@@ -84,6 +87,8 @@ This vector treats tabletop systems as rule engines: probability, player agency,
 ## 4. Vintage Mechanical Engineering And Industrial Restoration
 
 This vector grounds the portfolio in physical systems, not only software and writing.
+
+→ **Public packet:** [vintage-mechanical-restoration/README.md](vintage-mechanical-restoration/README.md)
 
 | Area | Examples |
 |------|----------|

@@ -7,6 +7,7 @@
 **Date:** 2026-05-26
 **Folder:** Education / Pedagogy
 **License:** CC BY 4.0 (Emerging Rule community materials)
+**Tags:** `assessment-visibility`, `ai-present-schools`, `teacher-governance`, `expressive-pathways`, `equity`, `pedagogy`, `human-centered-ai`
 
 > **v1.1 note:** Version 1.0 (2025-12-17) listed appendices E1–E4 and extended companion guides as “included verbatim” but did not contain their full text. This release supplies that material and corrects typographic errors (AI, not “Al”). No product or platform names appear in this document.
 

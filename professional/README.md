@@ -2,6 +2,8 @@
 
 **Human-directed AI systems | Local-first agent infrastructure | AI literacy and assessment design**
 
+**Tags:** `professional-portfolio`, `backend-systems`, `local-first-ai`, `education-technology`, `assessment-design`, `research-methods`, `live-facilitation`
+
 I build tools and learning materials where people stay authoritative, evidence stays visible, and AI supports cognition instead of replacing it.
 
 | Core signal | Evidence |

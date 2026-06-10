@@ -38,11 +38,18 @@ Most "sovereign AI" narratives confuse model ownership with operational control.
 → [Paper packet](research/sociotechnical-ai-sovereignty/README.md) · [Willow systems deep dive](professional/willow-systems-portfolio.md)
 
 ### [Post-WWII Institutional Legacies](research/postwar-institutional-legacies/README.md)
-*Operation Paperclip genealogy, contractor lineages, and Redstone Arsenal continuity* · working research DB · 2026-03
+*Operation Paperclip genealogy, contractor lineages, and Redstone Arsenal continuity* · working draft v1 · 2026-03/06
 
 Structured evidence base tracing how wartime technical expertise migrated into postwar U.S. institutions — from Paperclip scientist placement through Huntsville's MSFC and present-day aerospace/defense infrastructure.
 
-→ [Research packet](research/postwar-institutional-legacies/README.md) · [Research portfolio map](research/README.md)
+→ [Working draft](research/postwar-institutional-legacies/DRAFT.md) · [Research packet](research/postwar-institutional-legacies/README.md) · [Research portfolio map](research/README.md)
+
+### [Right To Fix And The Loss Of Mechanical Knowledge](research/vintage-mechanical-restoration/README.md)
+*Disassembly epistemology, skilled labor, AI enclosure, and inspectable systems* · working draft v1 · 2026-06
+
+When a chatbot can explain a Honda Cub ignition system but still miss the model-year detail that matters at the bench, the gap between explanation and repair becomes visible. This paper argues that people learn systems by taking them apart — and that right-to-fix is about defending that public capacity as machines and AI both become harder to inspect.
+
+→ [Working draft](research/vintage-mechanical-restoration/DRAFT.md) · [Research packet](research/vintage-mechanical-restoration/README.md) · [Sociotechnical AI paper](research/sociotechnical-ai-sovereignty/README.md)
 
 ### [Assessment Evidence and Expressive Pathways in AI-Present Schools](education/assessment-visibility-v1.1/white-paper.md)
 *A Framework for Assessment Visibility, Equity, and Teacher-Led Governance* · v1.1 · 2026-05-26

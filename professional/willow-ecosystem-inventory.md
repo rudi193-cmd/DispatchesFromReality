@@ -2,6 +2,8 @@
 
 **Sean Campbell** · Evidence map for technical employers · 2026-06-10
 
+**Tags:** `repo-census`, `systems-inventory`, `safe-apps`, `mcp`, `postgres`, `research-substrate`, `portfolio-evidence`
+
 This document maps the local repo and data landscape behind the Willow systems portfolio. It is a curated inventory, not a raw dump. Paths below are summarized for portfolio context; private operator data stays out of public claims.
 
 **Census snapshot:** 27 top-level git repos under `~/github/`, plus 13 git worktrees, nested SAFE app installs, and research folders under `~/Documents/`. Total git roots discovered locally: ~52 (including worktrees and nested repos).
