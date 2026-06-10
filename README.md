@@ -6,6 +6,14 @@ All materials CC BY 4.0 unless noted. Canonical lesson repo: [Emerging-Rule/comm
 
 ---
 
+## Professional / Systems Portfolio
+
+For technical employers, start with the [professional portfolio packet](professional/README.md). It includes case studies across education, assessment governance, and Willow — the local-first backend platform I built from scratch while moving into Postgres data modeling, retrieval systems, task queues, MCP tooling, worker isolation, and agent coordination.
+
+→ [Portfolio case studies](professional/portfolio-case-studies.md) · [Willow systems deep dive](professional/willow-systems-portfolio.md) · [Willow ecosystem inventory](professional/willow-ecosystem-inventory.md)
+
+---
+
 ## Research & White Papers
 
 ### [Assessment Evidence and Expressive Pathways in AI-Present Schools](education/assessment-visibility-v1.1/white-paper.md)
