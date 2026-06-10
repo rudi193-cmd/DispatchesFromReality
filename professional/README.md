@@ -1,8 +1,15 @@
-# Professional Portfolio — Sean Campbell
+# Sean Campbell - Professional Portfolio
 
-**Sean Campbell** builds human-directed AI systems and classroom-facing materials where the adult stays in the loop, the evidence stays visible, and the tools follow cognition instead of replacing it.
+**Human-directed AI systems | Local-first agent infrastructure | AI literacy and assessment design**
 
-The core systems-building story is Willow: a local-first agent fleet and backend platform I built from scratch while ramping from very little conventional software engineering background into Postgres data modeling, task queues, retrieval systems, MCP tooling, worker isolation, agent coordination, and public release discipline.
+I build tools and learning materials where people stay authoritative, evidence stays visible, and AI supports cognition instead of replacing it.
+
+| Core signal | Evidence |
+|-------------|----------|
+| **Backend systems building** | Built Willow from scratch: Postgres data modeling, hybrid retrieval, task queues, MCP tooling, worker isolation, Grove messaging, and release discipline |
+| **Education and governance** | Designed AI literacy lessons and an assessment visibility framework for real classrooms |
+| **Learning velocity** | Moved from limited conventional SWE background into operating a multi-repo local-first agent platform |
+| **Public contribution** | Emerging Rule lesson materials, SAFE app ecosystem, Willow public repos |
 
 This folder is a technical-employer-facing packet. It translates work from [Dispatches From Reality](../README.md) and related public projects into case studies a hiring manager can evaluate without reading twenty lesson files first.
 
@@ -10,10 +17,12 @@ This folder is a technical-employer-facing packet. It translates work from [Disp
 
 ## How to read this packet
 
-1. Start with **[portfolio-case-studies.md](portfolio-case-studies.md)** — three projects that show product thinking, systems design, research synthesis, and AI risk communication in different domains.
-2. For the Willow systems story, read **[willow-systems-portfolio.md](willow-systems-portfolio.md)** (deep technical case study) and **[willow-ecosystem-inventory.md](willow-ecosystem-inventory.md)** (repo and data evidence map).
-3. Follow the evidence links inside each case study to primary artifacts in this repo or on public GitHub.
-4. Use **[case-study-template.md](case-study-template.md)** if you want the same structure for future project writeups.
+| If you have... | Read this |
+|----------------|-----------|
+| 3 minutes | [portfolio-case-studies.md](portfolio-case-studies.md) |
+| 10 minutes | [willow-systems-portfolio.md](willow-systems-portfolio.md) |
+| Need evidence | [willow-ecosystem-inventory.md](willow-ecosystem-inventory.md) |
+| Need structure | [case-study-template.md](case-study-template.md) |
 
 **What this packet is:** curated evidence of judgment, writing, systems-building, and design under real constraints.
 
@@ -46,10 +55,12 @@ This folder is a technical-employer-facing packet. It translates work from [Disp
 
 ## Background (brief)
 
-- **Education:** Master's in Music Education; classroom materials written for working teachers (30 students, limited prep, devices optional).
-- **AI systems:** Built Willow from scratch — local-first memory, task queue, knowledge graph, MCP tooling, Grove messaging, and verification loops — and the UTETY faculty layer used to draft and stress-test curriculum before human edit and publication.
-- **AI/ML credential:** Hugging Face certificate.
-- **Contributor:** [Emerging-Rule/community](https://github.com/Emerging-Rule/community) (e.g. reading list, lesson proposals, AI literacy series examples).
+| Area | Detail |
+|------|--------|
+| Education | Master's in Music Education; classroom materials written for working teachers (30 students, limited prep, devices optional) |
+| AI systems | Built Willow from scratch: local-first memory, task queue, knowledge graph, MCP tooling, Grove messaging, and verification loops |
+| AI/ML credential | Hugging Face certificate |
+| Contributor | [Emerging-Rule/community](https://github.com/Emerging-Rule/community): reading list, lesson proposals, AI literacy series examples |
 
 All materials in this repo are **CC BY 4.0** unless noted.
 

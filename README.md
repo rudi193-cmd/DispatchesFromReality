@@ -1,6 +1,11 @@
 # Dispatches From Reality
 
-Writing by **Sean Campbell** — education, AI literacy, pedagogy, and the actual conditions of learning.
+**Sean Campbell**  
+Human-directed AI systems, local-first agent infrastructure, and classroom materials for teaching AI without losing the conditions of learning.
+
+| Professional packet | Systems evidence | Education work | GitHub |
+|---------------------|------------------|----------------|--------|
+| [Start here](professional/README.md) | [Willow deep dive](professional/willow-systems-portfolio.md) | [AI literacy lessons](lessons/ai-literacy-9-12-index.md) | [rudi193-cmd](https://github.com/rudi193-cmd) |
 
 All materials CC BY 4.0 unless noted. Canonical lesson repo: [Emerging-Rule/community](https://github.com/Emerging-Rule/community).
 
@@ -8,9 +13,13 @@ All materials CC BY 4.0 unless noted. Canonical lesson repo: [Emerging-Rule/comm
 
 ## Professional / Systems Portfolio
 
-For technical employers, start with the [professional portfolio packet](professional/README.md). It includes case studies across education, assessment governance, and Willow — the local-first backend platform I built from scratch while moving into Postgres data modeling, retrieval systems, task queues, MCP tooling, worker isolation, and agent coordination.
+For technical employers, start with the [professional portfolio packet](professional/README.md). It includes case studies across education, assessment governance, and Willow, the local-first backend platform I built from scratch while moving into Postgres data modeling, retrieval systems, task queues, MCP tooling, worker isolation, and agent coordination.
 
-→ [Portfolio case studies](professional/portfolio-case-studies.md) · [Willow systems deep dive](professional/willow-systems-portfolio.md) · [Willow ecosystem inventory](professional/willow-ecosystem-inventory.md)
+| Read | Why |
+|------|-----|
+| [Portfolio case studies](professional/portfolio-case-studies.md) | The concise employer-facing narrative |
+| [Willow systems deep dive](professional/willow-systems-portfolio.md) | Backend/platform evidence: Postgres, queues, Grove, Kart, MCP, retrieval |
+| [Willow ecosystem inventory](professional/willow-ecosystem-inventory.md) | Repo census, SAFE apps, databases, research substrate |
 
 ---
 
