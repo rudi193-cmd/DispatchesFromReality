@@ -15,6 +15,7 @@ This section collects the research work that sits behind the public writing and 
 | [The Illusion of Sovereign AI](sociotechnical-ai-sovereignty/README.md) | AI chokepoints, capital, hardware dependency, distribution infrastructure, local-first sovereignty | Working drafts v1/v2 summarized publicly |
 | [Post-WWII institutional legacies](postwar-institutional-legacies/README.md) | Operation Paperclip genealogy, institutional contractor lineages, Redstone → MSFC continuity | Working draft v1 + public packet |
 | [Right to fix and mechanical knowledge](vintage-mechanical-restoration/README.md) | Disassembly epistemology, repair literacy, skilled labor, AI enclosure, right-to-fix | Working draft v1 + public packet |
+| [Tabletop mechanical engines](tabletop-mechanical-engines/README.md) | Rules as engines, probability, emergent narrative, constraint design, the Gateway Momentum Engine | Working draft v1 + public packet |
 
 ---
 
@@ -70,6 +71,8 @@ This is the technical research lane that became Willow.
 ## 3. Tabletop Mechanical Engines And Narrative Generation
 
 This vector treats tabletop systems as rule engines: probability, player agency, narrative state, and mechanical incentives.
+
+→ **Public packet:** [tabletop-mechanical-engines/README.md](tabletop-mechanical-engines/README.md)
 
 | Area | Examples |
 |------|----------|

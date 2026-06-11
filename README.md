@@ -51,6 +51,13 @@ When a chatbot can explain a Honda Cub ignition system but still miss the model-
 
 → [Working draft](research/vintage-mechanical-restoration/DRAFT.md) · [Research packet](research/vintage-mechanical-restoration/README.md) · [Sociotechnical AI paper](research/sociotechnical-ai-sovereignty/README.md)
 
+### [Tabletop Mechanical Engines And Narrative Generation](research/tabletop-mechanical-engines/README.md)
+*Rules as engines, probability, emergent narrative, and the same systems instinct behind Willow* · working draft v1 · 2026-06
+
+A tabletop ruleset is a constrained generator: feed it player decisions and dice, and it returns strategy and story no single rule wrote. This packet treats game design as systems engineering — probability legibility, degenerate-strategy testing, and constraint-as-generator — and traces the same instinct from the Gateway Momentum Engine to a local-first agent fleet.
+
+→ [Working draft](research/tabletop-mechanical-engines/DRAFT.md) · [Research packet](research/tabletop-mechanical-engines/README.md) · [Willow systems deep dive](professional/willow-systems-portfolio.md)
+
 ### [Assessment Evidence and Expressive Pathways in AI-Present Schools](education/assessment-visibility-v1.1/white-paper.md)
 *A Framework for Assessment Visibility, Equity, and Teacher-Led Governance* · v1.1 · 2026-05-26
 
