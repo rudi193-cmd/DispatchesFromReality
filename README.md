@@ -63,7 +63,7 @@ A tabletop ruleset is a constrained generator: feed it player decisions and dice
 
 Assessment systems optimized for visible output under-see learning. AI intensifies that blind spot. Expanding expressive pathways is the equity and rigor move — not restricting tools.
 
-→ [Full paper](education/assessment-visibility-v1.1/white-paper.md) · [Appendix E — teacher tools](education/assessment-visibility-v1.1/appendix-e.md) · [Case studies](education/assessment-visibility-v1.1/appendix-a.md) · [Classroom signals](education/assessment-visibility-v1.1/classroom-signals.md)
+→ [Full paper](education/assessment-visibility-v1.1/white-paper.md) · [Appendix E — teacher tools](education/assessment-visibility-v1.1/appendix-e.md) · [Case studies](education/assessment-visibility-v1.1/appendix-a.md) · [Classroom signals](education/assessment-visibility-v1.1/classroom-signals.md) · [Substack essay — draft](education/assessment-visibility-v1.1/substack-draft.md)
 
 ### [AI and Education — Reading List for Teachers](education/emerging-rule/ai-education-reading-list.md)
 
