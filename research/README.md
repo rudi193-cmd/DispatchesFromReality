@@ -12,7 +12,7 @@ This section collects the research work that sits behind the public writing and 
 
 | Packet | Focus | Status |
 |--------|-------|--------|
-| [The Illusion of Sovereign AI](sociotechnical-ai-sovereignty/README.md) | AI chokepoints, capital, hardware dependency, distribution infrastructure, local-first sovereignty | Working drafts v1/v2 summarized publicly |
+| [The Illusion of Sovereign AI](sociotechnical-ai-sovereignty/README.md) | AI chokepoints, capital, hardware dependency, distribution infrastructure, local-first sovereignty | Public essay v3 + packet |
 | [Post-WWII institutional legacies](postwar-institutional-legacies/README.md) | Operation Paperclip genealogy, institutional contractor lineages, Redstone → MSFC continuity | Working draft v1 + public packet |
 | [Right to fix and mechanical knowledge](vintage-mechanical-restoration/README.md) | Disassembly epistemology, repair literacy, skilled labor, AI enclosure, right-to-fix | Working draft v1 + public packet |
 | [Tabletop mechanical engines](tabletop-mechanical-engines/README.md) | Rules as engines, probability, emergent narrative, constraint design, the Gateway Momentum Engine | Working draft v1 + public packet |

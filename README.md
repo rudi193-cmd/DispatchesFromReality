@@ -31,11 +31,11 @@ For technical employers, start with the [professional portfolio packet](professi
 The research section summarizes the major vectors behind this portfolio: structured evidence databases, institutional lineage mapping, backend AI coordination systems, mechanics engines, and hands-on technical restoration.
 
 ### [The Illusion of Sovereign AI](research/sociotechnical-ai-sovereignty/README.md)
-*A sociotechnical paper on AI chokepoints, capital, infrastructure dependency, and local-first sovereignty* · working drafts v1/v2 · 2026-06
+*A sociotechnical essay on AI chokepoints, capital, infrastructure dependency, and local-first sovereignty* · v3 · 2026-06
 
-Most "sovereign AI" narratives confuse model ownership with operational control. This paper maps hardware, capital, talent, and distribution chokepoints using a structured relational evidence base, then connects the argument to local-first deployment and Willow.
+Most "sovereign AI" narratives confuse model ownership with operational control. This essay maps hardware, capital, talent, and distribution chokepoints using two structured research databases — current AI ecosystem and postwar contractor genealogy — then argues what sovereignty actually requires when the bubble reprices.
 
-→ [Paper packet](research/sociotechnical-ai-sovereignty/README.md) · [Willow systems deep dive](professional/willow-systems-portfolio.md)
+→ [Working draft](research/sociotechnical-ai-sovereignty/DRAFT.md) · [Paper packet](research/sociotechnical-ai-sovereignty/README.md) · [Postwar legacies](research/postwar-institutional-legacies/README.md) · [Willow systems deep dive](professional/willow-systems-portfolio.md)
 
 ### [Post-WWII Institutional Legacies](research/postwar-institutional-legacies/README.md)
 *Operation Paperclip genealogy, contractor lineages, and Redstone Arsenal continuity* · working draft v1 · 2026-03/06

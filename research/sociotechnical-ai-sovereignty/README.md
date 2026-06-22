@@ -16,10 +16,12 @@ For the broader research map, see [Research Portfolio](../README.md).
 
 | Version | Form | Status | Purpose |
 |---------|------|--------|---------|
-| **v1** | Long-form essay | Working draft | Developed the argument in public-facing prose: sovereign AI claims often confuse model ownership with infrastructure control |
-| **v2** | Formal paper | Working draft | Recast the same thesis as a structured research paper with abstract, methodology, evidence base, limitations, and references |
+| **v3** | Long-form essay | [DRAFT.md](DRAFT.md) | Publication-ready prose: Paperclip/Huntsville through-line woven through chokepoints, capex bubble, local-first sovereignty (five pillars) |
+| **v2** | Formal paper | Working draft (private worktree) | Structured research paper with abstract, methodology, evidence base, limitations, and references |
+| **v1** | Long-form essay | Working draft (private worktree) | Earlier public-facing argument: sovereign AI claims vs infrastructure control |
+| **Packet** | Public summary | This file | Scope, method, evidence base, portfolio links |
 
-The working drafts live in the Willow sociotechnical research worktree. This public packet summarizes the paper and its evidence boundaries without publishing private database files.
+The canonical public essay is **v3** ([DRAFT.md](DRAFT.md)). Earlier drafts and the citation map live in the Willow sociotechnical research worktree. Private database files are not published here.
 
 ---
 
@@ -30,7 +32,8 @@ Most "sovereign AI" narratives define sovereignty too narrowly. They ask whether
 1. Model weights that can be downloaded and retained
 2. Hardware the institution owns
 3. Inference software the institution controls
-4. No API key, license, cloud account, platform policy, or vendor relationship that can revoke access
+4. Isolated local data infrastructure (local RAG, on-prem fine-tuning) that anchors models to institutional reality
+5. No API key, license, cloud account, platform policy, or vendor relationship that can revoke access
 
 By that standard, many national AI initiatives are not sovereign in the operational sense. They remain dependent on chokepoints in hardware, capital, talent, distribution, or cloud infrastructure.
 
