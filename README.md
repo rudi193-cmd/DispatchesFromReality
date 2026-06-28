@@ -5,7 +5,7 @@ Human-directed AI systems, local-first agent infrastructure, classroom materials
 
 | Professional packet | Systems evidence | Research map | Education work | Writing | GitHub |
 |---------------------|------------------|--------------|----------------|---------|--------|
-| [Start here](professional/README.md) | [Willow deep dive](professional/willow-systems-portfolio.md) | [Research portfolio](research/README.md) | [AI literacy lessons](lessons/ai-literacy-9-12-index.md) | [What I Carried](https://substack.com/@rudi193) | [rudi193-cmd](https://github.com/rudi193-cmd) |
+| [Start here](professional/README.md) | [Willow deep dive](professional/willow-systems-portfolio.md) | [Research portfolio](research/README.md) | [AI literacy lessons](lessons/ai-literacy-9-12-index.md) | [Essays](#essays) · [What I Carried](https://substack.com/@rudi193) | [rudi193-cmd](https://github.com/rudi193-cmd) |
 
 All materials CC BY 4.0 unless noted. Canonical lesson repo: [Emerging-Rule/community](https://github.com/Emerging-Rule/community).
 
