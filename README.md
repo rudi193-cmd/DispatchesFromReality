@@ -78,7 +78,7 @@ Assessment systems optimized for visible output under-see learning. AI intensifi
 
 Disability happens mostly on other people's faces. This essay holds two things at once — the gaze as a real injury, and the assumption that the injured life is a ruined one as a second injury — then follows a person from the lobby to the internet to the AI companion that never flinches, asking what is lost when the room that asks nothing of a body turns out to have no one in it.
 
-→ [Read the essay](essays/the-same-door/README.md) · [Read on Substack](https://substack.com/@rudi193/note/p-204002253)
+→ [Read the essay](essays/the-same-door/README.md) · [Read on Substack](https://substack.com/home/post/p-204002253)
 
 ---
 

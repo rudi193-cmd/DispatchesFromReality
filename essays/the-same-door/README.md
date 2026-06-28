@@ -2,7 +2,7 @@
 
 *What happens when the room you can finally bear turns out to have no one in it.*
 
-*Originally published in [What I Carried]([https://substack.com/home/post/p-204002253)).*
+*Originally published in [What I Carried](https://substack.com/home/post/p-204002253).*
 
 ---
 
