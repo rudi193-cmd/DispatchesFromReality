@@ -80,6 +80,13 @@ Disability happens mostly on other people's faces. This essay holds two things a
 
 → [Read the essay](essays/the-same-door/README.md) · [Read on Substack](https://substack.com/home/post/p-204002253)
 
+### [How Is a Large Language Model Like a Toaster?](essays/how-is-a-large-language-model-like-a-toaster/README.md)
+*Both can be too smart for their own good* · 2026-07
+
+A fourteen-setting toaster burns the toast more often than the one with just a lever, because a setting for every situation is not the same as knowing which situation this is. The same failure shows up in the tool with an answer for everything: capability that lets you avoid the plain hard thing instead of doing it.
+
+→ [Read the essay](essays/how-is-a-large-language-model-like-a-toaster/README.md) · [Read on Substack](https://rudi193.substack.com/p/how-is-a-large-language-model-like)
+
 ---
 
 ## Lessons — AI Literacy (HS, 9–12)
