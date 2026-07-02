@@ -87,6 +87,13 @@ A fourteen-setting toaster burns the toast more often than the one with just a l
 
 → [Read the essay](essays/how-is-a-large-language-model-like-a-toaster/README.md) · [Read on Substack](https://rudi193.substack.com/p/how-is-a-large-language-model-like)
 
+### [Somebody Has to Sit Down With You](essays/somebody-has-to-sit-down-with-you/README.md)
+*The real mechanism behind a permission slip nobody has to sign anymore, and the community that rebuilt the friction by hand* · 2026-07
+
+Every era before this one gated grand theorizing behind some scarce form of institutional permission: a patron, a prize, a pledge, a chair. A model deletes that gate but not the judgment it used to certify. This essay traces the history of that permission tier, then credits the people who rebuilt it by hand, without anyone writing a paper about it.
+
+→ [Read the essay](essays/somebody-has-to-sit-down-with-you/README.md) · [Read on Substack](https://substack.com/home/post/p-204551173) · [Companion post on r/LLMPhysics](https://www.reddit.com/r/LLMPhysics/comments/1ul2xt5/what_i_noticed_being_on_this_sub/)
+
 ---
 
 ## Lessons — AI Literacy (HS, 9–12)
