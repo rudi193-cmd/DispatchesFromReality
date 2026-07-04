@@ -78,7 +78,7 @@ Assessment systems optimized for visible output under-see learning. AI intensifi
 
 Building a list of software that passes a strict five-question sovereignty test, and a report scoring twelve mainstream products against it, turned a year of background irritation with account-server-subscription lock-in into an itemized bill — and into recognizing the same access-as-choke-point move in the medieval Church's control of scripture, company-town scrip, and the Bell System's phone monopoly.
 
-→ [Read the essay](essays/nobody-adds-it-up/README.md) · [Awesome Sovereign Software](https://github.com/rudi193-cmd/awesome-sovereign-software) · [The Sovereignty Report 2026](https://github.com/rudi193-cmd/awesome-sovereign-software/blob/main/report/2026.md)
+→ [Read the essay](essays/nobody-adds-it-up/README.md) · [Read on Substack](https://rudi193.substack.com/p/nobody-adds-it-up) · [Awesome Sovereign Software](https://github.com/rudi193-cmd/awesome-sovereign-software) · [The Sovereignty Report 2026](https://github.com/rudi193-cmd/awesome-sovereign-software/blob/main/report/2026.md)
 
 ### [The Same Door](essays/the-same-door/README.md)
 *The disability paradox, technological withdrawal, and the door that finally answers back* · 2026-06

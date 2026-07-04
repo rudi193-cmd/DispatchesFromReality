@@ -2,6 +2,8 @@
 
 *A list of software that keeps its promises, a report card for the products that don't, and the parts of my own life still sitting in the gap between the two.*
 
+*Originally published in [What I Carried](https://rudi193.substack.com/p/nobody-adds-it-up).*
+
 ---
 
 A year ago I was, and mostly still am, a Google person. Gmail, Photos, Drive, Calendar, the whole stack, without much thought about it. I don't say that as a confession, because there isn't one to make. Almost everyone reading this is some version of the same thing, with a different logo. That's the actual starting condition, not a strawman I'm building to knock down.
