@@ -63,7 +63,7 @@ This document maps the local repo and data landscape behind the Willow systems p
 | [private-ledger](https://github.com/rudi193-cmd/safe-app-store/tree/master/apps/private-ledger) | Beta | Local financial ledger |
 | [public-ledger](https://github.com/rudi193-cmd/safe-app-store/tree/master/apps/public-ledger) | Beta | Public ledger variant |
 | [field-notes](https://github.com/rudi193-cmd/safe-app-store/tree/master/apps/field-notes) | Beta | Plain-text observations |
-| [law-gazelle](https://github.com/rudi193-cmd/safe-app-store/tree/master/apps/law-gazelle) | Coming soon | Legal case management |
+| [law-gazelle](https://github.com/rudi193-cmd/safe-app-store/tree/master/apps/law-gazelle) | In the store (public repo is app code + synthetic examples only) | Local-first legal case command center — Nest sync, deadlines, documents, local-AI tools |
 | [the-binder](https://github.com/rudi193-cmd/safe-app-store/tree/master/apps/the-binder) | Local | JSONL filing and edge proposals |
 | [the-squirrel](https://github.com/rudi193-cmd/safe-app-store/tree/master/apps/the-squirrel) | Local | Utility app |
 | [nasa-archive](https://github.com/rudi193-cmd/safe-app-store/tree/master/apps/nasa-archive) | Local | NASA archive browser |
