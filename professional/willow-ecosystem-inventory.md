@@ -27,8 +27,9 @@ This document maps the local repo and data landscape behind the Willow systems p
 
 | Repo | Remote | Role |
 |------|--------|------|
-| [willow-2.0](https://github.com/rudi193-cmd/willow-2.0) | `rudi193-cmd/willow-2.0` | Primary platform: Postgres KB, SAP MCP, SAFE gate, SOIL, Grove, Kart, HNS, Fylgja skills, Ollama default |
-| [willow-1.9](https://github.com/rudi193-cmd/willow-1.9) | `rudi193-cmd/willow-1.9` | Prior generation; migration path documented in 2.0 |
+| [willow-mcp](https://github.com/rudi193-cmd/willow-mcp) | `rudi193-cmd/willow-mcp` | **Current substrate** — Postgres KB, SOIL store, Kart queue, manifest-ACL MCP, lineage + gap backlog + consent seam. The hub the fleet consumes |
+| [willow-2.0](https://github.com/rudi193-cmd/willow-2.0) | `rudi193-cmd/willow-2.0` | Legacy / migration source — the larger fleet server (SAP MCP, SAFE, SOIL, Grove, Kart, Fylgja) that willow-mcp re-implemented from; a distinct machine, not a rename |
+| [willow-1.9](https://github.com/rudi193-cmd/willow-1.9) | `rudi193-cmd/willow-1.9` | Archived prior generation (April–May 2026) |
 | [willow-bot](https://github.com/rudi193-cmd/willow-bot) | `rudi193-cmd/willow-bot` | Bot/automation layer on Willow |
 | [safe-app-store](https://github.com/rudi193-cmd/safe-app-store) | `rudi193-cmd/safe-app-store` | Public SAFE App Store monorepo — portless local-first apps |
 | [safe-app-willow-grove](https://github.com/rudi193-cmd/safe-app-willow-grove) | `rudi193-cmd/safe-app-willow-grove` | Grove messaging bus + terminal dashboard |

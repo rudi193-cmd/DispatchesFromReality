@@ -37,6 +37,7 @@ The hiring signal is not "built a chatbot." It is: **designed and operated backe
 | **Execution + messaging** | SAFE App Store, Grove bus, Kart worker, Discord remote control | `safe-app-store`, `safe-app-willow-grove`, PR #226 |
 | **Research ops** | RH corpus ingest, Fisher figure reproduction, source-trail verification | `sandbox/rh_harness/`, `rh_dirty_kb_export.jsonl` |
 | **Release discipline** | Versioned ship, Windows compat, ledger repair, benchmark baselines | `v2026.06.0` release notes, LoCoMo bench |
+| **Governance substrate** *(current)* | Re-scoped re-implementation as a standalone hub: manifest-ACL authorization, gap backlog, lineage graph, guardian-consent seam, HMAC gate-seam sessions — what the fleet consumes today | `willow-mcp` (current substrate), tool-by-tool migration diff from `willow-2.0` |
 
 **Learning model:** Architecture decisions came from failure modes (context loss, duplicate atoms, hook deadlocks, retrieval drift), not from textbook patterns applied upfront. AI coding tools accelerated implementation; human judgment retained ownership of boundaries, security, and claim accuracy.
 
