@@ -16,8 +16,10 @@ import tempfile
 
 HERE = pathlib.Path(__file__).parent
 SCHEMA = HERE / "schema.sql"
-SEED = HERE / "seed.sql"
 DB = HERE / "evidence.db"
+
+# Applied in order after the schema.
+DATA = ["seed.sql", "folklore.sql"]
 
 
 def build(target: pathlib.Path) -> sqlite3.Connection:
@@ -25,7 +27,8 @@ def build(target: pathlib.Path) -> sqlite3.Connection:
         target.unlink()
     conn = sqlite3.connect(target)
     conn.executescript(SCHEMA.read_text())
-    conn.executescript(SEED.read_text())
+    for name in DATA:
+        conn.executescript((HERE / name).read_text())
     conn.commit()
     return conn
 
@@ -38,6 +41,7 @@ def summarize(conn: sqlite3.Connection) -> None:
         "mechanisms",
         "experiments",
         "open_questions",
+        "folklore",
     ]
     print("rows")
     for t in tables:
@@ -53,6 +57,16 @@ def summarize(conn: sqlite3.Connection) -> None:
     ).fetchall()
     for (q,) in rows:
         print(f"  - {q}")
+
+    rows = conn.execute("SELECT * FROM v_folklore_by_theme").fetchall()
+    if rows:
+        print("\nfolklore by continent and theme")
+        current = None
+        for continent, theme, n, n_def in rows:
+            if continent != current:
+                print(f"  {continent}")
+                current = continent
+            print(f"    {theme:<18} {n:>3}  ({n_def} defensible)")
 
     print("\nsources not read at the source")
     rows = conn.execute(

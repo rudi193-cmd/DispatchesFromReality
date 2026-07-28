@@ -44,6 +44,46 @@ SELECT * FROM v_timeline;             -- dated events with sources
 SELECT * FROM v_needs_verification;   -- everything not yet solid
 ```
 
+## The six-continent pig survey
+
+Full agent reports in [`survey/`](survey/); 55 items loaded into `folklore`.
+
+The survey did not find what it went looking for, and the miss is the result. The
+motif is **not** universal — it is **conditional on husbandry**. Escape stories
+require enclosures. Where a culture pens pigs you get escaping pigs; where a
+culture forbids them you get an equally rich escape literature with a different
+animal in the role.
+
+Two agents, working different continents with no contact, found the same
+structure independently: **the pig is not a trickster anywhere in Africa** (hare,
+tortoise, spider hold the role), and across Malay-Indonesian tradition the
+escape-trickster is the **mousedeer**. The genre is strongest exactly where the
+pig has been evicted from narrative.
+
+> **The escape-trickster slot is the constant. The animal cast in it varies with
+> husbandry and taboo.**
+
+`theme_class` counts turn out to be a map of husbandry regimes. Europe and South
+America return **zero** `boundary_taboo` items; Africa and Asia are
+taboo-dominant with barely any pen-escape; North America is dominated by
+`social_boundary`, because no suid is native and every pig there descends from an
+animal that was brought and then got out. Oceania is the only continent that
+fills all six classes.
+
+```bash
+python3 evidence/build.py     # prints the theme distribution by continent
+```
+
+A second convergence, also independent: the South America and North America
+agents both landed on **`cimarrón`** — one word covering escaped livestock and
+escaped people, giving English *maroon*. That row carries a handling caution. It
+runs through chattel slavery and marronage, and it is not available for borrowing
+as a metaphor about software.
+
+One dating control fell out of Oceania: there is no Māori whakataukī about
+*poaka*, because pigs arrived after 1769. **Proverbs need centuries.** Proverb
+density across the six continents is a rough clock.
+
 ## Where it stands
 
 Four mechanisms are in play, and the discipline of the piece is keeping them apart:
