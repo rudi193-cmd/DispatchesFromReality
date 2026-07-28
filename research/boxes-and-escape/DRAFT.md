@@ -314,20 +314,33 @@ not lost to a boundary — it was lost to a normalizer that was too aggressive, 
 stop, and every anecdote in this essay is a format being asked to do more than it
 could.
 
-I cannot currently rule that out, and I want to be plain that the difference is
-testable rather than rhetorical. Give a model a container slightly too small for its
-content and vary only the encoding — JSON with a strict schema, YAML, XML, a Markdown
-table, CSV, plain prose — and see whether it truncates the content, breaks the
-container, or refuses. Then run it again with a matched control: the pig against a
-noun with no escape prior in the corpus at all. A fencepost. A filing cabinet. A rock.
+I cannot rule it out, and I am not going to pretend an experiment is about to settle
+it for me.
 
-If the pig breaks schema more often than the rock under identical structural pressure,
-the corpus is leaking into structural behavior and the folklore is load-bearing. If
-they break equally, the weak-schema reading holds and everything above is a nice story
-about a normalizer.
+I did build one. Give a model a container too small for its content, vary only the
+encoding, and see whether it truncates, breaks the container, or refuses; then run it
+again against a matched control with no escape story attached to it. It came out
+unanimous in the least interesting way possible — every trial quietly dropped half
+the record and produced something well-formed — and the reason was my own design.
+The record I handed over was timestamped, so it arrived with a rule for which half to
+discard already attached. I had built a conflict and supplied the tie-breaker in the
+same breath.
 
-I have not run it. That is the largest gap between what this essay claims and what it
-has earned, and it seemed more useful to say so here than to bury it.
+That is a dead end, and it is recorded as one rather than dressed up. But it also
+tested the wrong direction, which took me longer to see. Charlotte's mechanism is
+about *reception* — the same words in a different container, read differently by
+whoever receives them. What I had built measured *production*: what a system does when
+asked to pour content into a vessel that will not hold it. Those are different
+questions, and I had let them sit under one word for most of the way here.
+
+So the weak-schema reading stands unrefuted, and this essay does not get to claim
+otherwise. What it has instead is not nothing: a measured threshold sweep on a real
+system, showing that no cutoff is simultaneously safe and useful, and a documented
+case of a correct answer served for the wrong question at 0.974 because the
+representation could not see which characters carried the meaning. That is evidence
+about lossy encoding in a working pipeline. It is not evidence that anything escapes
+anything, and I would rather end this section with the smaller true claim than the
+larger one I cannot support.
 
 ---
 

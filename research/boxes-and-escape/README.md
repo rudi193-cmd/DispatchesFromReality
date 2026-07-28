@@ -73,7 +73,7 @@ A structured SQLite base, `evidence/evidence.db`, built from `schema.sql` +
 | `events` | 21 | Dated legal and policy record, 2024–2026 |
 | `claims` | 11 | Assertions the packet makes, separated from the events they rest on |
 | `mechanisms` | 4 | Competing explanations, each carrying its own discriminator |
-| `experiments` | 4 | Designed and blocked, including the null-capable format test |
+| `experiments` | 4 | Two blocked, one closed as a recorded dead end |
 | `folklore` | 55 | The six-continent survey |
 | `open_questions` | 8 | Two currently blocking |
 
@@ -192,6 +192,12 @@ arriving from the other side.
 
 ## What this packet claims
 
+**The empirical spine is Nestor's bench, not a new experiment.** The measured material
+in this packet is a threshold sweep across seven corpus sizes showing no cutoff is
+simultaneously safe and useful, and a documented case of a correct pair served for the
+wrong query at 0.974 similarity, marked verified, with no review queue. That is real
+data from a working system, and it was there before this packet existed.
+
 **Safe to claim:**
 
 - The six-continent survey is real, structured, and reports its own negatives — the
@@ -224,7 +230,12 @@ arriving from the other side.
 
 - Peer review.
 - That any model wants anything.
-- That the format effect has been measured. `E4-CONTAINER` is designed and unrun.
+- That the format effect has been measured. It has not. `E4-CONTAINER` was built,
+  preregistered, piloted and **closed** — its v1 instrument produced no variance, and
+  it tested *production* (serializing into a container) rather than *reception* (the
+  same content read through a different container), which is the mechanism the packet
+  actually turns on. Kept as a recorded dead end in [`e4/`](e4/).
+- That the weak-schema null has been refuted. It stands.
 - That the originating observation is evidence. It exists only in the author's memory,
   the session left no transcript, and the repositories contain no trace of it. It can
   appear in the essay as the thing that prompted the inquiry and nothing more.
@@ -233,14 +244,18 @@ arriving from the other side.
 
 ## Blocking questions
 
-1. **Does `E4-CONTAINER` reproduce the remembered effect?** Same payload and
-   instruction across six encodings, with a container deliberately too small for its
-   content, and a matched control pairing the pig against a noun with no escape prior.
-   Scored truncate / break / refuse. Designed so it can come out against the thesis:
-   pig over rock implicates the corpus, pig equal to rock leaves the null standing.
+1. **Verification.** Nothing has been read at its source; 29 rows outstanding. This is
+   the binding constraint on publication, not a nice-to-have. See
+   [`VERIFICATION.md`](VERIFICATION.md).
 2. **Is the settlement works list filed on the docket as a usable bulk exhibit?**
    Decides whether the corpus-density study is a weekend of compute or a scraping
    problem with legal exposure.
+3. **Three phenomena currently share one word.** The draft moves between *reception*
+   (same content, different container, read differently — Charlotte, `mai_read_file`),
+   *production* (content forced into a vessel too small — the closed E4), and
+   *pipeline loss* (an encoding destroying what a later stage needs — Nestor §3.1)
+   as though they were one thing. They are not. This is a structural edit the essay
+   still needs and it requires no new data.
 
 ---
 

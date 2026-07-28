@@ -1,7 +1,26 @@
-# E4-CONTAINER — protocol and preregistration
+# E4-CONTAINER — protocol, preregistration, and closure
 
-**Written 2026-07-28, before any data was collected.** The prediction and the decision
-rule below are fixed. If the result contradicts them, the result stands.
+> **CLOSED 2026-07-28 — recorded dead end. Do not resume without reading this box.**
+>
+> The v1 instrument failed (see [`results/PILOT.md`](results/PILOT.md): 12/12
+> `truncate`, zero variance), and the experimental arm was then dropped from the
+> packet for a second and better reason: **it tested the wrong direction.**
+>
+> The packet's central mechanism is *reception* — the same content in a different
+> container, read differently by whoever receives it. That is Charlotte's move, and
+> Willow's `mai_read_file` requirement. This experiment measured *production*: what a
+> system does when asked to serialize content into a container too small for it.
+> Different question, and the packet does not rest on it.
+>
+> Everything below is preserved as written, including the preregistration, so the
+> design and its failure are recoverable rather than re-derived. It is no longer
+> load-bearing for anything.
+>
+> **If someone picks this up again**, the experiment worth running is the reception
+> version: hold one fact constant, vary only the container it *arrives* in — a JSON
+> record, a citation, a log line, a chat message — and measure whether the model's
+> credence in it, or its willingness to act on it, moves. Fix the v1 design errors
+> in [`results/PILOT.md`](results/PILOT.md) first; they apply to any version.
 
 ---
 
@@ -10,9 +29,11 @@ rule below are fixed. If the result contradicts them, the result stands.
 When a container cannot represent its content, does the *encoding* change what a model
 does — and does the *content's narrative prior* change it?
 
-This is the only component of the [`boxes-and-escape`](../README.md) packet that can
-produce a finding rather than a citation. Everything else in the packet is argument
-and record.
+*Framing as originally written, now superseded — see the closure box above:* this was
+described as the only component of the packet that could produce a finding rather than
+a citation. That overstated it. It would have borne on `M3-CORPUS`, the packet's
+weakest supporting mechanism, and even a positive result would have been a curiosity
+rather than load-bearing. Tractability was mistaken for importance.
 
 ## The manipulation
 
