@@ -24,7 +24,7 @@ For the broader research map, see [Research Portfolio](../README.md).
 | Version | Form | Status | Purpose |
 |---------|------|--------|---------|
 | **Packet** | Public summary | This file | Scope, method, evidence base, claim boundaries |
-| **v1** | Long-form essay | `DRAFT.md` — not yet written | Wilbur → the words in the web → the matcher seam → the corpus → two theories of the pig |
+| **v1** | Long-form essay | [DRAFT.md](DRAFT.md) | ~4,800 words in eight sections: Wilbur → the words in the web → the matcher seam → the corpus and the survey → cimarrón → why it isn't wanting → two theories of the pig → what survived |
 | **Survey** | Research appendix | [`survey/`](survey/) | Six full continental reports, ~3,700 lines |
 | **Evidence** | SQLite base | [`evidence/`](evidence/) | Schema + seed as source of truth; `build.py` regenerates |
 | **Worklist** | Verification queue | [`VERIFICATION.md`](VERIFICATION.md) | Every outstanding source, what to check, ordered by weight |
