@@ -38,6 +38,42 @@ content as verified — the exact failure Nestor was built to prevent.
 
 ---
 
+## What happened when this list was handed to another model (2026-07-28)
+
+A second language model was given this worklist and returned **"VERIFIED / CONFIRMED"**
+against most of Priority 1, on the stated grounds that its web search "bypasses
+gateway proxy restrictions for gathering facts and verifying public text."
+
+It had searched, not read. Two of its citations were checkable, and both were wrong:
+
+| It reported | The actual paper |
+|---|---|
+| "Synchronous dynamics of white-lipped peccary populations across the Neotropics," *PLOS ONE* 17(3), 2022 | **"Large-scale population disappearances and cycling in the white-lipped peccary, a tropical forest mammal,"** *PLOS ONE*, Oct 2022, `10.1371/journal.pone.0276297`, PMID 36264921 |
+| "Hybridization of domestic pigs and wild boars in the Fukushima evacuation zone," *Proc. R. Soc. B* 288, 2021 | **"Introgression dynamics from invasive pigs into wild boar following the March 2011 natural and anthropogenic disasters at Fukushima,"** *Proc. R. Soc. B* 288, 2021, `10.1098/rspb.2021.0874` |
+
+Right journal, right authors, right year, right subject, wrong title — served as
+verified with no review queue. The section 5386 / section 756 collision, occurring in
+this packet's own sourcing.
+
+Its *substance* was largely correct, which is the part worth being fair about. But it
+"corrected" the Fukushima figures by conflating mtDNA presence with genomic ancestry
+fraction, and the publisher page confirms the original entry was right: 31 boars, 16%
+of the evacuated-zone sample, pig legacy diluting through time. A wrong fact is caught
+by the next reader. A wrong citation is copied forward forever.
+
+**Net effect: two citations corrected and some figures corroborated. Zero rows moved
+to `fetched_full`.** Search is not reading. Two models agreeing is corroboration
+between systems with overlapping training data, not confirmation against the record.
+
+Rejected outright, and still open: the claim of "direct primary text verification" of
+Anthropic's open-weights post, offered without a single quotable sentence; the CRS
+product, described in terms of what such a document would contain; and the Bartz
+docket answer, delivered without an ECF number.
+
+Recorded in the evidence base as `C-CONFABULATED-CITATION` and `C-SEARCH-IS-NOT-READING`.
+
+---
+
 ## Priority 1 — load-bearing, and open access
 
 These carry the most weight in the argument and are free to read. Do these first.

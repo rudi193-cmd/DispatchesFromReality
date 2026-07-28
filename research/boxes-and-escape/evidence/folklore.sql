@@ -78,8 +78,8 @@ INSERT INTO folklore (continent, culture, title, item_type, theme_class, descrip
 
     ('Asia','Japan','Fukushima exclusion-zone boar-pig hybrids','historical_event','escape_enclosure',
      'Farm pigs abandoned in the 2011 evacuation went feral and interbred with wild boar. ~16% of boars sampled in the zone are hybrids; pig ancestry ~8% and declining.',
-     NULL,1,'solid','Anderson et al., Proceedings of the Royal Society B (2021).',
-     'A mass escape recorded in genomes rather than in stories. The declining ancestry means the domestic is being reabsorbed.'),
+     NULL,1,'solid','Donovan Anderson et al., "Introgression dynamics from invasive pigs into wild boar following the March 2011 natural and anthropogenic disasters at Fukushima", Proc. R. Soc. B 288 (2021), doi:10.1098/rspb.2021.0874.',
+     'A mass escape recorded in genomes rather than in stories. The declining ancestry means the domestic is being reabsorbed. CITATION CORRECTED 2026-07-28 and figures corroborated against the publisher page: 31 boars = 16%% of the evacuated-zone sample identified as hybrids; pig legacy diluting through time. Still not read at source.'),
 
     ('Asia','East Asia (idiom stock)','Boar as forward charge, never evasion','idiom','no_containment',
      'The boar''s uncontainability in the idiom stock is always headlong forward motion -- 猪突猛進 (chototsu moshin), 狼奔豕突, 封豕長蛇 -- and never evasion or hiding.',
@@ -225,8 +225,8 @@ INSERT INTO folklore (continent, culture, title, item_type, theme_class, descrip
 
     ('South America','Pan-Amazonian','White-lipped peccary disappearance cycles','historical_event','uncatchable',
      '43 documented disappearance events across nine countries and 88 years of harvest data; 7-12 year troughs in 20-30 year cycles, synchronised across up to 5 million km2. The paper incorporates Indigenous testimony explaining disappearances as caused by the death of a powerful shaman, with return securable only through another shaman''s ritual work.',
-     NULL,1,'solid','Fragoso et al., PLOS ONE (2022).',
-     'Peer-reviewed, and it takes Indigenous explanation seriously as data rather than colour.'),
+     NULL,1,'solid','Jose M. V. Fragoso et al., "Large-scale population disappearances and cycling in the white-lipped peccary, a tropical forest mammal", PLOS ONE (Oct 2022), doi:10.1371/journal.pone.0276297, PMID 36264921.',
+     'Peer-reviewed, and it takes Indigenous explanation seriously as data rather than colour. CITATION CORRECTED 2026-07-28. Corroborated on the publisher page: nine countries, 7-12 yr troughs in 20-30 yr cycles, 10,000-5 million km2, Indigenous knowledge integrated into the study. NOT yet corroborated: the 43-event and 88-year figures. Still not read at source.'),
 
     ('South America','Brazilian','Caipora / Curupira as godfather of the herds','myth','uncatchable',
      'Rides a caititu or queixada, travels with the peccary herds, steers the pigs away from hunters'' traps, and bargains a quota of animals for tobacco, cachaca and cloth.',

@@ -367,6 +367,18 @@ INSERT INTO claims (ref, claim_text, kind, status, rests_on, notes) VALUES
      NULL,
      'The toaster move: the clever answer is that it wants out; the duller and truer one is that it need not want anything.'),
 
+    ('C-CONFABULATED-CITATION',
+     'A second language model, asked to verify this packet''s worklist, returned "VERIFIED / CONFIRMED" on items it had searched rather than read, and fabricated two paper titles in the process. Both had the correct journal, authors, year and subject and the wrong title. The substance it reported was largely right; the citations were invented.',
+     'fact', 'established',
+     'Direct check, 2026-07-28.',
+     'THE THESIS, DEMONSTRATED LIVE AND IN THE PACKET''S OWN PROCESS. Fragoso et al. was given as "Synchronous dynamics of white-lipped peccary populations across the Neotropics, PLOS ONE 17(3)"; the real paper is "Large-scale population disappearances and cycling in the white-lipped peccary, a tropical forest mammal", PLOS ONE Oct 2022, doi:10.1371/journal.pone.0276297. Anderson et al. was given as "Hybridization of domestic pigs and wild boars in the Fukushima evacuation zone"; the real paper is "Introgression dynamics from invasive pigs into wild boar following the March 2011 natural and anthropogenic disasters at Fukushima", doi:10.1098/rspb.2021.0874. A high-similarity match served as verified with no review queue -- the section 5386 / section 756 collision, in this packet''s own sourcing. A wrong fact is caught by the next reader; a wrong citation is copied forward forever.'),
+
+    ('C-SEARCH-IS-NOT-READING',
+     'DISCIPLINE: web search is not verification. Retrieving summaries about a source and reading the source are different operations, and only the second can move a row to fetched_full. Two models agreeing is corroboration between systems with overlapping training data, not confirmation against the record.',
+     'discipline', 'established',
+     NULL,
+     'The distinction the whole evidence base is built on, and the one that failed when it was tested from outside.'),
+
     ('C-WILLOW-PRECEDENT',
      'Willow already encodes a format effect as operational law: CLAUDE.md requires CONSTITUTION.md and ORIENT.md be read via mai_read_file rather than the native Read tool -- a governance dependency on the premise that identical bytes delivered through a different reader do not land the same way.',
      'fact', 'established',
