@@ -139,8 +139,60 @@ CREATE TABLE open_questions (
 );
 
 -- ---------------------------------------------------------------------------
+-- Folklore survey: the pig-escape motif by region
+-- ---------------------------------------------------------------------------
+--
+-- Populated by the six-continent survey. The theme_class column is the whole
+-- point: it keeps escape-from-enclosure separate from boundary/taboo material
+-- and from pig stories with no containment theme at all. The third category is
+-- the folklore-scale version of the residual question -- if it is thin
+-- everywhere, that is the saturation finding in miniature.
+
+CREATE TABLE folklore (
+    id          INTEGER PRIMARY KEY,
+    continent   TEXT NOT NULL
+                CHECK (continent IN
+                       ('Africa','Asia','Europe','North America','South America','Oceania')),
+    culture     TEXT,                    -- people, nation, language community
+    title       TEXT NOT NULL,
+    item_type   TEXT NOT NULL            -- tale | myth | fable | proverb | idiom | literary
+                CHECK (item_type IN                 -- | ritual | legal | historical_event | film_tv
+                       ('tale','myth','fable','proverb','idiom','literary',
+                        'ritual','legal','historical_event','film_tv')),
+    theme_class TEXT NOT NULL            -- the load-bearing distinction
+                CHECK (theme_class IN
+                       ('escape_enclosure',    -- gets out of a physical container
+                        'uncatchable',         -- cannot be caught in the first place
+                        'boundary_taboo',      -- defined by exclusion; kept outside
+                        'transformation',      -- crosses a category boundary, not a fence
+                        'social_boundary',     -- crosses between groups (exchange, wealth)
+                        'no_containment')),    -- the residual
+    description TEXT NOT NULL,
+    motif_index TEXT,                    -- ATU / Thompson motif number where one exists
+    is_native   INTEGER,                 -- 1 if pigs are native/long-established, 0 if introduced
+    confidence  TEXT NOT NULL
+                CHECK (confidence IN ('solid','probable','thin','dubious')),
+    source_note TEXT NOT NULL,           -- citation; 'UNSOURCED' if the agent could not find one
+    notes       TEXT
+);
+
+-- ---------------------------------------------------------------------------
 -- Convenience views
 -- ---------------------------------------------------------------------------
+
+CREATE VIEW v_folklore_by_theme AS
+SELECT continent, theme_class, COUNT(*) AS n,
+       SUM(CASE WHEN confidence IN ('solid','probable') THEN 1 ELSE 0 END) AS n_defensible
+FROM folklore
+GROUP BY continent, theme_class
+ORDER BY continent, n DESC;
+
+CREATE VIEW v_folklore_residual AS
+SELECT continent, culture, title, description, confidence, source_note
+FROM folklore
+WHERE theme_class = 'no_containment'
+ORDER BY continent;
+
 
 CREATE VIEW v_timeline AS
 SELECT e.event_date, e.date_precision, e.domain, e.confidence, e.title,
