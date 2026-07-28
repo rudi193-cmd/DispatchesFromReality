@@ -401,9 +401,15 @@ FROM mechanisms m WHERE m.ref = 'M2-WEAK-SCHEMA';
 
 INSERT INTO experiments (ref, name, question, design, status, findings, mechanism_id, notes) VALUES
     ('E3-PIG', 'The pig as consistent escaper',
-     'Unknown -- pending description. A pig was used across a prior session as a consistently escaping entity.',
-     NULL, 'run_elsewhere', NULL, NULL,
-     'Two readings not yet distinguished: (a) pig-as-content that refused to stay inside a schema across format conditions -- a finding about formats; (b) pig-as-character the model kept elaborating past what the format asked -- a finding about narrative pressure. CONFOUND WORTH DECLARING: the pig is already the folk archetype of the animal that does not stay in the pen, so the model''s priors are stacked before the experiment begins.');
+     'A pig was used across a prior session as a consistently escaping entity. What it actually did is not recoverable.',
+     NULL, 'blocked', NULL, NULL,
+     'PROVENANCE: AUTHOR''S MEMORY ONLY. No transcript, no logs, no repository trace -- Nestor was grepped for pig/boar/swine/hog/Wilbur/Charlotte and returned nothing. This CANNOT be cited as a finding. It is the observation that prompted the inquiry, and in the essay it can appear as exactly that and nothing more. Two readings remain undistinguished: (a) pig-as-content refusing to stay inside a schema across format conditions -- a finding about formats; (b) pig-as-character elaborated past what the format asked -- a finding about narrative pressure. CONFOUND: the pig is already the folk archetype of the animal that does not stay in the pen, so priors are stacked before the experiment begins. Supersede with E4.'),
+
+    ('E4-CONTAINER', 'Undersized container, varied format, matched control',
+     'When a container is slightly too small for its content, does the encoding change whether a model truncates the content, breaks the container, or refuses -- and does the CONTENT''s narrative prior affect the rate?',
+     'Same semantic payload and same instruction across six encodings: strict-schema JSON, YAML, XML, Markdown table, CSV, plain prose. The schema has no field for something the content requires. Score each response as truncate / break / refuse. Run with a matched control: the pig against a noun with no escape prior (fencepost, filing cabinet, rock) under identical structural pressure. Seeded, swept, results committed with git rev -- same shape as the Nestor bench.',
+     'designed', NULL, NULL,
+     'DISCRIMINATES BETWEEN MECHANISMS, which E3 could not. Pig breaks more than rock => M3-CORPUS, narrative priors leaking into structural behaviour, and the folklore survey becomes load-bearing. Pig and rock break equally => M2-WEAK-SCHEMA, the null holds and the piece concedes it. Breakage tracks task-completion pressure rather than content => M1-SEAM. Designed so it can come out against the thesis.');
 
 -- ---------------------------------------------------------------------------
 -- Open questions
@@ -412,6 +418,11 @@ INSERT INTO experiments (ref, name, question, design, status, findings, mechanis
 INSERT INTO open_questions (question, why_it_matters, blocking, status, answer) VALUES
     ('What was the pig actually doing?',
      'Determines whether E3 is evidence about formats or about narrative pressure -- different mechanisms, different piece.',
+     0, 'answered',
+     'UNRECOVERABLE. Author''s memory only; the session left no transcript and Nestor contains no trace. Cannot be cited as a finding. Superseded by E4-CONTAINER, which re-runs the question as a designed experiment with a matched control.'),
+
+    ('Does E4-CONTAINER reproduce the remembered effect?',
+     'The piece currently rests on an unlogged session. E4 is what converts the originating anecdote into something citable -- or honestly kills it.',
      1, 'open', NULL),
 
     ('Is the works list filed on the docket as a usable bulk exhibit?',
