@@ -1,33 +1,38 @@
-# The Third State — frame
+# What the Parts Were For — frame
 
-*Working title. Frame only — structure, load-bearing material, and what's still missing.
-No prose written yet.*
+*Working title (alternates: "A Toolbox Is Not a Shop", "Ninety Minutes"). Frame only —
+structure, load-bearing material, and what's still missing. No prose written yet.*
 
-**Working subtitle:** *On how I build, what three weeks of maintenance did to it, and
-a silence I read as an answer.*
+**Working subtitle:** *Sometimes you have to build something you care about to find out
+what you've been making.*
 
 ---
 
 ## The claim
 
-Every system I've built in the last year enforces one discipline: **absence must never
-be rendered as an answer.** A queue that can't be reached must not paint "queue clear."
-A model's output is `draft` until a human seals it. A missing consent file reads as
-denied, because absence is not consent. Surfaces need three states, not two — empty,
-populated, and **unknown**.
+**Sometimes you need to build something fun to bring the pieces together — fun meaning
+passionate about, not recreational.**
 
-I spent months making machines obey that rule, and then read two silences as a no
-about my own work, and put an idea down for eight months.
+Not a break from serious work. The thing that *integrates* it. A year of building
+components — a local-first stack, an authorization model, an assessment framework, a
+rules-engine research packet, a verification ledger — each made in isolation, each
+correct on its own terms, none of them ever required to be true at the same time.
+
+A toolbox doesn't tell you what it's for. A job does. And the job has to be one you
+actually want the outcome of, because nothing weaker pulls hard enough to make separate
+parts prove themselves together.
+
+The evidence: ninety minutes on a drum corps app used more of the last year's work than
+three weeks of consolidating it did.
 
 ## The arc
 
-1. Background video while grinding through maintenance → an eight-month-old shelved
-   pitch surfaces
-2. What the maintenance actually was, from the commit record
+1. Never marched, found out too late, couldn't have afforded it anyway
+2. What three weeks of maintenance actually was, from the commit record
 3. How I build when it's working — and where agents fit
-4. Why maintenance broke it, structurally rather than emotionally
-5. The third state, and the silence I mis-filed
-6. Ninety minutes, and the inversion: start with the kids
+4. Why maintenance broke it: consolidation without application
+5. The third state, and the silence I mis-filed — why the parts sat unassembled
+6. Ninety minutes, the convergence, and the inversion: start with the kids
 7. Close — the corps still haven't answered
 
 ---
@@ -115,17 +120,20 @@ ago:
 Agents map what exists. Only I hold the direction of travel. Intent isn't in the
 artifacts, so it can't be surveyed or delegated or recovered from the code.
 
-## IV. Why the maintenance broke it
+## IV. Consolidation without application
 
 The mechanism, not the mood — this is the section that makes the piece useful to
-someone else.
+someone else, and the sharper diagnosis is here rather than in "I was tired."
 
-The one contribution no agent can supply is direction. For three weeks I spent all of
-it pointing backwards, at reconciling two versions of a thing I'd already built. Not
-choosing what should exist — adjudicating what already did.
+The one contribution no agent can supply is direction. For three weeks I spent all of it
+pointing backwards — not choosing what should exist, adjudicating what already did.
 
-High output, no direction spent forward. That's not burnout and it isn't laziness. It
-is the specific exhaustion of using your only irreplaceable faculty on bookkeeping.
+But the deeper problem was not that it was backwards. It was that **nothing needed the
+parts.** A migration merges components without ever making them do a job together. Three
+weeks tidying a toolbox, and a toolbox cannot tell you what it is for.
+
+High output, no application. That's not burnout and it isn't laziness. It is what it
+feels like to maintain an inventory nobody is drawing from — including you.
 
 *Still open (see below): was the migration chosen, or did it keep demanding attention
 until nothing was left over?* The section reads differently depending, and it should be
@@ -180,9 +188,24 @@ constitution; now it's the first table. Corps members are largely under 22 and m
 minors — rosters, medical forms, emergency contacts, guardians. That decision is free
 tonight and expensive in six months.
 
-**Why this section is the answer to section IV:** it's a decision with a direction,
-made in ninety minutes, about something that doesn't exist yet. The opposite of
-adjudicating what already does.
+**Why this section is the answer to section IV — and it needs the table, not a claim.**
+One evening's build drew on nearly everything the year produced, and each piece had been
+made separately for its own unrelated reason:
+
+| Built for | Now doing |
+|---|---|
+| the sovereignty argument | gyms with no wifi |
+| Termux support (Postgres + SQLite, one query) | office desktop, phone on tour |
+| agent authorization — manifests, gates, permission groups | staff roles, minors, guardians |
+| a constitutional hard stop (child primacy) | the schema's root table |
+| the assessment-visibility white paper | judging sheets and captions |
+| the tabletop mechanical-engines packet | how a show is scored |
+| Nestor's sealed / draft / pending | any human-verified record |
+| a year of fleet practice | how it got built in ninety minutes |
+
+None of those were made for this. All of them are true at once here for the first time.
+That is the whole argument, and the table carries it better than any sentence I could
+write about it.
 
 *Also honest here:* tour is genuinely the ideal local-first case — gyms with no wifi, a
 hundred and fifty people, no budget for per-seat SaaS. This isn't a hobby detour from the
