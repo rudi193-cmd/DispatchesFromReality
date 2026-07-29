@@ -32,13 +32,27 @@ about my own work, and put an idea down for eight months.
 
 ---
 
-## I. The open channel
+## I. Too late, and too expensive anyway
 
-Drumeo playing in the background while working. Recommendations drift into the current
-DCI season. A pitch shelved in November comes back.
+**Opening beat: I never marched.** Found out about DCI roughly a year too late — mostly
+from peers who came back from a summer changed. Already on the college path by then,
+school essentially lined up. And the honest second half, which keeps it from being
+self-pity: I doubt I could have afforded it regardless.
 
-**The tell, and it opens the essay rather than being buried:** there was *room* for
-background video. Work that has all of your attention doesn't leave a channel open for
+Two barriers, and they are exactly the two that software can touch. **Information** — I
+didn't know it was available until the window had closed. **Cost** — thousands in tour
+fees, travel, and a summer of lost income, which is a documented equity problem in the
+activity and not a grievance I'm inventing.
+
+Register check: rueful, measured, done with. Not a wound. The Same Door earns its weight
+by refusing to let a real harm become a story, and this gets the same discipline — one
+paragraph, stated plainly, then move.
+
+Then the present-day trigger: Drumeo playing in the background while working,
+recommendations drift into the current DCI season, and a pitch shelved in November comes
+back.
+
+**The tell:** there was *room* for background video. Work that has all of your attention doesn't leave a channel open for
 something else to come in through. The fact that an algorithm could reach me is data
 about what the preceding weeks were.
 
@@ -152,10 +166,13 @@ give-back to the drum corps community. Broad operational tooling for a corps.
 
 **And then inverted the map — starting with the kids.**
 
-That's the section's whole point and it is a design decision, not a sentiment. Org
-software is normally built admin-first, with the member as a row hanging off a program.
-Inverting it makes the person whose data is most sensitive the root of the schema, and
-everything else hangs off *them*.
+That's the section's whole point, and it is a design decision *and* a personal one, in
+that order. Org software is normally built admin-first, with the member as a row hanging
+off a program. Inverting it makes the person whose data is most sensitive the root of the
+schema, and everything else hangs off *them*.
+
+The personal half, stated once and not belaboured: the person at the root of that schema
+is the seventeen-year-old who doesn't know yet. §I's kid.
 
 Which means child primacy stops being a policy layer bolted on after the fact and
 becomes structural. It was already one of nine platform hard stops in Willow's
@@ -168,8 +185,13 @@ made in ninety minutes, about something that doesn't exist yet. The opposite of
 adjudicating what already does.
 
 *Also honest here:* tour is genuinely the ideal local-first case — gyms with no wifi, a
-hundred and fifty people, no budget for per-seat SaaS. This isn't a hobby detour from
-the architecture. It's the architecture finally aimed at someone who needs it.
+hundred and fifty people, no budget for per-seat SaaS. This isn't a hobby detour from the
+architecture. It's the architecture finally aimed at someone who needs it.
+
+**And the cost barrier is addressable, which is the part worth saying plainly.** Apache-2.0
+software a corps runs on its own hardware is money not spent on per-seat licensing. That
+does not make a summer affordable for a kid, and the essay should not pretend it does. It
+is one input to a cost structure, named accurately and not oversold.
 
 ## VII. Close
 
@@ -184,8 +206,14 @@ Constraints on the ending, since this is the part most likely to go wrong:
   to stop treating a silence as a result.
 
 Candidate final beat: I built the fleet on the principle that no gatekeeper should be
-able to stop me, and then let two unanswered emails stop me for eight months. The
-machines had the third state the whole time.
+able to stop me, and then let two unanswered emails stop me for eight months. The machines
+had the third state the whole time.
+
+**Alternative, possibly stronger, since it closes the loop to §I:** three absences, one
+shape. At seventeen I didn't know it was available and filed that as *not available*. In
+November two corps didn't reply and I filed that as *no*. For three weeks a queue that
+could not be reached rendered as *clear*. Only one of those was a bug, and it's the only
+one I fixed at the time.
 
 ---
 
@@ -193,12 +221,10 @@ machines had the third state the whole time.
 
 1. **What the app actually does** — the concrete feature. Everything above works, but
    §VI stays abstract without one real screen or workflow to name.
-2. **The DCI connection.** Marched, taught, staffed, parent, fan from the stands? §I's
-   voice depends on it and I won't guess.
-3. **Was the migration chosen or imposed?** Changes §IV materially.
-4. **Does the app have a repo yet?** Referring to a live URL is stronger than referring
+2. **Was the migration chosen or imposed?** Changes §IV materially.
+3. **Does the app have a repo yet?** Referring to a live URL is stronger than referring
    to an evening.
-5. **Where this lives** — `essays/` (personal, arc-driven) or `professional/` (the
+4. **Where this lives** — `essays/` (personal, arc-driven) or `professional/` (the
    constitutional-design material is portfolio-grade). It can't be both without
    splitting.
 
