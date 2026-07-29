@@ -169,6 +169,75 @@ becomes cute. State it, let it sit, move.
 
 ## VI. Ninety minutes, and the inversion
 
+**The build is real and landed: safe-app-store PR #112, merged 2026-07-29 ~04:25 UTC.**
+Two apps, playground tier, deliberately not promoted (`promote_check.py` returns NOT
+PROMOTED, fail-closed — promotion requires `verified_by ≠ author`). The platform is
+unnamed; `marching-arts` is a placeholder directory.
+
+### `apps/marching-arts` — the authorization core
+
+The resolver compiles to exactly one predicate:
+`(allow₁ OR allow₂ OR …) AND NOT (deny₁ OR deny₂ OR …)`. Roles grant nothing on their
+own. At L3 and above the payload is `NULL` in the SELECT list and only the derived
+instruction is served. **L5 is never served to anyone under any grant** — safeguarding
+intake is routed to the people whose job it is to receive concerns, and is deliberately
+absent rather than deferred.
+
+**And the line the essay is built around:**
+
+> Refusal is invisible, tested as indistinguishability. A member who declined and a
+> member who is absent produce the same rows, the same count, and the same subject
+> list. If they differed, declining would become the signal and every member who
+> exercised the choice would be marked by exercising it.
+
+**This is §V's rule, re-derived and come out backwards, and that is the whole point.**
+In Grove, conflating *unreachable* with *clear* is the bug. Here, distinguishing
+*declined* from *absent* is the bug. Same question — what does an absence mean — opposite
+answer, because the person being protected changed from an operator to a seventeen-year-old.
+The rule wasn't applied. It was re-derived for a different beneficiary.
+
+Supporting detail worth keeping, all of it mechanism rather than prose: guarantees
+enforced by `CHECK` constraints rather than documentation; `COUNT(*)` evaluated in SQLite
+*under* the predicate rather than in Python over fetched rows; an AST walk proving no
+module can reach the network. Mutation-tested with three deliberate breaks, each caught
+by exactly the test claiming to cover it — *"a gate that cannot fail is not a gate."*
+
+And it was driven for real, not just tested: nobody consented → an **empty list, not three
+greyed rows**; a guardian seals a craft-band grant; the system infers a second and it stays
+inert; the grant widens to health and the diagnosis stays behind while the instruction
+comes through; silent revocation; a principal holding every role sees nothing.
+
+### `apps/field-acoustics` — the capability
+
+The concrete thing the piece needed, and it has no competitor in the category: every drill
+design tool models visuals — Pyware's Virtual Clinic runs four analyzers, all four visual.
+**Nothing models what the drill sounds like from the stands.**
+
+Octave-band energy summation, ISO 9613-1 atmospheric absorption, circular-piston
+directivity through a fitted effective aperture, one geometrically-gated grandstand
+reflection. Two independent implementations held to each other across five differential
+tiers.
+
+**Provenance is a first-class output** — every input is `measured`, `fitted` or `assumed`,
+propagated by `min()`, *"a result is worth its weakest one."* Deliberately not a confidence
+score: *"a number either traces to something a person can look up or it does not."* The
+headline reads `ASSUMED` today and says so, because the rear hemisphere rests on an
+asserted front-to-back array.
+
+That is Nestor's sealed/draft/pending, re-derived in acoustics. Third instance of the same
+discipline, in a third domain, arrived at independently each time.
+
+**And the line that rhymes with this session:**
+
+> It survived two independent reimplementations agreeing to 1e-14 dB *with each other, on
+> the same wrong input.*
+
+Two systems agreeing perfectly is not verification. Written the same night a second model
+handed this packet two confabulated citations labelled VERIFIED. Same lesson, two domains,
+neither one borrowed from the other.
+
+### The original section notes follow
+
 Tonight: opened the abandoned pitch and started building it. Apache-2.0, open source, a
 give-back to the drum corps community. Broad operational tooling for a corps.
 
