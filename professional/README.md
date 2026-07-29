@@ -25,6 +25,7 @@ This folder is a technical-employer-facing packet. It translates work from [Disp
 |----------------|-----------|
 | 3 minutes | [portfolio-case-studies.md](portfolio-case-studies.md) |
 | 10 minutes | [willow-systems-portfolio.md](willow-systems-portfolio.md) |
+| Want to know how I work with AI agents | [working-with-agents.md](working-with-agents.md) |
 | Need research context | [Research portfolio](../research/README.md) |
 | Need systems evidence | [willow-ecosystem-inventory.md](willow-ecosystem-inventory.md) |
 | Need structure | [case-study-template.md](case-study-template.md) |
@@ -40,6 +41,7 @@ This folder is a technical-employer-facing packet. It translates work from [Disp
 | Document | Purpose |
 |----------|---------|
 | [portfolio-case-studies.md](portfolio-case-studies.md) | Three polished case studies for technical employers, including the Willow systems-building story |
+| [working-with-agents.md](working-with-agents.md) | The method: machine output as `draft` until sealed, asking separated from granting, provenance as a first-class column — with the failures that taught each rule |
 | [willow-systems-portfolio.md](willow-systems-portfolio.md) | Deep Willow case study: architecture, 10 proof points, claim boundaries |
 | [willow-ecosystem-inventory.md](willow-ecosystem-inventory.md) | Curated repo census, SAFE apps, data artifacts, research substrate |
 | [case-study-template.md](case-study-template.md) | Reusable structure for future writeups |
