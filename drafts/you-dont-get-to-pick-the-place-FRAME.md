@@ -277,6 +277,75 @@ Two systems agreeing perfectly is not verification. Written the same night a sec
 handed this packet two confabulated citations labelled VERIFIED. Same lesson, two domains,
 neither one borrowed from the other.
 
+### The sequel, and the actual proof: terpsi-music PR #1 (2026-07-30)
+
+**This supersedes the convergence table as the section's evidence, because it is a
+*finding* rather than an argument — and it is the author's, not mine.**
+
+A day later, the platform has a name (Terpsichore — muse of dance and chorus), a repo, and
+a design document. Scope moved with it: no longer a drum corps tool but **music-program
+management holding minors' education records**, FERPA in frame. DCI was the door; the room
+turned out to be bigger.
+
+Four files, 2,113 lines, thirty-two commits, and **no application code.** The PR's own
+one-line summary is the essay's claim:
+
+> Land the design for a music-program management application holding minors' education
+> records — and, in the process, **find that most of what it needs already exists across
+> the fleet, several times more strictly than proposed here.**
+
+**The two details that make this proof rather than illustration:**
+
+- **§7.4, the Ward Case.** `Willow/PROTECTED_AGENTS.md` Part III is the guardianship
+  doctrine *"this document asserted three times did not exist."* He wrote it, forgot it,
+  asserted its absence three times while designing around the gap, and found it on arrival.
+- **§16, the bilateral pattern.** *"Nestor turns out to be the engine this section was
+  specifying."* The spec was written; the implementation already existed.
+
+You don't get to pick the place — and you may not know what you've built until you get
+there. **That is a stronger claim than the one the frame started with**, and it is not
+available from the toolbox metaphor: a toolbox you can inventory. This is a man discovering
+his own tools by needing them.
+
+**Supporting material, all of it usable:**
+
+- *"Where this document and the code disagreed, the code won and the document says so"* —
+  five recorded corrections, three of them to claims the document had asserted repeatedly.
+- **§4.1** collapses "parents need access" into three requirements, ~95% of which need no
+  app at all. Governing rule: **SMS carries signals, never records** — where a transport
+  cannot be made incapable, the payload is made not worth reading.
+- **§7.2, the knock.** willow-gate's thirteen-in / thirteen-out is *"the only mechanism in
+  the fleet that compares outcome against promise."*
+- **§15** — three ordinal scales that must not be confused: `T0–T4` ascends toward
+  privilege, `L1–L5` toward restriction, `P1–P5` provenance never gates. Seal state and
+  confidence kept as separate axes.
+- **§17** — this app as the template, *"with the caution that a template without a
+  conformance check is just the first copy."*
+- **`tests/test_section_refs.py`** exists because `CLAUDE.md` claimed its section
+  references kept it honest and nothing verified them — *"a middle that cannot fail, which
+  §16 argues is worse than none."* Seven tests, two real defects caught on first run,
+  mutation-verified by renumbering a live reference.
+
+**And the unchecked evidence boxes, which belong in §III on practice:**
+
+> - [ ] Not verified: §14's "Exists" column. Assembled from READMEs and merged PR
+>   descriptions — not from reading or running source. Every row claiming something exists
+>   is a cited claim whose source was read and never executed.
+> - [ ] No source code was read in any fleet repository.
+> - [ ] Not read: `sean-data-vault` (access denied, not retried).
+
+That is the same limitation this session hit and recorded — a convergence table built from
+READMEs is a claim about documentation, not about code. Both of us reached it independently
+in the same 48 hours, and both wrote it down instead of smoothing it.
+
+Also: roughly eighteen dead canonical links, a catalog advertising encryption `u2u` does
+not implement, an unpinned `@master` dependency on the fleet's own verification tool, and a
+cloud-inference fallback that fires exactly when the local model is down. **All recorded,
+none touched — they belong to their own repos.** The discipline of finding a fault and not
+fixing it is worth a sentence.
+
+*(Minor, and probably not for the piece: the branch is `claude/good-evening-wrldb5`.)*
+
 ### The original section notes follow
 
 Tonight: opened the abandoned pitch and started building it. Apache-2.0, open source, a
