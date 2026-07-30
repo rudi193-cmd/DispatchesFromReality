@@ -1,26 +1,61 @@
-# What the Parts Were For — frame
+# You Don't Get to Pick the Place — frame
 
-*Working title (alternates: "A Toolbox Is Not a Shop", "Ninety Minutes"). Frame only —
-structure, load-bearing material, and what's still missing. No prose written yet.*
+*Working title (alternates: "What the Parts Were For", "Where It Comes Together").
+Frame only — structure, load-bearing material, and what's still missing. No prose
+written yet.*
 
-**Working subtitle:** *Sometimes you have to build something you care about to find out
-what you've been making.*
+**Working subtitle:** *Convergence happens where your passions are, and that is a
+location rather than a technique.*
 
 ---
 
 ## The claim
 
-**Sometimes you need to build something fun to bring the pieces together — fun meaning
-passionate about, not recreational.**
+**Convergence happens in the place where your passions are.**
 
-Not a break from serious work. The thing that *integrates* it. A year of building
-components — a local-first stack, an authorization model, an assessment framework, a
-rules-engine research packet, a verification ledger — each made in isolation, each
-correct on its own terms, none of them ever required to be true at the same time.
+Not "build something fun to unlock integration" — that was the earlier, weaker version,
+and it was instrumental. A technique can be faked: pick a hobby project, deploy it
+strategically, expect synthesis. That is not what happens. Convergence has an **address**,
+and you do not choose it.
 
-A toolbox doesn't tell you what it's for. A job does. And the job has to be one you
-actually want the outcome of, because nothing weaker pulls hard enough to make separate
-parts prove themselves together.
+A year of building components — a local-first stack, an authorization model, an assessment
+framework, a rules-engine research packet, a verification ledger — each made in isolation,
+each correct on its own terms, and **not one of them ever required to be true at the same
+time as the others.** They met at a drum corps app, which is the one place in this work
+with personal stakes running back to being seventeen. They did not meet during three weeks
+of deliberate consolidation whose entire purpose was to make them meet.
+
+### The mechanism — and this is what keeps it from being "do what you love"
+
+**Convergence requires simultaneous non-negotiability.**
+
+Everywhere else, you cut scope. You accept a reduced version of the thing you don't
+especially care about — good enough auth, good enough offline, we'll do provenance later.
+Each compromise is individually reasonable and collectively fatal, because parts only
+integrate when they are all required *at once*.
+
+At the site of a passion you refuse to cut any of it. The acoustics **and** the consent
+model **and** the offline case **and** the protection of minors, all non-negotiable in the
+same evening. That simultaneous refusal is the thing that forces separate components to
+prove themselves against each other.
+
+So "fun" becomes precise, and it isn't enjoyment: **fun is the domain where you won't
+accept a reduced version.** That's why it can't be chosen strategically, and why effort is
+not a substitute.
+
+### Guardrail — the failure mode of this essay
+
+This is one short step from "follow your passion," which is advice, is unfalsifiable, and
+would make the piece worthless. The claim is narrower and stranger:
+
+- **Not** that passion makes you productive. The three tedious weeks were the *highest*
+  output of the period.
+- **Not** that you should work on what you love. Plenty of the components were built as
+  obligations and are good.
+- **But** that integration has a location, that the location is not chosen, and that
+  recognising where it is tells you something about where to point next.
+
+If a draft paragraph would survive being pasted into a LinkedIn post, cut it.
 
 The evidence: ninety minutes on a drum corps app used more of the last year's work than
 three weeks of consolidating it did.
@@ -128,12 +163,18 @@ someone else, and the sharper diagnosis is here rather than in "I was tired."
 The one contribution no agent can supply is direction. For three weeks I spent all of it
 pointing backwards — not choosing what should exist, adjudicating what already did.
 
-But the deeper problem was not that it was backwards. It was that **nothing needed the
-parts.** A migration merges components without ever making them do a job together. Three
-weeks tidying a toolbox, and a toolbox cannot tell you what it is for.
+But the deeper problem was not that it was backwards, and it was not even that nothing
+needed the parts. **It was the wrong location.** A migration merges components without ever
+requiring them to be true at once — and it is also, definitionally, outside anything I care
+about the outcome of. Nobody is passionate about reconciling two versions of their own
+repository. That is not a character flaw; it is what the work is.
 
-High output, no application. That's not burnout and it isn't laziness. It is what it
-feels like to maintain an inventory nobody is drawing from — including you.
+So no amount of effort was going to produce convergence there. Effort was not the missing
+input. **Location was.** Three weeks tidying a toolbox, in a room where nothing was going to
+be built.
+
+High output, no convergence. That's not burnout and it isn't laziness. It is what it feels
+like to maintain an inventory in a place where nothing draws from it — including you.
 
 *Still open (see below): was the migration chosen, or did it keep demanding attention
 until nothing was left over?* The section reads differently depending, and it should be
@@ -272,9 +313,13 @@ made separately for its own unrelated reason:
 | Nestor's sealed / draft / pending | any human-verified record |
 | a year of fleet practice | how it got built in ninety minutes |
 
-None of those were made for this. All of them are true at once here for the first time.
-That is the whole argument, and the table carries it better than any sentence I could
-write about it.
+None of those were made for this. All of them are true at once here for the first time —
+**and "at once" is the load-bearing phrase, not "all."** The consolidation touched every one
+of these parts too. What it never did was require them to hold simultaneously, because it
+never had to satisfy anybody.
+
+That is the whole argument, and the table carries it better than any sentence I could write
+about it.
 
 *Also honest here:* tour is genuinely the ideal local-first case — gyms with no wifi, a
 hundred and fifty people, no budget for per-seat SaaS. This isn't a hobby detour from the
