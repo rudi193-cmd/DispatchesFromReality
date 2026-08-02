@@ -58,6 +58,13 @@ A tabletop ruleset is a constrained generator: feed it player decisions and dice
 
 → [Working draft](research/tabletop-mechanical-engines/DRAFT.md) · [Research packet](research/tabletop-mechanical-engines/README.md) · [Willow systems deep dive](professional/willow-systems-portfolio.md)
 
+### [Nobody Counts the Ad Breaks](research/childrens-software-interruption/README.md)
+*Children's software, interruption as an unmeasured fact, and the one number nobody sells to parents* · working draft v1 · 2026-08
+
+Two kids asked for a silly game and spent more of the afternoon dismissing interruptions than playing it — a session the studio's own dashboard would score as a success, because frustration and delight are the same shape at the metrics layer. Regulators, consumer bodies, compliance auditors and census researchers have documented everything about this except the figure that decides it: how often *this* app stops *this* child. That one is tracked in fine detail and sold by subscription to the publishers buying the ad inventory.
+
+→ [Working draft](research/childrens-software-interruption/DRAFT.md) · [Research packet](research/childrens-software-interruption/README.md) · [Assessment visibility](education/assessment-visibility-v1.1/white-paper.md) · [Nobody Adds It Up](essays/nobody-adds-it-up/README.md)
+
 ### [Assessment Evidence and Expressive Pathways in AI-Present Schools](education/assessment-visibility-v1.1/white-paper.md)
 *A Framework for Assessment Visibility, Equity, and Teacher-Led Governance* · v1.1 · 2026-05-26
 
