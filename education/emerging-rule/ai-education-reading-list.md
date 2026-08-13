@@ -126,7 +126,7 @@ Listed as optional because it is newer and more checklist-shaped than the UNESCO
 3. Department lead skims **#7–#9** — vocabulary and scope.  
 4. Family night: **#10**.
 
-Hanz’s lesson [*The Scribe Who Forgot His Dreams*](../lessons/cs-k12-the-scribe-who-forgot-his-dreams.md) covers *how AI behaves* for students; this list covers *how adults stay adults* around it.
+Hanz’s lesson [*The Scribe Who Forgot His Dreams*](../../lessons/cs-k12-the-scribe-who-forgot-his-dreams.md) covers *how AI behaves* for students; this list covers *how adults stay adults* around it.
 
 ---
 
@@ -134,7 +134,7 @@ Hanz’s lesson [*The Scribe Who Forgot His Dreams*](../lessons/cs-k12-the-scrib
 
 **Real author:** [Sean Campbell](https://github.com/rudi193-cmd) — contributor to [Emerging-Rule/community](https://github.com/Emerging-Rule/community) (issue #4).
 
-**Teaching background:** Master’s in Music Education; former drill instructor (ensemble leadership and classroom pacing under real constraints), and is trying to contribute classroom-facing materials to this repo (e.g. [*The Scribe Who Forgot His Dreams*](../lessons/cs-k12-the-scribe-who-forgot-his-dreams.md), co-developed with UTETY faculty). This reading list is written for working homeroom, elective, and department-lead teachers, not as abstract policy commentary.
+**Teaching background:** Master’s in Music Education; former drill instructor (ensemble leadership and classroom pacing under real constraints), and is trying to contribute classroom-facing materials to this repo (e.g. [*The Scribe Who Forgot His Dreams*](../../lessons/cs-k12-the-scribe-who-forgot-his-dreams.md), co-developed with UTETY faculty). This reading list is written for working homeroom, elective, and department-lead teachers, not as abstract policy commentary.
 
 **AI background:** Sean has spent years designing human-directed AI workflows for education and agent systems — when to trust a model, when to verify, and how to keep the adult in the loop when the tool sounds confident. He architected the Willow local-first agent fleet (memory, tasks, knowledge graph) and the UTETY faculty layer used to draft and stress-test curriculum before human edit and publication. AI tools assisted research and formatting on this document; **source selection, editorial standards, and final wording are human-directed.**
 
