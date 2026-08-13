@@ -12,7 +12,7 @@
 
 A **read-aloud parable lesson** that teaches *how AI behaves* — warm, knowledgeable, **does not remember yesterday** — with **no devices required** for the core lesson.
 
-**Title:** [*The Scribe Who Forgot His Dreams*](../lessons/cs-k12-the-scribe-who-forgot-his-dreams.md)  
+**Title:** [*The Scribe Who Forgot His Dreams*](../../lessons/cs-k12-the-scribe-who-forgot-his-dreams.md)  
 **Closes:** [Issue #5 — CS / coding lesson](https://github.com/Emerging-Rule/community/issues/5)  
 **Co-author voice:** Hanz Christain Anderthon, Professor of Computational Kindness (UTETY editorial persona + human direction)
 
@@ -119,7 +119,7 @@ Full roadmap: `research/lesson-roadmap.md`
 
 The complete contributor-ready lesson (story + For Teachers + assessment + differentiation):
 
-**[lessons/cs-k12-the-scribe-who-forgot-his-dreams.md](../lessons/cs-k12-the-scribe-who-forgot-his-dreams.md)**
+**[lessons/cs-k12-the-scribe-who-forgot-his-dreams.md](../../lessons/cs-k12-the-scribe-who-forgot-his-dreams.md)**
 
 ---
 
