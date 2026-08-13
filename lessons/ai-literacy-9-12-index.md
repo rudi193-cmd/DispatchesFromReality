@@ -3,7 +3,7 @@
 
 **Tags:** `ai-literacy`, `grades-9-12`, `llms`, `bias`, `consent`, `student-agency`, `device-optional`
 
-> **Example submission** — posted for Emerging Rule community review. See [`showcases/ai-literacy-9-12/README.md`](../showcases/ai-literacy-9-12/README.md).
+> **Example submission** — posted for Emerging Rule community review. See [`showcases/ai-literacy-9-12/README.md`](https://github.com/Emerging-Rule/community/blob/main/showcases/ai-literacy-9-12/README.md).
 
 > *"The unexamined tool is not worth using."*
 
