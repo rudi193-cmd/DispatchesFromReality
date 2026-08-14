@@ -39,7 +39,7 @@ Students will understand — through story, not jargon — that many AI systems 
 
 **Co-authorship:** Story developed by Sean Campbell with Hanz Christain Anderthon (Professor of Computational Kindness, UTETY). AI tools assisted drafting; **human direction and edit are authoritative.**
 
-**Planning / presentation thread:** [`research/emerging-rule-scribe-talkthrough.md`](../research/emerging-rule-scribe-talkthrough.md) · [`education/emerging-rule/emerging-rule-presentation-scribe-lesson.md`](../education/emerging-rule/emerging-rule-presentation-scribe-lesson.md)
+**Planning / presentation thread:** [`research/emerging-rule-scribe-talkthrough.md`](https://github.com/Emerging-Rule/community/blob/main/research/emerging-rule-scribe-talkthrough.md) · [`education/emerging-rule/emerging-rule-presentation-scribe-lesson.md`](../education/emerging-rule/emerging-rule-presentation-scribe-lesson.md)
 
 ---
 

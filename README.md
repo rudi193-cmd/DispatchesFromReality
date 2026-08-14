@@ -152,6 +152,8 @@ Lessons that teach something real through a story. No devices required for the c
 
 ## Lessons — Social Studies (Grades 6–8)
 
+Start with the **[Teacher Overview](lessons/socialstudies-6-8-teacher-overview.md)** — the series is about what the record does to you: whose account got kept, and how to think with what's missing.
+
 | Lesson | |
 |--------|-|
 | [The Long Account](lessons/socialstudies-6-8-the-long-account.md) | |
@@ -167,3 +169,15 @@ Lessons that teach something real through a story. No devices required for the c
 | Document | |
 |----------|-|
 | [Lesson Proposal — The Scribe](education/emerging-rule/emerging-rule-presentation-scribe-lesson.md) | Pitch to Emerging Rule community |
+
+---
+
+## Creative
+
+Short creative dispatches — fiction and comic pieces written in-session.
+
+| Piece | |
+|-------|-|
+| [The Grand Trine of Vega](creative/doctor-who-the-grand-trine-of-vega.md) | A *Doctor Who* closing scene |
+| [Downstream](creative/downstream.md) | A session dispatch |
+| [On the Structural Failure of Diner French Toast](creative/oakenscroll-structural-failure-of-diner-french-toast.md) | Prof. Archimedes Oakenscroll, at length |

@@ -1,6 +1,6 @@
 # The Calibration Series (Social Studies) — Teacher Overview
 
-> **Example submission** — see [`showcases/socialstudies-6-8/README.md`](../showcases/socialstudies-6-8/README.md).
+> **Example submission** — see [`showcases/socialstudies-6-8/README.md`](https://github.com/Emerging-Rule/community/blob/main/showcases/socialstudies-6-8/README.md).
 
 ### Series-Level Guide for Educators
 
