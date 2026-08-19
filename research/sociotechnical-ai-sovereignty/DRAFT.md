@@ -22,6 +22,8 @@ This is the same shape of problem Wernher von Braun solved with rockets, except 
 
 In 2023 the US pressured the Netherlands to stop selling EUV to China — one machine type, one country — and that decision constrained Chinese AI more than any model regulation I can name. DeepSeek's response, optimizing on older A100s and squeezing algorithmic efficiency, is the same move Mistral made in Paris when they couldn't tap closed American APIs or buy infinite H100s. Constraint comes first, invention second, and the invention doesn't go away when the budget loosens.
 
+The dependency map has a security layer that gets less press than the hardware chokepoints but compounds the same way. Verizon's 2025 Data Breach Investigations Report found third-party involvement in breaches jumped from 15% to 30% in a single year — the largest single-year increase they've measured. Change Healthcare, one breach, touched 192.7 million patient records. Sixteen billion credentials are circulating across thirty known datasets. The sovereign stack that runs on someone else's infrastructure doesn't just have a vendor dependency; it has an attack surface proportional to the vendor's — and that surface is growing faster than the chokepoint map.
+
 Run the sovereign claims against that map and the pattern is blunt. Mistral trains on NVIDIA H100s. Aleph Alpha runs on NVIDIA. India's national mission is buying NVIDIA clusters. HUMAIN's headline is an NVIDIA partnership. DeepSeek trained on A100s High-Flyer accumulated before the export window closed. Every flag on "sovereign AI" terrain sits on Santa Clara designs and Taiwanese fabs.
 
 ### Money
@@ -54,8 +56,11 @@ Early in 2025 the frontier labs looked like capital sinks with pretty slide deck
 | Anthropic | $65B Series H (May 2026) | $965B | ~$47B run-rate |
 | SSI | $4B raised | $32B | $0 |
 | TML | $2B | undisclosed | $0 |
-| xAI | $12B | $50B | limited |
-| Perplexity | $0.6B | $9B | limited |
+| xAI → SpaceXAI | $12B (pre-merger) | dissolved | absorbed Feb 2026 |
+| Perplexity | $1.7B (Series E Jan 2026) | $23B | ~$500M ARR |
+| DeepSeek | first external (2026) | $50–74B | near-zero direct |
+| Mistral | ~$5.5B | $23B | ~$400M ARR |
+| Moonshot AI | ~$3.5B | $35B | ~$300M ARR |
 
 OpenAI and Anthropic alone claim something like $70 billion in combined run-rate — company-reported, annualized, still climbing — so the old argument that AI might never monetize is dead. So is the old argument about a simple revenue gap. Hyperscalers are guiding $650–700 billion in combined capex for 2026, roughly double the ~$300 billion Big Four total for 2025. Google alone moved its 2026 guide toward $180–190 billion. At a naive 5× multiple, that kind of spend wants ~$130 billion in AI-attributed revenue to pencil out, not the ~$51 billion implied by last year's guides. Two labs, narrowly counted, are already more than halfway there — roughly $70 billion between them, from a standing start last year.
 
@@ -78,6 +83,10 @@ Who's still standing then? NVIDIA, TSMC, and ASML — the substrate, same as the
 Mistral and DeepSeek are the proof case for the constraint story — not because they're virtuous, but because they couldn't buy their way out. Arthur Mensch, Guillaume Lample, and Timothée Lacroix left DeepMind and Meta's FAIR and started Mistral in Paris in 2023 with European sovereignty rhetoric and no closed US API spigot. They trained Mistral 7B on commodity hardware, matched LLaMA 2 13B at half the parameters, and released the weights. Small and disciplined beat large and expensive — not as philosophy, as arithmetic.
 
 DeepSeek sits inside High-Flyer, a quant fund in Hangzhou, with roughly 10,000 A100s by 2021, before export controls closed the H100 window. When the faster chips arrived they couldn't buy in. Two years later came V3 for about $6 million in reported compute at GPT-4 class, then R1 at o1 class, built from mixture-of-experts, better data curation, and training stability — the tricks you find when you can't run another thousand H100 hours. OpenAI, Google, and Anthropic could always buy more compute. They did, and they didn't have to invent the cheap path.
+
+The benchmark data confirms it from the other direction. By mid-2026, the top six frontier models sit within about 100 Elo of each other on LMArena. MMLU scores cluster in the 93–97 range. SWE-bench spreads are narrower than last year's gap between any two adjacent labs. The convergence isn't a talking point — it's a measured wall. When capability gaps close this tight, the differentiator stops being the model and starts being what you do with it: your data, your retrieval stack, your operational judgment. That's the sovereignty argument restated as an engineering fact.
+
+Meta's Llama 4 Maverick episode underlines the other half. An experimental variant was submitted to the Arena under conditions that produced a top-ranked Elo, which Yann LeCun later confirmed had "fudged" results. Benchmark manipulation by a frontier lab is the AI version of cooking the books — and it means benchmark numbers, the credential system the industry uses to sort itself, carry the same trust problems as every other unaudited claim in the table above.
 
 The ratchet only turns one way. A 7B model in 2026 beats a 7B model in 2024 beats a 7B model in 2022. What required a rack in 2023 runs on a laptop in 2025. That's the new variable in the old story. Postwar rocketry never got small enough to leave the pad. AI is getting small enough to leave the data center.
 
@@ -115,4 +124,4 @@ What's new is the escape hatch. A 7B model on a MacBook. A distilled reasoning m
 
 ---
 
-*Built from two research databases: a sociotechnical map of 30 AI organizations, 76 people, 80 dependency edges, and 56 observations; and a postwar contractor genealogy tracing Paperclip through Huntsville. Chokepoint chains, funding relationships, and talent flows are documented and queryable — not inferred from vibes.*
+*Built from two research databases: a sociotechnical map of 30 AI organizations, 76 people, 80 dependency edges, and 56 observations; and a postwar contractor genealogy tracing Paperclip through Huntsville. August 2026 figures cross-referenced against a Nestor verified-corpus store (185 pairs, 36 edges, 77 evidence records across cybersecurity, benchmarks, entity resolution, and market data). Chokepoint chains, funding relationships, and talent flows are documented and queryable — not inferred from vibes.*
