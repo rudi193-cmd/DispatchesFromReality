@@ -17,6 +17,7 @@ This section collects the research work that sits behind the public writing and 
 | [Right to fix and mechanical knowledge](vintage-mechanical-restoration/README.md) | Disassembly epistemology, repair literacy, skilled labor, AI enclosure, right-to-fix | Working draft v1 + public packet |
 | [Tabletop mechanical engines](tabletop-mechanical-engines/README.md) | Rules as engines, probability, emergent narrative, constraint design, the Gateway Momentum Engine | Working draft v1 + public packet |
 | [Nobody counts the ad breaks](childrens-software-interruption/README.md) | Children's software, interruption as an unmeasured fact, provenance states, the measurement sold to publishers | Working draft v1 + public packet + shipped artifact |
+| [Adversarially verified knowledge corpus](knowledge-corpus/README.md) | Cross-domain knowledge base (science, infrastructure, people, economics, law, health, labor), adversarially fact-checked and contradiction-challenged | v1 bundle + packet |
 
 ---
 

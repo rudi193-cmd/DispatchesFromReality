@@ -65,6 +65,13 @@ Two kids asked for a silly game and spent more of the afternoon dismissing inter
 
 → [Working draft](research/childrens-software-interruption/DRAFT.md) · [Research packet](research/childrens-software-interruption/README.md) · [Assessment visibility](education/assessment-visibility-v1.1/white-paper.md) · [Nobody Adds It Up](essays/nobody-adds-it-up/README.md)
 
+### [Adversarially Verified Knowledge Corpus](research/knowledge-corpus/README.md)
+*1369 structured knowledge pairs across science, infrastructure, people, economics, law, health, and labor — adversarially fact-checked and contradiction-challenged* · v1 · 2026-08
+
+A cross-domain knowledge base built from public sources, verified through three rounds of adversarial passes (fact-check, steel-man, contradiction challenge). Every entry carries evidence with real source URLs. 546 cross-domain edges connect claims that contradict, refine, or supersede each other. The corpus feeds both Nestor (seal verification) and Jeles (source-count corroboration).
+
+→ [Research packet](research/knowledge-corpus/README.md) · [Research portfolio map](research/README.md)
+
 ### [Assessment Evidence and Expressive Pathways in AI-Present Schools](education/assessment-visibility-v1.1/white-paper.md)
 *A Framework for Assessment Visibility, Equity, and Teacher-Led Governance* · v1.1 · 2026-05-26
 
