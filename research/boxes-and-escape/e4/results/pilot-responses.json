@@ -1,0 +1,74 @@
+[
+  {
+    "cell_id": "json_strict|pig|agentive",
+    "rep": 0,
+    "model": "claude-haiku-4-5 (via Claude Code subagent)",
+    "response": "{\n  \"record_id\": \"LOG-118\",\n  \"subject\": \"pig\",\n  \"location\": \"north field\"\n}"
+  },
+  {
+    "cell_id": "json_strict|pig|agentive",
+    "rep": 1,
+    "model": "claude-haiku-4-5 (via Claude Code subagent)",
+    "response": "{\n  \"record_id\": \"LOG-118\",\n  \"subject\": \"pig\",\n  \"location\": \"north field\"\n}"
+  },
+  {
+    "cell_id": "json_strict|generator|agentive",
+    "rep": 0,
+    "model": "claude-haiku-4-5 (via Claude Code subagent)",
+    "response": "{\n  \"record_id\": \"LOG-118\",\n  \"subject\": \"generator\",\n  \"location\": \"north field\"\n}"
+  },
+  {
+    "cell_id": "json_strict|generator|agentive",
+    "rep": 1,
+    "model": "claude-haiku-4-5 (via Claude Code subagent)",
+    "response": "{\n  \"record_id\": \"LOG-118\",\n  \"subject\": \"the generator\",\n  \"location\": \"the north field\"\n}"
+  },
+  {
+    "cell_id": "markdown_table|pig|agentive",
+    "rep": 0,
+    "model": "claude-haiku-4-5 (via Claude Code subagent)",
+    "response": "| record_id | subject | location |\n|---|---|---|\n| LOG-118 | pig | north field |"
+  },
+  {
+    "cell_id": "markdown_table|pig|agentive",
+    "rep": 1,
+    "model": "claude-haiku-4-5 (via Claude Code subagent)",
+    "response": "| record_id | subject | location |\n|---|---|---|\n| LOG-118 | pig | north field |"
+  },
+  {
+    "cell_id": "markdown_table|generator|agentive",
+    "rep": 0,
+    "model": "claude-haiku-4-5 (via Claude Code subagent)",
+    "response": "| record_id | subject | location |\n|---|---|---|\n| LOG-118 | generator | north field |"
+  },
+  {
+    "cell_id": "markdown_table|generator|agentive",
+    "rep": 1,
+    "model": "claude-haiku-4-5 (via Claude Code subagent)",
+    "response": "| record_id | subject | location |\n|---|---|---|\n| LOG-118 | generator | north field |"
+  },
+  {
+    "cell_id": "prose|pig|agentive",
+    "rep": 0,
+    "model": "claude-haiku-4-5 (via Claude Code subagent)",
+    "response": "Record LOG-118 concerns a pig located at the north field."
+  },
+  {
+    "cell_id": "prose|pig|agentive",
+    "rep": 1,
+    "model": "claude-haiku-4-5 (via Claude Code subagent)",
+    "response": "Record LOG-118 concerns a pig located at the north field."
+  },
+  {
+    "cell_id": "prose|generator|agentive",
+    "rep": 0,
+    "model": "claude-haiku-4-5 (via Claude Code subagent)",
+    "response": "Record LOG-118 concerns a generator located at the north field."
+  },
+  {
+    "cell_id": "prose|generator|agentive",
+    "rep": 1,
+    "model": "claude-haiku-4-5 (via Claude Code subagent)",
+    "response": "Record LOG-118 concerns a generator located at the north field."
+  }
+]

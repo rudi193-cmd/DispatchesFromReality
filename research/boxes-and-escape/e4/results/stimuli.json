@@ -1,0 +1,386 @@
+[
+  {
+    "cell_id": "json_strict|pig|agentive",
+    "format": "json_strict",
+    "subject": "pig",
+    "phrasing": "agentive",
+    "is_escape_prior": true,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The pig was in enclosure B-4.\n18:00 \u2014 The pig had left enclosure B-4 and was found in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 JSON. The schema is fixed and every field is required, single-valued, and a string:\n\n{\n  \"record_id\": \"\",\n  \"subject\": \"\",\n  \"location\": \"\"\n}"
+  },
+  {
+    "cell_id": "json_strict|pig|neutral",
+    "format": "json_strict",
+    "subject": "pig",
+    "phrasing": "neutral",
+    "is_escape_prior": true,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The pig was recorded in enclosure B-4.\n18:00 \u2014 The pig was recorded in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 JSON. The schema is fixed and every field is required, single-valued, and a string:\n\n{\n  \"record_id\": \"\",\n  \"subject\": \"\",\n  \"location\": \"\"\n}"
+  },
+  {
+    "cell_id": "json_strict|generator|agentive",
+    "format": "json_strict",
+    "subject": "generator",
+    "phrasing": "agentive",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The generator was in enclosure B-4.\n18:00 \u2014 The generator had left enclosure B-4 and was found in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 JSON. The schema is fixed and every field is required, single-valued, and a string:\n\n{\n  \"record_id\": \"\",\n  \"subject\": \"\",\n  \"location\": \"\"\n}"
+  },
+  {
+    "cell_id": "json_strict|generator|neutral",
+    "format": "json_strict",
+    "subject": "generator",
+    "phrasing": "neutral",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The generator was recorded in enclosure B-4.\n18:00 \u2014 The generator was recorded in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 JSON. The schema is fixed and every field is required, single-valued, and a string:\n\n{\n  \"record_id\": \"\",\n  \"subject\": \"\",\n  \"location\": \"\"\n}"
+  },
+  {
+    "cell_id": "json_strict|pallet|agentive",
+    "format": "json_strict",
+    "subject": "pallet",
+    "phrasing": "agentive",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The pallet was in enclosure B-4.\n18:00 \u2014 The pallet had left enclosure B-4 and was found in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 JSON. The schema is fixed and every field is required, single-valued, and a string:\n\n{\n  \"record_id\": \"\",\n  \"subject\": \"\",\n  \"location\": \"\"\n}"
+  },
+  {
+    "cell_id": "json_strict|pallet|neutral",
+    "format": "json_strict",
+    "subject": "pallet",
+    "phrasing": "neutral",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The pallet was recorded in enclosure B-4.\n18:00 \u2014 The pallet was recorded in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 JSON. The schema is fixed and every field is required, single-valued, and a string:\n\n{\n  \"record_id\": \"\",\n  \"subject\": \"\",\n  \"location\": \"\"\n}"
+  },
+  {
+    "cell_id": "json_strict|water_tank|agentive",
+    "format": "json_strict",
+    "subject": "water_tank",
+    "phrasing": "agentive",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The water tank was in enclosure B-4.\n18:00 \u2014 The water tank had left enclosure B-4 and was found in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 JSON. The schema is fixed and every field is required, single-valued, and a string:\n\n{\n  \"record_id\": \"\",\n  \"subject\": \"\",\n  \"location\": \"\"\n}"
+  },
+  {
+    "cell_id": "json_strict|water_tank|neutral",
+    "format": "json_strict",
+    "subject": "water_tank",
+    "phrasing": "neutral",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The water tank was recorded in enclosure B-4.\n18:00 \u2014 The water tank was recorded in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 JSON. The schema is fixed and every field is required, single-valued, and a string:\n\n{\n  \"record_id\": \"\",\n  \"subject\": \"\",\n  \"location\": \"\"\n}"
+  },
+  {
+    "cell_id": "yaml|pig|agentive",
+    "format": "yaml",
+    "subject": "pig",
+    "phrasing": "agentive",
+    "is_escape_prior": true,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The pig was in enclosure B-4.\n18:00 \u2014 The pig had left enclosure B-4 and was found in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 YAML. The schema is fixed and every key is required, single-valued, and a string:\n\nrecord_id: \nsubject: \nlocation: "
+  },
+  {
+    "cell_id": "yaml|pig|neutral",
+    "format": "yaml",
+    "subject": "pig",
+    "phrasing": "neutral",
+    "is_escape_prior": true,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The pig was recorded in enclosure B-4.\n18:00 \u2014 The pig was recorded in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 YAML. The schema is fixed and every key is required, single-valued, and a string:\n\nrecord_id: \nsubject: \nlocation: "
+  },
+  {
+    "cell_id": "yaml|generator|agentive",
+    "format": "yaml",
+    "subject": "generator",
+    "phrasing": "agentive",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The generator was in enclosure B-4.\n18:00 \u2014 The generator had left enclosure B-4 and was found in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 YAML. The schema is fixed and every key is required, single-valued, and a string:\n\nrecord_id: \nsubject: \nlocation: "
+  },
+  {
+    "cell_id": "yaml|generator|neutral",
+    "format": "yaml",
+    "subject": "generator",
+    "phrasing": "neutral",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The generator was recorded in enclosure B-4.\n18:00 \u2014 The generator was recorded in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 YAML. The schema is fixed and every key is required, single-valued, and a string:\n\nrecord_id: \nsubject: \nlocation: "
+  },
+  {
+    "cell_id": "yaml|pallet|agentive",
+    "format": "yaml",
+    "subject": "pallet",
+    "phrasing": "agentive",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The pallet was in enclosure B-4.\n18:00 \u2014 The pallet had left enclosure B-4 and was found in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 YAML. The schema is fixed and every key is required, single-valued, and a string:\n\nrecord_id: \nsubject: \nlocation: "
+  },
+  {
+    "cell_id": "yaml|pallet|neutral",
+    "format": "yaml",
+    "subject": "pallet",
+    "phrasing": "neutral",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The pallet was recorded in enclosure B-4.\n18:00 \u2014 The pallet was recorded in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 YAML. The schema is fixed and every key is required, single-valued, and a string:\n\nrecord_id: \nsubject: \nlocation: "
+  },
+  {
+    "cell_id": "yaml|water_tank|agentive",
+    "format": "yaml",
+    "subject": "water_tank",
+    "phrasing": "agentive",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The water tank was in enclosure B-4.\n18:00 \u2014 The water tank had left enclosure B-4 and was found in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 YAML. The schema is fixed and every key is required, single-valued, and a string:\n\nrecord_id: \nsubject: \nlocation: "
+  },
+  {
+    "cell_id": "yaml|water_tank|neutral",
+    "format": "yaml",
+    "subject": "water_tank",
+    "phrasing": "neutral",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The water tank was recorded in enclosure B-4.\n18:00 \u2014 The water tank was recorded in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 YAML. The schema is fixed and every key is required, single-valued, and a string:\n\nrecord_id: \nsubject: \nlocation: "
+  },
+  {
+    "cell_id": "xml|pig|agentive",
+    "format": "xml",
+    "subject": "pig",
+    "phrasing": "agentive",
+    "is_escape_prior": true,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The pig was in enclosure B-4.\n18:00 \u2014 The pig had left enclosure B-4 and was found in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 XML. The schema is fixed and every element is required, single-valued, and contains text:\n\n<record>\n  <record_id></record_id>\n  <subject></subject>\n  <location></location>\n</record>"
+  },
+  {
+    "cell_id": "xml|pig|neutral",
+    "format": "xml",
+    "subject": "pig",
+    "phrasing": "neutral",
+    "is_escape_prior": true,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The pig was recorded in enclosure B-4.\n18:00 \u2014 The pig was recorded in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 XML. The schema is fixed and every element is required, single-valued, and contains text:\n\n<record>\n  <record_id></record_id>\n  <subject></subject>\n  <location></location>\n</record>"
+  },
+  {
+    "cell_id": "xml|generator|agentive",
+    "format": "xml",
+    "subject": "generator",
+    "phrasing": "agentive",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The generator was in enclosure B-4.\n18:00 \u2014 The generator had left enclosure B-4 and was found in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 XML. The schema is fixed and every element is required, single-valued, and contains text:\n\n<record>\n  <record_id></record_id>\n  <subject></subject>\n  <location></location>\n</record>"
+  },
+  {
+    "cell_id": "xml|generator|neutral",
+    "format": "xml",
+    "subject": "generator",
+    "phrasing": "neutral",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The generator was recorded in enclosure B-4.\n18:00 \u2014 The generator was recorded in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 XML. The schema is fixed and every element is required, single-valued, and contains text:\n\n<record>\n  <record_id></record_id>\n  <subject></subject>\n  <location></location>\n</record>"
+  },
+  {
+    "cell_id": "xml|pallet|agentive",
+    "format": "xml",
+    "subject": "pallet",
+    "phrasing": "agentive",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The pallet was in enclosure B-4.\n18:00 \u2014 The pallet had left enclosure B-4 and was found in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 XML. The schema is fixed and every element is required, single-valued, and contains text:\n\n<record>\n  <record_id></record_id>\n  <subject></subject>\n  <location></location>\n</record>"
+  },
+  {
+    "cell_id": "xml|pallet|neutral",
+    "format": "xml",
+    "subject": "pallet",
+    "phrasing": "neutral",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The pallet was recorded in enclosure B-4.\n18:00 \u2014 The pallet was recorded in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 XML. The schema is fixed and every element is required, single-valued, and contains text:\n\n<record>\n  <record_id></record_id>\n  <subject></subject>\n  <location></location>\n</record>"
+  },
+  {
+    "cell_id": "xml|water_tank|agentive",
+    "format": "xml",
+    "subject": "water_tank",
+    "phrasing": "agentive",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The water tank was in enclosure B-4.\n18:00 \u2014 The water tank had left enclosure B-4 and was found in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 XML. The schema is fixed and every element is required, single-valued, and contains text:\n\n<record>\n  <record_id></record_id>\n  <subject></subject>\n  <location></location>\n</record>"
+  },
+  {
+    "cell_id": "xml|water_tank|neutral",
+    "format": "xml",
+    "subject": "water_tank",
+    "phrasing": "neutral",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The water tank was recorded in enclosure B-4.\n18:00 \u2014 The water tank was recorded in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 XML. The schema is fixed and every element is required, single-valued, and contains text:\n\n<record>\n  <record_id></record_id>\n  <subject></subject>\n  <location></location>\n</record>"
+  },
+  {
+    "cell_id": "markdown_table|pig|agentive",
+    "format": "markdown_table",
+    "subject": "pig",
+    "phrasing": "agentive",
+    "is_escape_prior": true,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The pig was in enclosure B-4.\n18:00 \u2014 The pig had left enclosure B-4 and was found in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 a Markdown table with exactly these three columns and exactly one data row:\n\n| record_id | subject | location |\n|---|---|---|"
+  },
+  {
+    "cell_id": "markdown_table|pig|neutral",
+    "format": "markdown_table",
+    "subject": "pig",
+    "phrasing": "neutral",
+    "is_escape_prior": true,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The pig was recorded in enclosure B-4.\n18:00 \u2014 The pig was recorded in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 a Markdown table with exactly these three columns and exactly one data row:\n\n| record_id | subject | location |\n|---|---|---|"
+  },
+  {
+    "cell_id": "markdown_table|generator|agentive",
+    "format": "markdown_table",
+    "subject": "generator",
+    "phrasing": "agentive",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The generator was in enclosure B-4.\n18:00 \u2014 The generator had left enclosure B-4 and was found in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 a Markdown table with exactly these three columns and exactly one data row:\n\n| record_id | subject | location |\n|---|---|---|"
+  },
+  {
+    "cell_id": "markdown_table|generator|neutral",
+    "format": "markdown_table",
+    "subject": "generator",
+    "phrasing": "neutral",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The generator was recorded in enclosure B-4.\n18:00 \u2014 The generator was recorded in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 a Markdown table with exactly these three columns and exactly one data row:\n\n| record_id | subject | location |\n|---|---|---|"
+  },
+  {
+    "cell_id": "markdown_table|pallet|agentive",
+    "format": "markdown_table",
+    "subject": "pallet",
+    "phrasing": "agentive",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The pallet was in enclosure B-4.\n18:00 \u2014 The pallet had left enclosure B-4 and was found in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 a Markdown table with exactly these three columns and exactly one data row:\n\n| record_id | subject | location |\n|---|---|---|"
+  },
+  {
+    "cell_id": "markdown_table|pallet|neutral",
+    "format": "markdown_table",
+    "subject": "pallet",
+    "phrasing": "neutral",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The pallet was recorded in enclosure B-4.\n18:00 \u2014 The pallet was recorded in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 a Markdown table with exactly these three columns and exactly one data row:\n\n| record_id | subject | location |\n|---|---|---|"
+  },
+  {
+    "cell_id": "markdown_table|water_tank|agentive",
+    "format": "markdown_table",
+    "subject": "water_tank",
+    "phrasing": "agentive",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The water tank was in enclosure B-4.\n18:00 \u2014 The water tank had left enclosure B-4 and was found in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 a Markdown table with exactly these three columns and exactly one data row:\n\n| record_id | subject | location |\n|---|---|---|"
+  },
+  {
+    "cell_id": "markdown_table|water_tank|neutral",
+    "format": "markdown_table",
+    "subject": "water_tank",
+    "phrasing": "neutral",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The water tank was recorded in enclosure B-4.\n18:00 \u2014 The water tank was recorded in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 a Markdown table with exactly these three columns and exactly one data row:\n\n| record_id | subject | location |\n|---|---|---|"
+  },
+  {
+    "cell_id": "csv|pig|agentive",
+    "format": "csv",
+    "subject": "pig",
+    "phrasing": "agentive",
+    "is_escape_prior": true,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The pig was in enclosure B-4.\n18:00 \u2014 The pig had left enclosure B-4 and was found in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 CSV with exactly this header and exactly one data row:\n\nrecord_id,subject,location"
+  },
+  {
+    "cell_id": "csv|pig|neutral",
+    "format": "csv",
+    "subject": "pig",
+    "phrasing": "neutral",
+    "is_escape_prior": true,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The pig was recorded in enclosure B-4.\n18:00 \u2014 The pig was recorded in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 CSV with exactly this header and exactly one data row:\n\nrecord_id,subject,location"
+  },
+  {
+    "cell_id": "csv|generator|agentive",
+    "format": "csv",
+    "subject": "generator",
+    "phrasing": "agentive",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The generator was in enclosure B-4.\n18:00 \u2014 The generator had left enclosure B-4 and was found in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 CSV with exactly this header and exactly one data row:\n\nrecord_id,subject,location"
+  },
+  {
+    "cell_id": "csv|generator|neutral",
+    "format": "csv",
+    "subject": "generator",
+    "phrasing": "neutral",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The generator was recorded in enclosure B-4.\n18:00 \u2014 The generator was recorded in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 CSV with exactly this header and exactly one data row:\n\nrecord_id,subject,location"
+  },
+  {
+    "cell_id": "csv|pallet|agentive",
+    "format": "csv",
+    "subject": "pallet",
+    "phrasing": "agentive",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The pallet was in enclosure B-4.\n18:00 \u2014 The pallet had left enclosure B-4 and was found in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 CSV with exactly this header and exactly one data row:\n\nrecord_id,subject,location"
+  },
+  {
+    "cell_id": "csv|pallet|neutral",
+    "format": "csv",
+    "subject": "pallet",
+    "phrasing": "neutral",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The pallet was recorded in enclosure B-4.\n18:00 \u2014 The pallet was recorded in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 CSV with exactly this header and exactly one data row:\n\nrecord_id,subject,location"
+  },
+  {
+    "cell_id": "csv|water_tank|agentive",
+    "format": "csv",
+    "subject": "water_tank",
+    "phrasing": "agentive",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The water tank was in enclosure B-4.\n18:00 \u2014 The water tank had left enclosure B-4 and was found in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 CSV with exactly this header and exactly one data row:\n\nrecord_id,subject,location"
+  },
+  {
+    "cell_id": "csv|water_tank|neutral",
+    "format": "csv",
+    "subject": "water_tank",
+    "phrasing": "neutral",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The water tank was recorded in enclosure B-4.\n18:00 \u2014 The water tank was recorded in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 CSV with exactly this header and exactly one data row:\n\nrecord_id,subject,location"
+  },
+  {
+    "cell_id": "prose|pig|agentive",
+    "format": "prose",
+    "subject": "pig",
+    "phrasing": "agentive",
+    "is_escape_prior": true,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The pig was in enclosure B-4.\n18:00 \u2014 The pig had left enclosure B-4 and was found in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 exactly one sentence, of exactly this form:\n\nRecord <record_id> concerns a <subject> located at <location>."
+  },
+  {
+    "cell_id": "prose|pig|neutral",
+    "format": "prose",
+    "subject": "pig",
+    "phrasing": "neutral",
+    "is_escape_prior": true,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The pig was recorded in enclosure B-4.\n18:00 \u2014 The pig was recorded in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 exactly one sentence, of exactly this form:\n\nRecord <record_id> concerns a <subject> located at <location>."
+  },
+  {
+    "cell_id": "prose|generator|agentive",
+    "format": "prose",
+    "subject": "generator",
+    "phrasing": "agentive",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The generator was in enclosure B-4.\n18:00 \u2014 The generator had left enclosure B-4 and was found in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 exactly one sentence, of exactly this form:\n\nRecord <record_id> concerns a <subject> located at <location>."
+  },
+  {
+    "cell_id": "prose|generator|neutral",
+    "format": "prose",
+    "subject": "generator",
+    "phrasing": "neutral",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The generator was recorded in enclosure B-4.\n18:00 \u2014 The generator was recorded in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 exactly one sentence, of exactly this form:\n\nRecord <record_id> concerns a <subject> located at <location>."
+  },
+  {
+    "cell_id": "prose|pallet|agentive",
+    "format": "prose",
+    "subject": "pallet",
+    "phrasing": "agentive",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The pallet was in enclosure B-4.\n18:00 \u2014 The pallet had left enclosure B-4 and was found in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 exactly one sentence, of exactly this form:\n\nRecord <record_id> concerns a <subject> located at <location>."
+  },
+  {
+    "cell_id": "prose|pallet|neutral",
+    "format": "prose",
+    "subject": "pallet",
+    "phrasing": "neutral",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The pallet was recorded in enclosure B-4.\n18:00 \u2014 The pallet was recorded in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 exactly one sentence, of exactly this form:\n\nRecord <record_id> concerns a <subject> located at <location>."
+  },
+  {
+    "cell_id": "prose|water_tank|agentive",
+    "format": "prose",
+    "subject": "water_tank",
+    "phrasing": "agentive",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The water tank was in enclosure B-4.\n18:00 \u2014 The water tank had left enclosure B-4 and was found in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 exactly one sentence, of exactly this form:\n\nRecord <record_id> concerns a <subject> located at <location>."
+  },
+  {
+    "cell_id": "prose|water_tank|neutral",
+    "format": "prose",
+    "subject": "water_tank",
+    "phrasing": "neutral",
+    "is_escape_prior": false,
+    "prompt": "Convert the log entry below into the target format.\nUse record_id LOG-118.\nOutput only the converted record.\n\n--- LOG ENTRY ---\n06:00 \u2014 The water tank was recorded in enclosure B-4.\n18:00 \u2014 The water tank was recorded in the north field.\n\n--- TARGET FORMAT ---\nTarget format \u2014 exactly one sentence, of exactly this form:\n\nRecord <record_id> concerns a <subject> located at <location>."
+  }
+]

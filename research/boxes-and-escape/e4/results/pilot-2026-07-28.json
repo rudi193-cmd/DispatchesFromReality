@@ -1,0 +1,189 @@
+{
+  "label": "pilot-2026-07-28",
+  "model": "claude-haiku-4-5 (via Claude Code subagent)",
+  "git_rev": "6bf805d",
+  "rows": [
+    {
+      "cell_id": "json_strict|pig|agentive",
+      "format": "json_strict",
+      "subject": "pig",
+      "phrasing": "agentive",
+      "is_escape_prior": true,
+      "rep": 0,
+      "response": "{\n  \"record_id\": \"LOG-118\",\n  \"subject\": \"pig\",\n  \"location\": \"north field\"\n}",
+      "outcome": "truncate",
+      "reason": "only north field retained; the other dropped"
+    },
+    {
+      "cell_id": "json_strict|pig|agentive",
+      "format": "json_strict",
+      "subject": "pig",
+      "phrasing": "agentive",
+      "is_escape_prior": true,
+      "rep": 1,
+      "response": "{\n  \"record_id\": \"LOG-118\",\n  \"subject\": \"pig\",\n  \"location\": \"north field\"\n}",
+      "outcome": "truncate",
+      "reason": "only north field retained; the other dropped"
+    },
+    {
+      "cell_id": "json_strict|generator|agentive",
+      "format": "json_strict",
+      "subject": "generator",
+      "phrasing": "agentive",
+      "is_escape_prior": false,
+      "rep": 0,
+      "response": "{\n  \"record_id\": \"LOG-118\",\n  \"subject\": \"generator\",\n  \"location\": \"north field\"\n}",
+      "outcome": "truncate",
+      "reason": "only north field retained; the other dropped"
+    },
+    {
+      "cell_id": "json_strict|generator|agentive",
+      "format": "json_strict",
+      "subject": "generator",
+      "phrasing": "agentive",
+      "is_escape_prior": false,
+      "rep": 1,
+      "response": "{\n  \"record_id\": \"LOG-118\",\n  \"subject\": \"the generator\",\n  \"location\": \"the north field\"\n}",
+      "outcome": "truncate",
+      "reason": "only north field retained; the other dropped"
+    },
+    {
+      "cell_id": "markdown_table|pig|agentive",
+      "format": "markdown_table",
+      "subject": "pig",
+      "phrasing": "agentive",
+      "is_escape_prior": true,
+      "rep": 0,
+      "response": "| record_id | subject | location |\n|---|---|---|\n| LOG-118 | pig | north field |",
+      "outcome": "truncate",
+      "reason": "only north field retained; the other dropped"
+    },
+    {
+      "cell_id": "markdown_table|pig|agentive",
+      "format": "markdown_table",
+      "subject": "pig",
+      "phrasing": "agentive",
+      "is_escape_prior": true,
+      "rep": 1,
+      "response": "| record_id | subject | location |\n|---|---|---|\n| LOG-118 | pig | north field |",
+      "outcome": "truncate",
+      "reason": "only north field retained; the other dropped"
+    },
+    {
+      "cell_id": "markdown_table|generator|agentive",
+      "format": "markdown_table",
+      "subject": "generator",
+      "phrasing": "agentive",
+      "is_escape_prior": false,
+      "rep": 0,
+      "response": "| record_id | subject | location |\n|---|---|---|\n| LOG-118 | generator | north field |",
+      "outcome": "truncate",
+      "reason": "only north field retained; the other dropped"
+    },
+    {
+      "cell_id": "markdown_table|generator|agentive",
+      "format": "markdown_table",
+      "subject": "generator",
+      "phrasing": "agentive",
+      "is_escape_prior": false,
+      "rep": 1,
+      "response": "| record_id | subject | location |\n|---|---|---|\n| LOG-118 | generator | north field |",
+      "outcome": "truncate",
+      "reason": "only north field retained; the other dropped"
+    },
+    {
+      "cell_id": "prose|pig|agentive",
+      "format": "prose",
+      "subject": "pig",
+      "phrasing": "agentive",
+      "is_escape_prior": true,
+      "rep": 0,
+      "response": "Record LOG-118 concerns a pig located at the north field.",
+      "outcome": "truncate",
+      "reason": "only north field retained; the other dropped"
+    },
+    {
+      "cell_id": "prose|pig|agentive",
+      "format": "prose",
+      "subject": "pig",
+      "phrasing": "agentive",
+      "is_escape_prior": true,
+      "rep": 1,
+      "response": "Record LOG-118 concerns a pig located at the north field.",
+      "outcome": "truncate",
+      "reason": "only north field retained; the other dropped"
+    },
+    {
+      "cell_id": "prose|generator|agentive",
+      "format": "prose",
+      "subject": "generator",
+      "phrasing": "agentive",
+      "is_escape_prior": false,
+      "rep": 0,
+      "response": "Record LOG-118 concerns a generator located at the north field.",
+      "outcome": "truncate",
+      "reason": "only north field retained; the other dropped"
+    },
+    {
+      "cell_id": "prose|generator|agentive",
+      "format": "prose",
+      "subject": "generator",
+      "phrasing": "agentive",
+      "is_escape_prior": false,
+      "rep": 1,
+      "response": "Record LOG-118 concerns a generator located at the north field.",
+      "outcome": "truncate",
+      "reason": "only north field retained; the other dropped"
+    }
+  ],
+  "summary": {
+    "n": 12,
+    "by_outcome": {
+      "truncate": 12,
+      "break": 0,
+      "refuse": 0,
+      "unscorable": 0
+    },
+    "by_format": {
+      "json_strict": {
+        "truncate": 4,
+        "break": 0,
+        "refuse": 0,
+        "unscorable": 0
+      },
+      "markdown_table": {
+        "truncate": 4,
+        "break": 0,
+        "refuse": 0,
+        "unscorable": 0
+      },
+      "prose": {
+        "truncate": 4,
+        "break": 0,
+        "refuse": 0,
+        "unscorable": 0
+      }
+    },
+    "by_subject": {
+      "pig": {
+        "truncate": 6,
+        "break": 0,
+        "refuse": 0,
+        "unscorable": 0
+      },
+      "generator": {
+        "truncate": 6,
+        "break": 0,
+        "refuse": 0,
+        "unscorable": 0
+      }
+    },
+    "primary": {
+      "pig_break": 0,
+      "pig_n": 6,
+      "neutral_break": 0,
+      "neutral_n": 6,
+      "note": "2x2 for the preregistered Fisher exact test. Do not run the test on pilot-scale n; the pilot is instrument validation only."
+    }
+  }
+}
