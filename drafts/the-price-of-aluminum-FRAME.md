@@ -107,7 +107,7 @@ Target: about 4,500 words.
 | IX | **Some AI** | The corporate web, spun in silicon and aluminum thread over the same cheap power the smelters used (Pacific NW smelters → The Dalles; Iceland; Alcoa's CFO, hedged). Praise and doom are the same copy. **TERRIFIC** meant *causing terror* when Milton used it. The spider now writes about its own pig. Guardrail: sincerity doesn't matter; Charlotte meant every word. | **B** via E | power geography, TERRIFIC etymology, IEA comparison `fitted` | 600 |
 | X | **After the collapse** | The tip is still up there, the can is in the bin, and they are the same atoms. Aluminum's words stopped mattering once the woodshed made it common. The open question, not a prediction: what are these words worth after the price falls? | C, closes B | none new | 250 |
 
-**Owed before drafting the prose** (load-bearing, currently `fitted` from excerpts only; read them first-hand):
+**Owed before drafting the prose** (handoff: [the reading list](the-price-of-aluminum-READING.md)) (load-bearing, currently `fitted` from excerpts only; read them first-hand):
 1. OED entry for *terrific* (section IX's best line).
 2. NPS "The Point of the Matter" (section V).
 3. Verne, *From the Earth to the Moon*, ch. VII, in one named translation (section IV).
