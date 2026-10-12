@@ -12,7 +12,7 @@ I never knew any of that. That stayed with me more than the facts did. A piece o
 
 This draft is the history first. Before I argue anything with it I want to know which parts of the story hold up. Aluminum history is told a lot, and a lot of it is told wrong. What follows is the version that survived checking, with each claim tagged by how well it is sourced.
 
-**On provenance.** Tags follow the `assumed` / `fitted` / `measured` ordering from *Nobody Counts the Ad Breaks*. For this draft, **nothing is tagged `measured`**: the checking pass could not open primary pages in full and worked from excerpts of reputable sources. `fitted` means two or more independent reputable sources agree. `assumed` means a single source, or lore. The [packet](README.md) has the full ledger and the reads still owed.
+**On provenance.** Tags follow the `assumed` / `fitted` / `measured` ordering from *Nobody Counts the Ad Breaks*. In this draft **only the Verne passage is `measured`** (chapter VII, read at first hand). The checking passes could not open the other primary pages in full and worked from excerpts of reputable sources. `fitted` means two or more independent reputable sources agree. `assumed` means a single source, or lore. The [packet](README.md) has the full ledger and the reads still owed.
 
 ---
 
@@ -128,4 +128,4 @@ The Tiberius story is a myth about aluminum. What persists is the shape of the p
 
 ## Where this draft stops
 
-This is history, not yet an argument. The [frame doc](../../drafts/the-price-of-aluminum-FRAME.md) holds the candidate theses. Nothing here has been read at first hand. The [packet](README.md) lists the primary sources owed before anything here is tagged `measured`, and any price figure tagged `assumed` should be treated as provisional until the USGS historical series is read directly.
+This is history, not yet an argument. The [frame doc](../../drafts/the-price-of-aluminum-FRAME.md) holds the candidate theses. Apart from the Verne passage, nothing here has been read at first hand. The [packet](README.md) lists the primary sources owed before anything here is tagged `measured`, and any price figure tagged `assumed` should be treated as provisional until the USGS historical series is read directly.

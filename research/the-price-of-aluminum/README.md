@@ -36,7 +36,7 @@ A ten-minute science-and-history video on Facebook. I didn't know any of it, and
 
 ## Evidence ledger
 
-Tags follow the `assumed` / `fitted` / `measured` ordering. **No claim is `measured` yet.** The checking pass worked from excerpts of reputable sources and could not open primary pages in full. `fitted` means two or more independent reputable sources agree. `assumed` means a single source, or lore.
+Tags follow the `assumed` / `fitted` / `measured` ordering. **Only the Verne passage is `measured`** (read at first hand, 2026-10-12). The checking passes worked from excerpts of reputable sources and could not open primary pages in full. `fitted` means two or more independent reputable sources agree. `assumed` means a single source, or lore.
 
 | Claim | Figure in the draft | Tag | Named sources |
 |-------|---------------------|-----|---------------|
