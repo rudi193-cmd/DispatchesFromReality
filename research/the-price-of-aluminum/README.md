@@ -36,7 +36,7 @@ A ten-minute science-and-history video on Facebook. I didn't know any of it, and
 
 ## Evidence ledger
 
-Tags follow the `assumed` / `fitted` / `measured` ordering. **Only the Verne passage is `measured`** (read at first hand, 2026-10-12). The checking passes worked from excerpts of reputable sources and could not open primary pages in full. `fitted` means two or more independent reputable sources agree. `assumed` means a single source, or lore.
+Tags follow the `assumed` / `fitted` / `measured` ordering. **Only the Verne passage and the Park Service's 1884 figures are `measured`** (read at first hand, 2026-10-12). The checking passes worked from excerpts of reputable sources and could not open primary pages in full. `fitted` means two or more independent reputable sources agree. `assumed` means a single source, or lore.
 
 | Claim | Figure in the draft | Tag | Named sources |
 |-------|---------------------|-----|---------------|
@@ -56,9 +56,10 @@ Tags follow the `assumed` / `fitted` / `measured` ordering. **Only the Verne pas
 | Verne | *From the Earth to the Moon* (1865), ch. VII: aluminum projectile; "fallen now to nine dollars a pound"; "forming the base of most of the rocks"; 108 in shell, 19,250 lb vs 67,440 lb cast iron, $173,050 | `measured` (read at first hand; translation to be named) | Verne |
 | "Metal of the future" | headlines in 1890 and 1892 | `fitted` | period periodicals |
 | "Silver from clay" / "age of aluminum" | no primary attestation found; not used | `assumed` | — |
-| 1884 price | about $1.10 / oz (about $16–18 / lb), roughly silver | `fitted` | National Park Service |
-| Washington Monument tip | 6 Dec 1884; 100 oz (about 2.835 kg); 8.9 in; Frishmuth; shown at Tiffany's; part of the lightning protection | `fitted` | NPS "The Point of the Matter"; NARA *Prologue*; Binczewski, *JOM* 1995 |
-| Tip cost | disputed: $225 (NPS); $100 → $225; $75; $256.10 | `fitted` that they conflict | NPS; NARA *Prologue* |
+| 1884 price | $1.10 / oz (about $17.60 / lb), "the same as the then-prevailing market price of silver" | `measured` | National Park Service, "The Point of the Matter" (read 2026-10-12) |
+| Washington Monument tip | cast Nov 1884 by Frishmuth, Philadelphia; "largest piece of aluminum cast up until that time"; 8 in tall per NPS (8.9 in elsewhere, unresolved); shown at Tiffany's "without permission"; monument completed under Lt. Col. Thomas Lincoln Casey | `measured` (NPS) | NPS "The Point of the Matter" |
+| Tip set / weight / lightning role | 6 Dec 1884; 100 oz (about 2.835 kg); part of the lightning protection; June 1885 lightning damage | `fitted` (not in the NPS passage read) | NARA *Prologue*; Binczewski, *JOM* 1995 |
+| Tip cost | $225 (NPS, `measured`); also reported: $100 → $225 (*Prologue*), $75, $256.10 | `measured` for NPS; `fitted` that others conflict | NPS; NARA *Prologue* |
 | Hall | 23 Feb 1886, Oberlin, aged 22; US filing 9 Jul 1886 | `fitted` | Britannica; ACS National Historic Chemical Landmark |
 | Héroult | French filing 23 Apr 1886, aged 23 | `fitted` | Britannica; ACS landmark |
 | Both 1863–1914 | confirmed | `fitted` | Britannica; *Bull. Hist. Chem.* |
@@ -95,7 +96,7 @@ These five carry the frame's load-bearing lines. Attempted 2026-10-12 and **bloc
 | # | Source | Confirm | Section |
 |---|--------|---------|---------|
 | 1 | OED, *terrific* (subscription; a library card usually works) | First sense "causing terror", first citation Milton, *Paradise Lost* VII.497 (1667); date of the "excellent" sense (1871 *Athenaeum*?); whether the fear sense is marked obsolete or still current in the 1950s | IX |
-| 2 | National Park Service, "The Point of the Matter" | 100 oz, 8.9 in, 6 Dec 1884; Frishmuth; Tiffany's "without permission"; $1.10/oz ≈ silver; the $225 cost; the June 1885 lightning damage | V |
+| 2 | ~~National Park Service~~ **Read 2026-10-12.** Confirmed: $1.10/oz = silver; cast Nov 1884; largest casting to date; $225; Tiffany's "without permission" (NPS's own words); Casey. **Differs:** height 8 in (not 8.9). Not in the passage read: the 100 oz weight, 6 Dec date, lightning role. | — | V |
 | 3 | ~~Verne, ch. VII~~ **Read 2026-10-12.** All figures matched. The "white as silver, as incorrodible as gold" line is from another translation; this one reads "the whiteness of silver, the indestructibility of gold…". Still to do: name the translation. | — | IV |
 | 4 | Alcoa CFO, Citi 2025 Basic Materials Conference, 3 Dec 2025 | **Read 2026-10-12** (trade-press report, so `fitted`): speaker, date, both figures and the hedge verbatim ("I don't think we're head-to-head competing with the data centre on our existing smelters, but… any new smelter capacity is going to have to struggle with that competition"). The transcript would make it `measured`. | IX |
 | 5 | USGS historical aluminum price series (DS-140; SIR 2012-5188) and *Mineral Resources* 1883–1900 | Every pre-1900 price in the collapse table; the 1884–1900 multiple | VI |

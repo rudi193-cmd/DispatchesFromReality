@@ -109,7 +109,7 @@ Target: about 4,500 words.
 
 **Owed before drafting the prose** (handoff: [the reading list](the-price-of-aluminum-READING.md)) (load-bearing, currently `fitted` from excerpts only; read them first-hand):
 1. OED entry for *terrific* (section IX's best line).
-2. NPS "The Point of the Matter" (section V).
+2. ~~NPS "The Point of the Matter"~~ **read 2026-10-12, `measured`.** Height is 8 in per NPS; weight, date and lightning role are still `fitted` (section V).
 3. ~~Verne, ch. VII~~ **read 2026-10-12, `measured`.** Only the translation's name is still to record (section IV).
 4. The Alcoa CFO remarks, Dec 2025 (section IX's hedge).
 5. USGS historical price series (section VI's table). Until then, keep the table's `assumed` tags visible.

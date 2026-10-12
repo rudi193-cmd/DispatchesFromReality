@@ -12,7 +12,7 @@ I never knew any of that. That stayed with me more than the facts did. A piece o
 
 This draft is the history first. Before I argue anything with it I want to know which parts of the story hold up. Aluminum history is told a lot, and a lot of it is told wrong. What follows is the version that survived checking, with each claim tagged by how well it is sourced.
 
-**On provenance.** Tags follow the `assumed` / `fitted` / `measured` ordering from *Nobody Counts the Ad Breaks*. In this draft **only the Verne passage is `measured`** (chapter VII, read at first hand). The checking passes could not open the other primary pages in full and worked from excerpts of reputable sources. `fitted` means two or more independent reputable sources agree. `assumed` means a single source, or lore. The [packet](README.md) has the full ledger and the reads still owed.
+**On provenance.** Tags follow the `assumed` / `fitted` / `measured` ordering from *Nobody Counts the Ad Breaks*. In this draft **only the Verne passage and the National Park Service figures for 1884 are `measured`** (read at first hand). The checking passes could not open the other primary pages in full and worked from excerpts of reputable sources. `fitted` means two or more independent reputable sources agree. `assumed` means a single source, or lore. The [packet](README.md) has the full ledger and the reads still owed.
 
 ---
 
@@ -58,11 +58,13 @@ Two phrases often attached to this period don't survive checking. No primary sou
 
 ## The silver year: 1884
 
-On 6 December 1884 a small aluminum pyramid was set on top of the Washington Monument. It weighs **100 ounces (about 2.835 kg)** and is **8.9 inches** tall, and at the time it was called the largest aluminum casting ever made. William Frishmuth cast it in Philadelphia. Before it went up it was shown at Tiffany's in New York, without permission according to the National Park Service. It was also the tip of the lightning protection system. The Army engineers' original specification called for platinum-plated copper or bronze. `fitted`
+In November 1884 William Frishmuth, in Philadelphia, cast a small aluminum pyramid to cap the Washington Monument. The National Park Service calls it "the largest piece of aluminum cast up until that time", at 8 inches tall. Other accounts give 8.9 inches, so the height is not settled. Frishmuth charged **$225** for it. Then, "before sending it on to Washington", he "put the tip on display at Tiffany's jewelry store in New York City—without permission. A flurry of messages followed." `measured` (National Park Service, read at first hand)
 
-In 1884 aluminum sold for about **$1.10 an ounce**, about the same as silver. That is the National Park Service's figure. `fitted` The tip of the national monument was made of a metal comparable to silver. It was precious, though no longer priced like gold.
+The tip was set on 6 December 1884 and weighs **100 ounces (about 2.835 kg)**. It was also the tip of the lightning protection system; the Army engineers' original specification called for platinum-plated copper or bronze. `fitted`
 
-What Frishmuth charged for it is disputed. The National Park Service says $225. The National Archives' *Prologue* reports a price that rose late from $100 to $225, and other accounts give $75 or an invoice of $256.10. `fitted` for the dispute, with no single figure settled.
+In 1884, the year the monument was completed under Lt. Col. Thomas Lincoln Casey, aluminum "was still $1.10 an ounce, the same as the then-prevailing market price of silver." `measured` (National Park Service) The tip of the national monument was made of a metal that cost the same as silver. It was precious, though no longer priced like gold.
+
+The Park Service's $225 is not the only figure in circulation. The National Archives' *Prologue* reports a price that rose late from $100 to $225, and other accounts give $75 or an invoice of $256.10. The figure used here is the Park Service's; the others are recorded in the packet. `fitted` for the dispute.
 
 Six months later, in June 1885, lightning cracked the stone just below the tip, and more rods were added. `fitted`
 
@@ -85,7 +87,7 @@ The price stories that survive checking are enough to show the shape, even where
 | Year | Price (nominal US$) | Tag |
 |------|---------------------|-----|
 | 1852 | about $545 / lb | `assumed` |
-| 1884 | about $1.10 / oz (about $16–18 / lb), roughly silver | `fitted` |
+| 1884 | $1.10 / oz (about $17.60 / lb), the same as silver | `measured` |
 | 1888 | $4.86 / lb (Pittsburgh Reduction's launch) | `assumed` |
 | 1893 | 78¢ / lb | `assumed` |
 | 1897 | 36¢ / lb | `assumed` |
@@ -128,4 +130,4 @@ The Tiberius story is a myth about aluminum. What persists is the shape of the p
 
 ## Where this draft stops
 
-This is history, not yet an argument. The [frame doc](../../drafts/the-price-of-aluminum-FRAME.md) holds the candidate theses. Apart from the Verne passage, nothing here has been read at first hand. The [packet](README.md) lists the primary sources owed before anything here is tagged `measured`, and any price figure tagged `assumed` should be treated as provisional until the USGS historical series is read directly.
+This is history, not yet an argument. The [frame doc](../../drafts/the-price-of-aluminum-FRAME.md) holds the candidate theses. Apart from the Verne passage and the Park Service figures, nothing here has been read at first hand. The [packet](README.md) lists the primary sources owed before anything here is tagged `measured`, and any price figure tagged `assumed` should be treated as provisional until the USGS historical series is read directly.

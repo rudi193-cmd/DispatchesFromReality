@@ -24,10 +24,13 @@
 
 - **Where:** https://www.nps.gov/articles/000/wamocap.htm. As a cross-check, also read "Topping Off the Tip", *Prologue* (National Archives, 2014).
 - **Claim as it stands:** the cap was set 6 Dec 1884: 100 oz (about 2.835 kg), 8.9 in tall. Cast by William Frishmuth of Philadelphia, it was shown at Tiffany's in New York *without permission* before installation and called the largest aluminum casting of its time. It was part of the lightning protection (the original spec was platinum-plated copper or bronze). Aluminum then cost about $1.10/oz, roughly the price of silver. Frishmuth charged $225 per NPS, though *Prologue* says the price rose late from $100. Lightning cracked the stone below the cap in June 1885.
-- **Confirm:**
-  - [ ] Each figure above as NPS states it
-  - [ ] The "without permission" wording: NPS's own, or inferred?
-  - [ ] The cost as NPS gives it, and the *Prologue* account of the price change
+- **Status: READ 2026-10-12 (Sean, at first hand). Tag → `measured` for what the passage contains.**
+  - [x] "$1.10 an ounce, the same as the then-prevailing market price of silver". Also new: the monument was completed in 1884 under Lt. Col. Thomas Lincoln Casey.
+  - [x] Cast "sometime in November 1884"; "the largest piece of aluminum cast up until that time"; $225.
+  - [x] "Without permission" is NPS's own wording ("A flurry of messages followed").
+  - [x] **Differs:** NPS gives the height as **8 inches**, not 8.9. The draft now says 8 per NPS and notes the 8.9 elsewhere as unresolved.
+  - [ ] **Not in the passage read:** the 100 oz weight, the 6 Dec 1884 setting date, the lightning-protection role and the June 1885 damage. Are they further down the NPS page? If so, paste them; if not, they stay `fitted`.
+  - [ ] Optional: the *Prologue* cross-check on the $100 → $225 story.
 
 ## 3. Verne — *From the Earth to the Moon*, chapter VII · Section IV
 
@@ -58,7 +61,7 @@
   | Year | Current figure |
   |------|----------------|
   | 1852 | about $545 / lb |
-  | 1884 | about $1.10 / oz (about $16–18 / lb) |
+  | 1884 | $1.10 / oz (about $17.60 / lb), now `measured` (NPS) |
   | 1888 | $4.86 / lb |
   | 1893 | 78¢ / lb |
   | 1897 | 36¢ / lb |
