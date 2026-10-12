@@ -65,6 +65,13 @@ Two kids asked for a silly game and spent more of the afternoon dismissing inter
 
 → [Working draft](research/childrens-software-interruption/DRAFT.md) · [Research packet](research/childrens-software-interruption/README.md) · [Assessment visibility](education/assessment-visibility-v1.1/white-paper.md) · [Nobody Adds It Up](essays/nobody-adds-it-up/README.md)
 
+### [The Price of Aluminum](research/the-price-of-aluminum/README.md)
+*The most abundant metal in the Earth's crust, precious for half a century, and the process that made it cheap* · working draft v0 · 2026-10
+
+For decades aluminum was priced like a precious metal. In 1884 the tip of the Washington Monument was made of it because it cost about as much as silver. Then in 1886 two inventors in their early twenties found the same electrolytic process months apart, and the price fell more than thirtyfold within sixteen years. This draft is history first. Every claim carries a provenance tag, and the popular lore is separated from what survives checking.
+
+→ [Working draft](research/the-price-of-aluminum/DRAFT.md) · [Research packet](research/the-price-of-aluminum/README.md) · [Nobody Adds It Up](essays/nobody-adds-it-up/README.md)
+
 ### [Adversarially Verified Knowledge Corpus](research/knowledge-corpus/README.md)
 *1369 structured knowledge pairs across science, infrastructure, people, economics, law, health, and labor — adversarially fact-checked and contradiction-challenged* · v1 · 2026-08
 
