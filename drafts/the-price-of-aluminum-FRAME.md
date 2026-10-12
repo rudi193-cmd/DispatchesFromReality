@@ -47,6 +47,32 @@ These can combine. **A + D + E** is the closest fit with the repo: who controlle
 
 ---
 
+## How it maps onto *Some Pig*
+
+*Some Pig* is the boxes-and-escape draft (`research/boxes-and-escape/DRAFT.md`, PR #9). Both pieces are built on the same idea: **the thing never changes; what it is classified as changes, and the classification decides its fate.**
+
+| *Some Pig* | *The Price of Aluminum* | Fit |
+|------------|-------------------------|-----|
+| Wilbur is the same pig in the same pen on the last page. "He never leaves the pen. He leaves the category." | The atoms on the imperial table and in the recycling bin are the same. Aluminum leaves the category of precious metal. | **Spine.** Exact match |
+| The words work because of the container. Text in a web reads as a miracle about the pig. | Tiffany's window and the Paris Exposition make the metal read as treasure. | Strong |
+| Charlotte's campaign ends at a county-fair exhibition. | The bars debut at a world's-fair exhibition. | Strong (image) |
+| §VIII: the copy outlived the writing. SOME PIG survives, White's prose doesn't. | The cutlery anecdote survives, Deville and Hall's letters don't. | **Strong.** Same claim |
+| §III: the matcher serves a wrong answer as *verified* at 0.974, because the container makes a false claim land. "Charlotte's trick, run in reverse." | The lore gets served as history: cutlery, crown jewels, "Rome had aluminum," and a Facebook video repeating it. Unverified claims delivered in a format that reads as checked. | **Strong.** Aluminum is the matcher failure in public |
+| §IV: the escape-trickster *slot* is constant, and the animal cast in it is local infrastructure. | The Tiberius story: the *suppressed-invention* slot is constant (Petronius, Pliny, Dio). The material cast in it is whatever the teller's era treats as precious: glass in Rome, aluminum by 1990. | **Strong, and new.** The same finding in a second motif |
+| §VII: one man, one decade, two theories of a pig (Cook releases vs. Vanuatu shaping). | Napoleon III funds aluminum to make it cheap for the army, while the court shows it off because it is scarce. The military motive is `fitted`; the display side is mostly lore (the Prince Imperial's rattle is better attested than the cutlery). | Possible. Thin until checked |
+| §V *cimarrón* | No counterpart. | None, and it should not be borrowed |
+| §VI wanting / weak-schema | No counterpart. | None |
+| — | **The process:** Hall, Héroult, Bayer, electricity, cryolite. | Aluminum only. The pig has no woodshed |
+
+**Reading of the map:** this is less a merge than one argument across two pieces, which also explains why they felt like the same thing. *Some Pig* shows the mechanism (container plus repetition decides what a thing is taken to be) and tests it against software. *The Price of Aluminum* shows it running for 170 years on a physical object, with something *Some Pig* doesn't have: a second force, the process, that overturned the category the copy built. Words made the metal precious and a woodshed made it common.
+
+**Three ways to put them together:**
+1. **Fold aluminum into *Some Pig*** as a third case. Risk: *Some Pig* is already about 4,800 words across eight sections, and aluminum's process half would have nowhere to sit.
+2. **Companion pieces**, each standing alone and citing the other. *Some Pig* = reception and format, *Price of Aluminum* = value, copy and process. This keeps the scope of each piece clean.
+3. **Aluminum takes the spine.** It becomes the lead piece because its evidence is easier to check than *Some Pig*'s (which is marked unverified throughout), and *Some Pig* becomes the deeper follow-up on machines.
+
+---
+
 ## Open decisions (Sean's)
 
 1. **Which thesis**, or which combination.
