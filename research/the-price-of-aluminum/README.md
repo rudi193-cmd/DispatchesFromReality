@@ -88,6 +88,18 @@ Tags follow the `assumed` / `fitted` / `measured` ordering. **No claim is `measu
 
 ---
 
+## Priority reads for the section order
+
+These five carry the frame's load-bearing lines. Attempted 2026-10-12 and **blocked by this environment's network policy**: every host denied, including nps.gov, gutenberg.org, oed.com, pubs.usgs.gov, aluminiumtoday.com and etymonline.com. They stay `fitted` until read. Each line below says what the read has to confirm.
+
+| # | Source | Confirm | Section |
+|---|--------|---------|---------|
+| 1 | OED, *terrific* (subscription; a library card usually works) | First sense "causing terror", first citation Milton, *Paradise Lost* VII.497 (1667); date of the "excellent" sense (1871 *Athenaeum*?); whether the fear sense is marked obsolete or still current in the 1950s | IX |
+| 2 | National Park Service, "The Point of the Matter" | 100 oz, 8.9 in, 6 Dec 1884; Frishmuth; Tiffany's "without permission"; $1.10/oz ≈ silver; the $225 cost; the June 1885 lightning damage | V |
+| 3 | Verne, *From the Earth to the Moon*, ch. VII, one named translation (Project Gutenberg #83) | The aluminum decision, the "nine dollars a pound" line, the weights and the cost, quoted exactly from that translation | IV |
+| 4 | Alcoa CFO Molly Beerman, Citi conference, Dec 2025 (transcript or Aluminium Today) | $30–40/MWh vs more than $100/MWh; the exact "not directly competing" wording and what it refers to | IX |
+| 5 | USGS historical aluminum price series (DS-140; SIR 2012-5188) and *Mineral Resources* 1883–1900 | Every pre-1900 price in the collapse table; the 1884–1900 multiple | VI |
+
 ## Reads still owed before anything moves to `measured`
 
 1. United States Geological Survey historical price series and the *Mineral Resources* volumes 1883–1900, for every pre-1900 price.
