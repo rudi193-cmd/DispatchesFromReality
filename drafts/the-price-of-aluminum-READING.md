@@ -29,7 +29,9 @@
   - [x] Cast "sometime in November 1884"; "the largest piece of aluminum cast up until that time"; $225.
   - [x] "Without permission" is NPS's own wording ("A flurry of messages followed").
   - [x] **Differs:** NPS gives the height as **8 inches**, not 8.9. The draft now says 8 per NPS and notes the 8.9 elsewhere as unresolved.
-  - [ ] **Not in the passage read:** the 100 oz weight, the 6 Dec 1884 setting date, the lightning-protection role and the June 1885 damage. Are they further down the NPS page? If so, paste them; if not, they stay `fitted`.
+  - [x] **Confirmed absent from the NPS article:** the 6 Dec 1884 setting date and the 100 oz weight. The first checking pass had wrongly attributed them to NPS. They stay `fitted`, sourced to NARA *Prologue* and Binczewski, *JOM* (1995).
+  - [ ] Lightning-protection role and the June 1885 damage: in the NPS article or not?
+  - [ ] To make the date and weight `measured`, read "Topping Off the Tip", *Prologue* (National Archives, 2014).
   - [ ] Optional: the *Prologue* cross-check on the $100 → $225 story.
 
 ## 3. Verne — *From the Earth to the Moon*, chapter VII · Section IV

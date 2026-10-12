@@ -60,7 +60,7 @@ Two phrases often attached to this period don't survive checking. No primary sou
 
 In November 1884 William Frishmuth, in Philadelphia, cast a small aluminum pyramid to cap the Washington Monument. The National Park Service calls it "the largest piece of aluminum cast up until that time", at 8 inches tall. Other accounts give 8.9 inches, so the height is not settled. Frishmuth charged **$225** for it. Then, "before sending it on to Washington", he "put the tip on display at Tiffany's jewelry store in New York City—without permission. A flurry of messages followed." `measured` (National Park Service, read at first hand)
 
-The tip was set on 6 December 1884 and weighs **100 ounces (about 2.835 kg)**. It was also the tip of the lightning protection system; the Army engineers' original specification called for platinum-plated copper or bronze. `fitted`
+The tip was set on 6 December 1884 and weighs **100 ounces (about 2.835 kg)**. Those two figures come from the National Archives' *Prologue* and Binczewski's history in *JOM* (1995), not from the Park Service, whose article gives neither. It was also the tip of the lightning protection system; the Army engineers' original specification called for platinum-plated copper or bronze. `fitted`
 
 In 1884, the year the monument was completed under Lt. Col. Thomas Lincoln Casey, aluminum "was still $1.10 an ounce, the same as the then-prevailing market price of silver." `measured` (National Park Service) The tip of the national monument was made of a metal that cost the same as silver. It was precious, though no longer priced like gold.
 
