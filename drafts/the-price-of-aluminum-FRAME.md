@@ -66,6 +66,19 @@ These can combine. **A + D + E** is the closest fit with the repo: who controlle
 
 **Reading of the map:** this is less a merge than one argument across two pieces, which also explains why they felt like the same thing. *Some Pig* shows the mechanism (container plus repetition decides what a thing is taken to be) and tests it against software. *The Price of Aluminum* shows it running for 170 years on a physical object, with something *Some Pig* doesn't have: a second force, the process, that overturned the category the copy built. Words made the metal precious and a woodshed made it common.
 
+### The bridge image: the corporate Charlotte's web (Sean's)
+
+A tech-company spider above the AI, spinning in silicon and aluminum thread: SOME AI. CAREFUL, MIGHT BITE. OH GOD IT'S GOING TO KILL US BEFORE YEAR'S END.
+
+What the image carries:
+- **The thread is literal.** Chips are silicon and data centers are full of aluminum. Both are "solid electricity" in the same sense the draft uses for aluminum, and they may compete with smelters for the same cheap power. *Check before using:* are data centers and aluminum smelters actually competing for hydropower in places like the Pacific Northwest and Iceland?
+- **Praise and doom are the same copy.** Charlotte's words don't need to be flattering, only to make the subject *significant*. "It might kill us" raises the pig's category as surely as "some pig" does. A thing that could end the world is not an ordinary pig, and whatever it is, it's worth a great deal. *Check before using:* Charlotte's second word, **TERRIFIC**, first meant *causing terror* (Latin *terrificus*). The sense "excellent" came later, so the web already contains the doom version. This is probably the strongest line in the image, so check it against the OED and date the sense change.
+- **The spider has moved.** Charlotte works because nobody thinks "some spider". The web hides its author, so the message is taken to be about the pig. In the corporate version the spider writes about its own pig, and the web still works, because the reader's attention lands on the pig, not on who is spinning.
+- **Aluminum shows how this ends.** The hype came *before* the process: "metal of the future" while it was still a metal for exhibitions. Then the woodshed made it common, and the words stopped mattering. If cognition is going the way aluminum went, the words in the web are the precious-phase copy, and the open question is what they're worth after the collapse.
+- **Do not overclaim.** The piece doesn't need to argue that anyone's warnings are insincere. Charlotte believed every word she wrote. The mechanism works the same whether the spider means it or not, and that's the more interesting claim, and the one that can be defended.
+
+This image could be the hinge in option 2 or 3: aluminum supplies the history, *Some Pig* supplies the mechanism, and the corporate web is where both arrive.
+
 **Three ways to put them together:**
 1. **Fold aluminum into *Some Pig*** as a third case. Risk: *Some Pig* is already about 4,800 words across eight sections, and aluminum's process half would have nowhere to sit.
 2. **Companion pieces**, each standing alone and citing the other. *Some Pig* = reception and format, *Price of Aluminum* = value, copy and process. This keeps the scope of each piece clean.
