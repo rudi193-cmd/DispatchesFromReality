@@ -97,7 +97,7 @@ These five carry the frame's load-bearing lines. Attempted 2026-10-12 and **bloc
 | 1 | OED, *terrific* (subscription; a library card usually works) | First sense "causing terror", first citation Milton, *Paradise Lost* VII.497 (1667); date of the "excellent" sense (1871 *Athenaeum*?); whether the fear sense is marked obsolete or still current in the 1950s | IX |
 | 2 | National Park Service, "The Point of the Matter" | 100 oz, 8.9 in, 6 Dec 1884; Frishmuth; Tiffany's "without permission"; $1.10/oz ≈ silver; the $225 cost; the June 1885 lightning damage | V |
 | 3 | ~~Verne, ch. VII~~ **Read 2026-10-12.** All figures matched. The "white as silver, as incorrodible as gold" line is from another translation; this one reads "the whiteness of silver, the indestructibility of gold…". Still to do: name the translation. | — | IV |
-| 4 | Alcoa CFO, Citi 2025 Basic Materials Conference, 3 Dec 2025 | **Partly read 2026-10-12** (trade-press report): speaker, date and both figures confirmed; the wording is "typically pay $30 to $40". Still open: the "not directly competing" line, and the transcript. | IX |
+| 4 | Alcoa CFO, Citi 2025 Basic Materials Conference, 3 Dec 2025 | **Read 2026-10-12** (trade-press report, so `fitted`): speaker, date, both figures and the hedge verbatim ("I don't think we're head-to-head competing with the data centre on our existing smelters, but… any new smelter capacity is going to have to struggle with that competition"). The transcript would make it `measured`. | IX |
 | 5 | USGS historical aluminum price series (DS-140; SIR 2012-5188) and *Mineral Resources* 1883–1900 | Every pre-1900 price in the collapse table; the 1884–1900 multiple | VI |
 
 ## Reads still owed before anything moves to `measured`

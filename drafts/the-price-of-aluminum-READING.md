@@ -44,11 +44,11 @@
 
 - **Where:** Citi Basic Materials conference, about 3 Dec 2025. Best source is the transcript (Alcoa investor relations, or a transcript service). Fallback: the Aluminium Today article "Alcoa: smelters will struggle to compete with data centres on energy".
 - **Claim as it stands:** Molly Beerman said smelters need about $30–40/MWh while data centers will pay more than $100/MWh, so new smelter capacity will struggle to compete for power, but Alcoa is "not directly competing" for its existing smelters.
-- **Status: PARTLY READ 2026-10-12 (Sean, trade-press report). Tag stays `fitted`**, because the source is a report of the remarks, not the transcript.
+- **Status: READ 2026-10-12 (Sean, trade-press report). Tag stays `fitted`**, because the source is a report of the remarks, not the transcript.
   - [x] Speaker, title, date and venue: Molly Beerman, Executive Vice President and CFO, Citi 2025 Basic Materials Conference, 3 Dec 2025.
   - [x] Figures: US smelters "typically pay $30 to $40 per megawatt hour"; data centers "are prepared to pay more than $100 per megawatt hour". Correction: the wording is **typically pay**, not "need".
-  - [ ] **Still open:** the "not directly competing" line was not in the passage read. Is it elsewhere in the article or the transcript? Until it's found, section IX does not quote it.
-  - [ ] Optional: the transcript would move the figures to `measured`.
+  - [x] The hedge, verbatim: "So, I don't think we're head-to-head competing with the data centre on our existing smelters, but certainly, any new smelter capacity is going to have to struggle with that competition, because the other players are going to be paying a lot more than is needed for an economic smelter at that $30 to $40 per megawatt level." Correction: the phrase is **"head-to-head competing"**, not "not directly competing". "Needed for an economic smelter" also appears, so both "typically pay" and "need" are hers.
+  - [ ] Optional: the transcript would move this to `measured`.
 
 ## 5. USGS historical aluminum prices · Section VI
 
