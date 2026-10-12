@@ -82,15 +82,45 @@ This image could be the hinge in option 2 or 3: aluminum supplies the history, *
 **Three ways to put them together:**
 1. **Fold aluminum into *Some Pig*** as a third case. Risk: *Some Pig* is already about 4,800 words across eight sections, and aluminum's process half would have nowhere to sit.
 2. **Companion pieces**, each standing alone and citing the other. *Some Pig* = reception and format, *Price of Aluminum* = value, copy and process. This keeps the scope of each piece clean.
-3. **Aluminum takes the spine.** It becomes the lead piece because its evidence is easier to check than *Some Pig*'s (which is marked unverified throughout), and *Some Pig* becomes the deeper follow-up on machines.
+3. **Aluminum takes the spine. ← CHOSEN.** It becomes the lead piece because its evidence is easier to check than *Some Pig*'s (which is marked unverified throughout), and *Some Pig* becomes the deeper follow-up on machines.
+
+---
+
+## Section order (option 3)
+
+**Shape:** abundance → copy → process → collapse → what outlived it → the web now. The theses ride in order: **E** (the copy made it precious) in IV–V, **A** (the process made it cheap, and someone controlled the process) in VI–VII, **D** (the copy outlived the history) in VIII, and **B** arrives only at the end, through the image, not as a thesis argued from the top. **C** (wonder) lives in the opening and the coda.
+
+**Stands alone.** Charlotte's web is introduced from the book itself, not from *Some Pig*, so this piece needs nothing unpublished. *Some Pig* is named at most once, in a closing note, as the follow-up.
+
+Target: about 4,500 words.
+
+| # | Section | Beat | Carries | Evidence it rests on | ~Words |
+|---|---------|------|---------|----------------------|-------:|
+| I | **The video** | Ten minutes on Facebook; "I never knew any of that." Plant the question: why was the commonest metal precious? Plant quietly that the video is itself a retelling. | C, seeds D | none (first person) | 300 |
+| II | **Everywhere and nowhere** | About 8% of the crust, locked to oxygen, alum in antiquity. State the spine early: *the atoms never changed.* | spine | abundance, native occurrence, alum `fitted` | 400 |
+| III | **Named before it was held** | Davy names it and can't free it; Ørsted and Wöhler get grains. The word arrived decades before the thing. | first appearance of E | naming sequence, isolation `fitted` | 350 |
+| IV | **Some metal** | Deville and sodium; Napoleon III's military motive (court-display lore flagged as lore); the 1855 exhibit; *Household Words* "loam-silver" (1856); Verne's aluminum shell (1865). Introduce Charlotte here: the container makes the claim. An exhibition hall is a web. | **E** | Deville, 1855, *Household Words*, Verne `fitted`; cutlery and crown jewels `assumed`, named as lore | 650 |
+| V | **Tiffany's window** | The monument tip, 1884: priced like silver, shown in a jeweler's window (without permission) before it went up a national monument as a lightning rod. Four different prices for it: the record already fraying. | E | NPS figures `fitted`; cost dispute `fitted` | 450 |
+| VI | **The woodshed** | Hall and Héroult, the same year, born and died the same years; Bayer; Pittsburgh Reduction → Alcoa. Julia Hall's role as one paragraph: who gets credit for a process. Eros (1893) as the last showpiece. The collapse table: more than thirtyfold in sixteen years. | **A** | Hall–Héroult, Bayer, Eros `fitted`; post-1884 prices `assumed` until USGS | 650 |
+| VII | **What the price was made of** | The value never vanished; it moved, to patents, to electricity (about 14 kWh/kg, "solid electricity"), to one cryolite mine in Greenland. A chokepoint relocated, not abolished. One line to *Nobody Adds It Up*. | **A** | energy, recycling, Ivittuut `fitted` | 450 |
+| VIII | **The copy outlived the metal** | Which stories people still tell: the cutlery, not the woodshed. The Tiberius story: the suppressed-invention *slot* is constant (Petronius, Pliny, Dio) and the material cast in it changes with the era: glass in Rome, aluminum by 1990. Back to the Facebook video: the campaign is still running. | **D** | myths list, Tiberius sources `fitted` | 500 |
+| IX | **Some AI** | The corporate web, spun in silicon and aluminum thread over the same cheap power the smelters used (Pacific NW smelters → The Dalles; Iceland; Alcoa's CFO, hedged). Praise and doom are the same copy. **TERRIFIC** meant *causing terror* when Milton used it. The spider now writes about its own pig. Guardrail: sincerity doesn't matter; Charlotte meant every word. | **B** via E | power geography, TERRIFIC etymology, IEA comparison `fitted` | 600 |
+| X | **After the collapse** | The tip is still up there, the can is in the bin, and they are the same atoms. Aluminum's words stopped mattering once the woodshed made it common. The open question, not a prediction: what are these words worth after the price falls? | C, closes B | none new | 250 |
+
+**Owed before drafting the prose** (load-bearing, currently `fitted` from excerpts only; read them first-hand):
+1. OED entry for *terrific* (section IX's best line).
+2. NPS "The Point of the Matter" (section V).
+3. Verne, *From the Earth to the Moon*, ch. VII, in one named translation (section IV).
+4. The Alcoa CFO remarks, Dec 2025 (section IX's hedge).
+5. USGS historical price series (section VI's table). Until then, keep the table's `assumed` tags visible.
 
 ---
 
 ## Open decisions (Sean's)
 
-1. **Which thesis**, or which combination.
-2. **Form:** stay a research draft + packet, or graduate to a *What I Carried* essay once the argument is chosen.
+1. ~~Which thesis~~ **Decided:** option 3, with A + D + E carrying the body and B arriving through the image at the end.
+2. **Form:** keep the research draft + packet for now. Graduating to a *What I Carried* essay is still open.
 3. **How much "I"** to keep. The video opening is short on purpose.
 4. **Julia Hall:** leave her as a disputed footnote, or make the dispute itself part of the argument (who gets credit for a process)?
-5. **Sequencing with *Some Pig*:** publish that first and cite it, or write this one so it stands alone?
+5. ~~Sequencing with *Some Pig*~~ **Decided:** this piece stands alone and goes first; *Some Pig* is the follow-up.
 6. **Primary reads** (listed in the [packet](../research/the-price-of-aluminum/README.md)): do them before choosing a thesis, or only for the claims the chosen thesis rests on?
