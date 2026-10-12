@@ -33,10 +33,12 @@
 
 - **Where:** Project Gutenberg eBook #83 (https://www.gutenberg.org/ebooks/83), chapter VII, "The Hymn of the Cannon-Ball". Note which translation the Gutenberg text uses, because wording varies between translations.
 - **Claim as it stands:** the Gun Club chooses aluminum for the projectile. The Major objects to the cost, and Barbicane replies that the price "has fallen now to nine dollars a pound". A 108-inch shell with 12-inch walls would weigh 19,250 lb in aluminum against 67,440 lb in cast iron, at a cost of $173,050. The text calls aluminum "three times lighter than iron" and praises it as "white as silver, as incorrodible as gold, as tenacious as iron" (that quotation was seen only from an 1890 edition).
-- **Confirm:**
-  - [ ] The exact sentences in the Gutenberg translation, copied verbatim for quotation
-  - [ ] Whether the "white as silver…" line appears in *this* translation
-  - [ ] That the phrase "metal of the future" does **not** appear (it was not found; this confirms it isn't there)
+- **Status: READ 2026-10-12 (Sean, at first hand). Tag → `measured`.**
+  - [x] Exact sentences copied. Every figure matched: the nine dollars a pound, 108 in / 12 in, 67,440 lb vs 19,250 lb, $173,050, "three times lighter than iron".
+  - [x] The "white as silver, as incorrodible as gold" line is **not** in this translation, which reads "possesses the whiteness of silver, the indestructibility of gold, the tenacity of iron, the fusibility of copper, the lightness of glass". The draft now quotes this version.
+  - [x] "Metal of the future" does not appear in the passage read.
+  - [ ] **Still open:** record which translation was read (Gutenberg #83 credits it on the title page) so the quotation can be attributed.
+  - **New find:** Barbicane states the paradox in 1865: the metal is "very widely distributed, forming the base of most of the rocks", yet costs nine dollars a pound. Use it in section II or IV.
 
 ## 4. Alcoa CFO remarks, December 2025 · Section IX
 

@@ -53,7 +53,7 @@ Tags follow the `assumed` / `fitted` / `measured` ordering. **No claim is `measu
 | 1852 price | about $545 / lb | `assumed` | single magazine source |
 | French prices | about 300 F/kg mid-1850s; 240 (1859); 120 (1867) | `assumed` | single source |
 | *Household Words* | 1856, "loam-silver", predicts household use | `fitted` | Dickens, *Household Words* vol. XIV |
-| Verne | *From the Earth to the Moon* (1865), ch. VII: aluminum projectile; "nine dollars a pound" | `fitted` (wording varies by translation) | Verne |
+| Verne | *From the Earth to the Moon* (1865), ch. VII: aluminum projectile; "fallen now to nine dollars a pound"; "forming the base of most of the rocks"; 108 in shell, 19,250 lb vs 67,440 lb cast iron, $173,050 | `measured` (read at first hand; translation to be named) | Verne |
 | "Metal of the future" | headlines in 1890 and 1892 | `fitted` | period periodicals |
 | "Silver from clay" / "age of aluminum" | no primary attestation found; not used | `assumed` | — |
 | 1884 price | about $1.10 / oz (about $16–18 / lb), roughly silver | `fitted` | National Park Service |
@@ -96,7 +96,7 @@ These five carry the frame's load-bearing lines. Attempted 2026-10-12 and **bloc
 |---|--------|---------|---------|
 | 1 | OED, *terrific* (subscription; a library card usually works) | First sense "causing terror", first citation Milton, *Paradise Lost* VII.497 (1667); date of the "excellent" sense (1871 *Athenaeum*?); whether the fear sense is marked obsolete or still current in the 1950s | IX |
 | 2 | National Park Service, "The Point of the Matter" | 100 oz, 8.9 in, 6 Dec 1884; Frishmuth; Tiffany's "without permission"; $1.10/oz ≈ silver; the $225 cost; the June 1885 lightning damage | V |
-| 3 | Verne, *From the Earth to the Moon*, ch. VII, one named translation (Project Gutenberg #83) | The aluminum decision, the "nine dollars a pound" line, the weights and the cost, quoted exactly from that translation | IV |
+| 3 | ~~Verne, ch. VII~~ **Read 2026-10-12.** All figures matched. The "white as silver, as incorrodible as gold" line is from another translation; this one reads "the whiteness of silver, the indestructibility of gold…". Still to do: name the translation. | — | IV |
 | 4 | Alcoa CFO Molly Beerman, Citi conference, Dec 2025 (transcript or Aluminium Today) | $30–40/MWh vs more than $100/MWh; the exact "not directly competing" wording and what it refers to | IX |
 | 5 | USGS historical aluminum price series (DS-140; SIR 2012-5188) and *Mineral Resources* 1883–1900 | Every pre-1900 price in the collapse table; the 1884–1900 multiple | VI |
 
