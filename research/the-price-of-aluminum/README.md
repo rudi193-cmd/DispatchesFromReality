@@ -52,6 +52,10 @@ Tags follow the `assumed` / `fitted` / `measured` ordering. **No claim is `measu
 | Napoleon III's aluminum tableware | widely repeated anecdote | `assumed` | no primary source found |
 | 1852 price | about $545 / lb | `assumed` | single magazine source |
 | French prices | about 300 F/kg mid-1850s; 240 (1859); 120 (1867) | `assumed` | single source |
+| *Household Words* | 1856, "loam-silver", predicts household use | `fitted` | Dickens, *Household Words* vol. XIV |
+| Verne | *From the Earth to the Moon* (1865), ch. VII: aluminum projectile; "nine dollars a pound" | `fitted` (wording varies by translation) | Verne |
+| "Metal of the future" | headlines in 1890 and 1892 | `fitted` | period periodicals |
+| "Silver from clay" / "age of aluminum" | no primary attestation found; not used | `assumed` | — |
 | 1884 price | about $1.10 / oz (about $16–18 / lb), roughly silver | `fitted` | National Park Service |
 | Washington Monument tip | 6 Dec 1884; 100 oz (about 2.835 kg); 8.9 in; Frishmuth; shown at Tiffany's; part of the lightning protection | `fitted` | NPS "The Point of the Matter"; NARA *Prologue*; Binczewski, *JOM* 1995 |
 | Tip cost | disputed: $225 (NPS); $100 → $225; $75; $256.10 | `fitted` that they conflict | NPS; NARA *Prologue* |
@@ -61,6 +65,7 @@ Tags follow the `assumed` / `fitted` / `measured` ordering. **No claim is `measu
 | Julia Brainerd Hall's role | assisted; role disputed (Trescott 1977 vs Craig) | `fitted` that the dispute exists | *J. Chem. Educ.* 1977; Oberlin archive work |
 | Bayer process | patent 1888 | `fitted` | SME, "A hundred years of the Bayer Process" |
 | Pittsburgh Reduction → Aluminum Company of America | 1888 → 1907 | `fitted` | Alcoa history; Grace's Guide |
+| Eros, Piccadilly Circus | 1893, cast aluminum; among the first aluminum statues | `fitted` | Historic England |
 | Later prices | $4.86 / lb (1888); 78¢ (1893); 36¢ (1897); under 50¢ (1900) | `assumed` | secondary compilations |
 | Collapse multiple | more than thirtyfold, 1884–1900 | `assumed` | derived from the above |
 | Consumer goods | utensils 1890s; Wear-Ever 1901; Neher foil patent 1910 | `fitted` | Heinz History Center; Hydro; Alufoil.org |

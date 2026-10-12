@@ -48,6 +48,12 @@ The best-known story is about Napoleon III's tableware. In it, the most honored 
 
 What the numbers support is more modest but still striking. In 1852 aluminum is quoted at about **$545 a pound**, which by weight is more than gold was then. That figure comes from a single magazine source. `assumed` French prices were falling through the Deville era: about 300 francs a kilogram in the mid-1850s, 240 in 1859, 120 in 1867. `assumed` "Worth more than gold" was briefly true. It was not true for long.
 
+## The copy before the process
+
+The metal was a public sensation long before most people could buy any. In 1856 Dickens's magazine *Household Words* joked about "loam-silver", a precious metal made out of clay, and predicted that it would end up in ordinary households. `fitted` In 1865 Jules Verne's Gun Club, in *From the Earth to the Moon*, decides in chapter VII to make its moon projectile of aluminum. When one member objects to the cost, Barbicane answers that the price "has fallen now to nine dollars a pound". `fitted` (exact wording varies by translation)
+
+Two phrases often attached to this period don't survive checking. No primary source turned up for "silver from clay" as an 1855 exhibition label; it looks like a later paraphrase of the same joke *Household Words* was making. "The age of aluminum" has no 19th-century attestation that could be found. `assumed` Headlines calling it "the metal of the future" do appear, in 1890 and 1892. `fitted`
+
 ## The silver year: 1884
 
 On 6 December 1884 a small aluminum pyramid was set on top of the Washington Monument. It weighs **100 ounces (about 2.835 kg)** and is **8.9 inches** tall, and at the time it was called the largest aluminum casting ever made. William Frishmuth cast it in Philadelphia. Before it went up it was shown at Tiffany's in New York, without permission according to the National Park Service. It was also the tip of the lightning protection system. The Army engineers' original specification called for platinum-plated copper or bronze. `fitted`
@@ -85,7 +91,7 @@ The price stories that survive checking are enough to show the shape, even where
 
 From the Washington Monument year to 1900, the price fell **more than thirtyfold**. Measured from the 1850s it fell by three orders of magnitude, though the exact multiple depends on endpoints that still need a direct read of the United States Geological Survey's historical series. `assumed`
 
-The metal moved into ordinary goods quickly. Pittsburgh Reduction was selling cooking utensils in the 1890s, and the Aluminum Cooking Utensil Company, the Wear-Ever brand, formed in 1901. In 1910 Robert Victor Neher patented continuous rolling of aluminum foil in Switzerland, and within a year it was wrapping chocolate. `fitted` Fifty years after aluminum was a Paris exhibition piece, it was cookware and candy wrappers.
+The metal moved into ordinary goods quickly. Pittsburgh Reduction was selling cooking utensils in the 1890s, and the Aluminum Cooking Utensil Company, the Wear-Ever brand, formed in 1901. In 1910 Robert Victor Neher patented continuous rolling of aluminum foil in Switzerland, and within a year it was wrapping chocolate. `fitted` The last public showpiece came at the edge of the collapse: in 1893 the figure atop the Shaftesbury Memorial Fountain at Piccadilly Circus, usually called Eros, was cast in aluminum, among the first statues ever cast in it. `fitted` Fifty years after aluminum was a Paris exhibition piece, it was cookware and candy wrappers.
 
 ## Solid electricity
 
