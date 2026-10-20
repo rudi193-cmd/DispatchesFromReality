@@ -20,6 +20,7 @@ For technical employers, start with the [professional portfolio packet](professi
 | [Portfolio case studies](professional/portfolio-case-studies.md) | The concise employer-facing narrative |
 | [Willow systems deep dive](professional/willow-systems-portfolio.md) | Backend/platform evidence: Postgres, queues, Grove, Kart, MCP, retrieval |
 | [Willow ecosystem inventory](professional/willow-ecosystem-inventory.md) | Repo census, SAFE apps, databases, research substrate |
+| [Case Study 4 — the one-script fleet](professional/one-script-fleet-case-study.md) | The newest work (2026-10): one core, cross-repo CI, mutation testing, an honest forecast ledger |
 
 ---
 
