@@ -11,6 +11,7 @@ Three projects that show the same through-line: build real systems for real user
 | **1. AI Literacy Curriculum** | Product thinking for non-technical users; AI risk communication | [AI literacy index](../lessons/ai-literacy-9-12-index.md) |
 | **2. Assessment Visibility** | Governance design; research synthesis; teacher-facing implementation | [White paper](../education/assessment-visibility-v1.1/white-paper.md) |
 | **3. Willow Systems Building** | Backend infrastructure; Postgres data plane; agent orchestration | [Willow systems deep dive](willow-systems-portfolio.md) |
+| **4. Honest Systems: the One-Script Fleet** (2026-10) | Systems integration; cross-repo CI; mutation testing; human-only trust root | [Case Study 4](one-script-fleet-case-study.md) |
 | **Research thread** | Sociotechnical analysis; Paperclip lineage; right-to-fix and repair literacy | [Research portfolio](../research/README.md) |
 
 ---
@@ -148,7 +149,7 @@ Schools responding to AI often frame the issue as cheating detection or output r
 
 **One-line summary:** I built Willow from scratch: a local-first backend platform for agent workflows with a Postgres knowledge graph, hybrid retrieval, task queue, MCP API surface, Grove message bus, handoffs, and verification loops — designed so AI agents remember, coordinate, execute, and cite evidence without cloud dependency or opaque automation.
 
-**Status:** Working local system and public open-source project ([willow-2.0](https://github.com/rudi193-cmd/willow-2.0)); active development with external contributors
+**Status:** Working local system and public open-source project ([willow-2.0](https://github.com/rudi193-cmd/willow-2.0)); `willow-2.0` is now archived, and the work continues in the [willow-memory](https://github.com/willow-memory) fleet ([Case Study 4](one-script-fleet-case-study.md))
 
 **Evidence:** [willow-2.0](https://github.com/rudi193-cmd/willow-2.0) · [safe-app-store](https://github.com/rudi193-cmd/safe-app-store) · Author background in [ai-education-reading-list.md](../education/emerging-rule/ai-education-reading-list.md)
 

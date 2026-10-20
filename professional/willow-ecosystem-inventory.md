@@ -10,6 +10,26 @@ This document maps the local repo and data landscape behind the Willow systems p
 
 ---
 
+## Current home (2026-10)
+
+The fleet has since moved out of `rudi193-cmd` into project organisations. `willow-2.0`, `willow-bot` (under `rudi193-cmd`) and `safe-app-willow-grove` are archived. The snapshot below this section is kept as it was written on 2026-06-10.
+
+| Repo | Role (from its README) |
+|------|------|
+| [willow-memory/willow-bot](https://github.com/willow-memory/willow-bot) | GitHub App webhook receiver and propose-only steward, plus the **one-script** core every tool imports ([Case Study 4](one-script-fleet-case-study.md)) |
+| [willow-memory/willows-grove](https://github.com/willow-memory/willows-grove) | The operator's seat: a loopback-only served page and CLI over the fleet's live state |
+| [willow-memory/willow-mcp](https://github.com/willow-memory/willow-mcp) | Agent-neutral MCP server with persistent memory and task execution |
+| [Die-Namic-Systems/Nestor](https://github.com/Die-Namic-Systems/Nestor) | Answers "has a human checked this?": seal, serve and audit over human-verified memory |
+| [hornbook-knowledge/Jeles](https://github.com/hornbook-knowledge/Jeles) | The verified-corpus organ: human-verified question/answer pairs with citations |
+| [forge-play/Forge](https://github.com/forge-play/Forge) | The harness that refuses a confident wrong answer, the model side of SAFE app building |
+| [rudi193-cmd/safe-app-store](https://github.com/rudi193-cmd/safe-app-store) | Local-first apps on SAFE, including the tabletop games that import the one-script's randomness |
+| [rudi193-cmd/terpsi-music](https://github.com/rudi193-cmd/terpsi-music) | Youth music program management, designed around minors' education records (FERPA, COPPA) |
+| [almanac-data](https://github.com/almanac-data) | The Almanac: an engine and public data verticals |
+
+Other public organisations exist ([homestead-affairs](https://github.com/homestead-affairs), more under [willow-memory](https://github.com/willow-memory)); they aren't described here because this refresh only describes repos whose READMEs were read for it.
+
+---
+
 ## How to read this
 
 | Lane | Meaning |

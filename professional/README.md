@@ -9,6 +9,7 @@ I build tools and learning materials where people stay authoritative, evidence s
 | Core signal | Evidence |
 |-------------|----------|
 | **Backend systems building** | Built Willow from scratch: Postgres data modeling, hybrid retrieval, task queues, MCP tooling, worker isolation, Grove messaging, and release discipline |
+| **Honest-systems engineering** | Consolidated a multi-repo fleet into one core (one random stream, one tamper-evident record, one human-only seal) without changing behaviour; drove four interdependent PRs green across three GitHub organisations and shipped two automated releases ([Case Study 4](one-script-fleet-case-study.md)) |
 | **Sociotechnical research** | Wrote *The Illusion of Sovereign AI* and maintained broader research vectors across AI sovereignty, institutional lineage, mechanics, and restoration |
 | **Education and governance** | Designed AI literacy lessons and an assessment visibility framework for real classrooms |
 | **Live facilitation** | Quizmaster for Geeks Who Drink since 2008: public speaking, pacing, audience trust, and real-time room management |
@@ -25,6 +26,7 @@ This folder is a technical-employer-facing packet. It translates work from [Disp
 |----------------|-----------|
 | 3 minutes | [portfolio-case-studies.md](portfolio-case-studies.md) |
 | 10 minutes | [willow-systems-portfolio.md](willow-systems-portfolio.md) |
+| The newest work (2026-10) | [one-script-fleet-case-study.md](one-script-fleet-case-study.md) |
 | Need research context | [Research portfolio](../research/README.md) |
 | Need systems evidence | [willow-ecosystem-inventory.md](willow-ecosystem-inventory.md) |
 | Need structure | [case-study-template.md](case-study-template.md) |
@@ -41,6 +43,7 @@ This folder is a technical-employer-facing packet. It translates work from [Disp
 |----------|---------|
 | [portfolio-case-studies.md](portfolio-case-studies.md) | Three polished case studies for technical employers, including the Willow systems-building story |
 | [willow-systems-portfolio.md](willow-systems-portfolio.md) | Deep Willow case study: architecture, 10 proof points, claim boundaries |
+| [one-script-fleet-case-study.md](one-script-fleet-case-study.md) | Case Study 4: the one-script consolidation, cross-repo CI, mutation testing, the honest forecast ledger (WIP) |
 | [willow-ecosystem-inventory.md](willow-ecosystem-inventory.md) | Curated repo census, SAFE apps, data artifacts, research substrate |
 | [case-study-template.md](case-study-template.md) | Reusable structure for future writeups |
 
@@ -56,7 +59,9 @@ This folder is a technical-employer-facing packet. It translates work from [Disp
 | Sociotechnical AI paper | [research/sociotechnical-ai-sovereignty/README.md](../research/sociotechnical-ai-sovereignty/README.md) |
 | K–12 story-first AI lesson | [lessons/cs-k12-the-scribe-who-forgot-his-dreams.md](../lessons/cs-k12-the-scribe-who-forgot-his-dreams.md) |
 | Teacher reading list | [education/emerging-rule/ai-education-reading-list.md](../education/emerging-rule/ai-education-reading-list.md) |
-| Local-first agent infrastructure | [willow-2.0](https://github.com/rudi193-cmd/willow-2.0) (public) |
+| Local-first agent infrastructure (current) | [willow-memory](https://github.com/willow-memory) org: willow-bot, willows-grove, willow-mcp |
+| Human-verification ledger | [Nestor](https://github.com/Die-Namic-Systems/Nestor) |
+| Local-first agent infrastructure (predecessor, archived) | [willow-2.0](https://github.com/rudi193-cmd/willow-2.0) |
 
 ---
 
@@ -64,7 +69,8 @@ This folder is a technical-employer-facing packet. It translates work from [Disp
 
 | Area | Detail |
 |------|--------|
-| Education | Master's in Music Education; classroom materials written for working teachers (30 students, limited prep, devices optional) |
+| Operations | 27 years in grocery: store operations, inventory and ordering, scheduling, and keeping a floor running for the people on it |
+| Education | Master's in Music Education; a year teaching middle school music; classroom materials written for working teachers (30 students, limited prep, devices optional) |
 | Live facilitation | Quizmaster for Geeks Who Drink since 2008 |
 | AI systems | Built Willow from scratch: local-first memory, task queue, knowledge graph, MCP tooling, Grove messaging, and verification loops |
 | AI/ML credential | Hugging Face certificate |
@@ -76,4 +82,4 @@ All materials in this repo are **CC BY 4.0** unless noted.
 
 ## Contact
 
-GitHub: [rudi193-cmd](https://github.com/rudi193-cmd) · Portfolio writing: [Dispatches From Reality](../README.md)
+Portland, OR · open to remote · GitHub: [rudi193-cmd](https://github.com/rudi193-cmd) · Portfolio writing: [Dispatches From Reality](../README.md)
