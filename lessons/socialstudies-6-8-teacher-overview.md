@@ -2,7 +2,7 @@
 
 > **Example submission** — see [`showcases/socialstudies-6-8/README.md`](https://github.com/Emerging-Rule/community/blob/main/showcases/socialstudies-6-8/README.md).
 
-### Series-Level Guide for Educators
+*Series-Level Guide for Educators*
 
 **Grade Range:** 6–8  
 **Subject:** Social Studies / History  

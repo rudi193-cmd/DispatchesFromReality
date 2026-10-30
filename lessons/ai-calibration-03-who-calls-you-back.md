@@ -1,5 +1,5 @@
 # Who Calls You Back?
-### The Calibration Series — Lesson 03
+*The Calibration Series — Lesson 03*
 
 **Grade Range:** 6–10  
 **Time:** 45–55 minutes  

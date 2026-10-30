@@ -1,5 +1,5 @@
 # Ships and Stations
-### The Calibration Series — Lesson 05
+*The Calibration Series — Lesson 05*
 
 **Grade Range:** 6–10  
 **Time:** 50–60 minutes  

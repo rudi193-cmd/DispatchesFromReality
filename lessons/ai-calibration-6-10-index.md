@@ -2,7 +2,7 @@
 
 > **Example submission** — queued pending human review on Lesson 02. See [`showcases/ai-calibration-6-10/README.md`](https://github.com/Emerging-Rule/community/blob/main/showcases/ai-calibration-6-10/README.md).
 
-### Series-Level Guide for Educators
+*Series-Level Guide for Educators*
 
 **Grade Range:** 6–10  
 **Lessons:** 5  
