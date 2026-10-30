@@ -1,5 +1,5 @@
 # The Helpful Machine
-### The Calibration Series — Lesson 01
+*The Calibration Series — Lesson 01*
 
 **Grade Range:** 6–8  
 **Time:** 45–55 minutes  

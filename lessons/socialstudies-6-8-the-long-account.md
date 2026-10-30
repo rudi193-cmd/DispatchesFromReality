@@ -1,5 +1,5 @@
 # The Long Account
-### The Calibration Series (Social Studies) — Lesson 04
+*The Calibration Series (Social Studies) — Lesson 04*
 
 **Grade Range:** 6–8  
 **Subject:** Social Studies / History  

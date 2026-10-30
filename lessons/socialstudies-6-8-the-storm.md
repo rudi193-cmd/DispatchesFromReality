@@ -1,5 +1,5 @@
 # The Storm That Spoke Her Name
-### The Calibration Series (Social Studies) — Lesson 02
+*The Calibration Series (Social Studies) — Lesson 02*
 
 **Grade Range:** 6–8  
 **Subject:** Social Studies / History  

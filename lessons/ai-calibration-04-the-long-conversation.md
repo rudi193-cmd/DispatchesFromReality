@@ -1,5 +1,5 @@
 # The Long Conversation
-### The Calibration Series — Lesson 04
+*The Calibration Series — Lesson 04*
 
 **Grade Range:** 8–10  
 **Time:** 50–60 minutes  

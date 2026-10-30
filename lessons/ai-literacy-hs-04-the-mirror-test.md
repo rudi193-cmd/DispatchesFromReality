@@ -47,7 +47,7 @@ By the end of this lesson, students will be able to:
 
 ## For Teachers
 
-**Suggested time:** 50 minutes
+**Suggested time:** 50 minutes (the timed parts below add up to 47)
 
 **No devices required or recommended.**
 This lesson works best when the room is the only thing in the room.

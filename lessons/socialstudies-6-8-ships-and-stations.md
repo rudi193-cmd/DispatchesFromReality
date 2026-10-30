@@ -1,5 +1,5 @@
 # Ships and Stations
-### The Calibration Series (Social Studies) — Lesson 05
+*The Calibration Series (Social Studies) — Lesson 05*
 
 **Grade Range:** 6–8  
 **Subject:** Social Studies / History  

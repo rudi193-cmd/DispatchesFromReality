@@ -44,7 +44,7 @@ By the end of this lesson, students will be able to:
 
 ## For Teachers
 
-**Suggested time:** 50 minutes
+**Suggested time:** 50 minutes (the timed parts below add up to 45)
 
 **No devices required for the core lesson.**
 The core activity is a structured role-play using printed case cards.

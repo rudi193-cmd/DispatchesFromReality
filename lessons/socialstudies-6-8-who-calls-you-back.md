@@ -1,5 +1,5 @@
 # Who Calls You Back?
-### The Calibration Series (Social Studies) — Lesson 03
+*The Calibration Series (Social Studies) — Lesson 03*
 
 **Grade Range:** 6–8  
 **Subject:** Social Studies / History  

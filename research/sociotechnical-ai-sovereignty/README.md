@@ -20,6 +20,7 @@ For the broader research map, see [Research Portfolio](../README.md).
 | **v2** | Formal paper | Working draft (private worktree) | Structured research paper with abstract, methodology, evidence base, limitations, and references |
 | **v1** | Long-form essay | Working draft (private worktree) | Earlier public-facing argument: sovereign AI claims vs infrastructure control |
 | **Packet** | Public summary | This file | Scope, method, evidence base, portfolio links |
+| **Fact-check** | Source check, 2026-10-29 | [FACTCHECK-2026-10-29.md](FACTCHECK-2026-10-29.md) | Seven of v3's named-source claims against their sources; four wordings corrected |
 
 The canonical public essay is **v3** ([DRAFT.md](DRAFT.md)). Earlier drafts and the citation map live in the Willow sociotechnical research worktree. Private database files are not published here.
 
