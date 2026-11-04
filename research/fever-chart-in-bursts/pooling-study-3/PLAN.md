@@ -1,6 +1,7 @@
 # Study 3: the pre-registration
 
-**Status: DRAFT, not frozen.** Frozen when `FROZEN.json` is committed alone.
+**Status: frozen, not run.** `FROZEN.json`, committed alone, is the
+pre-registration. A change after that is a new freeze, with its reason.
 This study is different from the first two in one way that matters: **its data
 do not exist yet.** On 4 November 2026, CCC's published data reach 31 May
 2026. Study 3 scores months after that, on versions CCC has not released.
@@ -96,14 +97,31 @@ enough to see", not as evidence either way. P4 is strong, P3 moderate.
 
 ## Wagers
 
-Waiting on Sean, before the freeze: odds that each of P1, P3, P4 and P5
-comes out `pooling`.
+Sean's stated odds that each comes out `pooling`, given 2026-11-04 at about
+14:00 Mountain time, before the freeze and before any of the data existed.
+`against`, `drop` and `inconclusive` count as no.
+
+| | Prediction | Sean's odds |
+|---|---|---|
+| P1 | Rising floor | 35% |
+| P3 | Carryover across issues | 55% |
+| P4 | Returning organizations | 55% |
+| P5 | The midterm as pressure valve | 55% |
+
+They are rows 1 to 4 of the study's willow record, [box/](box/README.md),
+kept in this repo so that the session that runs the study, months from now,
+appends its verdicts to the same chain. The claims, word for word:
+
+    Pooling study 3 P1, rising floor: pooling
+    Pooling study 3 P3, carryover across issues: pooling
+    Pooling study 3 P4, returning organizations: pooling
+    Pooling study 3 P5, pressure valve: pooling
 
 ---
 
 ## The order, from here
 
-1. Sean wagers; the plan is frozen alone.
+1. Sean wagers; the plan is frozen alone: done.
 2. A scheduled task checks once a month for a qualifying version.
 3. When the valve data exist, P5 runs once; when the main data exist, P1, P3
    and P4 run once. Each writes its verdicts to the study's willow record and
