@@ -1,0 +1,24 @@
+{
+ "about": "Pre-registration of Study 3, frozen before its data existed: each file's SHA-256, held by test_study3.py, including the Study 1 and 2 files it imports. box/ is not frozen: it is the record that grows. A change to any frozen file is a new freeze, in its own commit, with its reason.",
+ "frozen": "2026-11-04",
+ "files": {
+  "PLAN.md": "6032413122147cf8abaf63a4a0262143c5caf9284b1b3d551c2fdf618450d3ec",
+  "README.md": "b2eb77accfb7d432f519ba675de472a5a88ddb89c6e60eb52caaf87df163c18b",
+  "fetch3.py": "7b9d720312e483b965ad19028d7d49576af43895894795c7c9bb2b567717d951",
+  "power-check.txt": "1a28fe822394df8c532aa4497746b723858208502f6cfdf1a0a9f8a2305d2c53",
+  "score3.py": "bf3803817f34790f84eaf0802e78cfc4d542faf53af114d441e3ef7ba378b80c",
+  "synth3.py": "f7bd2173c127b0432fdb8a5dc122610af033aca28f31256ad01ce1ba18a85a34",
+  "test_study3.py": "45c177486d2fc705d402a2568339ccc74a9250bc9ec8bc8f9a25ae759bac25ac",
+  "../pooling-study-2/score2.py": "8d86bd959f06aca144878c66babdf5e23864c310b46624fc20108ca41176dfde",
+  "../pooling-study/synth.py": "373d80c0c7d04cf94b48b106435613fc769945e19228895233a450d0d9bd12bf",
+  "../pooling-study/sources.json": "92891903bb4f14ad9680a0ed7879f427f2aad75117ddba16e2d8dc10bea8f3ac"
+ },
+ "tools": {
+  "willow kernel.py": "0f6f34eabdc4f4ec82eaf2ded411bea46da2aee0ea57bbc2b0c6a4e0ecfe4111",
+  "willow commit": "cd97a86d6c410f353400ee3f9e32af0f035baab5"
+ },
+ "box_at_freeze": {
+  "rows": 5,
+  "record.jsonl sha256": "02820ae50b2a1949ce370df2b93397055a3496d42ae807745d1f748626358eb8"
+ }
+}

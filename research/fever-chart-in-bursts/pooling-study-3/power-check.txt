@@ -1,0 +1,30 @@
+pooling 1 valve P5=inconclusive
+pooling 1 main P1=inconclusive P3=pooling P4=pooling
+reset 1 valve P5=inconclusive
+reset 1 main P1=inconclusive P3=against P4=against
+exhaustion 1 valve P5=inconclusive
+exhaustion 1 main P1=against P3=against P4=against
+pooling 2 valve P5=inconclusive
+pooling 2 main P1=inconclusive P3=inconclusive P4=pooling
+reset 2 valve P5=inconclusive
+reset 2 main P1=inconclusive P3=against P4=against
+exhaustion 2 valve P5=inconclusive
+exhaustion 2 main P1=inconclusive P3=against P4=against
+pooling 3 valve P5=inconclusive
+pooling 3 main P1=inconclusive P3=inconclusive P4=pooling
+reset 3 valve P5=inconclusive
+reset 3 main P1=inconclusive P3=against P4=against
+exhaustion 3 valve P5=inconclusive
+exhaustion 3 main P1=inconclusive P3=against P4=against
+pooling 4 valve P5=inconclusive
+pooling 4 main P1=inconclusive P3=inconclusive P4=pooling
+reset 4 valve P5=inconclusive
+reset 4 main P1=inconclusive P3=against P4=against
+exhaustion 4 valve P5=inconclusive
+exhaustion 4 main P1=inconclusive P3=against P4=against
+pooling 5 valve P5=inconclusive
+pooling 5 main P1=inconclusive P3=pooling P4=pooling
+reset 5 valve P5=inconclusive
+reset 5 main P1=inconclusive P3=against P4=against
+exhaustion 5 valve P5=inconclusive
+exhaustion 5 main P1=inconclusive P3=against P4=against
