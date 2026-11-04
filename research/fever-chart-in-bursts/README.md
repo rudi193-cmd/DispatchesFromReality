@@ -19,6 +19,7 @@ For the broader research map, see [Research Portfolio](../README.md). For the pr
 | **Fact-check** | Claim table | [FACTCHECK-2026-11-04.md](FACTCHECK-2026-11-04.md) | Each named-source claim checked against an opened source |
 | **Stack** | willow stack | [willow/README.md](willow/README.md) | Quotes held to the 1938 text, packet drift, the four tests dated and wagered |
 | **Study** | Pre-registered test, run once | [pooling-study/README.md](pooling-study/README.md), [result](pooling-study/results/README.md) | Pooling against reset and exhaustion on CCC protest data, two full terms (2017 to 2025): rising floor held on a thin control, the rest inconclusive |
+| **Study 2** | Pre-registered test, run once | [pooling-study-2/README.md](pooling-study-2/README.md), [result](pooling-study-2/results/README.md) | The same questions on held-out months, February 2025 to March 2026: rising floor against (on a measure that misread a ramp), the rest inconclusive |
 
 ---
 
@@ -83,7 +84,7 @@ Does Brinton's 1938 natural history of revolution still describe how a revolutio
 - A comparative reading against a 1938 framework. Not a prediction, and not a claim that a revolution is underway.
 - The stage mapping is the author's thesis and is contested.
 - Brinton is quoted from the 1938 edition only; the 1952 and 1965 revisions are not quoted.
-- The pooling model is tested once, with a mixed result (see the study's result). The surveillance hypothesis is still a proposal.
+- The pooling model is tested twice; no prediction passed in both studies (see both results). The surveillance hypothesis is still a proposal.
 - The election tally is one snapshot and will not hold.
 
 ---

@@ -1,0 +1,144 @@
+{
+ "events": 252024,
+ "held_out_events": 53152,
+ "counties": 2451,
+ "held_out_burst_months": [
+  "2025-06",
+  "2025-10",
+  "2026-03"
+ ],
+ "P1_rising_floor": {
+  "verdict": "against",
+  "variants": {
+   "all": {
+    "ratio": 0.4871,
+    "per_burst": {
+     "2025-06": 0.5304,
+     "2025-10": 0.4473
+    },
+    "skipped": [
+     "2026-03"
+    ]
+   },
+   "100+": {
+    "ratio": 0.3597,
+    "per_burst": {
+     "2025-06": 0.1282,
+     "2025-10": 1.0093
+    },
+    "skipped": [
+     "2026-03"
+    ]
+   }
+  },
+  "rule": [
+   1.1,
+   1.0
+  ]
+ },
+ "reported_only_P2_spread_that_sticks": {
+  "verdict": "inconclusive",
+  "ratio": 0.7391,
+  "recruits": {
+   "burst": 146,
+   "quiet": 237
+  },
+  "retained": {
+   "burst": 56,
+   "quiet": 123
+  },
+  "rule": [
+   0.85,
+   0.65
+  ]
+ },
+ "P3_carryover_across_issues": {
+  "verdict": "inconclusive",
+  "ratio": 0.9386,
+  "burst_rr": 1.5062,
+  "placebo_rr": 1.6047,
+  "bursts": [
+   "2025-06"
+  ],
+  "placebos": [
+   "2024-06",
+   "2024-07",
+   "2024-08",
+   "2024-09",
+   "2024-10",
+   "2024-11",
+   "2024-12",
+   "2025-01",
+   "2025-02",
+   "2025-03"
+  ],
+  "rule": [
+   0.95,
+   0.85
+  ]
+ },
+ "P4_returning_organizations": {
+  "verdict": "inconclusive",
+  "ratio": 0.7101,
+  "share": {
+   "burst": 0.6334,
+   "quiet": 0.8919
+  },
+  "events": {
+   "burst": 8922,
+   "quiet": 22956
+  },
+  "rule": [
+   0.8,
+   0.5
+  ]
+ },
+ "bootstrap": {
+  "draws": 200,
+  "measures": {
+   "P1 all events": {
+    "low": 0.4592,
+    "high": 0.7969,
+    "computable": 200,
+    "at_or_above_pooling_line": 0.0,
+    "at_or_below_against_line": 1.0
+   },
+   "P1 100 or more": {
+    "low": 0.3271,
+    "high": 0.5214,
+    "computable": 200,
+    "at_or_above_pooling_line": 0.0,
+    "at_or_below_against_line": 1.0
+   },
+   "P2 (reported only)": {
+    "low": 0.566,
+    "high": 1.3465,
+    "computable": 200,
+    "at_or_above_pooling_line": 0.315,
+    "at_or_below_against_line": 0.125
+   },
+   "P3": {
+    "low": 0.6021,
+    "high": 3.7582,
+    "computable": 200,
+    "at_or_above_pooling_line": 0.575,
+    "at_or_below_against_line": 0.325
+   },
+   "P4": {
+    "low": 0.6742,
+    "high": 0.8076,
+    "computable": 200,
+    "at_or_above_pooling_line": 0.035,
+    "at_or_below_against_line": 0.0
+   }
+  }
+ },
+ "inputs": {
+  "ccc_compiled_20172020.csv": "94203f16dc554d58f30d8991e2011d6548c8320f38ab2d8419b37e78cc66ac40",
+  "ccc_compiled_20212024.csv": "5bb37ac9d21fb912ec4a0cd48627f5ebd1fbc162a7a2ea029aa09f6a510c1944",
+  "ccc-phase3-public.csv": "70253a0eb7b2820acb2ff3b3ba9b7c1d48635421af46c88f17e4fae9481fb621"
+ },
+ "tool": {
+  "score2.py": "8d86bd959f06aca144878c66babdf5e23864c310b46624fc20108ca41176dfde"
+ }
+}
