@@ -17,6 +17,7 @@ For the broader research map, see [Research Portfolio](../README.md). For the pr
 | **v1** | Working draft | [DRAFT.md](DRAFT.md) | Full prose: what Brinton claimed, the 2008 to 2026 reading, Thermidor from inside, suffering and the J-curve, the bursts-and-pooling revision, objections, and the election-night data point |
 | **Packet** | Public summary | This file | Scope, method, evidence, claim boundaries |
 | **Fact-check** | Claim table | [FACTCHECK-2026-11-04.md](FACTCHECK-2026-11-04.md) | Each named-source claim checked against an opened source |
+| **Stack** | willow stack | [willow/README.md](willow/README.md) | Quotes held to the 1938 text, packet drift, the four tests dated and wagered |
 
 ---
 

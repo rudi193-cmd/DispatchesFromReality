@@ -13,13 +13,10 @@ The stack reorders the pools tallest first; this is reading order, not run order
 
 ## does the draft quote Brinton as he wrote
 - quotes -- --box boxes/sources --in pile/repo/research/fever-chart-in-bursts/DRAFT.md
-- claim-check -- --box boxes/sources "Robespierre fell to a conspiracy of Jacobin deputies involved in corruption who feared him"
+- claim-check -- --box boxes/sources "the fall of Robespierre was a conspiracy among Jacobin deputies involved in corruption"
 - claim-check -- --box boxes/sources "suffering is not in itself a spur to effective revolt"
 - claim-check -- --box boxes/sources "another and conflicting chain of institutions demanding obedience is dual sovereignty"
-- claim-check -- --box boxes/sources "the moderates failed because they were realists"
-
-## which of the draft's sentences Brinton's text can back
-- thesis -- --box boxes/sources pile/repo/research/fever-chart-in-bursts/DRAFT.md
+- claim-check -- --box boxes/sources "what is usually called realists, adapted to a common-sense world"
 
 ## does every packet hold together
 - pair-drift -- --box {box}
@@ -34,10 +31,9 @@ The stack reorders the pools tallest first; this is reading order, not run order
 - fair-merge -- --box {box} "what are the preliminary signs of revolution"
 - first-mention -- --box {box} "dual sovereignty"
 
-## who says what, and where the files disagree
+## who says what
+# said reads quotes in your own notes; put them in pile/notes
 - said -- --box {box}
-- contradictions -- --box {box}
-- duplicates -- --box {box}
 
 ## the four tests, as wagers
 - forecasts -- score --box {box}
