@@ -57,7 +57,11 @@ Does Brinton's 1938 natural history of revolution still describe how a revolutio
 | Administration eventually backed down | About a third of the 31 | AP review, early May 2026 | `fitted` |
 | Senate Republicans stalled an enforcement package, then passed it | Roughly $70 billion; stalled in May, passed in early June 2026 | Press reports | `fitted` |
 | Trump voters saying GOP candidates should break with him | One in four | Politico poll, October 2026 | `fitted` |
-| Civil resistance more popular, less effective, in the 2010s | Trend, no figure | Chenoweth, *Journal of Democracy*, July 2020 | `fitted` |
+| New nonviolent maximalist campaigns, 2010 to 2019 | 96, against a previous record of 60 | Chenoweth, *Journal of Democracy*, July 2020 | `measured` |
+| Their success rate | Above 40 percent each decade from the 1960s, 65 percent in the 1990s, under 34 percent since 2010 | Chenoweth, *Journal of Democracy*, July 2020 | `measured` |
+| Peak participation | 1.3 percent of the population since 2010, against 2.7 percent in the 1990s | Chenoweth, *Journal of Democracy*, July 2020 | `measured` |
+| Campaigns with violent flanks | More than half in the 2010s, against 30 to 35 percent before | Chenoweth, *Journal of Democracy*, July 2020 | `measured` |
+| March on Washington preparation; capacity, network internalities, tactical freeze | Six months, two of them with hundreds organizing full time | Tufekci, *Twitter and Tear Gas*, chapters 3 and 8 | `measured` |
 | Election-night tally, 00:10 MT, November 4 | House 223 D, 132 R (80 uncalled); Senate 53 D, 42 R; governors 25 D, 19 R | AP balance of power | `measured`, snapshot |
 | Pre-election control | House 218 to 214 (one independent, two vacancies); Senate 53 to 47, counting two independents who caucus with Democrats | Press reports | `fitted` |
 
@@ -76,5 +80,4 @@ Does Brinton's 1938 natural history of revolution still describe how a revolutio
 ## What comes next
 
 - Add the four post-election tests to the draft as they resolve, tagged by provenance.
-- Read the full Chenoweth essay and the relevant Tufekci chapters at first hand, and promote those rows from `fitted` to `measured` or correct them.
 - Compare the 1938 text against the 1965 revision on the moderates and Thermidor.
