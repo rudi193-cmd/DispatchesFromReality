@@ -1,7 +1,8 @@
 # Study 2: the pre-registration
 
-**Status: DRAFT, not frozen, not run.** `FROZEN.json`, committed alone, will
-make this the pre-registration. Until then every rule is open to change.
+**Status: frozen, not run.** `FROZEN.json` holds the SHA-256 of every file
+here, and the commit that adds it, alone, is the pre-registration. A change
+after that is a new freeze, with its reason.
 
 ---
 
@@ -97,14 +98,28 @@ kept date 31 March 2026. Of the held-out rows, 31,878 name an organization and
 
 ## Wagers
 
-Waiting on Sean: odds that each of P1, P3 and P4 comes out `pooling` in the
-held-out months. P2 is reported, not wagered.
+Sean's stated odds that each comes out `pooling` in the held-out months,
+given 2026-11-04 at about 03:40 Mountain time, before the freeze and before
+any prediction was computed on those months. `against` and `inconclusive`
+count as no. P2 is reported, not wagered.
+
+| | Prediction | Sean's odds |
+|---|---|---|
+| P1 | Rising floor | 55% |
+| P3 | Carryover across issues | 15% |
+| P4 | Returning organizations | 55% |
+
+The claims as `forecasts` records them, word for word:
+
+    Pooling study 2 P1, rising floor: pooling
+    Pooling study 2 P3, carryover across issues: pooling
+    Pooling study 2 P4, returning organizations: pooling
 
 ---
 
 ## The order, from here
 
-1. Sean edits this plan and wagers.
-2. `FROZEN.json` is committed alone.
+1. Sean edits this plan and wagers: done.
+2. `FROZEN.json` is committed alone: done.
 3. One run: `score2.py --events DATA/*.csv --draws 200 --out results/result.json --box BOX --willow WILLOW`.
 4. Every verdict reported, beside Study 1's.
