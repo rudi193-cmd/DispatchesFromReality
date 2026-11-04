@@ -72,11 +72,11 @@ A run on 2026-11-04 over this branch, with a throwaway box and key:
   and two of them carry a figure only in the summary:
   `childrens-software-interruption/README.md:131` (118) and
   `postwar-institutional-legacies/README.md:62` (117). Those are left for you.
-- **Links:** 284 references checked, none broken.
+- **Links:** 291 references checked, none broken.
 - **Left out:** `contradictions` and `duplicates` read the whole repo, and
   every hit was a byline date or a lesson's timing set against another's, so
   they are not in the stack. Add them back if the pile narrows.
-- **Box health:** `boxes/whole` cannot read one file,
+- **Box health:** `boxes/links` (the raw repo) cannot read one file,
   `knowledge-corpus/nestor.bundle.json`, which is over the kernel's 1 MB limit.
 
 ---
