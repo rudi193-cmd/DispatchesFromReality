@@ -48,7 +48,7 @@ Does Brinton's 1938 natural history of revolution still describe how a revolutio
 
 | Claim | Figure | Source named in the draft | Provenance |
 |-------|--------|---------------------------|------------|
-| Brinton's fever chart, preliminary signs, dual sovereignty, Thermidor and 1795 to 1796 passages | Quoted text | *The Anatomy of Revolution*, 1938, Gutenberg eBook 78065 | `measured` |
+| Brinton's fever chart, preliminary signs, dual sovereignty, Thermidor and post-Thermidor suffering passages | Quoted text | *The Anatomy of Revolution*, 1938, Gutenberg eBook 78065 | `measured` |
 | District judges found the administration violating an order | At least 31 lawsuits in the first 15 months, about one in eight blocked actions | AP review, early May 2026 | `fitted` |
 | Noncompliance in individual immigration petitions | More than 250 instances | AP review, early May 2026 | `fitted` |
 | Higher courts sided with the administration or limited correction | 15 of the 31 | AP review, early May 2026 | `fitted` |
