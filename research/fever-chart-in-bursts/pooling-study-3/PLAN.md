@@ -74,7 +74,20 @@ On Study 1's synthetic worlds, run on through September 2027 with bursts in
 November 2026 and May 2027 ([synth3.py](synth3.py)), seeds 1 to 5, every
 verdict with its 200-resample gate ([power-check.txt](power-check.txt)):
 
-POWER_TABLE
+| World | P1 | P3 | P4 | P5 |
+|---|---|---|---|---|
+| pooling | 0 of 5 `pooling` (all inconclusive) | 2 of 5 `pooling` | 5 of 5 `pooling` | 0 of 5 `pooling` |
+| reset | none `pooling` | none `pooling` (all `against`) | none `pooling` (all `against`) | none `pooling` |
+| exhaustion | none `pooling` (1 `against`) | none `pooling` (all `against`) | none `pooling` (all `against`) | none `drop`, none `pooling` |
+
+**Said plainly: the gate trades power for safety.** No world reads falsely
+as pooling on any prediction. But at the synthetic worlds' effect size, P1
+and P5 never reach a verdict either way: one or two bursts, or one election,
+are too few for the resamples to agree on a 5 to 10 percent effect. **P1 and
+P5 can only detect large effects.** The real effects seen so far have been
+large (Study 1's P1 at 1.29 and 1.75; the 2018 midterm's 0.63), so a verdict
+is possible, but an `inconclusive` P1 or P5 should be read as "not large
+enough to see", not as evidence either way. P4 is strong, P3 moderate.
 
 **Before the gate,** on point values alone, P1 and P5 each gave a false
 `pooling` in one reset world of five. The gate is there to stop that.
