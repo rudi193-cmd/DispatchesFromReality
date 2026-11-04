@@ -6,7 +6,7 @@
 
 *Brinton's fever chart describes a revolution as one continuous illness. A networked society gets it in bursts that fade, while something underneath keeps pooling.*
 
-For the broader research map, see [Research Portfolio](../README.md). For the provenance states used here, see [Nobody Counts the Ad Breaks](../childrens-software-interruption/README.md). For why Thermidor returns to an unchanged substrate, see [Post-WWII Institutional Legacies](../postwar-institutional-legacies/README.md). For local capacity built by hand before anyone needed it, see [Somebody Has to Sit Down With You](../../essays/somebody-has-to-sit-down-with-you/README.md).
+For the broader research map, see [Research Portfolio](../README.md). For the provenance states used here, see [Nobody Counts the Ad Breaks](../childrens-software-interruption/README.md). For why Thermidor returns to an unchanged substrate, see [Post-WWII Institutional Legacies](../postwar-institutional-legacies/README.md). For local capacity built by hand before anyone needed it, see [Somebody Has to Sit Down With You](../../essays/somebody-has-to-sit-down-with-you/README.md). For access as the modern form of Brinton's split between economic and political power, see [Nobody Adds It Up](../../essays/nobody-adds-it-up/README.md).
 
 ---
 
