@@ -1,0 +1,23 @@
+{
+ "about": "Pre-registration of Study 2: each file's SHA-256 at the freeze, held by test_study2.py, including the two Study 1 files it depends on. A change to any is a new freeze, in its own commit, with its reason. The commit that adds this file, alone, is the pre-registration.",
+ "frozen": "2026-11-04",
+ "files": {
+  "PLAN.md": "e2320f63305fc7d652709bc3140d949e2e01a9e0e197f7497873ced0c6a04e2d",
+  "README.md": "22726c44d222bce443b0029dd308f0b6ccd723b942e4c12795725665f0f8479e",
+  "score2.py": "8d86bd959f06aca144878c66babdf5e23864c310b46624fc20108ca41176dfde",
+  "synth2.py": "28fe192649f2468fafe0f4df7e37e35c82a43b2b9fa3c458fbde2493dbbfd796",
+  "test_study2.py": "5e4a227f92cb29c48e5af71a06b8ad68c12ae0e23884d056b2f584b3eab9919e",
+  "wiring2.py": "cf71fa786c4fef08ff79869a3a9e878bbd109e158a5088e278971a88c5e95f6b",
+  "../pooling-study/synth.py": "373d80c0c7d04cf94b48b106435613fc769945e19228895233a450d0d9bd12bf",
+  "../pooling-study/sources.json": "92891903bb4f14ad9680a0ed7879f427f2aad75117ddba16e2d8dc10bea8f3ac"
+ },
+ "tools": {
+  "willow kernel.py": "0f6f34eabdc4f4ec82eaf2ded411bea46da2aee0ea57bbc2b0c6a4e0ecfe4111",
+  "willow commit": "cd97a86d6c410f353400ee3f9e32af0f035baab5"
+ },
+ "data": {
+  "ccc_compiled_20172020.csv": "94203f16dc554d58f30d8991e2011d6548c8320f38ab2d8419b37e78cc66ac40",
+  "ccc_compiled_20212024.csv": "5bb37ac9d21fb912ec4a0cd48627f5ebd1fbc162a7a2ea029aa09f6a510c1944",
+  "ccc-phase3-public.csv": "70253a0eb7b2820acb2ff3b3ba9b7c1d48635421af46c88f17e4fae9481fb621"
+ }
+}
