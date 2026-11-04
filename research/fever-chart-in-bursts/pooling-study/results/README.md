@@ -129,3 +129,5 @@ run.
 
 Each would be a new freeze, with its reason, and its result reported beside
 this one.
+
+The first of them is [Study 2](../../pooling-study-2/README.md).

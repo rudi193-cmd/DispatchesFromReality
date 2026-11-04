@@ -19,6 +19,7 @@ For the broader research map, see [Research Portfolio](../README.md). For the pr
 | **Fact-check** | Claim table | [FACTCHECK-2026-11-04.md](FACTCHECK-2026-11-04.md) | Each named-source claim checked against an opened source |
 | **Stack** | willow stack | [willow/README.md](willow/README.md) | Quotes held to the 1938 text, packet drift, the four tests dated and wagered |
 | **Study** | Pre-registered test, run once | [pooling-study/README.md](pooling-study/README.md), [result](pooling-study/results/README.md) | Pooling against reset and exhaustion on CCC protest data, two full terms (2017 to 2025): rising floor held on a thin control, the rest inconclusive |
+| **Study 2** | Pre-registration draft | [pooling-study-2/README.md](pooling-study-2/README.md) | The same questions on held-out months, February 2025 to March 2026; not frozen, not run |
 
 ---
 
