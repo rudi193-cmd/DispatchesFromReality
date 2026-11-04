@@ -55,10 +55,10 @@ Does Brinton's 1938 natural history of revolution still describe how a revolutio
 | TARP commitment; final accounting | Up to $700 billion; bank programs net gain about $9 billion, net cost about $31 billion from housing programs | Congressional Budget Office, final TARP report | `measured` |
 | Median family net worth, 2007 to 2010 | Down 38.8 percent | Federal Reserve, Survey of Consumer Finances | `measured` |
 | Properties with foreclosure filings, 2010 | 2.9 million, a record | RealtyTrac, via press report | `fitted` |
-| Confidence in banks; in Congress | Banks 41 percent (2007), 22 percent (2009), 27 percent (2016); Congress 9 percent (2016) | Gallup, Confidence in Institutions | `measured` |
-| Trust in the federal government, 2009 to 2011 | 10 to 26 percent | Pew Research Center long series | `measured` |
-| Student loan balances | $0.64 trillion (end of 2008) to $1.31 trillion (end of 2016) | Federal Reserve Bank of New York, Household Debt and Credit | `measured` |
-| Recent-graduate unemployment; underemployment | 3.4 percent (2007) to 7.9 percent (2010); underemployment peak 47.4 percent (2012), series high 48.4 percent (1992) | Federal Reserve Bank of New York, recent graduates | `measured` |
+| Confidence in banks; in Congress | Banks from 41 percent in 2007 to 22 percent in 2009, 27 percent in 2016; Congress 9 percent in 2016 | Gallup, Confidence in Institutions | `measured` |
+| Trust in the federal government, 2009 to 2011 | Between 10 and 26 percent | Pew Research Center long series | `measured` |
+| Student loan balances | From $0.64 trillion at the end of 2008 to $1.31 trillion at the end of 2016 | Federal Reserve Bank of New York, Household Debt and Credit | `measured` |
+| Recent-graduate unemployment; underemployment | From 3.4 percent at the end of 2007 to 7.9 percent at the end of 2010; underemployment peak 47.4 percent (2012), series high 48.4 percent (1992) | Federal Reserve Bank of New York, recent graduates | `measured` |
 | 2016 primary vote shares | Trump 45.5 percent of Republican votes; Sanders 42.8 percent of Democratic votes | Federal Election Commission | `measured` |
 | Intellectuals questioning the consensus | Examples, not a trend: Autor, Dorn and Hanson (2016); Hayes (2012); Murray (2012) | NBER abstract; book summaries | `measured` / `fitted` |
 | District judges found the administration violating an order | At least 31 lawsuits in the first 15 months, about one in eight blocked actions | AP review, early May 2026 | `fitted` |
