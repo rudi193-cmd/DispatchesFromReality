@@ -12,7 +12,7 @@ run the stack from that folder, so the relative paths below resolve:
 The stack reorders the pools tallest first; this is reading order, not run order.
 
 ## does the draft quote Brinton as he wrote
-- quotes -- --box boxes/sources --in pile/repo/research/fever-chart-in-bursts/DRAFT.md
+- quotes -- --box boxes/sources --in repo/research/fever-chart-in-bursts/DRAFT.md
 - claim-check -- --box boxes/sources "the fall of Robespierre was a conspiracy among Jacobin deputies involved in corruption"
 - claim-check -- --box boxes/sources "suffering is not in itself a spur to effective revolt"
 - claim-check -- --box boxes/sources "another and conflicting chain of institutions demanding obedience is dual sovereignty"

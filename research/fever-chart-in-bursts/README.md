@@ -29,7 +29,7 @@ Does Brinton's 1938 natural history of revolution still describe how a revolutio
 
 ## Thesis
 
-1. **The stage reading (contested, the author's).** 2008 to 2016 reads as Brinton's old regime cracking, 2021 to 2025 as the rule of the moderates, and 2025 onward as an accession testing whether power can move outside the coordinated chain of institutions.
+1. **The stage reading (contested, the author's).** 2008 to 2016 reads as Brinton's old regime cracking (deficits, collapsing household wealth, falling public confidence, blocked young careers and doubled student debt are now sourced; intellectual desertion is shown by example only), 2021 to 2025 as the rule of the moderates, and 2025 onward as an accession testing whether power can move outside the coordinated chain of institutions.
 2. **An inversion of dual sovereignty.** In Brinton's four cases the extremists ran an illegal rival government. The 2025 to 2026 court-compliance record describes something else: a faction holding the legal government and contesting parts of it from inside. Brinton's categories do not settle that case.
 3. **Thermidor comes from inside.** Robespierre fell to frightened insiders, not to the opposition. The 2026 Republican breaks with the administration are a much milder version of that mechanism, driven by electoral survival.
 4. **Continuity under the cycle.** Brinton's inherited institutions are "annoyingly persistent," and the patient is not wholly made over. The Paperclip lineage work found the same: continuity without sameness. Thermidor reads less as a reversal than as the substrate reasserting itself.
@@ -51,6 +51,16 @@ Does Brinton's 1938 natural history of revolution still describe how a revolutio
 | Claim | Figure | Source named in the draft | Provenance |
 |-------|--------|---------------------------|------------|
 | Brinton's fever chart, preliminary signs, dual sovereignty, Thermidor and post-Thermidor suffering passages | Quoted text | *The Anatomy of Revolution*, 1938, Gutenberg eBook 78065 | `measured` |
+| Federal deficit, fiscal 2009 | $1.4 trillion, 9.9 percent of GDP (3.1 percent the year before) | Congressional Budget Office | `measured` |
+| TARP commitment; final accounting | Up to $700 billion; bank programs net gain about $9 billion, net cost about $31 billion from housing programs | Congressional Budget Office, final TARP report | `measured` |
+| Median family net worth, 2007 to 2010 | Down 38.8 percent | Federal Reserve, Survey of Consumer Finances | `measured` |
+| Properties with foreclosure filings, 2010 | 2.9 million, a record | RealtyTrac, via press report | `fitted` |
+| Confidence in banks; in Congress | Banks 41 percent (2007), 22 percent (2009), 27 percent (2016); Congress 9 percent (2016) | Gallup, Confidence in Institutions | `measured` |
+| Trust in the federal government, 2009 to 2011 | 10 to 26 percent | Pew Research Center long series | `measured` |
+| Student loan balances | $0.64 trillion (end of 2008) to $1.31 trillion (end of 2016) | Federal Reserve Bank of New York, Household Debt and Credit | `measured` |
+| Recent-graduate unemployment; underemployment | 3.4 percent (2007) to 7.9 percent (2010); underemployment peak 47.4 percent (2012), series high 48.4 percent (1992) | Federal Reserve Bank of New York, recent graduates | `measured` |
+| 2016 primary vote shares | Trump 45.5 percent of Republican votes; Sanders 42.8 percent of Democratic votes | Federal Election Commission | `measured` |
+| Intellectuals questioning the consensus | Examples, not a trend: Autor, Dorn and Hanson (2016); Hayes (2012); Murray (2012) | NBER abstract; book summaries | `measured` / `fitted` |
 | District judges found the administration violating an order | At least 31 lawsuits in the first 15 months, about one in eight blocked actions | AP review, early May 2026 | `fitted` |
 | Noncompliance in individual immigration petitions | More than 250 instances | AP review, early May 2026 | `fitted` |
 | Higher courts sided with the administration or limited correction | 15 of the 31 | AP review, early May 2026 | `fitted` |

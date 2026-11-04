@@ -83,3 +83,37 @@ Kept by address. No copies were saved for this check except the Brinton text.
 | William Davies, "Peter Turchin's empty prophecies", *New Statesman* (June 10, 2023) | https://newstatesman.com/the-weekend-essay/2023/06/peter-turchins-empty-prophecies |
 | House Press Gallery, party breakdown | https://pressgallery.house.gov/member-data/party-breakdown |
 | Ballotpedia, 2026 Senate elections | https://ballotpedia.org/United_States_Senate_elections,_2026 |
+
+## Second pass, 2026-11-04: the old regime and the movement literature
+
+The 2008 to 2016 paragraph had no sources, and the Tufekci and Chenoweth
+paragraphs rested on a summary and an abstract. Both were rewritten from the
+sources below in the same change as this note.
+
+| Claim | What the source says | Verdict | Wording |
+|---|---|---|---|
+| A government spending heavily to rescue one set of interests | FY2009 deficit $1.4T, 9.9% of GDP; TARP banks repaid at a net gain of about $9B, net cost about $31B from housing | measured | Narrowed: the grievance is the rescue's order and terms, not its final cost |
+| Households absorbed the loss | Median family net worth down 38.8%, 2007 to 2010; 2.9M foreclosure filings in 2010 | measured / fitted | Figures added |
+| Intellectuals defected; the professional class doubted its legitimacy | No series exists | not measurable | Replaced with named examples (Autor, Dorn and Hanson; Hayes; Murray) and a note that confidence data measure the public, not the ruling class |
+| Blocked careers and debt | Student loans $0.64T to $1.31T, 2008 to 2016; recent-grad unemployment 3.4% to 7.9%; underemployment peak 47.4% (2012), not a record (48.4% in 1992) | measured | Figures added, with the underemployment caveat |
+| Both establishments defeated or nearly defeated in 2016 | Trump 45.5% of GOP primary votes; Sanders 42.8% of Democratic primary votes; Clinton won by about 3.9M votes | measured | "Nearly defeated" changed to "seriously challenged" |
+| Tufekci: capacity is shaping a narrative, disrupting, or forcing structural change | Three capacities: narrative, disruptive, electoral or institutional (ch. 8) | measured | Corrected |
+| Tufekci: tactical freeze is failing to adjust when governments adapt | Tactical freeze is the inability to change tactics or negotiate, from leaderlessness and adhocracy (ch. 3); government learning is a separate point (Epilogue) | measured | Split into two claims |
+| Chenoweth: decline from savvier states and movement structure | She weighs the movements' own choices most: smaller peaks, street demonstrations over strikes, digital organizing, violent flanks; 96 campaigns in the 2010s; success under 34% since 2010 | measured | Reweighted, figures added; notes that she cites Tufekci, so the two are not independent |
+
+### Sources for the second pass
+
+| Source | Address |
+|---|---|
+| CBO, Federal Budget Deficit Totals $1.4 Trillion in Fiscal Year 2009 | https://www.cbo.gov/publication/24992 |
+| CBO, Final Report on the Troubled Asset Relief Program (2024) | https://www.cbo.gov/publication/60220 |
+| Federal Reserve, Changes in U.S. Family Finances from 2007 to 2010 | https://www.federalreserve.gov/Pubs/Bulletin/2012/articles/scf/scf.htm |
+| HousingWire on RealtyTrac's 2010 foreclosure filings | https://housingwire.com/articles/record-2-9-million-foreclosure-filings-in-2010 |
+| Pew Research Center, Public Trust in Government: 1958-2025 | https://www.pewresearch.org/politics/2025/12/04/public-trust-in-government-1958-2025/ |
+| Gallup on confidence in banks | https://news.gallup.com/poll/192719/americans-confidence-banks-languishing-below.aspx |
+| NY Fed, Household Debt and Credit | https://www.newyorkfed.org/microeconomics/hhdc |
+| NY Fed, The Labor Market for Recent College Graduates | https://www.newyorkfed.org/research/college-labor-market |
+| FEC, 2016 presidential primary results | https://www.fec.gov/documents/1890/2016presprimary.xlsx |
+| Autor, Dorn and Hanson, The China Shock, NBER w21906 | https://nber.org/papers/w21906 |
+| Tufekci, Twitter and Tear Gas (Creative Commons edition) | https://www.twitterandteargas.org/downloads/twitter-and-tear-gas-by-zeynep-tufekci.pdf |
+| Chenoweth, The Future of Nonviolent Resistance | https://www.journalofdemocracy.org/articles/the-future-of-nonviolent-resistance-2/ |
