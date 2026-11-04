@@ -18,7 +18,7 @@ For the broader research map, see [Research Portfolio](../README.md). For the pr
 | **Packet** | Public summary | This file | Scope, method, evidence, claim boundaries |
 | **Fact-check** | Claim table | [FACTCHECK-2026-11-04.md](FACTCHECK-2026-11-04.md) | Each named-source claim checked against an opened source |
 | **Stack** | willow stack | [willow/README.md](willow/README.md) | Quotes held to the 1938 text, packet drift, the four tests dated and wagered |
-| **Study** | Pre-registration draft | [pooling-study/README.md](pooling-study/README.md) | Pooling against reset and exhaustion on CCC protest data, 2017 to 2025; not frozen, not run |
+| **Study** | Pre-registration draft | [pooling-study/README.md](pooling-study/README.md) | Pooling against reset and exhaustion on CCC protest data, two full terms (2017 to 2025); not frozen, not run |
 
 ---
 

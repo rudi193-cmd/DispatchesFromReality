@@ -12,7 +12,7 @@ versions); and the Phase 3 file's header row, by a request for its first 3,000
 bytes. No event row from any phase.
 
 **What the authors already know, said plainly:** both of us have seen the
-headlines about 2017, 2020 and 2025. That is why no prediction is about the
+headlines about 2017 and 2020. That is why no prediction is about the
 size of a burst. All four are about what the quiet stretches between bursts
 look like, which neither of us has seen.
 
@@ -43,10 +43,20 @@ publishes; [fetch.py](fetch.py) downloads and checks them, and adds each
 SHA-256 in the freeze commit. The Phase 3 dataset is updated monthly, so the
 version is pinned, not "latest".
 
-**Window: April 2017 through December 2025.** CCC's own Phase 1 dictionary says
-February and March 2017 were collected by Google search alone, and the Count
-Love web crawl began feeding the project in April 2017. December 2025 is the
-last complete calendar year in the pinned Phase 3 file.
+**Window: two full presidential terms, 20 January 2017 to 19 January 2025.**
+Events are kept by their date, so the two partial months at the ends hold only
+the days inside the terms. A term is the cleanest unit the data allow: each
+one is a complete political cycle, and the boundary between them falls on
+CCC's own Phase 1 to Phase 2 handover.
+
+- **The first three months are a warm-up.** CCC began by counting the Women's
+  March of 21 January 2017 and, its Phase 1 dictionary says, relied on Google
+  searches through March; the Count Love crawl began feeding it in April. No
+  county's "first" month can fall in January to March 2017, and those months
+  are measured against their own year's median like any other.
+- **The Phase 3 file contributes 19 days,** 1 to 19 January 2025.
+- **The second Trump term is out of scope** until it is complete. Testing it
+  then is a new study with its own freeze, run against these same rules.
 
 ---
 
@@ -83,14 +93,14 @@ exhaustion), or **inconclusive**. The thresholds are the pairs in score.py.
 
 | | Prediction | Measure | Pooling at or above | Against at or below |
 |---|---|---|---|---|
-| **P1** | **Rising floor.** Quiet months get busier after each burst | Median active counties in the 6 quiet months after a burst over the 6 before, divided by the same step around placebo months; geometric mean | 1.1 in all three variants | 1.0 in all three |
+| **P1** | **Rising floor.** Quiet months get busier after each burst | Median active counties in the 6 quiet months after a burst over the 6 before, divided by the same step around placebo months; geometric mean | 1.1 in both variants | 1.0 in both |
 | **P2** | **Spread that sticks.** Counties first recruited in a burst keep protesting | Share of counties whose first month (after a 3-month warm-up) is a burst and that are active in a quiet month within 12 months, over the same share for counties first recruited in a quiet month | 0.85 | 0.65 |
 | **P3** | **Carryover across issues.** Burst turnout leads to protest on other issues | After each burst, counties that turned out on its top issue against counties active in the prior 12 months that stayed home, stratified by prior activity; outcome is quiet months with an event on another issue. Burst ratio over the placebo ratio | 0.95 | 0.85 |
 | **P4** | **Returning organizations.** Bursts draw on groups already active | From 2022, share of events naming an organization seen since January 2021, in burst months over quiet months | 0.8 | 0.5 |
 
-P1's three variants: all events; events of 100 people or more (size category
-2 and up, the most likely to be in the news whatever else CCC was watching);
-and events not flagged as recurring (Phase 3 only, see the threats).
+P1's two variants: all events, and events of 100 people or more (size
+category 2 and up, the most likely to be in the news whatever else CCC was
+watching).
 
 ---
 
@@ -99,10 +109,10 @@ and events not flagged as recurring (Phase 3 only, see the threats).
 | Threat | From | Handling |
 |---|---|---|
 | **Coverage grew.** A full-time manager from late 2020, a second in late 2023, a Twitter list, then Instagram (2023 to 2024), then Telegram (2022) | Phase 2 dictionary | Bursts are measured against their own year; P1 and P3 are divided by placebo months; P1 must also hold for events of 100 or more. A growth that hits burst windows harder than placebo windows would still get through, and nothing here can rule that out |
-| **The Phase 1 to Phase 2 handover,** January 2021: the Count Love crawl ended and CCC ran its own | Phase 1 dictionary | No P1 window may straddle January 2021. P2 and P3 follow-up windows may cross it, and that is a known weakness |
+| **The Phase 1 to Phase 2 handover,** January 2021: the Count Love crawl ended and CCC ran its own. It falls on the term boundary | Phase 1 dictionary | No P1 window may straddle January 2021, so each P1 step sits inside one term. P2 and P3 follow-up windows may cross it, and that is a known weakness |
 | **Multi-day events** became one record per day in Phase 2 | Phase 2 dictionary | Counting active county-months, not events, for P1 to P3. P4 counts events, and the change affects burst and quiet months alike |
 | **Strikes** dropped from April 2023 | Phase 2 dictionary | All strikes out, with the codebook's carve-out |
-| **Repeating events** (a weekly vigil) recorded until someone reports they stopped, flagged only from Phase 3 | Phase 3 guidelines | P1 must hold without them. Before 2025 they cannot be removed |
+| **Repeating events** (a weekly vigil) recorded until someone reports they stopped, flagged only from July 2026 | Phase 3 guidelines | Inside the window they cannot be told apart from other events. A vigil kept on the books after it ended would raise a quiet floor on its own, which works in pooling's favor; P1's placebo comparison absorbs it only if such vigils are spread evenly over time |
 | **Organizations** have their own field only from 2021; Phase 1 mixes organizations and kinds of people in `actors` | Both dictionaries | P4 reads 2021 on only, by exact name, which misses a group that changes its name |
 | **Issue tags** come from regular expressions that may differ between phases | Phase 2 dictionary | P3 compares within each burst's own 12 months; a carryover window that crosses a phase boundary uses two tag lists |
 | **Geocoding** places events by city name, then county | All dictionaries | County, not city, is the unit |
@@ -121,7 +131,7 @@ holds the result. On seeds 1 to 5:
 | World | Runs | Every prediction `pooling` | Any prediction `pooling` |
 |---|---|---|---|
 | pooling | 5 | 5 | 5 |
-| reset | 5 | 0 | 0 (one run had P1 `inconclusive`, the rest `against`) |
+| reset | 5 | 0 | 0 (three runs had P1 `inconclusive`, the rest `against`) |
 | exhaustion | 5 | 0 | 0 |
 
 **Said plainly:** the first version of P1 (a yearly floor over the year's

@@ -4,7 +4,8 @@
 
 Tests the [Fever Chart packet](../README.md)'s proposal that protest bursts
 leave a stock behind, against the readings that they reset or exhaust, on the
-Crowd Counting Consortium's US event data, 2017 to 2025. Four predictions,
+Crowd Counting Consortium's US event data across two full presidential
+terms, January 2017 to January 2025. Four predictions,
 each with its rule and its thresholds written down before any data row is
 read.
 

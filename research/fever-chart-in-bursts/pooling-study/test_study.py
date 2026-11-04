@@ -45,8 +45,10 @@ class Reader(unittest.TestCase):
         self.assertEqual(self.row(fips_code="1001.0")["county"], "01001")
 
     def test_out_of_window_online_and_countyless_events_are_left_out(self):
-        self.assertIsNone(self.row(date="2017-03-30"))
-        self.assertIsNone(self.row(date="2026-01-02"))
+        self.assertIsNone(self.row(date="2017-01-19"))
+        self.assertIsNotNone(self.row(date="2017-01-20"))
+        self.assertIsNotNone(self.row(date="2025-01-19"))
+        self.assertIsNone(self.row(date="2025-01-20"))
         self.assertIsNone(self.row(online="1"))
         self.assertIsNone(self.row(fips_code=""))
 
@@ -58,7 +60,6 @@ class Reader(unittest.TestCase):
     def test_phase_column_names_all_read(self):
         self.assertEqual(self.row(issues="", issue_tags="guns; labor")["issues"], ["guns", "labor"])
         self.assertIsNone(self.row(type="", event_type="strike"))
-        self.assertTrue(self.row(repeater="1")["repeater"])
 
 
 if __name__ == "__main__":

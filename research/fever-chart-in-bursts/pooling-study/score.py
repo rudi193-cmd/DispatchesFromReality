@@ -29,9 +29,11 @@ csv.field_size_limit(sys.maxsize)
 
 # ---- the frozen window and rules (PLAN.md, "Rules") ------------------------
 
-START = (2017, 4)  # the Count Love crawl feeds CCC from April 2017
-END = (2025, 12)  # last complete calendar year in the pinned Phase 3 file
-WARMUP = 3  # months at the start in which a county's "first" month means nothing
+# Two full presidential terms, noon 20 January 2017 to noon 20 January 2025.
+FIRST_DAY, LAST_DAY = "2017-01-20", "2025-01-19"
+START, END = (2017, 1), (2025, 1)
+WARMUP = 3  # January to March 2017: counted by Google search alone, and the
+#             months in which a county's "first" month means nothing
 BURST_X = 1.5  # a burst month: active counties >= 1.5 x its calendar year's median
 FOLLOW = 12  # months followed after a recruit month or a burst
 
@@ -69,7 +71,9 @@ def normalize(row: dict) -> dict | None:
     strike (CCC stopped coding strikes in April 2023; its codebook's carve-out
     keeps the student climate "strikes" of the late 2010s, valence 1 with an
     environment tag)."""
-    date = (row.get("date") or "").strip()
+    date = (row.get("date") or "").strip()[:10]
+    if not FIRST_DAY <= date <= LAST_DAY:
+        return None
     try:
         y, m = int(date[:4]), int(date[5:7])
     except ValueError:
@@ -99,7 +103,6 @@ def normalize(row: dict) -> dict | None:
         # Phase 1 has `actors` (organizations and kinds of people mixed); only
         # Phases 2 and 3 have `organizations`, so P4 reads only those.
         "orgs": split(row.get("organizations") or ""),
-        "repeater": (row.get("repeater") or "").strip() in ("1", "1.0"),
     }
 
 
@@ -202,13 +205,9 @@ def p1_floor(events: list[dict]) -> dict:
     months before it. Coverage that grows on its own moves every month alike,
     so the same step is taken around placebo months, and the burst step is
     divided by the placebo step. Pooling needs that ratio at P1_STEP[0] or more
-    in all three variants: all events, events of 100 people or more, and events
-    not flagged as part of a recurring series (Phase 3 only flags them, and a
-    weekly vigil recorded until someone says it stopped would raise a floor
-    on its own)."""
+    in both variants: all events, and events of 100 people or more."""
     out = {}
-    variants = (("all", lambda e: True), ("100+", lambda e: e["size"] >= 2),
-                ("no repeaters", lambda e: not e["repeater"]))
+    variants = (("all", lambda e: True), ("100+", lambda e: e["size"] >= 2))
     for name, keep in variants:
         act = active(events, keep)
         b = bursts(act)

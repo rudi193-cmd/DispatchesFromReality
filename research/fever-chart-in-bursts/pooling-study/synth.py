@@ -26,12 +26,12 @@ import random
 import sys
 from pathlib import Path
 
-START, MONTHS = (2017, 4), 105
+START, MONTHS = (2017, 1), 97  # January 2017 to January 2025
 COUNTIES = 1500
 TAGS = ["democracy", "racism", "women's rights", "immigration", "environment",
         "guns", "labor", "foreign affairs"]
 BURSTS = {11: "women's rights", 38: "racism", 62: "women's rights",
-          96: "democracy", 102: "democracy"}  # month index: the burst's issue
+          78: "democracy", 90: "democracy"}  # month index: the burst's issue
 
 
 def poisson(rng: random.Random, lam: float) -> int:
