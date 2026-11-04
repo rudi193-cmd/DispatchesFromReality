@@ -1,15 +1,16 @@
 # Pooling: the pre-registration
 
-**Status: DRAFT, not frozen.** Nothing in this folder has been run on real
-data, and the data have not been downloaded. This plan becomes the
-pre-registration when `FROZEN.json` is committed holding the SHA-256 of every
-file here, alone, before any row is read. Until then, every rule below is
-open to change.
+**Status: frozen, not run.** `FROZEN.json` holds the SHA-256 of
+every file in this folder, and the commit that adds it, alone, is the
+pre-registration. A change to any of them after that is a new freeze, in its
+own commit, with its reason, and the first freeze stays on record.
 
-**What has been read so far, said plainly:** the three CCC data dictionaries
-and coding guidelines; the Dataverse metadata (file ids, sizes, MD5s,
-versions); and the Phase 3 file's header row, by a request for its first 3,000
-bytes. No event row from any phase.
+**What was read before the freeze, said plainly:** the three CCC data
+dictionaries and coding guidelines; the Dataverse metadata (file ids, sizes,
+MD5s, versions); the Phase 3 file's header row; and the dry run below, which
+counts rows read, kept and dropped, and which placeholder and type values the
+reader meets. No month, county, burst or prediction was computed on real
+data before the freeze.
 
 **What the authors already know, said plainly:** both of us have seen the
 headlines about 2017 and 2020. That is why no prediction is about the
@@ -127,6 +128,43 @@ watching).
 
 ---
 
+## Decisions made at the freeze
+
+- **Thresholds and the burst rule** stay as drafted (Sean, 2026-11-04).
+- **The 19 days of January 2025** stay in, so the study is tied to CCC's
+  Phase 3 file at version 18.0, file id 14226873 (Sean, 2026-11-04). A later
+  version of that file is a different file and is not read.
+
+---
+
+## The dry run
+
+[wiring.py](wiring.py) ran the reader over the three pinned files on
+2026-11-04, printing counts only. It found two bugs, both fixed before the
+freeze:
+
+- **"NA" as an organization.** Phase 2 and 3 write a blank organizations
+  field as `NA` (38,419 and 23,382 rows), which the reader took for a group
+  named "na" that every event shared. That alone would have made P4 read as
+  pooling. Placeholders (`NA`, `N/A`, `none`, `nan`, `null`) are now empty.
+- **Hunger strikes dropped as labor strikes.** The strike rule matched any
+  type containing "strike", so it dropped 511 hunger strikes (78 in Phase 1, 433 in Phase 2). A type now
+  counts as a labor strike only if it is not a hunger strike.
+
+It also found a few dozen bytes that are not UTF-8 (66 in Phase 1, 87 in
+Phase 2), now read as replacement characters, in free-text fields only. After
+the fixes:
+
+| File | Rows | Kept | Outside the terms | No county | Online only | Labor strike |
+|---|---|---|---|---|---|---|
+| Phase 1, 2017-2020 | 72,181 | 71,634 | 123 | 107 | 0 | 317 |
+| Phase 2, 2021-2024 | 139,823 | 125,115 | 0 | 126 | 388 | 14,194 |
+| Phase 3, 2025- | 63,147 | 1,312 | 61,830 | 0 | 5 | 0 |
+
+Most Phase 2 strike rows are `strike; picket`, one record per day of a strike.
+
+---
+
 ## The power check
 
 Rules that cannot tell a pooling world from a reset world cannot be trusted
@@ -176,13 +214,11 @@ only each claim's hash:
 
 ## The order, from here
 
-1. **Edit this plan.** Every threshold, the window and the burst rule are
-   open until the freeze.
+1. **Edit this plan.** Done; see Decisions made at the freeze.
 2. **Wager.** Done: see [Wagers](#wagers). Sean also records them as
    `forecasts` wagers on his own willow box, before the freeze.
-3. **Freeze.** `fetch.py --to DATA --pin` downloads the three files and adds
-   their SHA-256s; then `FROZEN.json`, holding the SHA-256 of every file in
-   this folder, is committed alone. That commit is the pre-registration.
+3. **Freeze.** Done: `fetch.py --pin` recorded each file's SHA-256 in
+   sources.json, and FROZEN.json was committed alone.
 4. **Run once.** `score.py --events DATA/*.csv --out results/result.json
    --box BOX --willow WILLOW` writes the four verdicts as rows on the box's
    record, with the hashes of the data and the script. Nothing is sealed by

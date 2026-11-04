@@ -1,5 +1,5 @@
 {
- "about": "The three Crowd Counting Consortium files the study reads, pinned by Dataverse file id, dataset version and the MD5 Dataverse publishes. sha256 is filled in once, by fetch.py --pin, in the freeze commit; until then the files have not been downloaded.",
+ "about": "The three Crowd Counting Consortium files the study reads, pinned by Dataverse file id and dataset version, with the MD5 Dataverse publishes for the original file and the SHA-256 fetch.py --pin recorded on 2026-11-04. bytes is the original file's size, as fetched with ?format=original.",
  "files": [
   {
    "dataset": "doi:10.7910/DVN/6OPP7H",
@@ -7,9 +7,9 @@
    "file_id": 10808404,
    "filename": "ccc_compiled_20172020.csv",
    "served_as": "ccc_compiled_20172020.tab",
-   "bytes": 36596016,
+   "bytes": 36177556,
    "md5": "cff472d0c4c39a94fa1a321e5d314085",
-   "sha256": null
+   "sha256": "94203f16dc554d58f30d8991e2011d6548c8320f38ab2d8419b37e78cc66ac40"
   },
   {
    "dataset": "doi:10.7910/DVN/9MMYDI",
@@ -17,9 +17,9 @@
    "file_id": 10822959,
    "filename": "ccc_compiled_20212024.csv",
    "served_as": "ccc_compiled_20212024.tab",
-   "bytes": 128356718,
+   "bytes": 118395033,
    "md5": "eb11cb4f264f8f327eb88b88d5e8d118",
-   "sha256": null
+   "sha256": "5bb37ac9d21fb912ec4a0cd48627f5ebd1fbc162a7a2ea029aa09f6a510c1944"
   },
   {
    "dataset": "doi:10.7910/DVN/RI9JFU",
@@ -29,7 +29,7 @@
    "served_as": "ccc-phase3-public.csv",
    "bytes": 47231658,
    "md5": "3a9f1767e241fffb1daeee44b0d80608",
-   "sha256": null
+   "sha256": "70253a0eb7b2820acb2ff3b3ba9b7c1d48635421af46c88f17e4fae9481fb621"
   }
  ]
 }

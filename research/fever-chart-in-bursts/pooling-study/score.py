@@ -61,8 +61,18 @@ def year_of(i: int) -> int:
     return START[0] + (START[1] - 1 + i) // 12
 
 
+EMPTY = {"na", "n/a", "none", "nan", "null"}  # placeholders the files use for a blank
+
+
 def split(s: str) -> list[str]:
-    return [t.strip().lower() for t in s.replace(",", ";").split(";") if t.strip()]
+    return [t for t in (x.strip().lower() for x in s.replace(",", ";").split(";"))
+            if t and t not in EMPTY]
+
+
+def labor_strike(kind: str) -> bool:
+    """A labor strike among an event's types. A hunger strike is a protest,
+    not a work stoppage, and stays in."""
+    return any("strike" in t and "hunger" not in t for t in split(kind))
 
 
 def normalize(row: dict) -> dict | None:
@@ -71,7 +81,8 @@ def normalize(row: dict) -> dict | None:
     Out of scope: no date in the window, no county, online only, or a labor
     strike (CCC stopped coding strikes in April 2023; its codebook's carve-out
     keeps the student climate "strikes" of the late 2010s, valence 1 with an
-    environment tag)."""
+    environment tag, and a hunger strike is not a labor strike). A field that
+    holds only a placeholder such as "NA" is empty."""
     date = (row.get("date") or "").strip()[:10]
     if not FIRST_DAY <= date <= LAST_DAY:
         return None
@@ -90,7 +101,7 @@ def normalize(row: dict) -> dict | None:
     issues = split(row.get("issue_tags") or row.get("issues") or "")
     kind = (row.get("event_type") or row.get("type") or "").lower()
     valence = (row.get("valence") or "").strip().split(".")[0]
-    if "strike" in kind and not (valence == "1" and "environment" in issues):
+    if labor_strike(kind) and not (valence == "1" and "environment" in issues):
         return None
     try:
         size = int(float(row.get("size_cat") or 0))
@@ -110,7 +121,9 @@ def normalize(row: dict) -> dict | None:
 def read(paths: list[Path]) -> list[dict]:
     events = []
     for p in paths:
-        with p.open(encoding="utf-8", newline="") as f:
+        # The compiled Phase 1 and 2 files hold a few dozen bytes that are not
+        # UTF-8; they are read as U+FFFD, in free-text fields only.
+        with p.open(encoding="utf-8", errors="replace", newline="") as f:
             dialect = "excel-tab" if p.suffix in (".tab", ".tsv") else "excel"
             for row in csv.DictReader(f, dialect=dialect):
                 e = normalize(row)

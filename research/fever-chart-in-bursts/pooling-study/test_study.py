@@ -6,6 +6,8 @@ The power check is the point: on synthetic worlds whose answer is known,
 score.py must call pooling `pooling` on every prediction, and must never call
 reset or exhaustion `pooling` on any. Standard library only.
 """
+import hashlib
+import json
 import tempfile
 import unittest
 from pathlib import Path
@@ -57,9 +59,30 @@ class Reader(unittest.TestCase):
         self.assertIsNotNone(self.row(type="strike", issues="environment"))
         self.assertIsNone(self.row(type="strike", issues="environment", valence="0"))
 
+    def test_hunger_strikes_stay_in(self):
+        self.assertIsNotNone(self.row(type="hunger strike"))
+        self.assertIsNotNone(self.row(type="demonstration; hunger-strike"))
+        self.assertIsNone(self.row(type="strike; picket"))
+
+    def test_placeholders_are_empty(self):
+        self.assertEqual(self.row(organizations="NA")["orgs"], [])
+        self.assertEqual(self.row(organizations="none")["orgs"], [])
+        self.assertEqual(self.row(organizations="NA; Sunrise")["orgs"], ["sunrise"])
+
     def test_phase_column_names_all_read(self):
         self.assertEqual(self.row(issues="", issue_tags="guns; labor")["issues"], ["guns", "labor"])
         self.assertIsNone(self.row(type="", event_type="strike"))
+
+
+class Freeze(unittest.TestCase):
+    def test_every_frozen_file_is_as_frozen(self):
+        here = Path(__file__).resolve().parent
+        frozen = here / "FROZEN.json"
+        if not frozen.exists():
+            self.skipTest("not frozen yet")
+        for name, digest in json.loads(frozen.read_text())["files"].items():
+            got = hashlib.sha256((here / name).read_bytes()).hexdigest()
+            self.assertEqual(got, digest, f"{name} changed since the freeze: a new freeze, with its reason")
 
 
 if __name__ == "__main__":

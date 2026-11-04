@@ -50,7 +50,13 @@ def main(argv: list[str]) -> int:
         p = to / f["filename"]
         if not p.exists() and "--check" not in argv:
             print(f"fetching {f['filename']} ({f['bytes']:,} bytes)", file=sys.stderr)
-            urllib.request.urlretrieve(URL.format(f["file_id"]), p)
+            req = urllib.request.Request(URL.format(f["file_id"]),
+                                         headers={"User-Agent": "pooling-study-fetch/1"})
+            part = p.with_suffix(p.suffix + ".part")
+            with urllib.request.urlopen(req) as r, part.open("wb") as out:
+                for block in iter(lambda: r.read(1 << 20), b""):
+                    out.write(block)
+            part.rename(p)
         if not p.exists():
             print(f"missing  {f['filename']}")
             bad += 1
