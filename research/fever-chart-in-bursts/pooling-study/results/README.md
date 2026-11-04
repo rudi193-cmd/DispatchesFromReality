@@ -59,6 +59,39 @@ less than quiet months do, and the frozen rule calls that inconclusive.
 
 ---
 
+## Error bars, added after the run
+
+[bootstrap.py](../bootstrap.py), written after the run and outside the freeze,
+resampled the 2,303 counties with replacement 400 times and reran the frozen
+rules on each draw, burst calendar included. It changes no verdict. It shows
+how much each number moves when the sample of places changes
+([bootstrap.json](bootstrap.json)).
+
+| Measure | Point | 95% of draws between | Draws at or above the pooling line | Draws at or below the against line |
+|---|---|---|---|---|
+| P1, all events | 1.29 | 1.11 and 1.34 | 98% | 0% |
+| P1, 100 or more | 1.75 | 1.30 and 1.95 | 100% | 0% |
+| P2 | 0.79 | 0.55 and 0.94 | 16% | 9% |
+| P3 | not computed | 1.09 and 1.31, in the 164 draws where it could be | 41% (every computable draw) | 0% |
+| P4 | 0.7992 | 0.71 and 0.83 | 41% | 0% |
+
+- **P1 holds up under resampling.** Almost every draw clears the line. That
+  answers the question of which counties happened to be in the data. It does
+  not answer the thinner problem of three placebo months from one season,
+  because resampling counties does not add months.
+- **P2 is undetermined, not in the middle.** Its range runs from below the
+  against line to above the pooling line. This dataset cannot say whether
+  burst recruits stick.
+- **P4 is a coin flip at the line.** 41 percent of draws clear it. "Missed by
+  a hair" overstated how much the miss means.
+- **P3 reads as pooling whenever it can be measured,** which happened in 164
+  of 400 draws, when resampling shifted the burst calendar enough to leave a
+  placebo month with room. That is exploratory and is not a verdict: the
+  frozen rule, on the actual data, could not compute it. But it is a reason
+  to think the second study's fix for P3 is worth making.
+
+---
+
 ## The burst calendar
 
 The 1.5-times-the-year's-median rule found 14 burst months:

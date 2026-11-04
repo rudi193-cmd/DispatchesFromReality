@@ -1,0 +1,75 @@
+{
+ "draws": 400,
+ "counties": 2303,
+ "measures": {
+  "P1 all events": {
+   "point": 1.2916,
+   "low": 1.1094,
+   "high": 1.3363,
+   "computable": 400,
+   "at_or_above_pooling_line": 0.975,
+   "at_or_below_against_line": 0.0,
+   "rule": [
+    1.1,
+    1.0
+   ]
+  },
+  "P1 100 or more": {
+   "point": 1.7547,
+   "low": 1.2976,
+   "high": 1.9522,
+   "computable": 400,
+   "at_or_above_pooling_line": 1.0,
+   "at_or_below_against_line": 0.0,
+   "rule": [
+    1.1,
+    1.0
+   ]
+  },
+  "P2": {
+   "point": 0.79,
+   "low": 0.5517,
+   "high": 0.9441,
+   "computable": 400,
+   "at_or_above_pooling_line": 0.1625,
+   "at_or_below_against_line": 0.09,
+   "rule": [
+    0.85,
+    0.65
+   ]
+  },
+  "P3": {
+   "point": null,
+   "low": 1.0922,
+   "high": 1.3092,
+   "computable": 164,
+   "at_or_above_pooling_line": 0.41,
+   "at_or_below_against_line": 0.0,
+   "rule": [
+    0.95,
+    0.85
+   ]
+  },
+  "P4": {
+   "point": 0.7992,
+   "low": 0.7094,
+   "high": 0.8323,
+   "computable": 400,
+   "at_or_above_pooling_line": 0.41,
+   "at_or_below_against_line": 0.0,
+   "rule": [
+    0.8,
+    0.5
+   ]
+  }
+ },
+ "tool": {
+  "bootstrap.py": "3a49571658db946b29c425787112e8d562d9226b6a03443a29eec94dd3be87d8",
+  "score.py": "ded03279a42bbf6cc1fe637514d9f75642d792736a75b115af85452502e60fde"
+ },
+ "inputs": {
+  "ccc_compiled_20172020.csv": "94203f16dc554d58f30d8991e2011d6548c8320f38ab2d8419b37e78cc66ac40",
+  "ccc_compiled_20212024.csv": "5bb37ac9d21fb912ec4a0cd48627f5ebd1fbc162a7a2ea029aa09f6a510c1944",
+  "ccc-phase3-public.csv": "70253a0eb7b2820acb2ff3b3ba9b7c1d48635421af46c88f17e4fae9481fb621"
+ }
+}
