@@ -10,17 +10,17 @@
 #
 # Makes:
 #   HOME_DIR/repo           a clone of rudi193-cmd/DispatchesFromReality
-#   HOME_DIR/pile/repo      its Markdown, each line over 480 characters wrapped
-#                           at a space: the kernel keeps only the first 500
-#                           characters of a line, and this repo writes a whole
-#                           paragraph on one line. Line numbers in a report on
-#                           boxes/whole are this mirror's, not the repo's
+#   HOME_DIR/mirror-md      the repo's Markdown with its markup off (markdown add-on)
+#   HOME_DIR/pile/repo      that, with lines over 500 characters broken (text
+#                           add-on); each file's .lines map gives the source line
 #   HOME_DIR/pile/sources   Brinton 1938, Gutenberg eBook 78065, hash-checked
 #   HOME_DIR/pile/notes     your own notes (the watch list is read from the repo)
 #   HOME_DIR/boxes/whole    a box over the whole pile
 #   HOME_DIR/boxes/sources  a box over the Brinton text only, so a check of
 #                           the draft never finds the draft quoting itself
-# Re-running it pulls the repo, rebuilds the mirror, and leaves the boxes
+#   HOME_DIR/boxes/links    a box over the raw repo, for xref: the markdown
+#                           add-on keeps a link's text, not its target
+# Re-running it pulls the repo, rebuilds the mirrors, and leaves the boxes
 # and keys alone.
 # FEVER_BRANCH=NAME clones a branch other than main.
 set -euo pipefail
@@ -42,21 +42,14 @@ else
   git clone -b "${FEVER_BRANCH:-main}" https://github.com/rudi193-cmd/DispatchesFromReality "$HOME_DIR/repo"
 fi
 
-rm -rf "$HOME_DIR/pile/repo"
-python3 - "$HOME_DIR/repo" "$HOME_DIR/pile/repo" <<'PY'
-import pathlib, sys, textwrap
-src, dst = map(pathlib.Path, sys.argv[1:])
-for f in src.rglob("*.md"):
-    if ".git" in f.parts:
-        continue
-    out = dst / f.relative_to(src)
-    out.parent.mkdir(parents=True, exist_ok=True)
-    lines = []
-    for line in f.read_text(encoding="utf-8").splitlines():
-        lines += textwrap.wrap(line, 480, break_long_words=False) if len(line) > 480 else [line]
-    out.write_text("\n".join(lines) + "\n", encoding="utf-8")
-print(f"pile/repo: Markdown mirrored from repo, long lines wrapped")
-PY
+# The repo's Markdown, read as the kernel can read it, by two add-ons:
+# markdown takes the markup off, line for line, and text breaks every line
+# over 500 characters at spaces, keeping a hidden .lines map back to the
+# source line. The kernel keeps only the first 500 characters of a line, and
+# this repo writes a whole paragraph on one line.
+rm -rf "$HOME_DIR/mirror-md" "$HOME_DIR/pile/repo"
+python3 "$WILLOW/adapters/stdlib/markdown/markdown.py" mirror --from "$HOME_DIR/repo" --to "$HOME_DIR/mirror-md"
+python3 "$WILLOW/adapters/stdlib/text/text.py" mirror --from "$HOME_DIR/mirror-md" --to "$HOME_DIR/pile/repo"
 
 if [ ! -f "$TXT" ]; then
   curl -sSL -o "$TXT" https://www.gutenberg.org/cache/epub/78065/pg78065.txt
@@ -67,13 +60,14 @@ echo "sources: Brinton text matches its SHA-256"
 
 cp "$HOME_DIR/repo/research/fever-chart-in-bursts/willow/stack.md" "$HOME_DIR/stack.md"
 
-for box in whole sources; do
+for box in whole sources links; do
   if [ -f "$HOME_DIR/boxes/$box/kernel.json" ]; then
     echo "boxes/$box: already started"
     continue
   fi
   pile="$HOME_DIR/pile"
   [ "$box" = sources ] && pile="$HOME_DIR/pile/sources"
+  [ "$box" = links ] && pile="$HOME_DIR/repo"
   python3 "$WILLOW/kernel.py" init --box "$HOME_DIR/boxes/$box" --pile "$pile" --key "$KEY_DIR/fever-$box.key"
 done
 

@@ -17,10 +17,22 @@ add-ons, local only, standard library only.
 
 ---
 
-## Two boxes, on purpose
+## Three boxes, on purpose
 
 | Box | Pile | Used for |
 |-----|------|----------|
+| `boxes/sources` | The Brinton text only | Quotes and claims from the draft. A box that also held the draft would find every quote "as written" in the draft itself, which proves nothing |
+| `boxes/whole` | This repo as the `markdown` and `text` add-ons mirror it, the Brinton text, and your notes | Drift between every draft and its packet, dates coming up, questions asked across everything |
+| `boxes/links` | The raw repo | `xref` only: the `markdown` add-on keeps a link's text and drops a link inside the folder, so the mirror has nothing for `xref` to check |
+
+The repo writes each paragraph on one line, and the kernel keeps only the
+first 500 characters of a line. So `build.sh` reads the repo through two
+add-ons before the kernel sees it: `markdown` takes the markup off, line for
+line, and `text` breaks every line over 500 characters at spaces, with a
+hidden `.lines` map beside each file that gives the source line. That is why
+`pair-drift` names `DRAFT.md.txt.txt`: the draft, mirrored twice.
+
+-----|------|----------|
 | `boxes/sources` | The Brinton text only | Quotes and claims from the draft. A box that also held the draft would find every quote "as written" in the draft itself, which proves nothing |
 | `boxes/whole` | This repo (as a wrapped mirror, see Limits), the Brinton text, and your notes | Drift between every draft and its packet, broken links, dates coming up, questions asked across everything |
 
@@ -90,14 +102,11 @@ the Brier score from then on.
 
 ## Limits
 
-- The kernel keeps only the first 500 characters of a line, and this repo
-  writes each paragraph on one line, so a box over the raw repo silently
-  misses most of every long paragraph. `build.sh` therefore puts a mirror in
-  `pile/repo`, every line over 480 characters wrapped at a space, and keeps
-  the git clone in `repo/` outside the pile. Line numbers in a report on
-  `boxes/whole` are the mirror's. Found when `pair-drift` flagged twelve
-  figures in this packet that the draft does say, all past character 500.
-
+- `text` breaks a long line at the last space before 500 characters, and that
+  can fall between a number and its unit. In the rehearsal it split
+  "2.9 million" and "34 percent" across two lines, so `pair-drift` reports
+  both as figures only the packet says. Read the line it names before you
+  call it drift; both are in the draft.
 - `claim-check` and `quotes` work passage by passage, so a sentence that
   straddles two passages in the source reads as short. Read the line it names
   before you call a quote wrong.

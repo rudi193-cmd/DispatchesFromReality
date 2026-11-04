@@ -1,8 +1,9 @@
 # the fever chart stack
 
-Two willow boxes over the [Fever Chart packet](../README.md): `boxes/whole`,
-over the whole pile (the DispatchesFromReality repo, the Brinton text and your
-notes), and `boxes/sources`, over the Brinton text alone. A check of the draft
+Three willow boxes over the [Fever Chart packet](../README.md): `boxes/whole`,
+over the whole pile (the DispatchesFromReality repo as the markdown and text
+add-ons mirror it, the Brinton text and your notes), `boxes/sources`, over the
+Brinton text alone, and `boxes/links`, over the raw repo for `xref`. A check of the draft
 runs against `boxes/sources`, so it can never find the draft quoting itself.
 Every step reads and writes nothing. [build.sh](build.sh) makes the folder;
 run the stack from that folder, so the relative paths below resolve:
@@ -19,8 +20,8 @@ The stack reorders the pools tallest first; this is reading order, not run order
 - claim-check -- --box boxes/sources "what is usually called realists, adapted to a common-sense world"
 
 ## does every packet hold together
-- pair-drift -- --box {box}
-- xref -- --box {box}
+- pair-drift -- --box {box} --full DRAFT.md.txt.txt --summary README.md.txt.txt
+- xref -- --box boxes/links
 
 ## what is coming up
 - coming-up -- --box {box} --days 150
