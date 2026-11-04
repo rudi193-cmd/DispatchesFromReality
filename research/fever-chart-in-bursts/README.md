@@ -20,6 +20,7 @@ For the broader research map, see [Research Portfolio](../README.md). For the pr
 | **Stack** | willow stack | [willow/README.md](willow/README.md) | Quotes held to the 1938 text, packet drift, the four tests dated and wagered |
 | **Study** | Pre-registered test, run once | [pooling-study/README.md](pooling-study/README.md), [result](pooling-study/results/README.md) | Pooling against reset and exhaustion on CCC protest data, two full terms (2017 to 2025): rising floor held on a thin control, the rest inconclusive |
 | **Study 2** | Pre-registered test, run once | [pooling-study-2/README.md](pooling-study-2/README.md), [result](pooling-study-2/results/README.md) | The same questions on held-out months, February 2025 to March 2026: rising floor against (on a measure that misread a ramp), the rest inconclusive |
+| **Exploratory** | Seasonal baseline, not a test | [pooling-exploratory/README.md](pooling-exploratory/README.md) | A year-over-year instrument for the rising floor, tried on months already seen, to choose Study 3's |
 
 ---
 
