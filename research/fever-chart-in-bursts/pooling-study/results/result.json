@@ -1,0 +1,113 @@
+{
+ "events": 198061,
+ "counties": 2303,
+ "burst_months": [
+  "2017-01",
+  "2017-04",
+  "2018-03",
+  "2018-04",
+  "2018-06",
+  "2018-11",
+  "2019-07",
+  "2019-09",
+  "2019-12",
+  "2020-05",
+  "2020-06",
+  "2021-10",
+  "2022-10",
+  "2023-10"
+ ],
+ "P1_rising_floor": {
+  "verdict": "pooling",
+  "variants": {
+   "all": {
+    "burst_step": 1.2145,
+    "placebo_step": 0.9403,
+    "ratio": 1.2916,
+    "bursts": 12,
+    "placebos": 3
+   },
+   "100+": {
+    "burst_step": 1.2928,
+    "placebo_step": 0.7368,
+    "ratio": 1.7547,
+    "bursts": 12,
+    "placebos": 3
+   }
+  },
+  "rule": [
+   1.1,
+   1.0
+  ]
+ },
+ "P2_spread_that_sticks": {
+  "verdict": "inconclusive",
+  "ratio": 0.79,
+  "recruits": {
+   "burst": 851,
+   "quiet": 751
+  },
+  "retained": {
+   "burst": 222,
+   "quiet": 248
+  },
+  "rule": [
+   0.85,
+   0.65
+  ]
+ },
+ "P3_carryover_across_issues": {
+  "verdict": "inconclusive",
+  "ratio": null,
+  "burst_rr": 1.9287,
+  "placebo_rr": null,
+  "bins": {
+   "1-2": [
+    1665,
+    2149,
+    5303,
+    2851
+   ],
+   "3-5": [
+    1909,
+    5331,
+    1293,
+    2187
+   ],
+   "6+": [
+    3296,
+    22748,
+    256,
+    897
+   ]
+  },
+  "rule": [
+   0.95,
+   0.85
+  ]
+ },
+ "P4_returning_organizations": {
+  "verdict": "inconclusive",
+  "ratio": 0.7992,
+  "share": {
+   "burst": 0.6558,
+   "quiet": 0.8206
+  },
+  "events": {
+   "burst": 4681,
+   "quiet": 66712
+  },
+  "rule": [
+   0.8,
+   0.5
+  ]
+ },
+ "inputs": {
+  "ccc_compiled_20172020.csv": "94203f16dc554d58f30d8991e2011d6548c8320f38ab2d8419b37e78cc66ac40",
+  "ccc_compiled_20212024.csv": "5bb37ac9d21fb912ec4a0cd48627f5ebd1fbc162a7a2ea029aa09f6a510c1944",
+  "ccc-phase3-public.csv": "70253a0eb7b2820acb2ff3b3ba9b7c1d48635421af46c88f17e4fae9481fb621"
+ },
+ "tool": {
+  "score.py": "ded03279a42bbf6cc1fe637514d9f75642d792736a75b115af85452502e60fde"
+ }
+}
