@@ -6,7 +6,7 @@
 
 *Brinton's fever chart describes a revolution as one continuous illness. A networked society gets it in bursts that fade, while something underneath keeps pooling.*
 
-For the broader research map, see [Research Portfolio](../README.md). For the provenance states used here, see [Nobody Counts the Ad Breaks](../childrens-software-interruption/README.md). For the institutional-lineage method this sits beside, see [Post-WWII Institutional Legacies](../postwar-institutional-legacies/README.md).
+For the broader research map, see [Research Portfolio](../README.md). For the provenance states used here, see [Nobody Counts the Ad Breaks](../childrens-software-interruption/README.md). For why Thermidor returns to an unchanged substrate, see [Post-WWII Institutional Legacies](../postwar-institutional-legacies/README.md). For local capacity built by hand before anyone needed it, see [Somebody Has to Sit Down With You](../../essays/somebody-has-to-sit-down-with-you/README.md).
 
 ---
 
@@ -32,7 +32,8 @@ Does Brinton's 1938 natural history of revolution still describe how a revolutio
 1. **The stage reading (contested, the author's).** 2008 to 2016 reads as Brinton's old regime cracking, 2021 to 2025 as the rule of the moderates, and 2025 onward as an accession testing whether power can move outside the coordinated chain of institutions.
 2. **An inversion of dual sovereignty.** In Brinton's four cases the extremists ran an illegal rival government. The 2025 to 2026 court-compliance record describes something else: a faction holding the legal government and contesting parts of it from inside. Brinton's categories do not settle that case.
 3. **Thermidor comes from inside.** Robespierre fell to frightened insiders, not to the opposition. The 2026 Republican breaks with the administration are a much milder version of that mechanism, driven by electoral survival.
-4. **The revision.** Modern movements arrive in bursts that spread fast and fade (Tufekci, Chenoweth), but each burst leaves networks, skills, and unresolved grievance behind. The better model is a stock that pools under spiking flows, closer to a self-organized critical sandpile than to a fever with a course.
+4. **Continuity under the cycle.** Brinton's inherited institutions are "annoyingly persistent," and the patient is not wholly made over. The Paperclip lineage work found the same: continuity without sameness. Thermidor reads less as a reversal than as the substrate reasserting itself.
+5. **The revision.** Modern movements arrive in bursts that spread fast and fade (Tufekci, Chenoweth), but each burst leaves networks, skills, and unresolved grievance behind. The better model is a stock that pools under spiking flows, closer to a self-organized critical sandpile than to a fever with a course.
 
 ---
 
