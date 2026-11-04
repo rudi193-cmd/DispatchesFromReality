@@ -41,6 +41,7 @@ FOLLOW = 12  # months followed after a recruit month or a burst
 P1_STEP = (1.1, 1.0)  # quiet-level step after bursts / after placebo months, both variants
 SIDE = 6  # quiet months on each side of a burst (or placebo) month
 BREAKS = [(2021, 1)]  # coverage breaks a step window may not straddle (Phase 2 began)
+LOCKDOWN = [(2020, 3), (2020, 4), (2020, 5)]  # never in a step window, nor a placebo month
 P2_RATIO = (0.85, 0.65)  # burst-recruit retention / quiet-recruit retention
 P3_RR = (0.95, 0.85)  # cross-issue carryover ratio after bursts / after placebo months
 P4_RATIO = (0.8, 0.5)  # returning-organization share, burst / quiet months
@@ -175,14 +176,27 @@ def verdict(value: float | None, rule: tuple[float, float]) -> str:
 # ---- the four predictions ---------------------------------------------------
 
 
+_LOCK = {month_index(*x) for x in LOCKDOWN}
+
+
+def _sides(b: list[bool], m: int) -> tuple[list[int], list[int]]:
+    """The SIDE quiet months before and after month m, skipping bursts and the
+    spring 2020 lockdown, when protest fell for reasons that had nothing to do
+    with capacity."""
+    def quiet(j):
+        return not b[j] and j not in _LOCK
+    before = [j for j in range(m - 1, -1, -1) if quiet(j)][:SIDE]
+    after = [j for j in range(m + 1, N_MONTHS) if quiet(j)][:SIDE]
+    return before, after
+
+
 def _windows(b: list[bool]) -> tuple[list[int], list[int]]:
     """Burst months and placebo months that have SIDE quiet months on each side
     inside the window, with no coverage break between the first and last of
     them. A placebo month is a quiet month at least SIDE months from any burst."""
     breaks = [month_index(*x) for x in BREAKS]
     def ok(m):
-        before = [j for j in range(m - 1, -1, -1) if not b[j]][:SIDE]
-        after = [j for j in range(m + 1, N_MONTHS) if not b[j]][:SIDE]
+        before, after = _sides(b, m)
         if len(before) < SIDE or len(after) < SIDE:
             return None
         if any(before[-1] < k <= after[-1] for k in breaks):
@@ -190,7 +204,8 @@ def _windows(b: list[bool]) -> tuple[list[int], list[int]]:
         return before, after
     near = {j for m in range(N_MONTHS) if b[m] for j in range(m - SIDE, m + SIDE + 1)}
     bursts_ok = [m for m in range(N_MONTHS) if b[m] and ok(m)]
-    placebo = [m for m in range(N_MONTHS) if not b[m] and m not in near and ok(m)]
+    placebo = [m for m in range(N_MONTHS)
+               if not b[m] and m not in near and m not in _LOCK and ok(m)]
     return bursts_ok, placebo
 
 
@@ -213,8 +228,7 @@ def p1_floor(events: list[dict]) -> dict:
         b = bursts(act)
         bm, pm = _windows(bursts(active(events)))
         def step(m):
-            bef = [j for j in range(m - 1, -1, -1) if not b[j]][:SIDE]
-            aft = [j for j in range(m + 1, N_MONTHS) if not b[j]][:SIDE]
+            bef, aft = _sides(b, m)
             lo = statistics.median(len(act[j]) for j in bef)
             return statistics.median(len(act[j]) for j in aft) / lo if lo else None
         sb = _gmean([x for x in map(step, bm) if x])

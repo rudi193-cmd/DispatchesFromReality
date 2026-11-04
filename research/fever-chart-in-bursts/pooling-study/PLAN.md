@@ -84,6 +84,12 @@ P3 take the same measurement around placebo months as around bursts and
 divide one by the other, so whatever moves every month alike, including
 coverage, cancels.
 
+**The spring 2020 lockdown** (March to May 2020) is never one of the 6 quiet
+months on either side of a burst or placebo month, and never a placebo month
+itself. Protest fell then for reasons that had nothing to do with capacity,
+and left in, it would make the step after the summer 2020 burst look larger
+than it was, in pooling's favor.
+
 ---
 
 ## The four predictions
@@ -115,6 +121,7 @@ watching).
 | **Repeating events** (a weekly vigil) recorded until someone reports they stopped, flagged only from July 2026 | Phase 3 guidelines | Inside the window they cannot be told apart from other events. A vigil kept on the books after it ended would raise a quiet floor on its own, which works in pooling's favor; P1's placebo comparison absorbs it only if such vigils are spread evenly over time |
 | **Organizations** have their own field only from 2021; Phase 1 mixes organizations and kinds of people in `actors` | Both dictionaries | P4 reads 2021 on only, by exact name, which misses a group that changes its name |
 | **Issue tags** come from regular expressions that may differ between phases | Phase 2 dictionary | P3 compares within each burst's own 12 months; a carryover window that crosses a phase boundary uses two tag lists |
+| **The spring 2020 lockdown** cut protest for reasons unrelated to capacity, just before a burst | Found while preparing the wagers | March to May 2020 are skipped in every P1 and P3 window |
 | **Geocoding** places events by city name, then county | All dictionaries | County, not city, is the unit |
 | **The data's authors and the paper's sources overlap:** Chenoweth co-leads CCC and wrote the decline finding the draft cites | Dataset citations | This study tests a different claim, but the reader should know the source is not independent of the argument it is checked against |
 
@@ -143,13 +150,36 @@ reason the freeze has to come before the fetch.
 
 ---
 
+## Wagers
+
+Sean's stated odds that each prediction comes out `pooling`, given
+2026-11-04 at 02:32 Mountain time, before the freeze and before any data row
+was read. Both `against` and `inconclusive` count as no. P1's was given with
+the lockdown rule above in place.
+
+| | Prediction | Sean's odds |
+|---|---|---|
+| P1 | Rising floor | 75% |
+| P2 | Spread that sticks | 75% |
+| P3 | Carryover across issues | 35% |
+| P4 | Returning organizations | 75% |
+
+The claims as `forecasts` records them, word for word, since the record keeps
+only each claim's hash:
+
+    Pooling study P1, rising floor: pooling
+    Pooling study P2, spread that sticks: pooling
+    Pooling study P3, carryover across issues: pooling
+    Pooling study P4, returning organizations: pooling
+
+---
+
 ## The order, from here
 
 1. **Edit this plan.** Every threshold, the window and the burst rule are
    open until the freeze.
-2. **Wager.** Sean writes a probability for each prediction coming out
-   `pooling`, as `forecasts` wagers on a willow box, before the freeze. The
-   claims to wager on are the four rows of the predictions table.
+2. **Wager.** Done: see [Wagers](#wagers). Sean also records them as
+   `forecasts` wagers on his own willow box, before the freeze.
 3. **Freeze.** `fetch.py --to DATA --pin` downloads the three files and adds
    their SHA-256s; then `FROZEN.json`, holding the SHA-256 of every file in
    this folder, is committed alone. That commit is the pre-registration.
