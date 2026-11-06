@@ -10,7 +10,8 @@ add-ons, local only, standard library only.
 | File | What |
 |------|------|
 | [build.sh](build.sh) | Makes the folder: clones this repo, fetches every open source with almanac-keep and holds it to its logged hash, turns them into text with willow's readers, starts three boxes |
-| [stack.md](stack.md) | The steps, in pools: the ledger's quotes, the deciding quotes, short claims, packet drift and links, the sources asked directly, box health |
+| [stack.md](stack.md) | 86 steps in 13 pools, 72 add-ons: the ledger against its sources, the catalog and nuggets, the sources asked directly and in their own languages, kept and sealed, the packet and the repo read across, privacy and code guards, the record, what it makes in `out/`, and play |
+| `sections.txt` | The ledger's six sections as `sort` categories, in the ledger's own words |
 | `stack/catalog/catalog.json` | An Almanac catalog: each cited work with its venue, what it shows, the ledger lines that use it, its address, each probe's answer, and its open or provided copies |
 | `stack/nuggets/soil-phys-001.json` | A Jeles seed: each work as a question and the answer it gives, with its address as evidence and the ledger line as the reason; unsigned, so Jeles sets the rung |
 | `make_stack.py` | Writes both from one table; `--probe` asks each address once and appends the answer to `probes.jsonl` |
@@ -39,6 +40,25 @@ then point a box at MIRROR.
 
 ---
 
+## 81 add-ons
+
+Willow has 337 add-ons. This stack uses every one that has something to say
+about this packet, 81 with the ones `build.sh` runs and `snapshot` under
+`almanac-keep`; each was run on the built boxes before it went in. The rest
+don't fit, and why:
+
+| Left out | Why |
+|---|---|
+| Readers of other kinds of file (93) | The pile is PDFs, web pages, TEI and Markdown; `build.sh` uses the readers for those |
+| Life logs (garden, car, pets, budget, baby-log and the like) | They each said, correctly, that nothing here is a garden or a car |
+| Editor and assistant setup (aider, cursor, vscode, vim and the like) | They print a config to paste, not a check |
+| Anything that needs an approved answer (export's answers, static-search, annotations, rss-out, badge's count, pile-gold, pile-sweep, quantized, deep-links) | Approving is the key's, and the key is Sean's; nothing here is approved |
+| `predict ask` | `stack` adds `--json` to a report add-on's step, and `ask` takes none; run it by hand |
+| `browse`, `pipe` | One waits at a prompt, the other reads its standard input |
+| Model, network and sealing add-ons | The stack runs local and offline, and never seals |
+
+---
+
 ## A run, 2026-11-06
 
 `build.sh` from scratch, then the stack, on willow's main (93b2add):
@@ -49,6 +69,7 @@ then point a box at MIRROR.
 - **Short claims** (`claim-check`): "gravity is an entropic force" has every part in Verlinde, "Rule 110 is capable of universal computation" in Cook; "the metric is proportional to entanglement" has every part nowhere.
 - **Asked directly** (`fair-merge`): "is space absolute or relative" serves Leibniz's third paper first; "what happens to the ground state when a symmetry is broken" serves Nambu's lecture first.
 - **The repo** (`xref`): 305 references, none broken. (`pair-drift`): this packet's README holds a "256" its draft doesn't, the 256 of SHA-256; across the repo it flags figures in three other packets' READMEs that their drafts don't hold.
+- **The full stack, again from scratch:** `build.sh` in 66 seconds (27 sources held to their hashes, 0 differ), the 86 steps in 180 seconds, none refused, 14 with something for you, 8 files in `out/` (a PROV record, an in-toto statement, a folder card, a timeline, a calendar of what's coming up, CloudEvents, a printable answer, a badge). Among them: `thesis` puts each of the draft's 167 sentences to the sources and finds 11 held whole in one passage; `sort` places 25 of the 35 source files in the ledger's sections; `stems` reads "Feldgleichung" as Einstein's "Feldgleichungen"; `launcher` finds Mach's "absolute space and absolute motion ... are pure things of thought"; `a11y-check` finds one heading that skips a level, in `creative/`; `fixity` and `changed` fingerprint the 35 source files so a later run says what moved.
 - **pile-poetry**, seeded "the vault is sean's key":
 
       Un point c ζ à y any set
