@@ -48,32 +48,45 @@ CATALOG="$HOME_DIR/repo/$W/stack/catalog/catalog.json"
 for id in $(python3 -c 'import json,sys; print(" ".join(e["id"] for e in json.load(open(sys.argv[1]))["entries"]
             if e.get("status") == "live" or any(c.get("permission") == "ok" and "browser" not in (c.get("via") or "")
                                                  for c in e.get("recovery") or [])))' "$CATALOG"); do
-  ls "$HOME_DIR/keep/$id".* "$HOME_DIR/keep/$id" >/dev/null 2>&1 && continue
+  { compgen -G "$HOME_DIR/keep/$id.*" >/dev/null || [ -e "$HOME_DIR/keep/$id" ]; } && continue
   python3 "$WILLOW/adapters/stdlib/almanac-keep/keep.py" --catalog "$CATALOG" --id "$id" --to "$HOME_DIR/keep" >/dev/null \
     || echo "keep: $id: no copy answered"
 done
 
 # Each kept file held to the hash the packet logged; the by-hand ones named.
-python3 - "$HOME_DIR/repo/$W/keep" "$HOME_DIR/keep" <<'PY'
+# A web page is regenerated on every request (session codes, tracking), so its
+# bytes differ each time; its text is held to the text hash logged beside it.
+python3 - "$HOME_DIR/repo/$W/keep" "$HOME_DIR/keep" "$WILLOW" <<'PY'
 import hashlib, json, sys
 from pathlib import Path
 logs, keep = Path(sys.argv[1]), Path(sys.argv[2])
+sys.path.insert(0, sys.argv[3])
+import kernel
+text = {json.loads(x)["file"]: json.loads(x)["text_sha256"]
+        for x in (logs / ".text.jsonl").read_text(encoding="utf-8").splitlines()}
 want = {}
 for name in (".snapshots.jsonl", ".provided.jsonl"):
     for line in (logs / name).read_text(encoding="utf-8").splitlines():
         r = json.loads(line)
         want[r["file"]] = (r["sha256"], r.get("how"), r.get("from"))
-same = differ = 0
+same = differ = page = live = 0
 for f, (sha, how, src) in sorted(want.items()):
     p = keep / f
     if not p.exists():
         print(f"by hand: {f}, from {src}" if how else f"missing: {f}")
     elif hashlib.sha256(p.read_bytes()).hexdigest() == sha:
         same += 1
+    elif f in text and hashlib.sha256(kernel.html_text(
+            p.read_text(encoding="utf-8", errors="replace")).encode("utf-8")).hexdigest() == text[f]:
+        page += 1
+    elif f in text:
+        live += 1
+        print(f"live page: {f}: its text changed too (a counter, a notice); the packet's copy is the record")
     else:
         differ += 1
         print(f"DIFFERENT: {f}: not the bytes the packet logged")
-print(f"sources: {same} match their SHA-256, {differ} differ")
+print(f"sources: {same} match their SHA-256; {page} web pages changed, their text the same; "
+      f"{live} live pages changed; {differ} differ")
 PY
 
 # The repo, as the kernel can read it.
@@ -100,7 +113,8 @@ PY
     ;;
   esac
 done
-python3 "$WILLOW/adapters/deps/pdf/pdf.py" mirror --from "$HOME_DIR/stage/pdf" --to "$HOME_DIR/stage/text/pdf"
+python3 "$WILLOW/adapters/deps/pdf/pdf.py" mirror --from "$HOME_DIR/stage/pdf" --to "$HOME_DIR/stage/text/pdf" 2>&1 \
+  | grep -v "fontTools is required" || true  # pypdf's note on old fonts, once a page
 python3 "$WILLOW/adapters/stdlib/web-pages/web_pages.py" mirror --from "$HOME_DIR/stage/html" --to "$HOME_DIR/stage/text/html"
 python3 "$WILLOW/adapters/stdlib/text/text.py" mirror --from "$HOME_DIR/stage/text" --to "$HOME_DIR/pile/sources"
 
