@@ -105,8 +105,12 @@ for f in "$HOME_DIR"/keep/*; do
     # Wikisource marks each long s as a span, and willow's HTML reader puts a
     # space at every tag (bug #284), so "similar" would read "s imilar": unwrap them
     *.html) sed -E 's#<span class="typographic-long-s"[^>]*>s</span>#s#g' "$f" > "$HOME_DIR/stage/html/$(basename "$f")" ;;
-    # an OCR of old type keeps the long s (Dedekind's "Syſtem"): read it as s
-    *.txt) sed 's/ſ/s/g' "$f" > "$HOME_DIR/stage/text/$(basename "$f")" ;;
+    # an OCR of old type keeps the long s (Dedekind's "Syſtem"): read it as s;
+    # a Project Gutenberg text is read between its START and END lines, without
+    # the English licence around it (Frege's German would sort as "information")
+    *.txt) if grep -q '^\*\*\* START OF THE PROJECT GUTENBERG' "$f"; then
+             sed -n '/^\*\*\* START OF THE PROJECT GUTENBERG/,/^\*\*\* END OF THE PROJECT GUTENBERG/p' "$f"
+           else cat "$f"; fi | sed 's/ſ/s/g' > "$HOME_DIR/stage/text/$(basename "$f")" ;;
     # a copy almanac-keep saved with no extension (the server didn't name its
     # type): a PDF by its first bytes, otherwise a Newton Project TEI file
     *) if [ "$(head -c 4 "$f")" = "%PDF" ]; then cp "$f" "$HOME_DIR/stage/pdf/$(basename "$f").pdf"; continue; fi
