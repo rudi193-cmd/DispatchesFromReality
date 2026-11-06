@@ -48,7 +48,11 @@ Revision 2's lines, plus three of revision 1's stronger claims (marked rev 1), c
 | 05.02-a | Zermelo: Dedekind's proof of infinity cannot satisfy | **holds** | "kann nicht befriedigen, da er von der „Menge alles Denkbaren“ ausgeht" (zermelo-1908-open) | found in a scan's OCR, through its noise |
 | 05.02-b | Frege: 0 for the concept nothing falls under; 1 for the concept identical with 0 | **holds** | "0 ist die Anzahl, welche dem Begriffe »sich selbst ungleich« zukommt" (frege-1884.txt) | found word for word |
 | 05.02-c | Dedekind: the number series starts at 1; zero a later creation | **holds** | "das wir im Folgenden durch das Symbol 1 bezeichnen wollen" (dedekind-1888.txt) | found word for word (OCR of the 1888 scan) |
+| 0003 | von Neumann: every ordinal the set of those before it; 1 = (O) | **holds** | "Jede Ordnungszahl ist die Menge der ihr vorangehenden Ordnungszahlen." (vonneumann-1923.pdf) | found word for word; read on the scanned page (199) |
+| 01.01-b | Planck 1901: the radiation law's paper, ending in h and k | **holds** | "Hieraus und aus (14) ergeben sich die Werte der Naturconstanten" (planck-1901.txt) | read on the scanned page (563); the OCR breaks the line |
+| 01.01-c | Planck units from c, ħ, G and k_B | **holds with a change**: Planck's 1900 Annalen paper (from his 1897-99 Berlin reports), not 1901; his constants a and b, not ħ and k_B | "„natürliche Maasseinheiten“ ... für alle Zeiten und für alle, auch ausserirdische und aussermenschliche Culturen" (planck-1900.txt) | found in the issue's OCR |
+| 05.01-f | Nernst 1912: absolute zero unattainable | **holds** | "Es ist unmöglich, durch irgendwelche stoffliche Veränderungen von einer selbst beliebig tiefen Temperatur bis zum absoluten Nullpunkt zu gelangen." (nernst-1912.txt) | found in the volume's OCR, through its noise |
 
-**44 checked:** 28 holds, 11 holds with a change, 3 does not hold, 2 not found in this text (both now settled by later texts: Leibniz's third paper, 02.02-b2; and the ground-state half of 02.03 by Nambu and Goldstone, 02.03-d to f).
+**48 checked:** 31 holds, 12 holds with a change, 3 does not hold, 2 not found in this text (both now settled by later texts: Leibniz's third paper, 02.02-b2; and the ground-state half of 02.03 by Nambu and Goldstone, 02.03-d to f).
 
 The three rev 1 claims tested (the metric ∝ entanglement, Sakharov's conserved offset, the geometry of physics) all fail on their own sources' words.

@@ -2,7 +2,7 @@
 
 Probed and kept 2026-11-06 with Willow's almanac-keep (each file's SHA-256 in full in `keep/.snapshots.jsonl`) or, where a script is refused, downloaded in a browser by the person running the ledger (`keep/.provided.jsonl`). Every probe is in `probes.jsonl`. An `-open` entry is a companion: the publisher's page answers with an abstract, and the open copy is kept beside it.
 
-Of the ledger's 49 works: **34 held in full** (by the work itself, a reprint, a transcription or a translation, each said), 0 in part, 4 only as a landing page, and 11 not held.
+Of the ledger's 51 works: **38 held in full** (by the work itself, a reprint, a transcription or a translation, each said), 0 in part, 4 only as a landing page, and 9 not held.
 
 | Source | Held | File | Bytes | SHA-256 | What it is |
 |---|---|---|---|---|---|
@@ -38,9 +38,11 @@ Of the ledger's 49 works: **34 held in full** (by the work itself, a reprint, a 
 | nambu-1960 | none | | | | APS: a sign-in for a browser, 403 for scripts |
 | nambu-2008 | full text | `nambu-2008.pdf` | 565,867 | `ef5f473e5ca73576…` | Nambu's Nobel lecture, 7 pages, nobelprize.org (the same bytes as the copy you sent) |
 | nernst-1906 | full text | `nernst-1906.pdf` | 3,807,269 | `d2e289921437b4e9…` | scan of the Göttingen Nachrichten, 40 pages, noisy OCR; a Notre Dame course page |
+| nernst-1912 | full text | `nernst-1912.txt` | 1,376,975 | `780f9fa4c7ebd57f…` | the Internet Archive's OCR text of the Sitzungsberichte, January to June 1912 (from the Digital Library of India); the paper is pages 134-140 |
 | newton-1687 | full text | `newton-1687.html` | 156,702 | `5bc43da2034f6dea…` | the Definitions and Scholium in Motte's 1729 translation, Wikisource's transcription (the long s kept in markup) |
 | penrose-1965 | none | | | | APS: a sign-in for a browser, 403 for scripts; copies found were re-uploads, excluded |
-| planck-1901 | none | | | | Wiley: a sign-in for a browser, 403 for scripts; no Zenodo deposit found by its DOI or title (as there is for Zermelo's and Einstein and Stern's) |
+| planck-1900 | full text | `planck-1900.txt` | 426,362 | `cee3088ff76198a2…` | the Internet Archive's OCR text of the whole issue, Ann. Phys. 1 no. 1 (1900); the paper is pages 69-122 |
+| planck-1901 | full text | `planck-1901.txt` | 425,575 | `91dc821257230ef3…` | the Internet Archive's OCR text of the whole issue, Ann. Phys. 4 no. 3 (1901); the paper is pages 553-563 |
 | planck-1911 | full text | `planck-1911.pdf` | 89,328 | `82f492fa93ebbf31…` | the German text retyped (not a scan of the Verhandlungen), 11 pages; a staff page at the Royal Observatory Edinburgh |
 | planck-2018-parameters | full text | `planck-2018-parameters.pdf` | 9,317,371 | `8e172730faf07c9f…` | full text (arXiv PDF) |
 | ryu-takayanagi-2006 | full text | `ryu-takayanagi-2006.pdf` | 187,229 | `2c8802f8ce95275b…` | full text (arXiv PDF) |
@@ -52,7 +54,7 @@ Of the ledger's 49 works: **34 held in full** (by the work itself, a reprint, a 
 | tegmark-1997 | full text | `tegmark-1997.pdf` | 164,337 | `ad48e1e777124927…` | full text (arXiv PDF) |
 | van-raamsdonk-2010 | full text | `van-raamsdonk-2010.pdf` | 108,620 | `3b96c5632dfc5fb5…` | full text (arXiv PDF) |
 | verlinde-2011 | full text | `verlinde-2011.pdf` | 981,053 | `427de7805bac04b9…` | full text (arXiv PDF) |
-| vonneumann-1923 | none | | | | the Szeged archive (acta.fyx.hu) doesn't resolve from this environment |
+| vonneumann-1923 | full text | `vonneumann-1923.pdf` | 1,062,288 | `e2b9b4fbfdaa1ba7…` | scan of the journal pages, 10, with an OCR text layer; the University of Szeged Library |
 | weyl-1918 | none | | | | no open copy found |
 | weyl-1929 | landing page | `weyl-1929.html` | 212,758 | `d9e45e2e473a3449…` | Springer's article page: abstract and preview; paywalled. No open copy found |
 | willow-kernel | full text | `willow-kernel.txt` | 47,896 | `0f6f34eabdc4f4ec…` | full source, pinned to a commit |
@@ -63,7 +65,7 @@ Of the ledger's 49 works: **34 held in full** (by the work itself, a reprint, a 
 
 ## Blocked by this environment, not by the holder
 
-- `acta.fyx.hu` (von Neumann, 1923) and `publications.stephenwolfram.com` (Wolfram, 1983) don't resolve here.
+- `publications.stephenwolfram.com` (Wolfram, 1983) doesn't resolve here; von Neumann (1923), behind `acta.fyx.hu`, is held from the University of Szeged Library instead.
 - `cds.cern.ch` (Goldstone's preprint) serves a bot check; `jetpletters.ru` (Sakharov's original) resets the connection.
 
 Allowed, these could be tried again.

@@ -37,21 +37,23 @@ what = {
  "frege-1884": (FULL, "Project Gutenberg's German transcription of the 1884 edition, plain text"),
  "dedekind-1888": (FULL, "the Internet Archive's OCR text of RCIN's scan of the 1888 first edition (old type, long s kept)"),
  "planck-1911": (FULL, "the German text retyped (not a scan of the Verhandlungen), 11 pages; a staff page at the Royal Observatory Edinburgh"),
+ "vonneumann-1923": (FULL, "scan of the journal pages, 10, with an OCR text layer; the University of Szeged Library"),
+ "planck-1900": (FULL, "the Internet Archive's OCR text of the whole issue, Ann. Phys. 1 no. 1 (1900); the paper is pages 69-122"),
+ "planck-1901": (FULL, "the Internet Archive's OCR text of the whole issue, Ann. Phys. 4 no. 3 (1901); the paper is pages 553-563"),
+ "nernst-1912": (FULL, "the Internet Archive's OCR text of the Sitzungsberichte, January to June 1912 (from the Digital Library of India); the paper is pages 134-140"),
  "ghk-1964": (FULL, "the PRL pages, 3 (the paper with the end of the one before), APS free to read, downloaded in a browser"),
 }
 NONE = {
  "spencer-brown-1969": "a book under copyright: no lawful open copy",
  "mandelbrot-1982": "a book under copyright: no lawful open copy",
- "vonneumann-1923": "the Szeged archive (acta.fyx.hu) doesn't resolve from this environment",
- "wolfram-1983": "APS blocks scripts (403); Wolfram's own publications site doesn't resolve from this environment",
+  "wolfram-1983": "APS blocks scripts (403); Wolfram's own publications site doesn't resolve from this environment",
  "weyl-1918": "no open copy found",
  "ehrenfest-1917": "in the KNAW Digital Library, but its record number wasn't found",
  "penrose-1965": "APS: a sign-in for a browser, 403 for scripts; copies found were re-uploads, excluded",
  "wilson-1971": "APS: a sign-in for a browser, 403 for scripts",
  "nambu-1960": "APS: a sign-in for a browser, 403 for scripts",
  "anderson-1963": "APS: a sign-in for a browser, 403 for scripts",
- "planck-1901": "Wiley: a sign-in for a browser, 403 for scripts; no Zenodo deposit found by its DOI or title (as there is for Zermelo's and Einstein and Stern's)",
-}
+ }
 rows, full, parts, page, none = [], set(), set(), 0, 0
 for e in sorted(cat, key=lambda e: e["id"]):
     i = e["id"]
@@ -81,7 +83,7 @@ doc = ["# SOIL-PHYS-001: what is kept", "",
        f"transcription or a translation, each said), {part} in part, {page} only as a landing page, and {none} not held.", "",
        "| Source | Held | File | Bytes | SHA-256 | What it is |", "|---|---|---|---|---|---|"] + rows + ["",
        "## Blocked by this environment, not by the holder", "",
-       "- `acta.fyx.hu` (von Neumann, 1923) and `publications.stephenwolfram.com` (Wolfram, 1983) don't resolve here.",
+       "- `publications.stephenwolfram.com` (Wolfram, 1983) doesn't resolve here; von Neumann (1923), behind `acta.fyx.hu`, is held from the University of Szeged Library instead.",
        "- `cds.cern.ch` (Goldstone's preprint) serves a bot check; `jetpletters.ru` (Sakharov's original) resets the connection.",
        "", "Allowed, these could be tried again."]
 (L.parent / "KEPT.md").write_text("\n".join(doc) + "\n", encoding="utf-8")

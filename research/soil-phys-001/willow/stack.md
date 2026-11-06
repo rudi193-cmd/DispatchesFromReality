@@ -28,6 +28,8 @@ stack reorders the pools tallest first; this is reading order, not run order.
 - misquote -- --box boxes/sources "Nature was thought to possess the power of preventing the formation of a vacuum"
 - misquote -- --box boxes/sources "0 ist die Anzahl, welche dem Begriffe sich selbst ungleich zukommt"
 - misquote -- --box boxes/sources "das wir im Folgenden durch das Symbol 1 bezeichnen wollen"
+- misquote -- --box boxes/sources "Jede Ordnungszahl ist die Menge der ihr vorangehenden Ordnungszahlen"
+- misquote -- --box boxes/sources "Es ist unmöglich, durch irgendwelche stoffliche Veränderungen von einer selbst beliebig tiefen Temperatur bis zum absoluten Nullpunkt zu gelangen"
 - misquote -- --box boxes/sources "Nach Formel (2) hat der Resonator beim absoluten Nullpunkt die Energie"
 - quote-check -- --box boxes/sources "the two regions of spacetime pull apart and pinch off from each other"
 - quote-check -- --box boxes/sources "The phase of the field is not determined"

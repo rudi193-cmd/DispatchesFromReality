@@ -282,6 +282,16 @@
    "reason": "SOIL-PHYS-001 rev 2, 05.01: SOURCE"
   },
   {
+   "source_text": "What does Ueber irreversible Strahlungsvorgänge (Ann. Phys. 1 (1900) 69) show?",
+   "target_text": "§26, natural units: units of length, mass, time and temperature from his two radiation constants, c and the gravitational constant, meaningful for all times and cultures.",
+   "reason": "SOIL-PHYS-001 rev 2, 01.01: SOURCE"
+  },
+  {
+   "source_text": "What does Thermodynamik und spezifische Wärme (Sitzungsber. Preuss. Akad. Wiss. (1912) 134) show?",
+   "target_text": "The unattainability principle: no change of matter reaches absolute zero from any temperature, however low.",
+   "reason": "SOIL-PHYS-001 rev 2, 05.01: SOURCE"
+  },
+  {
    "source_text": "What does Eine neue Strahlungshypothese (Verh. Dtsch. Phys. Ges. 13 (1911) 138) show?",
    "target_text": "The second theory: an oscillator's mean energy is the earlier value plus the constant hν/2.",
    "reason": "SOIL-PHYS-001 rev 2, 05.01: SOURCE"
@@ -296,7 +306,7 @@
   },
   {
    "source_text": "What does Über die Berechnung chemischer Gleichgewichte aus thermischen Messungen (Nachr. Ges. Wiss. Göttingen (1906) 1) show?",
-   "target_text": "The heat theorem; its unattainability form (1912): no finite process reaches T = 0.",
+   "target_text": "The heat theorem, as a hypothesis about maximal work and energy near absolute zero.",
    "reason": "SOIL-PHYS-001 rev 2, 05.01: SOURCE"
   },
   {

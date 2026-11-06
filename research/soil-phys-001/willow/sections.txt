@@ -1,7 +1,7 @@
 # The ledger's six sections, for the sort add-on: one a line, its name, a
 # colon, the phrases that mean it. The phrases are the ledger's own words,
 # the German ones from its quotes of the German sources.
-constants and arena: fundamental constants, planck units, fine structure, three dimensions, fifth dimension, field equations
+constants and arena: fundamental constants, planck units, fine structure, three dimensions, fifth dimension, field equations, natürliche maasseinheiten, naturconstanten
 seed and anchor: baryon asymmetry, gauge invariance, absolute space, relative space, broken symmetry, ground state, vacuum
 recursive unfolding: iteration, rational function, period doubling, cellular automaton, spectral dimension, renormalization group
 gravity and entanglement: entanglement entropy, entropic force, horizon, wormhole, minimal surface, holographic

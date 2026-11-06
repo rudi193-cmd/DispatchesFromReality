@@ -15,8 +15,8 @@ For the broader research map, see [Research Portfolio](../README.md). For the pr
 | Version | Form | Status | Purpose |
 |---------|------|--------|---------|
 | **Rev 3** | The ledger | [DRAFT.md](DRAFT.md) | Every entry marked SOURCE (what a cited work shows), READING (this ledger's interpretation) or CHANGED (what an earlier revision said and why it moved); SOURCE lines checked against their texts marked CHECKED |
-| **Checks** | Claim table | [CHECKS.md](CHECKS.md) | 44 lines, each with its verdict and the source's own deciding words |
-| **Kept** | Source table | [KEPT.md](KEPT.md) | The 49 cited works: which are held, as what, by SHA-256 |
+| **Checks** | Claim table | [CHECKS.md](CHECKS.md) | 48 lines, each with its verdict and the source's own deciding words |
+| **Kept** | Source table | [KEPT.md](KEPT.md) | The 51 cited works: which are held, as what, by SHA-256 |
 | **Stack** | willow | [willow/README.md](willow/README.md) | The sources as an Almanac catalog, the SOURCE lines as Jeles nuggets, and the scripts that rebuild both |
 | Packet | Public summary | This file | Scope, method, evidence, claim boundaries |
 
@@ -43,8 +43,8 @@ The ledger argues that true zero is never observed: every physical "zero" is a g
 
 | Verdict | Lines |
 |---------|-------|
-| Holds | 28 |
-| Holds once reworded | 11 |
+| Holds | 31 |
+| Holds once reworded | 12 |
 | Does not hold | 3 |
 | Not in the text held | 2, both since settled by later texts |
 
@@ -65,6 +65,10 @@ The ledger argues that true zero is never observed: every physical "zero" is a g
 - **Planck (1911)** gives an oscillator hν/2 at absolute zero, and **Einstein and Stern (1913)** argue for it from hydrogen's specific heat, then admit in a footnote that their derivation of the radiation law needs hν instead, and leave the discrepancy to "spätere Untersuchungen" (later work). The first case for a full zero did not yet know how full.
 
 So the mathematics makes zero the empty thing and at once puts it in a container, which is the ledger's {0}; it does not say a physical zero is never empty. That stays the ledger's READING.
+
+**Von Neumann, Nernst and Planck are held now too.** Von Neumann's 1923 paper is in the University of Szeged Library's scans: "Jede Ordnungszahl ist die Menge der ihr vorangehenden Ordnungszahlen" (every ordinal is the set of the ordinals before it), then "0 = O, 1 = (O), 2 = (O, (O))", line 0003 in his own words. He writes sets in round brackets, so in his notation the ledger's "(0)" would already be 1; the ledger's {(0)} = 1 holds with its brackets read as grouping, and the synthesis now says so. Nernst's 1912 paper gives the unattainability principle in his words: "Es ist unmöglich, durch irgendwelche stoffliche Veränderungen von einer selbst beliebig tiefen Temperatur bis zum absoluten Nullpunkt zu gelangen" (it is impossible, by any change of matter, to get from even an arbitrarily low temperature to absolute zero).
+
+**Section 01's Planck units have their source now, and it moves a citation.** The ledger credited Planck units to the 1901 radiation-law paper; that paper ends with the values of h and k. The units are in Planck's 1900 Annalen paper, §26, "Natürliche Maasseinheiten" (natural units), built from his constants a and b, c and the gravitational constant, meant to keep their meaning "für alle Zeiten und für alle, auch ausserirdische und aussermenschliche Culturen" (for all times and for all cultures, even extraterrestrial and non-human ones), as long as gravitation, light's propagation and the two laws of thermodynamics hold.
 
 **The other side of the relational argument is now a source.** Newton is the most-named person in the sources, because Leibniz and Mach argue with him, but revision 2 cited only them. His Scholium is in now: "Absolute Space, in its own nature, without relation to anything external, remains always similar and immovable."
 
@@ -104,8 +108,8 @@ A CHECKED line held against a reprint, a translation or an author's later lectur
 
 ## Claim boundaries
 
-- **Held in full: 34 of 49 works.** Not held in full: Weyl (1918, 1929), Ehrenfest, von Neumann, Anderson, Penrose, Wilson, Wolfram, Dirac, Feigenbaum, Planck 1901 and Nambu's 1960 paper (paywalled, or no open copy found), two books under copyright (Spencer-Brown, Mandelbrot), and CODATA, held as NIST's index page. Einstein's hole argument (1913-14) is cited in a line but not catalogued. Their SOURCE lines are `assumed`.
+- **Held in full: 38 of 51 works.** Not held in full: Weyl (1918, 1929), Ehrenfest, Anderson, Penrose, Wilson, Wolfram, Dirac, Feigenbaum and Nambu's 1960 paper (paywalled, or no open copy found), two books under copyright (Spencer-Brown, Mandelbrot), and CODATA, held as NIST's index page. Einstein's hole argument (1913-14) is cited in a line but not catalogued. Their SOURCE lines are `assumed`.
 - **Some checks rest on secondary forms of a work:** Sakharov's 1991 reprint, Kaluza in translation, Mach's 1893 translation, Casimir's academy reprint, Nambu's 2008 Nobel lecture for his 1960 idea. Each is named where it is used.
-- **Some open copies are not the holder's own:** Zermelo's and Einstein and Stern's scans are CC0 deposits on Zenodo whose uploader isn't named (both works are public domain in the US, and each was read against its printed page numbers); Planck's 1911 paper is a retyped German text on a staff page at the Royal Observatory Edinburgh, not a scan; Frege's is Project Gutenberg's transcription; Dedekind's is the Internet Archive's OCR of RCIN's scan of the 1888 edition.
+- **Some open copies are not the holder's own:** Zermelo's and Einstein and Stern's scans are CC0 deposits on Zenodo whose uploader isn't named (both works are public domain in the US, and each was read against its printed page numbers); Planck's 1911 paper is a retyped German text on a staff page at the Royal Observatory Edinburgh, not a scan; Frege's is Project Gutenberg's transcription; Dedekind's is the Internet Archive's OCR of RCIN's scan of the 1888 edition. Planck's 1900 and 1901 papers and Nernst's 1912 are held as the OCR text of the whole journal issue or volume they are in, each with its page range said; the deciding lines were read on the scanned page where the OCR breaks them.
 - **Scans were read, not searched,** where they have no text layer: Solomonoff, Klein, Casimir and Goldstone's preprint.
 - **Nothing here says the thesis is right.** The checks show what the cited works say. Whether {0} is the right picture of physics is the ledger's READING, and stays one.
