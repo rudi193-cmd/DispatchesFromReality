@@ -18,6 +18,7 @@ This section collects the research work that sits behind the public writing and 
 | [Tabletop mechanical engines](tabletop-mechanical-engines/README.md) | Rules as engines, probability, emergent narrative, constraint design, the Gateway Momentum Engine | Working draft v1 + public packet |
 | [Nobody counts the ad breaks](childrens-software-interruption/README.md) | Children's software, interruption as an unmeasured fact, provenance states, the measurement sold to publishers | Working draft v1 + public packet + shipped artifact |
 | [The Fever Chart in Bursts](fever-chart-in-bursts/README.md) | Crane Brinton's *Anatomy of Revolution* read against 2008 to 2026: moderates, Thermidor from inside, dual sovereignty, bursts that fade while capacity pools | Working draft v1 + public packet |
+| [Before It Was in the Minutes](before-the-minutes/README.md) | The Federal Reserve's own record, 2023 to 2026, read line by line: tariffs at the podium before the minutes, the Committee's vocabulary dated, the statement halved at the change of chair, the dollar against its rule of thumb | Working draft v1 + public packet + willow stack |
 | [Adversarially verified knowledge corpus](knowledge-corpus/README.md) | Cross-domain knowledge base (science, infrastructure, people, economics, law, health, labor), adversarially fact-checked and contradiction-challenged | v1 bundle + packet |
 
 ---
