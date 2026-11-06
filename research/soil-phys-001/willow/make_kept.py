@@ -31,6 +31,12 @@ what = {
  "goldstone-1961-preprint": (FULL, "Goldstone's 1960 CERN preprint (CERN-TH-118), scanned, 16 pages; downloaded in a browser"),
  "leibniz-clarke-1717-third": (FULL, "Leibniz's third paper, TEI transcription; the Newton Project, CC BY-NC-ND"),
  "newton-1687": (FULL, "the Definitions and Scholium in Motte's 1729 translation, Wikisource's transcription (the long s kept in markup)"),
+ "zermelo-1908": (PAGE, "Springer's article page: abstract and preview; the open copy is zermelo-1908-open"),
+ "zermelo-1908-open": (FULL, "scan of the Mathematische Annalen pages, 21, with an OCR text layer; a CC0 deposit on Zenodo, uploader not named (the work is public domain in the US)"),
+ "einstein-stern-1913": (FULL, "scan of the Annalen der Physik pages, 10, with an OCR text layer; a CC0 deposit on Zenodo, uploader not named (the work is public domain in the US)"),
+ "frege-1884": (FULL, "Project Gutenberg's German transcription of the 1884 edition, plain text"),
+ "dedekind-1888": (FULL, "the Internet Archive's OCR text of RCIN's scan of the 1888 first edition (old type, long s kept)"),
+ "planck-1911": (FULL, "the German text retyped (not a scan of the Verhandlungen), 11 pages; a staff page at the Royal Observatory Edinburgh"),
  "ghk-1964": (FULL, "the PRL pages, 3 (the paper with the end of the one before), APS free to read, downloaded in a browser"),
 }
 NONE = {
@@ -44,7 +50,7 @@ NONE = {
  "wilson-1971": "APS: a sign-in for a browser, 403 for scripts",
  "nambu-1960": "APS: a sign-in for a browser, 403 for scripts",
  "anderson-1963": "APS: a sign-in for a browser, 403 for scripts",
- "planck-1901": "Wiley: a sign-in for a browser, 403 for scripts; a Zenodo upload exists, uploader unknown, not used",
+ "planck-1901": "Wiley: a sign-in for a browser, 403 for scripts; no Zenodo deposit found by its DOI or title (as there is for Zermelo's and Einstein and Stern's)",
 }
 rows, full, parts, page, none = [], set(), set(), 0, 0
 for e in sorted(cat, key=lambda e: e["id"]):

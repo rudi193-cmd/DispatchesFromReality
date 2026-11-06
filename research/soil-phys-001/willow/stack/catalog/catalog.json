@@ -14,6 +14,91 @@
    ]
   },
   {
+   "id": "zermelo-1908",
+   "title": "Untersuchungen über die Grundlagen der Mengenlehre I",
+   "type": "paper",
+   "description": "Axiom II: there is an improper set, the null set 0, with no elements; Axiom VII: a set holding 0 and, with each a, the set {a}.",
+   "publisher": "Math. Ann. 65 (1908) 261",
+   "status": "live",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 0003, 05.02",
+   "topics": [
+    "set-theory"
+   ],
+   "source": {
+    "canonical_url": "https://doi.org/10.1007/BF01449999"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:13Z",
+    "reachable": true,
+    "http_status": 200
+   },
+   "status_since": "2026-11-06"
+  },
+  {
+   "id": "zermelo-1908-open",
+   "title": "Untersuchungen über die Grundlagen der Mengenlehre I (open copy)",
+   "type": "paper",
+   "description": "scan of the original, 21 pages, OCR text layer, held by Zenodo, a CC0 deposit (uploader not named; the work is public domain in the US)",
+   "publisher": "Math. Ann. 65 (1908) 261",
+   "status": "cited",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 0003, 05.02",
+   "topics": [
+    "set-theory"
+   ],
+   "recovery": [
+    {
+     "url": "https://zenodo.org/records/1428264/files/article.pdf",
+     "via": "Zenodo, a CC0 deposit (uploader not named; the work is public domain in the US)",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "scan of the original, 21 pages, OCR text layer"
+    }
+   ]
+  },
+  {
+   "id": "frege-1884",
+   "title": "Die Grundlagen der Arithmetik",
+   "type": "book",
+   "description": "0 is the number of the concept 'not identical with itself', under which nothing falls; 1 is the number of the concept 'identical with 0'.",
+   "publisher": "Koebner, Breslau, 1884",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 05.02",
+   "topics": [
+    "logic",
+    "set-theory"
+   ],
+   "recovery": [
+    {
+     "url": "https://www.gutenberg.org/cache/epub/48312/pg48312.txt",
+     "via": "Project Gutenberg",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "German plain-text transcription of the 1884 edition"
+    }
+   ]
+  },
+  {
+   "id": "dedekind-1888",
+   "title": "Was sind und was sollen die Zahlen?",
+   "type": "book",
+   "description": "The natural numbers as a simply infinite system, its base element written 1.",
+   "publisher": "Vieweg, Braunschweig, 1888",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 05.02",
+   "topics": [
+    "set-theory"
+   ],
+   "recovery": [
+    {
+     "url": "https://archive.org/download/rcin.org.pl.WA35_13030_4797_Was-sind_5138/WA35_13030_4797_Was-sind_djvu.txt",
+     "via": "Internet Archive, from RCIN (the Polish academies' digital repository)",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "OCR text of a scan of the 1888 first edition"
+    }
+   ]
+  },
+  {
    "id": "spencer-brown-1969",
    "title": "Laws of Form",
    "type": "book",
@@ -40,7 +125,7 @@
     "canonical_url": "https://physics.nist.gov/cuu/Constants/"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:13Z",
+    "checked": "2026-11-06T15:17:16Z",
     "reachable": true,
     "http_status": 200
    },
@@ -62,7 +147,7 @@
     "canonical_url": "https://doi.org/10.1002/andp.19013090310"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:13Z",
+    "checked": "2026-11-06T15:17:16Z",
     "reachable": false,
     "http_status": 403
    }
@@ -83,9 +168,9 @@
     "canonical_url": "https://doi.org/10.1038/139323a0"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:14Z",
-    "reachable": false,
-    "http_status": 429
+    "checked": "2026-11-06T15:17:17Z",
+    "reachable": true,
+    "http_status": 200
    },
    "status_since": "2026-11-06"
   },
@@ -137,7 +222,7 @@
     "canonical_url": "https://arxiv.org/pdf/gr-qc/9702052"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:14Z",
+    "checked": "2026-11-06T15:17:19Z",
     "reachable": true,
     "http_status": 200
    },
@@ -179,7 +264,7 @@
     "canonical_url": "https://doi.org/10.1007/BF01397481"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:15Z",
+    "checked": "2026-11-06T15:17:19Z",
     "reachable": true,
     "http_status": 200
    },
@@ -222,7 +307,7 @@
     "canonical_url": "https://arxiv.org/pdf/1807.06209"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:17Z",
+    "checked": "2026-11-06T15:17:22Z",
     "reachable": true,
     "http_status": 200
    },
@@ -243,7 +328,7 @@
     "canonical_url": "https://doi.org/10.1070/PU1991v034n05ABEH002497"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:17Z",
+    "checked": "2026-11-06T15:17:22Z",
     "reachable": true,
     "http_status": 200
    },
@@ -360,7 +445,7 @@
     "canonical_url": "https://doi.org/10.1007/BF01339504"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:18Z",
+    "checked": "2026-11-06T15:17:24Z",
     "reachable": false,
     "http_status": 429
    },
@@ -381,7 +466,7 @@
     "canonical_url": "https://doi.org/10.1103/PhysRev.117.648"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:19Z",
+    "checked": "2026-11-06T15:17:25Z",
     "reachable": false,
     "http_status": 403
    }
@@ -401,7 +486,7 @@
     "canonical_url": "https://www.nobelprize.org/uploads/2018/06/nambu_lecture.pdf"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:29Z",
+    "checked": "2026-11-06T15:17:26Z",
     "reachable": true,
     "http_status": 200
    },
@@ -422,7 +507,7 @@
     "canonical_url": "https://doi.org/10.1007/BF02812722"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:20Z",
+    "checked": "2026-11-06T15:17:26Z",
     "reachable": true,
     "http_status": 200
    },
@@ -443,7 +528,7 @@
     "canonical_url": "https://doi.org/10.1103/PhysRev.130.439"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:22Z",
+    "checked": "2026-11-06T15:17:29Z",
     "reachable": false,
     "http_status": 403
    }
@@ -463,7 +548,7 @@
     "canonical_url": "https://doi.org/10.1103/PhysRevLett.13.321"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:22Z",
+    "checked": "2026-11-06T15:17:29Z",
     "reachable": false,
     "http_status": 403
    },
@@ -492,7 +577,7 @@
     "canonical_url": "https://doi.org/10.1103/PhysRevLett.13.508"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:23Z",
+    "checked": "2026-11-06T15:17:29Z",
     "reachable": false,
     "http_status": 403
    },
@@ -521,7 +606,7 @@
     "canonical_url": "https://doi.org/10.1103/PhysRevLett.13.585"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:23Z",
+    "checked": "2026-11-06T15:17:30Z",
     "reachable": false,
     "http_status": 403
    },
@@ -604,7 +689,7 @@
     "canonical_url": "https://doi.org/10.1007/BF01020332"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:23Z",
+    "checked": "2026-11-06T15:17:30Z",
     "reachable": true,
     "http_status": 200
    },
@@ -626,7 +711,7 @@
     "canonical_url": "https://arxiv.org/pdf/hep-th/0505113"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:26Z",
+    "checked": "2026-11-06T15:17:32Z",
     "reachable": true,
     "http_status": 200
    },
@@ -647,7 +732,7 @@
     "canonical_url": "https://doi.org/10.1103/PhysRevB.4.3174"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:26Z",
+    "checked": "2026-11-06T15:17:32Z",
     "reachable": false,
     "http_status": 403
    }
@@ -667,7 +752,7 @@
     "canonical_url": "https://doi.org/10.1103/RevModPhys.55.601"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:26Z",
+    "checked": "2026-11-06T15:17:33Z",
     "reachable": false,
     "http_status": 403
    }
@@ -709,7 +794,7 @@
     "canonical_url": "https://arxiv.org/pdf/gr-qc/9504004"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:27Z",
+    "checked": "2026-11-06T15:17:33Z",
     "reachable": true,
     "http_status": 200
    },
@@ -731,7 +816,7 @@
     "canonical_url": "https://arxiv.org/pdf/1001.0785"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:27Z",
+    "checked": "2026-11-06T15:17:33Z",
     "reachable": true,
     "http_status": 200
    },
@@ -753,7 +838,7 @@
     "canonical_url": "https://arxiv.org/pdf/hep-th/0603001"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:27Z",
+    "checked": "2026-11-06T15:17:33Z",
     "reachable": true,
     "http_status": 200
    },
@@ -775,7 +860,7 @@
     "canonical_url": "https://arxiv.org/pdf/1005.3035"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:27Z",
+    "checked": "2026-11-06T15:17:33Z",
     "reachable": true,
     "http_status": 200
    },
@@ -797,7 +882,7 @@
     "canonical_url": "https://arxiv.org/pdf/1306.0533"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:27Z",
+    "checked": "2026-11-06T15:17:34Z",
     "reachable": true,
     "http_status": 200
    },
@@ -821,6 +906,58 @@
      "authenticity": "asserted",
      "permission": "ok",
      "note": "reprint, scanned pages"
+    }
+   ]
+  },
+  {
+   "id": "planck-1911",
+   "title": "Eine neue Strahlungshypothese",
+   "type": "paper",
+   "description": "The second theory: an oscillator's mean energy is the earlier value plus the constant hν/2.",
+   "publisher": "Verh. Dtsch. Phys. Ges. 13 (1911) 138",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 05.01",
+   "topics": [
+    "vacuum",
+    "thermodynamics"
+   ],
+   "recovery": [
+    {
+     "url": "https://www.roe.ac.uk/~jap/zpe/planck1911_german.pdf",
+     "via": "a staff page at the Royal Observatory Edinburgh",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "German, retyped (not a scan), 11 pages"
+    }
+   ]
+  },
+  {
+   "id": "einstein-stern-1913",
+   "title": "Einige Argumente für die Annahme einer molekularen Agitation beim absoluten Nullpunkt",
+   "type": "paper",
+   "description": "Arguments for a zero-point energy, from the specific heat of hydrogen and a derivation of Planck's law.",
+   "publisher": "Ann. Phys. 40 (1913) 551",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 05.01",
+   "topics": [
+    "vacuum",
+    "thermodynamics"
+   ],
+   "source": {
+    "canonical_url": "https://doi.org/10.1002/andp.19133450309"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:34Z",
+    "reachable": false,
+    "http_status": 403
+   },
+   "recovery": [
+    {
+     "url": "https://zenodo.org/records/1424262/files/article.pdf",
+     "via": "Zenodo, a CC0 deposit (uploader not named; the work is public domain in the US)",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "scan of the original, 10 pages, OCR text layer"
     }
    ]
   },
@@ -860,7 +997,7 @@
     "canonical_url": "https://doi.org/10.1103/PhysRevLett.14.57"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:27Z",
+    "checked": "2026-11-06T15:17:34Z",
     "reachable": false,
     "http_status": 403
    }
@@ -880,7 +1017,7 @@
     "canonical_url": "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:28Z",
+    "checked": "2026-11-06T15:17:34Z",
     "reachable": false,
     "http_status": 202
    },
@@ -909,7 +1046,7 @@
     "canonical_url": "https://doi.org/10.1016/S0019-9958(64)90223-2"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:28Z",
+    "checked": "2026-11-06T15:17:35Z",
     "reachable": true,
     "http_status": 200
    },
@@ -938,7 +1075,7 @@
     "canonical_url": "https://arxiv.org/pdf/2405.07987"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:28Z",
+    "checked": "2026-11-06T15:17:35Z",
     "reachable": true,
     "http_status": 200
    },
@@ -959,7 +1096,7 @@
     "canonical_url": "https://raw.githubusercontent.com/willow-memory/Willow/275f15d55d6f14ed966b395db923c344ec0382a3/kernel.py"
    },
    "observed": {
-    "checked": "2026-11-06T08:17:28Z",
+    "checked": "2026-11-06T15:17:35Z",
     "reachable": true,
     "http_status": 200
    },

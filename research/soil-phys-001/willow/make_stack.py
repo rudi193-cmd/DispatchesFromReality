@@ -17,6 +17,9 @@ A = "https://arxiv.org/pdf/"  # the full text: a line is checked against the pap
 # id, title, type, publisher/venue, url or None, ledger line(s), what it shows, topics
 S = [
  ("vonneumann-1923", "Zur Einführung der transfiniten Zahlen", "paper", "Acta Sci. Math. (Szeged) 1 (1923) 199", None, "0003, 05.02", "0 is the empty set and 1 = {0}: each ordinal is the set of those before it.", ["set-theory"]),
+ ("zermelo-1908", "Untersuchungen über die Grundlagen der Mengenlehre I", "paper", "Math. Ann. 65 (1908) 261", D+"10.1007/BF01449999", "0003, 05.02", "Axiom II: there is an improper set, the null set 0, with no elements; Axiom VII: a set holding 0 and, with each a, the set {a}.", ["set-theory"]),
+ ("frege-1884", "Die Grundlagen der Arithmetik", "book", "Koebner, Breslau, 1884", None, "05.02", "0 is the number of the concept 'not identical with itself', under which nothing falls; 1 is the number of the concept 'identical with 0'.", ["logic", "set-theory"]),
+ ("dedekind-1888", "Was sind und was sollen die Zahlen?", "book", "Vieweg, Braunschweig, 1888", None, "05.02", "The natural numbers as a simply infinite system, its base element written 1.", ["set-theory"]),
  ("spencer-brown-1969", "Laws of Form", "book", "Allen & Unwin, 1969", None, "0004, 05.02", "A calculus built from one primitive act, drawing a distinction.", ["logic"]),
  ("codata-2022", "CODATA recommended values of the fundamental physical constants", "dataset", "NIST", "https://physics.nist.gov/cuu/Constants/", "01.01", "c, h, e and k_B are exact in the 2019 SI; G is measured; alpha is a pure number.", ["constants"]),
  ("planck-1901", "Über das Gesetz der Energieverteilung im Normalspectrum", "paper", "Ann. Phys. 4 (1901) 553", D+"10.1002/andp.19013090310", "01.01", "Planck's radiation law, after his December 1900 report to the German Physical Society.", ["constants", "quantum"]),
@@ -54,6 +57,8 @@ S = [
  ("van-raamsdonk-2010", "Building up spacetime with quantum entanglement", "paper", "Gen. Rel. Grav. 42 (2010) 2323", A+"1005.3035", "04.02", "Removing entanglement between two regions pulls the spacetime between them apart.", ["entanglement", "holography"]),
  ("maldacena-susskind-2013", "Cool horizons for entangled black holes", "paper", "Fortschr. Phys. 61 (2013) 781", A+"1306.0533", "04.02", "ER = EPR: the conjecture that entangled pairs are joined by non-traversable wormholes.", ["entanglement", "holography"]),
  ("casimir-1948", "On the attraction between two perfectly conducting plates", "paper", "Proc. KNAW 51 (1948) 793", None, "05.01", "Two uncharged plates attract: an effect of the vacuum's modes.", ["vacuum"]),
+ ("planck-1911", "Eine neue Strahlungshypothese", "paper", "Verh. Dtsch. Phys. Ges. 13 (1911) 138", None, "05.01", "The second theory: an oscillator's mean energy is the earlier value plus the constant hν/2.", ["vacuum", "thermodynamics"]),
+ ("einstein-stern-1913", "Einige Argumente für die Annahme einer molekularen Agitation beim absoluten Nullpunkt", "paper", "Ann. Phys. 40 (1913) 551", D+"10.1002/andp.19133450309", "05.01", "Arguments for a zero-point energy, from the specific heat of hydrogen and a derivation of Planck's law.", ["vacuum", "thermodynamics"]),
  ("nernst-1906", "Über die Berechnung chemischer Gleichgewichte aus thermischen Messungen", "paper", "Nachr. Ges. Wiss. Göttingen (1906) 1", None, "05.01", "The heat theorem; its unattainability form (1912): no finite process reaches T = 0.", ["thermodynamics"]),
  ("penrose-1965", "Gravitational collapse and space-time singularities", "paper", "Phys. Rev. Lett. 14 (1965) 57", D+"10.1103/PhysRevLett.14.57", "05.01", "Under general conditions gravitational collapse ends in a singularity.", ["gravity"]),
  ("shannon-1948", "A mathematical theory of communication", "paper", "Bell Syst. Tech. J. 27 (1948) 379", D+"10.1002/j.1538-7305.1948.tb01338.x", "06.01", "Information as a measurable quantity; the limits of compression.", ["information"]),
@@ -88,6 +93,11 @@ OPEN = {
  "casimir-1948": ("https://www.ph.nat.tum.de/fileadmin/w00bya/t75/pdf/Casimir1948.pdf", "TU Munich physics", "reprint, scanned pages"),
  "julia-1918": ("https://www.numdam.org/item/JMPA_1918_8_1__47_0.pdf", "Numdam", "scan of the original"),
  "fatou-1919": ("https://www.numdam.org/item/10.24033/bsmf.998.pdf", "Numdam", "scan of the original"),
+ "zermelo-1908": ("https://zenodo.org/records/1428264/files/article.pdf", "Zenodo, a CC0 deposit (uploader not named; the work is public domain in the US)", "scan of the original, 21 pages, OCR text layer"),
+ "frege-1884": ("https://www.gutenberg.org/cache/epub/48312/pg48312.txt", "Project Gutenberg", "German plain-text transcription of the 1884 edition"),
+ "dedekind-1888": ("https://archive.org/download/rcin.org.pl.WA35_13030_4797_Was-sind_5138/WA35_13030_4797_Was-sind_djvu.txt", "Internet Archive, from RCIN (the Polish academies' digital repository)", "OCR text of a scan of the 1888 first edition"),
+ "planck-1911": ("https://www.roe.ac.uk/~jap/zpe/planck1911_german.pdf", "a staff page at the Royal Observatory Edinburgh", "German, retyped (not a scan), 11 pages"),
+ "einstein-stern-1913": ("https://zenodo.org/records/1424262/files/article.pdf", "Zenodo, a CC0 deposit (uploader not named; the work is public domain in the US)", "scan of the original, 10 pages, OCR text layer"),
  "cook-2004": ("https://content.wolfram.com/sites/13/2023/02/15-1-1.pdf", "Wolfram, for Complex Systems", "the journal article"),
 }
 PROBES = OUT.parent / "probes.jsonl"

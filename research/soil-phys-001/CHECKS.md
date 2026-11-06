@@ -42,7 +42,13 @@ Revision 2's lines, plus three of revision 1's stronger claims (marked rev 1), c
 | 02.02-d | Newton: absolute space, without relation to anything external | **holds** | "Absolute Space, in its own nature, without relation to anything external, remains always similar and immovable." (newton-1687.html) | found word for word, once the long s spans are unwrapped |
 | 02.02-a2 | Mach: absolute space and motion are things of thought | **holds** | "they are pure things of thought, pure mental constructs" (mach-1883.html) | found word for word; the OCR scrambles the sentence's start |
 | 05.01-c | Mach: the doctrine of horror vacui, credited and then limited | **holds** | "Nature was thought to possess the power of preventing the formation of a vacuum" (mach-1883.html) | found word for word |
+| 0003a | Zermelo: the null set improper; the number series 0, {0}, {{0}} | **holds** | "„Zahlenreihe“ ... weil ihre Elemente die Stelle der Zahlzeichen vertreten können" (zermelo-1908-open) | read on the scanned pages (263, 267); the OCR mangles umlauts |
+| 05.01-d | Planck 1911: the mean energy plus the constant hν/2 | **holds** | "von dem früheren Werte 11) verschieden um die additive Konstante hν/2" (planck-1911.pdf) | found, the fraction typeset (a retyped text) |
+| 05.01-e | Einstein and Stern: hν/2 at absolute zero, and hν for the radiation law | **holds** | "Nach Formel (2) hat der Resonator beim absoluten Nullpunkt die Energie hν/2" (einstein-stern-1913) | found in a scan's OCR, through its noise |
+| 05.02-a | Zermelo: Dedekind's proof of infinity cannot satisfy | **holds** | "kann nicht befriedigen, da er von der „Menge alles Denkbaren“ ausgeht" (zermelo-1908-open) | found in a scan's OCR, through its noise |
+| 05.02-b | Frege: 0 for the concept nothing falls under; 1 for the concept identical with 0 | **holds** | "0 ist die Anzahl, welche dem Begriffe »sich selbst ungleich« zukommt" (frege-1884.txt) | found word for word |
+| 05.02-c | Dedekind: the number series starts at 1 | **holds** | "das wir im Folgenden durch das Symbol 1 bezeichnen wollen" (dedekind-1888.txt) | found word for word (OCR of the 1888 scan) |
 
-**38 checked:** 22 holds, 11 holds with a change, 3 does not hold, 2 not found in this text (both now settled by later texts: Leibniz's third paper, 02.02-b2; and the ground-state half of 02.03 by Nambu and Goldstone, 02.03-d to f).
+**44 checked:** 28 holds, 11 holds with a change, 3 does not hold, 2 not found in this text (both now settled by later texts: Leibniz's third paper, 02.02-b2; and the ground-state half of 02.03 by Nambu and Goldstone, 02.03-d to f).
 
 The three rev 1 claims tested (the metric ∝ entanglement, Sakharov's conserved offset, the geometry of physics) all fail on their own sources' words.

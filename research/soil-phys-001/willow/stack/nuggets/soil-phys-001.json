@@ -7,6 +7,24 @@
    "reason": "SOIL-PHYS-001 rev 2, 0003, 05.02: SOURCE"
   },
   {
+   "source_text": "What does Untersuchungen über die Grundlagen der Mengenlehre I (Math. Ann. 65 (1908) 261) show?",
+   "target_text": "Axiom II: there is an improper set, the null set 0, with no elements; Axiom VII: a set holding 0 and, with each a, the set {a}.",
+   "reason": "SOIL-PHYS-001 rev 2, 0003, 05.02: SOURCE",
+   "evidence_urls": [
+    "https://doi.org/10.1007/BF01449999"
+   ]
+  },
+  {
+   "source_text": "What does Die Grundlagen der Arithmetik (Koebner, Breslau, 1884) show?",
+   "target_text": "0 is the number of the concept 'not identical with itself', under which nothing falls; 1 is the number of the concept 'identical with 0'.",
+   "reason": "SOIL-PHYS-001 rev 2, 05.02: SOURCE"
+  },
+  {
+   "source_text": "What does Was sind und was sollen die Zahlen? (Vieweg, Braunschweig, 1888) show?",
+   "target_text": "The natural numbers as a simply infinite system, its base element written 1.",
+   "reason": "SOIL-PHYS-001 rev 2, 05.02: SOURCE"
+  },
+  {
    "source_text": "What does Laws of Form (Allen & Unwin, 1969) show?",
    "target_text": "A calculus built from one primitive act, drawing a distinction.",
    "reason": "SOIL-PHYS-001 rev 2, 0004, 05.02: SOURCE"
@@ -262,6 +280,19 @@
    "source_text": "What does On the attraction between two perfectly conducting plates (Proc. KNAW 51 (1948) 793) show?",
    "target_text": "Two uncharged plates attract: an effect of the vacuum's modes.",
    "reason": "SOIL-PHYS-001 rev 2, 05.01: SOURCE"
+  },
+  {
+   "source_text": "What does Eine neue Strahlungshypothese (Verh. Dtsch. Phys. Ges. 13 (1911) 138) show?",
+   "target_text": "The second theory: an oscillator's mean energy is the earlier value plus the constant hν/2.",
+   "reason": "SOIL-PHYS-001 rev 2, 05.01: SOURCE"
+  },
+  {
+   "source_text": "What does Einige Argumente für die Annahme einer molekularen Agitation beim absoluten Nullpunkt (Ann. Phys. 40 (1913) 551) show?",
+   "target_text": "Arguments for a zero-point energy, from the specific heat of hydrogen and a derivation of Planck's law.",
+   "reason": "SOIL-PHYS-001 rev 2, 05.01: SOURCE",
+   "evidence_urls": [
+    "https://doi.org/10.1002/andp.19133450309"
+   ]
   },
   {
    "source_text": "What does Über die Berechnung chemischer Gleichgewichte aus thermischen Messungen (Nachr. Ges. Wiss. Göttingen (1906) 1) show?",

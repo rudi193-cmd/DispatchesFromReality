@@ -26,6 +26,9 @@ stack reorders the pools tallest first; this is reading order, not run order.
 - misquote -- --box boxes/sources "those two States, the one such as it now is, the other supposed to be the quite contrary way, would not at all differ from one another"
 - misquote -- --box boxes/sources "Absolute Space, in its own nature, without relation to anything external, remains always similar and immovable"
 - misquote -- --box boxes/sources "Nature was thought to possess the power of preventing the formation of a vacuum"
+- misquote -- --box boxes/sources "0 ist die Anzahl, welche dem Begriffe sich selbst ungleich zukommt"
+- misquote -- --box boxes/sources "das wir im Folgenden durch das Symbol 1 bezeichnen wollen"
+- misquote -- --box boxes/sources "Nach Formel (2) hat der Resonator beim absoluten Nullpunkt die Energie"
 - quote-check -- --box boxes/sources "the two regions of spacetime pull apart and pinch off from each other"
 - quote-check -- --box boxes/sources "The phase of the field is not determined"
 # claim-check finds where to read, and never reads; it works on a claim of a
@@ -49,8 +52,12 @@ stack reorders the pools tallest first; this is reading order, not run order.
 - launcher -- --box boxes/sources --format lines --limit 3 "absolute space and absolute motion"
 - first-mention -- --box boxes/sources "vacuum"
 - ripgrep -- --box boxes/sources "Fundamentalhypothese"
-# "zero point" is in Casimir, a scan no reader turns into words; Nernst has it in German
+# "zero point" is in Casimir, a scan no reader turns into words; Nernst, Planck,
+# and Einstein and Stern have it in German
 - ripgrep -- --box boxes/sources --ignore-case "Nullpunkt"
+# Zermelo's null set and number series; the scan's OCR reads his umlauts as "~"
+- ripgrep -- --box boxes/sources "Nullmenge"
+- ripgrep -- --box boxes/sources "Zahlenreihe"
 - accents -- --box boxes/sources "Memoire sur l iteration des fonctions rationnelles"
 - stems -- --box boxes/sources --lang german "Feldgleichung der Gravitation"
 - typos -- --box boxes/sources "the Goldstone theorm"
