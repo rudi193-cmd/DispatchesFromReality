@@ -1,0 +1,4 @@
+# what each company's 10-K holds most about its people's retirement
+pension: defined benefit, pension plan, pension benefits, pension obligations
+401k: 401(k), defined contribution, savings plan, matching contributions
+retiree-health: postretirement benefits, retiree medical
