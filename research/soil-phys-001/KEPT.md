@@ -2,7 +2,7 @@
 
 Probed and kept 2026-11-06 with Willow's almanac-keep (each file's SHA-256 in full in `keep/.snapshots.jsonl`) or, where a script is refused, downloaded in a browser by the person running the ledger (`keep/.provided.jsonl`). Every probe is in `probes.jsonl`. An `-open` entry is a companion: the publisher's page answers with an abstract, and the open copy is kept beside it.
 
-Of the ledger's 53 works: **41 held in full** (by the work itself, a reprint, a transcription or a translation, each said), 0 in part, 4 only as a landing page, and 8 not held.
+Of the ledger's 53 works: **42 held in full** (by the work itself, a reprint, a transcription or a translation, each said), 0 in part, 4 only as a landing page, and 7 not held.
 
 | Source | Held | File | Bytes | SHA-256 | What it is |
 |---|---|---|---|---|---|
@@ -14,7 +14,7 @@ Of the ledger's 53 works: **41 held in full** (by the work itself, a reprint, a 
 | dedekind-1888 | full text | `dedekind-1888.txt` | 123,222 | `314524f0c0213b0e…` | the Internet Archive's OCR text of RCIN's scan of the 1888 first edition (old type, long s kept) |
 | dedekind-1888-english | full text | `dedekind-1888-english.pdf` | 468,165 | `d8e8bc66697760a2…` | Beman's English translation (1901), in Essays on the Theory of Numbers; Project Gutenberg's typeset PDF |
 | dirac-1937 | landing page | `dirac-1937.html` | 214,619 | `8402f56dd686d5dc…` | Nature's article page: abstract and preview; the paper is paywalled |
-| ehrenfest-1917 | none | | | | in the KNAW Digital Library, but its record number wasn't found |
+| ehrenfest-1917 | full text | `ehrenfest-1917.pdf` | 335,284 | `6631c77cdfbe89fc…` | scan of the Proceedings pages (vol. 20, 1918, communicated 26 May 1917), with an OCR text layer; the KNAW Digital Library, record PU00012213 |
 | einstein-1915 | full text | `einstein-1915.html` | 116,577 | `6306b58be5b3e24a…` | Wikisource's German transcription; the scan is in the 1915 Sitzungsberichte on the Internet Archive |
 | einstein-stern-1913 | full text | `einstein-stern-1913` | 414,012 | `2d1a44f825a2f163…` | scan of the Annalen der Physik pages, 10, with an OCR text layer; a CC0 deposit on Zenodo, uploader not named (the work is public domain in the US) |
 | englert-brout-1964 | full text | `englert-brout-1964.pdf` | 230,198 | `15ae44333cccf1a5…` | the PRL pages, 3 (the paper with the end of the one before), APS free to read, downloaded in a browser |

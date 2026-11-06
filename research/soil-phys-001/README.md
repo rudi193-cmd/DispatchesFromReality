@@ -15,7 +15,7 @@ For the broader research map, see [Research Portfolio](../README.md). For the pr
 | Version | Form | Status | Purpose |
 |---------|------|--------|---------|
 | **Rev 3** | The ledger | [DRAFT.md](DRAFT.md) | Every entry marked SOURCE (what a cited work shows), READING (this ledger's interpretation) or CHANGED (what an earlier revision said and why it moved); SOURCE lines checked against their texts marked CHECKED |
-| **Checks** | Claim table | [CHECKS.md](CHECKS.md) | 51 lines, each with its verdict and the source's own deciding words |
+| **Checks** | Claim table | [CHECKS.md](CHECKS.md) | 52 lines, each with its verdict and the source's own deciding words |
 | **Kept** | Source table | [KEPT.md](KEPT.md) | The 53 cited works: which are held, as what, by SHA-256 |
 | **Stack** | willow | [willow/README.md](willow/README.md) | The sources as an Almanac catalog, the SOURCE lines as Jeles nuggets, and the scripts that rebuild both |
 | Packet | Public summary | This file | Scope, method, evidence, claim boundaries |
@@ -44,7 +44,7 @@ The ledger argues that true zero is never observed: every physical "zero" is a g
 | Verdict | Lines |
 |---------|-------|
 | Holds | 33 |
-| Holds once reworded | 13 |
+| Holds once reworded | 14 |
 | Does not hold | 3 |
 | Not in the text held | 2, both since settled by later texts |
 
@@ -54,7 +54,7 @@ The ledger argues that true zero is never observed: every physical "zero" is a g
 - Sakharov's "conserved ground offset": his own words are "we assume that the baryon and muon conservation laws are not absolute".
 - Large models converging on "the geometry of physics": Huh et al. hypothesize "a shared statistical model of reality"; the word physics appears only in their references.
 
-**Revision 2 overstated its sources too, and revision 3 says less.** Sakharov never lists three conditions; that list is how later physics summarizes his mechanism. The 1964 papers give mass to some gauge bosons, "in certain cases", not to all. Klein's fifth dimension is periodic with a period tied to Planck's constant, not "compact and small". Tegmark finds 3 + 1 dimensions "not implausible", not singled out. Nernst's 1906 theorem is a hypothesis about work and energy, not yet about entropy. Solomonoff weights every description of the data, not only the shortest.
+**Revision 2 overstated its sources too, and revision 3 says less.** Sakharov never lists three conditions; that list is how later physics summarizes his mechanism. The 1964 papers give mass to some gauge bosons, "in certain cases", not to all. Ehrenfest finds planetary orbits fail above three dimensions, not below, and doubts the question itself ("perhaps no sense"). Klein's fifth dimension is periodic with a period tied to Planck's constant, not "compact and small". Tegmark finds 3 + 1 dimensions "not implausible", not singled out. Nernst's 1906 theorem is a hypothesis about work and energy, not yet about entropy. Solomonoff weights every description of the data, not only the shortest.
 
 **The thesis has an ancestor, and it's already in the pile.** The stack, sorting the sources into the ledger's sections by the ledger's own words, put almost nothing in "zero": the section the ledger is built around is the one its readable sources say least about. What it found instead, in Mach's history of mechanics, was *horror vacui*: "Nature was thought to possess the power of preventing the formation of a vacuum ... it must be conceded, that to a certain extent it really represents the phenomenon. ... This principle, however, does not fit all cases." The ledger's line 0001 now carries it, as a source beside a reading: a precedent, and a warning that the cases decide.
 
@@ -112,7 +112,7 @@ A CHECKED line held against a reprint, a translation or an author's later lectur
 
 ## Claim boundaries
 
-- **Held in full: 41 of 53 works.** Not held in full: Weyl (1918, 1929; his 1918 theory is held as his 1922 book's account), Ehrenfest, Anderson, Wilson, Wolfram, Dirac, Feigenbaum and Nambu's 1960 paper (paywalled, or no open copy found), two books under copyright (Spencer-Brown, Mandelbrot), and CODATA, held as NIST's index page. Einstein's hole argument (1913-14) is cited in a line but not catalogued. Their SOURCE lines are `assumed`.
+- **Held in full: 42 of 53 works.** Not held in full: Weyl (1918, 1929; his 1918 theory is held as his 1922 book's account), Anderson, Wilson, Wolfram, Dirac, Feigenbaum and Nambu's 1960 paper (paywalled, or no open copy found), two books under copyright (Spencer-Brown, Mandelbrot), and CODATA, held as NIST's index page. Einstein's hole argument (1913-14) is cited in a line but not catalogued. Their SOURCE lines are `assumed`.
 - **Some checks rest on secondary forms of a work:** Sakharov's 1991 reprint, Kaluza in translation, Mach's 1893 translation, Casimir's academy reprint, Nambu's 2008 Nobel lecture for his 1960 idea. Each is named where it is used.
 - **Some open copies are not the holder's own:** Zermelo's and Einstein and Stern's scans are CC0 deposits on Zenodo whose uploader isn't named (both works are public domain in the US, and each was read against its printed page numbers); Planck's 1911 paper is a retyped German text on a staff page at the Royal Observatory Edinburgh, not a scan; Frege's is Project Gutenberg's transcription; Dedekind's is the Internet Archive's OCR of RCIN's scan of the 1888 edition. Planck's 1900 and 1901 papers and Nernst's 1912 are held as the OCR text of the whole journal issue or volume they are in, each with its page range said; the deciding lines were read on the scanned page where the OCR breaks them.
 - **Scans were read, not searched,** where they have no text layer: Solomonoff, Klein, Casimir and Goldstone's preprint.

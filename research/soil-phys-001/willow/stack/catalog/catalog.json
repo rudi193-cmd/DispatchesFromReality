@@ -223,6 +223,15 @@
    "status_source": "SOIL-PHYS-001 rev 2, line 01.02",
    "topics": [
     "dimension"
+   ],
+   "recovery": [
+    {
+     "url": "https://dwc.knaw.nl/DL/publications/PU00012213.pdf",
+     "via": "the KNAW Digital Library (Huygens Institute)",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "scan of the Proceedings pages, 10, with an OCR text layer"
+    }
    ]
   },
   {

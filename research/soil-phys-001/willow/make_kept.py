@@ -45,6 +45,7 @@ what = {
  "planck-1913": (FULL, "Masius's 1914 translation of the 1913 second edition; Project Gutenberg's typeset PDF"),
  "weyl-1922": (FULL, "Brose's 1922 translation of the fourth edition; Project Gutenberg's typeset PDF"),
  "dedekind-1888-english": (FULL, "Beman's English translation (1901), in Essays on the Theory of Numbers; Project Gutenberg's typeset PDF"),
+ "ehrenfest-1917": (FULL, "scan of the Proceedings pages (vol. 20, 1918, communicated 26 May 1917), with an OCR text layer; the KNAW Digital Library, record PU00012213"),
  "ghk-1964": (FULL, "the PRL pages, 3 (the paper with the end of the one before), APS free to read, downloaded in a browser"),
 }
 NONE = {
@@ -52,7 +53,6 @@ NONE = {
  "mandelbrot-1982": "a book under copyright: no lawful open copy",
   "wolfram-1983": "APS blocks scripts (403); Wolfram's own publications site doesn't resolve from this environment",
  "weyl-1918": "no open copy found",
- "ehrenfest-1917": "in the KNAW Digital Library, but its record number wasn't found",
  "wilson-1971": "APS: a sign-in for a browser, 403 for scripts",
  "nambu-1960": "APS: a sign-in for a browser, 403 for scripts",
  "anderson-1963": "APS: a sign-in for a browser, 403 for scripts",
