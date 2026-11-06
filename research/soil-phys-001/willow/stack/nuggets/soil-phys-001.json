@@ -1,0 +1,363 @@
+{
+ "domain": "SOIL-PHYS-001",
+ "pairs": [
+  {
+   "source_text": "What does Zur Einführung der transfiniten Zahlen (Acta Sci. Math. (Szeged) 1 (1923) 199) show?",
+   "target_text": "0 is the empty set and 1 = {0}: each ordinal is the set of those before it.",
+   "reason": "SOIL-PHYS-001 rev 2, 0003, 05.02: SOURCE"
+  },
+  {
+   "source_text": "What does Untersuchungen über die Grundlagen der Mengenlehre I (Math. Ann. 65 (1908) 261) show?",
+   "target_text": "Axiom II: there is an improper set, the null set 0, with no elements; Axiom VII: a set holding 0 and, with each a, the set {a}.",
+   "reason": "SOIL-PHYS-001 rev 2, 0003, 05.02: SOURCE",
+   "evidence_urls": [
+    "https://doi.org/10.1007/BF01449999"
+   ]
+  },
+  {
+   "source_text": "What does Die Grundlagen der Arithmetik (Koebner, Breslau, 1884) show?",
+   "target_text": "0 is the number of the concept 'not identical with itself', under which nothing falls; 1 is the number of the concept 'identical with 0'.",
+   "reason": "SOIL-PHYS-001 rev 2, 05.02: SOURCE"
+  },
+  {
+   "source_text": "What does Was sind und was sollen die Zahlen? (Vieweg, Braunschweig, 1888) show?",
+   "target_text": "The natural numbers as a simply infinite system, its base element written 1.",
+   "reason": "SOIL-PHYS-001 rev 2, 05.02: SOURCE"
+  },
+  {
+   "source_text": "What does Laws of Form (Allen & Unwin, 1969) show?",
+   "target_text": "A calculus built from one primitive act, drawing a distinction.",
+   "reason": "SOIL-PHYS-001 rev 2, 0004, 05.02: SOURCE"
+  },
+  {
+   "source_text": "What does CODATA recommended values of the fundamental physical constants (NIST) show?",
+   "target_text": "c, h, e and k_B are exact in the 2019 SI; G is measured; alpha is a pure number.",
+   "reason": "SOIL-PHYS-001 rev 2, 01.01: SOURCE",
+   "evidence_urls": [
+    "https://physics.nist.gov/cuu/Constants/"
+   ]
+  },
+  {
+   "source_text": "What does Über das Gesetz der Energieverteilung im Normalspectrum (Ann. Phys. 4 (1901) 553) show?",
+   "target_text": "Planck's radiation law, after his December 1900 report to the German Physical Society.",
+   "reason": "SOIL-PHYS-001 rev 2, 01.01: SOURCE",
+   "evidence_urls": [
+    "https://doi.org/10.1002/andp.19013090310"
+   ]
+  },
+  {
+   "source_text": "What does The Cosmological Constants (Nature 139 (1937) 323) show?",
+   "target_text": "The large-number coincidences between atomic and cosmic ratios.",
+   "reason": "SOIL-PHYS-001 rev 2, 01.01: SOURCE",
+   "evidence_urls": [
+    "https://doi.org/10.1038/139323a0"
+   ]
+  },
+  {
+   "source_text": "What does Die Feldgleichungen der Gravitation (Sitzungsber. Preuss. Akad. Wiss. (1915) 844) show?",
+   "target_text": "General relativity's field equations.",
+   "reason": "SOIL-PHYS-001 rev 2, 01.02, 02.02: SOURCE"
+  },
+  {
+   "source_text": "What does In what way does it become manifest in the fundamental laws of physics that space has three dimensions? (Proc. KNAW Amsterdam 20 (1917) 200) show?",
+   "target_text": "Stable planetary orbits and atoms occur only in three space dimensions.",
+   "reason": "SOIL-PHYS-001 rev 2, 01.02: SOURCE"
+  },
+  {
+   "source_text": "What does On the dimensionality of spacetime (Class. Quantum Grav. 14 (1997) L69) show?",
+   "target_text": "Stability and predictability arguments single out 3 + 1 dimensions.",
+   "reason": "SOIL-PHYS-001 rev 2, 01.02: SOURCE",
+   "evidence_urls": [
+    "https://arxiv.org/pdf/gr-qc/9702052"
+   ]
+  },
+  {
+   "source_text": "What does Zum Unitätsproblem der Physik (Sitzungsber. Preuss. Akad. Wiss. (1921) 966) show?",
+   "target_text": "A fifth dimension unifying gravity and electromagnetism.",
+   "reason": "SOIL-PHYS-001 rev 2, 01.02: SOURCE"
+  },
+  {
+   "source_text": "What does Quantentheorie und fünfdimensionale Relativitätstheorie (Z. Phys. 37 (1926) 895) show?",
+   "target_text": "The fifth dimension compact and small.",
+   "reason": "SOIL-PHYS-001 rev 2, 01.02: SOURCE",
+   "evidence_urls": [
+    "https://doi.org/10.1007/BF01397481"
+   ]
+  },
+  {
+   "source_text": "What does Planck 2018 results. VI. Cosmological parameters (Astron. Astrophys. 641 (2020) A6) show?",
+   "target_text": "The measured baryon density, giving a baryon-to-photon ratio near 6 x 10^-10.",
+   "reason": "SOIL-PHYS-001 rev 2, 02.01: SOURCE",
+   "evidence_urls": [
+    "https://arxiv.org/pdf/1807.06209"
+   ]
+  },
+  {
+   "source_text": "What does Violation of CP invariance, C asymmetry, and baryon asymmetry of the universe (JETP Lett. 5 (1967) 24; reprinted Sov. Phys. Usp. 34 (1991) 392) show?",
+   "target_text": "A baryon asymmetry can arise if baryon number is violated, C and CP are violated, and equilibrium is departed from.",
+   "reason": "SOIL-PHYS-001 rev 2, 02.01: SOURCE",
+   "evidence_urls": [
+    "https://doi.org/10.1070/PU1991v034n05ABEH002497"
+   ]
+  },
+  {
+   "source_text": "What does A Collection of Papers which passed between the late Learned Mr. Leibnitz and Dr. Clarke (London, 1717 (letters of 1715-16)) show?",
+   "target_text": "Leibniz: space is relations among things; shifting everything changes nothing real.",
+   "reason": "SOIL-PHYS-001 rev 2, 02.02: SOURCE"
+  },
+  {
+   "source_text": "What does Philosophiae Naturalis Principia Mathematica: the Scholium to the Definitions (Motte's translation, 1729) (London, 1687; Motte's English translation, 1729) show?",
+   "target_text": "Absolute space and time, against which relative space is a movable measure: the view Leibniz and Mach argue against.",
+   "reason": "SOIL-PHYS-001 rev 2, 02.02: SOURCE"
+  },
+  {
+   "source_text": "What does Die Mechanik in ihrer Entwickelung (Brockhaus, Leipzig, 1883) show?",
+   "target_text": "Inertia understood relative to the distant masses.",
+   "reason": "SOIL-PHYS-001 rev 2, 02.02: SOURCE"
+  },
+  {
+   "source_text": "What does Gravitation und Elektrizität (Sitzungsber. Preuss. Akad. Wiss. (1918) 465) show?",
+   "target_text": "Gauge invariance, first as a freedom of local scale.",
+   "reason": "SOIL-PHYS-001 rev 2, 02.02: SOURCE"
+  },
+  {
+   "source_text": "What does Elektron und Gravitation (Z. Phys. 56 (1929) 330) show?",
+   "target_text": "Gauge invariance as a freedom of local phase.",
+   "reason": "SOIL-PHYS-001 rev 2, 02.02: SOURCE",
+   "evidence_urls": [
+    "https://doi.org/10.1007/BF01339504"
+   ]
+  },
+  {
+   "source_text": "What does Quasi-particles and gauge invariance in the theory of superconductivity (Phys. Rev. 117 (1960) 648) show?",
+   "target_text": "Spontaneous symmetry breaking in superconductivity.",
+   "reason": "SOIL-PHYS-001 rev 2, 02.03: SOURCE",
+   "evidence_urls": [
+    "https://doi.org/10.1103/PhysRev.117.648"
+   ]
+  },
+  {
+   "source_text": "What does Spontaneous symmetry breaking in particle physics: a case of cross fertilization (Nobel Lecture) (Nobel Lecture, 8 December 2008 (read by G. Jona-Lasinio)) show?",
+   "target_text": "Nambu's own account: in spontaneous symmetry breaking the ground state has huge degeneracy, a symmetry operation takes one ground state to another, and only one of them, with its excited states, is realized.",
+   "reason": "SOIL-PHYS-001 rev 2, 02.03: SOURCE",
+   "evidence_urls": [
+    "https://www.nobelprize.org/uploads/2018/06/nambu_lecture.pdf"
+   ]
+  },
+  {
+   "source_text": "What does Field theories with superconductor solutions (Nuovo Cimento 19 (1961) 154) show?",
+   "target_text": "A broken continuous symmetry brings a massless boson.",
+   "reason": "SOIL-PHYS-001 rev 2, 02.03: SOURCE",
+   "evidence_urls": [
+    "https://doi.org/10.1007/BF02812722"
+   ]
+  },
+  {
+   "source_text": "What does Plasmons, gauge invariance, and mass (Phys. Rev. 130 (1963) 439) show?",
+   "target_text": "In a gauge theory the would-be massless mode gives the gauge field mass.",
+   "reason": "SOIL-PHYS-001 rev 2, 02.03: SOURCE",
+   "evidence_urls": [
+    "https://doi.org/10.1103/PhysRev.130.439"
+   ]
+  },
+  {
+   "source_text": "What does Broken symmetry and the mass of gauge vector mesons (Phys. Rev. Lett. 13 (1964) 321) show?",
+   "target_text": "Gauge bosons acquire mass through a broken symmetry.",
+   "reason": "SOIL-PHYS-001 rev 2, 02.03: SOURCE",
+   "evidence_urls": [
+    "https://doi.org/10.1103/PhysRevLett.13.321"
+   ]
+  },
+  {
+   "source_text": "What does Broken symmetries and the masses of gauge bosons (Phys. Rev. Lett. 13 (1964) 508) show?",
+   "target_text": "The same mechanism, in which the Goldstone theorem fails for gauge fields, and its prediction of incomplete multiplets of scalar and vector bosons.",
+   "reason": "SOIL-PHYS-001 rev 2, 02.03: SOURCE",
+   "evidence_urls": [
+    "https://doi.org/10.1103/PhysRevLett.13.508"
+   ]
+  },
+  {
+   "source_text": "What does Global conservation laws and massless particles (Phys. Rev. Lett. 13 (1964) 585) show?",
+   "target_text": "The third 1964 account of the mechanism.",
+   "reason": "SOIL-PHYS-001 rev 2, 02.03: SOURCE",
+   "evidence_urls": [
+    "https://doi.org/10.1103/PhysRevLett.13.585"
+   ]
+  },
+  {
+   "source_text": "What does Mémoire sur l'itération des fonctions rationnelles (J. Math. Pures Appl. 8 (1918) 47) show?",
+   "target_text": "The iteration of rational maps of the complex plane.",
+   "reason": "SOIL-PHYS-001 rev 2, 03.01: SOURCE"
+  },
+  {
+   "source_text": "What does Sur les équations fonctionnelles (Bull. Soc. Math. France 47-48 (1919-20)) show?",
+   "target_text": "The same iteration, independently.",
+   "reason": "SOIL-PHYS-001 rev 2, 03.01: SOURCE"
+  },
+  {
+   "source_text": "What does The Fractal Geometry of Nature (W. H. Freeman, 1982 (after Les objets fractals, 1975)) show?",
+   "target_text": "Fractal geometry as a description of natural forms.",
+   "reason": "SOIL-PHYS-001 rev 2, 03.01: SOURCE"
+  },
+  {
+   "source_text": "What does Quantitative universality for a class of nonlinear transformations (J. Stat. Phys. 19 (1978) 25) show?",
+   "target_text": "Period doubling shares universal constants, delta about 4.669 and alpha about 2.503.",
+   "reason": "SOIL-PHYS-001 rev 2, 03.01: SOURCE",
+   "evidence_urls": [
+    "https://doi.org/10.1007/BF01020332"
+   ]
+  },
+  {
+   "source_text": "What does The spectral dimension of the universe is scale dependent (Phys. Rev. Lett. 95 (2005) 171301) show?",
+   "target_text": "In causal dynamical triangulations the spectral dimension runs from about 4 to about 2 at short scales.",
+   "reason": "SOIL-PHYS-001 rev 2, 03.02: SOURCE",
+   "evidence_urls": [
+    "https://arxiv.org/pdf/hep-th/0505113"
+   ]
+  },
+  {
+   "source_text": "What does Renormalization group and critical phenomena (Phys. Rev. B 4 (1971) 3174 and 3184) show?",
+   "target_text": "The renormalization group and its fixed points.",
+   "reason": "SOIL-PHYS-001 rev 2, 03.02: SOURCE",
+   "evidence_urls": [
+    "https://doi.org/10.1103/PhysRevB.4.3174"
+   ]
+  },
+  {
+   "source_text": "What does Statistical mechanics of cellular automata (Rev. Mod. Phys. 55 (1983) 601) show?",
+   "target_text": "Elementary cellular automata and their classes of behaviour.",
+   "reason": "SOIL-PHYS-001 rev 2, 03.02: SOURCE",
+   "evidence_urls": [
+    "https://doi.org/10.1103/RevModPhys.55.601"
+   ]
+  },
+  {
+   "source_text": "What does Universality in elementary cellular automata (Complex Systems 15 (2004) 1) show?",
+   "target_text": "Rule 110 is computationally universal.",
+   "reason": "SOIL-PHYS-001 rev 2, 03.02: SOURCE"
+  },
+  {
+   "source_text": "What does Thermodynamics of spacetime: the Einstein equation of state (Phys. Rev. Lett. 75 (1995) 1260) show?",
+   "target_text": "Einstein's equation follows from dQ = T dS on local horizons with entropy proportional to area.",
+   "reason": "SOIL-PHYS-001 rev 2, 04.01: SOURCE",
+   "evidence_urls": [
+    "https://arxiv.org/pdf/gr-qc/9504004"
+   ]
+  },
+  {
+   "source_text": "What does On the origin of gravity and the laws of Newton (JHEP 04 (2011) 029) show?",
+   "target_text": "Gravity proposed as an entropic force.",
+   "reason": "SOIL-PHYS-001 rev 2, 04.01: SOURCE",
+   "evidence_urls": [
+    "https://arxiv.org/pdf/1001.0785"
+   ]
+  },
+  {
+   "source_text": "What does Holographic derivation of entanglement entropy from AdS/CFT (Phys. Rev. Lett. 96 (2006) 181602) show?",
+   "target_text": "In holographic theories, a region's entanglement entropy is a minimal bulk surface's area over 4G.",
+   "reason": "SOIL-PHYS-001 rev 2, 04.02: SOURCE",
+   "evidence_urls": [
+    "https://arxiv.org/pdf/hep-th/0603001"
+   ]
+  },
+  {
+   "source_text": "What does Building up spacetime with quantum entanglement (Gen. Rel. Grav. 42 (2010) 2323) show?",
+   "target_text": "Removing entanglement between two regions pulls the spacetime between them apart.",
+   "reason": "SOIL-PHYS-001 rev 2, 04.02: SOURCE",
+   "evidence_urls": [
+    "https://arxiv.org/pdf/1005.3035"
+   ]
+  },
+  {
+   "source_text": "What does Cool horizons for entangled black holes (Fortschr. Phys. 61 (2013) 781) show?",
+   "target_text": "ER = EPR: the conjecture that entangled pairs are joined by non-traversable wormholes.",
+   "reason": "SOIL-PHYS-001 rev 2, 04.02: SOURCE",
+   "evidence_urls": [
+    "https://arxiv.org/pdf/1306.0533"
+   ]
+  },
+  {
+   "source_text": "What does On the attraction between two perfectly conducting plates (Proc. KNAW 51 (1948) 793) show?",
+   "target_text": "Two uncharged plates attract: an effect of the vacuum's modes.",
+   "reason": "SOIL-PHYS-001 rev 2, 05.01: SOURCE"
+  },
+  {
+   "source_text": "What does Ueber irreversible Strahlungsvorgänge (Ann. Phys. 1 (1900) 69) show?",
+   "target_text": "§26, natural units: units of length, mass, time and temperature from his two radiation constants, c and the gravitational constant, meaningful for all times and cultures.",
+   "reason": "SOIL-PHYS-001 rev 2, 01.01: SOURCE"
+  },
+  {
+   "source_text": "What does Thermodynamik und spezifische Wärme (Sitzungsber. Preuss. Akad. Wiss. (1912) 134) show?",
+   "target_text": "The unattainability principle: no change of matter reaches absolute zero from any temperature, however low.",
+   "reason": "SOIL-PHYS-001 rev 2, 05.01: SOURCE"
+  },
+  {
+   "source_text": "What does The Theory of Heat Radiation (Blakiston, Philadelphia, 1914 (Masius's translation of the 1913 second edition)) show?",
+   "target_text": "§140: at absolute zero an oscillator system's energy is Nhν/2, not 0; §164: natural units.",
+   "reason": "SOIL-PHYS-001 rev 2, 01.01, 05.01: SOURCE"
+  },
+  {
+   "source_text": "What does Space-Time-Matter (Methuen, London, 1922 (Brose's translation of the fourth edition, 1921)) show?",
+   "target_text": "Weyl's own book account of his 1918 theory: the Action invariant under re-calibration by an arbitrary positive function of position.",
+   "reason": "SOIL-PHYS-001 rev 2, 02.02: SOURCE"
+  },
+  {
+   "source_text": "What does Eine neue Strahlungshypothese (Verh. Dtsch. Phys. Ges. 13 (1911) 138) show?",
+   "target_text": "The second theory: an oscillator's mean energy is the earlier value plus the constant hν/2.",
+   "reason": "SOIL-PHYS-001 rev 2, 05.01: SOURCE"
+  },
+  {
+   "source_text": "What does Einige Argumente für die Annahme einer molekularen Agitation beim absoluten Nullpunkt (Ann. Phys. 40 (1913) 551) show?",
+   "target_text": "Arguments for a zero-point energy, from the specific heat of hydrogen and a derivation of Planck's law.",
+   "reason": "SOIL-PHYS-001 rev 2, 05.01: SOURCE",
+   "evidence_urls": [
+    "https://doi.org/10.1002/andp.19133450309"
+   ]
+  },
+  {
+   "source_text": "What does Über die Berechnung chemischer Gleichgewichte aus thermischen Messungen (Nachr. Ges. Wiss. Göttingen (1906) 1) show?",
+   "target_text": "The heat theorem, as a hypothesis about maximal work and energy near absolute zero.",
+   "reason": "SOIL-PHYS-001 rev 2, 05.01: SOURCE"
+  },
+  {
+   "source_text": "What does Gravitational collapse and space-time singularities (Phys. Rev. Lett. 14 (1965) 57) show?",
+   "target_text": "Under general conditions gravitational collapse ends in a singularity.",
+   "reason": "SOIL-PHYS-001 rev 2, 05.01: SOURCE",
+   "evidence_urls": [
+    "https://doi.org/10.1103/PhysRevLett.14.57"
+   ]
+  },
+  {
+   "source_text": "What does A mathematical theory of communication (Bell Syst. Tech. J. 27 (1948) 379) show?",
+   "target_text": "Information as a measurable quantity; the limits of compression.",
+   "reason": "SOIL-PHYS-001 rev 2, 06.01: SOURCE",
+   "evidence_urls": [
+    "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x"
+   ]
+  },
+  {
+   "source_text": "What does A formal theory of inductive inference, part I (Information and Control 7 (1964) 1) show?",
+   "target_text": "Induction as finding the shortest program that produces the data.",
+   "reason": "SOIL-PHYS-001 rev 2, 06.01: SOURCE",
+   "evidence_urls": [
+    "https://doi.org/10.1016/S0019-9958(64)90223-2"
+   ]
+  },
+  {
+   "source_text": "What does The Platonic Representation Hypothesis (ICML 2024) show?",
+   "target_text": "Evidence that larger models' representations grow more alike, and the hypothesis that they converge on a shared model of reality.",
+   "reason": "SOIL-PHYS-001 rev 2, 06.01: SOURCE",
+   "evidence_urls": [
+    "https://arxiv.org/pdf/2405.07987"
+   ]
+  },
+  {
+   "source_text": "What does Willow kernel.py (willow-memory/Willow) show?",
+   "target_text": "Serves passages with file and line only when they hold half a question's words; an append-only hash chain whose root is the zero hash; the boot row is numbered 0.",
+   "reason": "SOIL-PHYS-001 rev 2, 06.02: SOURCE",
+   "evidence_urls": [
+    "https://raw.githubusercontent.com/willow-memory/Willow/275f15d55d6f14ed966b395db923c344ec0382a3/kernel.py"
+   ]
+  }
+ ]
+}

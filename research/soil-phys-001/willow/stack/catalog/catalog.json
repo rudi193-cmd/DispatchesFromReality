@@ -1,0 +1,1290 @@
+{
+ "name": "SOIL-PHYS-001 sources",
+ "entries": [
+  {
+   "id": "vonneumann-1923",
+   "title": "Zur Einführung der transfiniten Zahlen",
+   "type": "paper",
+   "description": "0 is the empty set and 1 = {0}: each ordinal is the set of those before it.",
+   "publisher": "Acta Sci. Math. (Szeged) 1 (1923) 199",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 0003, 05.02",
+   "topics": [
+    "set-theory"
+   ],
+   "recovery": [
+    {
+     "url": "https://acta.bibl.u-szeged.hu/13294/1/math_001_199-208.pdf",
+     "via": "University of Szeged Library (SZTE Egyetemi Kiadványok)",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "scan of the journal pages, 10, with an OCR text layer"
+    }
+   ]
+  },
+  {
+   "id": "zermelo-1908",
+   "title": "Untersuchungen über die Grundlagen der Mengenlehre I",
+   "type": "paper",
+   "description": "Axiom II: there is an improper set, the null set 0, with no elements; Axiom VII: a set holding 0 and, with each a, the set {a}.",
+   "publisher": "Math. Ann. 65 (1908) 261",
+   "status": "live",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 0003, 05.02",
+   "topics": [
+    "set-theory"
+   ],
+   "source": {
+    "canonical_url": "https://doi.org/10.1007/BF01449999"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:46Z",
+    "reachable": true,
+    "http_status": 200
+   },
+   "status_since": "2026-11-06"
+  },
+  {
+   "id": "zermelo-1908-open",
+   "title": "Untersuchungen über die Grundlagen der Mengenlehre I (open copy)",
+   "type": "paper",
+   "description": "scan of the original, 21 pages, OCR text layer, held by Zenodo, a CC0 deposit (uploader not named; the work is public domain in the US)",
+   "publisher": "Math. Ann. 65 (1908) 261",
+   "status": "cited",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 0003, 05.02",
+   "topics": [
+    "set-theory"
+   ],
+   "recovery": [
+    {
+     "url": "https://zenodo.org/records/1428264/files/article.pdf",
+     "via": "Zenodo, a CC0 deposit (uploader not named; the work is public domain in the US)",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "scan of the original, 21 pages, OCR text layer"
+    }
+   ]
+  },
+  {
+   "id": "frege-1884",
+   "title": "Die Grundlagen der Arithmetik",
+   "type": "book",
+   "description": "0 is the number of the concept 'not identical with itself', under which nothing falls; 1 is the number of the concept 'identical with 0'.",
+   "publisher": "Koebner, Breslau, 1884",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 05.02",
+   "topics": [
+    "logic",
+    "set-theory"
+   ],
+   "recovery": [
+    {
+     "url": "https://www.gutenberg.org/cache/epub/48312/pg48312.txt",
+     "via": "Project Gutenberg",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "German plain-text transcription of the 1884 edition"
+    }
+   ]
+  },
+  {
+   "id": "dedekind-1888",
+   "title": "Was sind und was sollen die Zahlen?",
+   "type": "book",
+   "description": "The natural numbers as a simply infinite system, its base element written 1.",
+   "publisher": "Vieweg, Braunschweig, 1888",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 05.02",
+   "topics": [
+    "set-theory"
+   ],
+   "recovery": [
+    {
+     "url": "https://archive.org/download/rcin.org.pl.WA35_13030_4797_Was-sind_5138/WA35_13030_4797_Was-sind_djvu.txt",
+     "via": "Internet Archive, from RCIN (the Polish academies' digital repository)",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "OCR text of a scan of the 1888 first edition"
+    }
+   ]
+  },
+  {
+   "id": "spencer-brown-1969",
+   "title": "Laws of Form",
+   "type": "book",
+   "description": "A calculus built from one primitive act, drawing a distinction.",
+   "publisher": "Allen & Unwin, 1969",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 0004, 05.02",
+   "topics": [
+    "logic"
+   ]
+  },
+  {
+   "id": "codata-2022",
+   "title": "CODATA recommended values of the fundamental physical constants",
+   "type": "dataset",
+   "description": "c, h, e and k_B are exact in the 2019 SI; G is measured; alpha is a pure number.",
+   "publisher": "NIST",
+   "status": "live",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 01.01",
+   "topics": [
+    "constants"
+   ],
+   "source": {
+    "canonical_url": "https://physics.nist.gov/cuu/Constants/"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:16Z",
+    "reachable": true,
+    "http_status": 200
+   },
+   "status_since": "2026-11-06"
+  },
+  {
+   "id": "planck-1901",
+   "title": "Über das Gesetz der Energieverteilung im Normalspectrum",
+   "type": "paper",
+   "description": "Planck's radiation law, after his December 1900 report to the German Physical Society.",
+   "publisher": "Ann. Phys. 4 (1901) 553",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 01.01",
+   "topics": [
+    "constants",
+    "quantum"
+   ],
+   "source": {
+    "canonical_url": "https://doi.org/10.1002/andp.19013090310"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:16Z",
+    "reachable": false,
+    "http_status": 403
+   },
+   "recovery": [
+    {
+     "url": "https://archive.org/download/sim_annalen-der-physik_1901_4_3/sim_annalen-der-physik_1901_4_3_djvu.txt",
+     "via": "Internet Archive (Serials in Microfilm)",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "OCR text of the whole issue, Ann. Phys. 4 no. 3 (1901); the paper is pages 553-563"
+    }
+   ]
+  },
+  {
+   "id": "dirac-1937",
+   "title": "The Cosmological Constants",
+   "type": "paper",
+   "description": "The large-number coincidences between atomic and cosmic ratios.",
+   "publisher": "Nature 139 (1937) 323",
+   "status": "live",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 01.01",
+   "topics": [
+    "constants",
+    "cosmology"
+   ],
+   "source": {
+    "canonical_url": "https://doi.org/10.1038/139323a0"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:17Z",
+    "reachable": true,
+    "http_status": 200
+   },
+   "status_since": "2026-11-06"
+  },
+  {
+   "id": "einstein-1915",
+   "title": "Die Feldgleichungen der Gravitation",
+   "type": "paper",
+   "description": "General relativity's field equations.",
+   "publisher": "Sitzungsber. Preuss. Akad. Wiss. (1915) 844",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 01.02, 02.02",
+   "topics": [
+    "gravity"
+   ],
+   "recovery": [
+    {
+     "url": "https://de.wikisource.org/wiki/Die_Feldgleichungen_der_Gravitation",
+     "via": "Wikisource",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "German transcription"
+    }
+   ]
+  },
+  {
+   "id": "ehrenfest-1917",
+   "title": "In what way does it become manifest in the fundamental laws of physics that space has three dimensions?",
+   "type": "paper",
+   "description": "Stable planetary orbits and atoms occur only in three space dimensions.",
+   "publisher": "Proc. KNAW Amsterdam 20 (1917) 200",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 01.02",
+   "topics": [
+    "dimension"
+   ],
+   "recovery": [
+    {
+     "url": "https://dwc.knaw.nl/DL/publications/PU00012213.pdf",
+     "via": "the KNAW Digital Library (Huygens Institute)",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "scan of the Proceedings pages, 10, with an OCR text layer"
+    }
+   ]
+  },
+  {
+   "id": "tegmark-1997",
+   "title": "On the dimensionality of spacetime",
+   "type": "paper",
+   "description": "Stability and predictability arguments single out 3 + 1 dimensions.",
+   "publisher": "Class. Quantum Grav. 14 (1997) L69",
+   "status": "live",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 01.02",
+   "topics": [
+    "dimension"
+   ],
+   "source": {
+    "canonical_url": "https://arxiv.org/pdf/gr-qc/9702052"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:19Z",
+    "reachable": true,
+    "http_status": 200
+   },
+   "status_since": "2026-11-06"
+  },
+  {
+   "id": "kaluza-1921",
+   "title": "Zum Unitätsproblem der Physik",
+   "type": "paper",
+   "description": "A fifth dimension unifying gravity and electromagnetism.",
+   "publisher": "Sitzungsber. Preuss. Akad. Wiss. (1921) 966",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 01.02",
+   "topics": [
+    "dimension"
+   ],
+   "recovery": [
+    {
+     "url": "https://arxiv.org/pdf/1803.08616",
+     "via": "arXiv",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "English translation"
+    }
+   ]
+  },
+  {
+   "id": "klein-1926",
+   "title": "Quantentheorie und fünfdimensionale Relativitätstheorie",
+   "type": "paper",
+   "description": "The fifth dimension compact and small.",
+   "publisher": "Z. Phys. 37 (1926) 895",
+   "status": "live",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 01.02",
+   "topics": [
+    "dimension"
+   ],
+   "source": {
+    "canonical_url": "https://doi.org/10.1007/BF01397481"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:19Z",
+    "reachable": true,
+    "http_status": 200
+   },
+   "status_since": "2026-11-06"
+  },
+  {
+   "id": "klein-1926-open",
+   "title": "Quantentheorie und fünfdimensionale Relativitätstheorie (open copy)",
+   "type": "paper",
+   "description": "sourcebook chapter, held by Edition Open Sources",
+   "publisher": "Z. Phys. 37 (1926) 895",
+   "status": "cited",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 01.02",
+   "topics": [
+    "dimension"
+   ],
+   "recovery": [
+    {
+     "url": "https://edition-open-sources.org/media/sources/10/10/sources10chap8.pdf",
+     "via": "Edition Open Sources",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "sourcebook chapter"
+    }
+   ]
+  },
+  {
+   "id": "planck-2018-parameters",
+   "title": "Planck 2018 results. VI. Cosmological parameters",
+   "type": "paper",
+   "description": "The measured baryon density, giving a baryon-to-photon ratio near 6 x 10^-10.",
+   "publisher": "Astron. Astrophys. 641 (2020) A6",
+   "status": "live",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 02.01",
+   "topics": [
+    "cosmology",
+    "asymmetry"
+   ],
+   "source": {
+    "canonical_url": "https://arxiv.org/pdf/1807.06209"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:22Z",
+    "reachable": true,
+    "http_status": 200
+   },
+   "status_since": "2026-11-06"
+  },
+  {
+   "id": "sakharov-1967",
+   "title": "Violation of CP invariance, C asymmetry, and baryon asymmetry of the universe",
+   "type": "paper",
+   "description": "A baryon asymmetry can arise if baryon number is violated, C and CP are violated, and equilibrium is departed from.",
+   "publisher": "JETP Lett. 5 (1967) 24; reprinted Sov. Phys. Usp. 34 (1991) 392",
+   "status": "live",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 02.01",
+   "topics": [
+    "asymmetry"
+   ],
+   "source": {
+    "canonical_url": "https://doi.org/10.1070/PU1991v034n05ABEH002497"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:22Z",
+    "reachable": true,
+    "http_status": 200
+   },
+   "status_since": "2026-11-06"
+  },
+  {
+   "id": "sakharov-1967-open",
+   "title": "Violation of CP invariance, C asymmetry, and baryon asymmetry of the universe (open copy)",
+   "type": "paper",
+   "description": "the 1991 reprint, English, held by Physics-Uspekhi archive",
+   "publisher": "JETP Lett. 5 (1967) 24; reprinted Sov. Phys. Usp. 34 (1991) 392",
+   "status": "cited",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 02.01",
+   "topics": [
+    "asymmetry"
+   ],
+   "recovery": [
+    {
+     "url": "https://ufn.ru/ufn91/ufn91_5/ufn915h.pdf",
+     "via": "Physics-Uspekhi archive",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "the 1991 reprint, English"
+    }
+   ]
+  },
+  {
+   "id": "leibniz-clarke-1717",
+   "title": "A Collection of Papers which passed between the late Learned Mr. Leibnitz and Dr. Clarke",
+   "type": "book",
+   "description": "Leibniz: space is relations among things; shifting everything changes nothing real.",
+   "publisher": "London, 1717 (letters of 1715-16)",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 02.02",
+   "topics": [
+    "relationalism"
+   ],
+   "recovery": [
+    {
+     "url": "https://newtonproject.ox.ac.uk/view/texts/xml/THEM00226",
+     "via": "The Newton Project",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "Leibniz's first paper only, CC BY-NC-ND"
+    }
+   ]
+  },
+  {
+   "id": "newton-1687",
+   "title": "Philosophiae Naturalis Principia Mathematica: the Scholium to the Definitions (Motte's translation, 1729)",
+   "type": "book",
+   "description": "Absolute space and time, against which relative space is a movable measure: the view Leibniz and Mach argue against.",
+   "publisher": "London, 1687; Motte's English translation, 1729",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 02.02",
+   "topics": [
+    "relationalism"
+   ],
+   "recovery": [
+    {
+     "url": "https://en.wikisource.org/wiki/The_Mathematical_Principles_of_Natural_Philosophy_(1729)/Definitions",
+     "via": "Wikisource",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "the 1729 English translation, Definitions and Scholium, long s in markup"
+    }
+   ]
+  },
+  {
+   "id": "mach-1883",
+   "title": "Die Mechanik in ihrer Entwickelung",
+   "type": "book",
+   "description": "Inertia understood relative to the distant masses.",
+   "publisher": "Brockhaus, Leipzig, 1883",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 02.02",
+   "topics": [
+    "relationalism"
+   ],
+   "recovery": [
+    {
+     "url": "https://archive.org/stream/sciencemechanic02machgoog/sciencemechanic02machgoog_djvu.txt",
+     "via": "Internet Archive",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "the 1893 English translation, OCR text"
+    }
+   ]
+  },
+  {
+   "id": "weyl-1918",
+   "title": "Gravitation und Elektrizität",
+   "type": "paper",
+   "description": "Gauge invariance, first as a freedom of local scale.",
+   "publisher": "Sitzungsber. Preuss. Akad. Wiss. (1918) 465",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 02.02",
+   "topics": [
+    "gauge"
+   ]
+  },
+  {
+   "id": "weyl-1929",
+   "title": "Elektron und Gravitation",
+   "type": "paper",
+   "description": "Gauge invariance as a freedom of local phase.",
+   "publisher": "Z. Phys. 56 (1929) 330",
+   "status": "live",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 02.02",
+   "topics": [
+    "gauge"
+   ],
+   "source": {
+    "canonical_url": "https://doi.org/10.1007/BF01339504"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:24Z",
+    "reachable": false,
+    "http_status": 429
+   },
+   "status_since": "2026-11-06"
+  },
+  {
+   "id": "nambu-1960",
+   "title": "Quasi-particles and gauge invariance in the theory of superconductivity",
+   "type": "paper",
+   "description": "Spontaneous symmetry breaking in superconductivity.",
+   "publisher": "Phys. Rev. 117 (1960) 648",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 02.03",
+   "topics": [
+    "symmetry-breaking"
+   ],
+   "source": {
+    "canonical_url": "https://doi.org/10.1103/PhysRev.117.648"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:25Z",
+    "reachable": false,
+    "http_status": 403
+   }
+  },
+  {
+   "id": "nambu-2008",
+   "title": "Spontaneous symmetry breaking in particle physics: a case of cross fertilization (Nobel Lecture)",
+   "type": "lecture",
+   "description": "Nambu's own account: in spontaneous symmetry breaking the ground state has huge degeneracy, a symmetry operation takes one ground state to another, and only one of them, with its excited states, is realized.",
+   "publisher": "Nobel Lecture, 8 December 2008 (read by G. Jona-Lasinio)",
+   "status": "live",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 02.03",
+   "topics": [
+    "symmetry-breaking"
+   ],
+   "source": {
+    "canonical_url": "https://www.nobelprize.org/uploads/2018/06/nambu_lecture.pdf"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:26Z",
+    "reachable": true,
+    "http_status": 200
+   },
+   "status_since": "2026-11-06"
+  },
+  {
+   "id": "goldstone-1961",
+   "title": "Field theories with superconductor solutions",
+   "type": "paper",
+   "description": "A broken continuous symmetry brings a massless boson.",
+   "publisher": "Nuovo Cimento 19 (1961) 154",
+   "status": "live",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 02.03",
+   "topics": [
+    "symmetry-breaking"
+   ],
+   "source": {
+    "canonical_url": "https://doi.org/10.1007/BF02812722"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:26Z",
+    "reachable": true,
+    "http_status": 200
+   },
+   "status_since": "2026-11-06"
+  },
+  {
+   "id": "anderson-1963",
+   "title": "Plasmons, gauge invariance, and mass",
+   "type": "paper",
+   "description": "In a gauge theory the would-be massless mode gives the gauge field mass.",
+   "publisher": "Phys. Rev. 130 (1963) 439",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 02.03",
+   "topics": [
+    "symmetry-breaking"
+   ],
+   "source": {
+    "canonical_url": "https://doi.org/10.1103/PhysRev.130.439"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:29Z",
+    "reachable": false,
+    "http_status": 403
+   }
+  },
+  {
+   "id": "englert-brout-1964",
+   "title": "Broken symmetry and the mass of gauge vector mesons",
+   "type": "paper",
+   "description": "Gauge bosons acquire mass through a broken symmetry.",
+   "publisher": "Phys. Rev. Lett. 13 (1964) 321",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 02.03",
+   "topics": [
+    "symmetry-breaking"
+   ],
+   "source": {
+    "canonical_url": "https://doi.org/10.1103/PhysRevLett.13.321"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:29Z",
+    "reachable": false,
+    "http_status": 403
+   },
+   "recovery": [
+    {
+     "url": "https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.13.321",
+     "via": "APS, free to read, downloaded in a browser",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "kept by hash in keep/.provided.jsonl; scripts get 403"
+    }
+   ]
+  },
+  {
+   "id": "higgs-1964",
+   "title": "Broken symmetries and the masses of gauge bosons",
+   "type": "paper",
+   "description": "The same mechanism, in which the Goldstone theorem fails for gauge fields, and its prediction of incomplete multiplets of scalar and vector bosons.",
+   "publisher": "Phys. Rev. Lett. 13 (1964) 508",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 02.03",
+   "topics": [
+    "symmetry-breaking"
+   ],
+   "source": {
+    "canonical_url": "https://doi.org/10.1103/PhysRevLett.13.508"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:29Z",
+    "reachable": false,
+    "http_status": 403
+   },
+   "recovery": [
+    {
+     "url": "https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.13.508",
+     "via": "APS, free to read, downloaded in a browser",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "kept by hash in keep/.provided.jsonl; scripts get 403"
+    }
+   ]
+  },
+  {
+   "id": "ghk-1964",
+   "title": "Global conservation laws and massless particles",
+   "type": "paper",
+   "description": "The third 1964 account of the mechanism.",
+   "publisher": "Phys. Rev. Lett. 13 (1964) 585",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 02.03",
+   "topics": [
+    "symmetry-breaking"
+   ],
+   "source": {
+    "canonical_url": "https://doi.org/10.1103/PhysRevLett.13.585"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:30Z",
+    "reachable": false,
+    "http_status": 403
+   },
+   "recovery": [
+    {
+     "url": "https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.13.585",
+     "via": "APS, free to read, downloaded in a browser",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "kept by hash in keep/.provided.jsonl; scripts get 403"
+    }
+   ]
+  },
+  {
+   "id": "julia-1918",
+   "title": "Mémoire sur l'itération des fonctions rationnelles",
+   "type": "paper",
+   "description": "The iteration of rational maps of the complex plane.",
+   "publisher": "J. Math. Pures Appl. 8 (1918) 47",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 03.01",
+   "topics": [
+    "fractals"
+   ],
+   "recovery": [
+    {
+     "url": "https://www.numdam.org/item/JMPA_1918_8_1__47_0.pdf",
+     "via": "Numdam",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "scan of the original"
+    }
+   ]
+  },
+  {
+   "id": "fatou-1919",
+   "title": "Sur les équations fonctionnelles",
+   "type": "paper",
+   "description": "The same iteration, independently.",
+   "publisher": "Bull. Soc. Math. France 47-48 (1919-20)",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 03.01",
+   "topics": [
+    "fractals"
+   ],
+   "recovery": [
+    {
+     "url": "https://www.numdam.org/item/10.24033/bsmf.998.pdf",
+     "via": "Numdam",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "scan of the original"
+    }
+   ]
+  },
+  {
+   "id": "mandelbrot-1982",
+   "title": "The Fractal Geometry of Nature",
+   "type": "book",
+   "description": "Fractal geometry as a description of natural forms.",
+   "publisher": "W. H. Freeman, 1982 (after Les objets fractals, 1975)",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 03.01",
+   "topics": [
+    "fractals"
+   ]
+  },
+  {
+   "id": "feigenbaum-1978",
+   "title": "Quantitative universality for a class of nonlinear transformations",
+   "type": "paper",
+   "description": "Period doubling shares universal constants, delta about 4.669 and alpha about 2.503.",
+   "publisher": "J. Stat. Phys. 19 (1978) 25",
+   "status": "live",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 03.01",
+   "topics": [
+    "chaos"
+   ],
+   "source": {
+    "canonical_url": "https://doi.org/10.1007/BF01020332"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:30Z",
+    "reachable": true,
+    "http_status": 200
+   },
+   "status_since": "2026-11-06"
+  },
+  {
+   "id": "ajl-2005",
+   "title": "The spectral dimension of the universe is scale dependent",
+   "type": "paper",
+   "description": "In causal dynamical triangulations the spectral dimension runs from about 4 to about 2 at short scales.",
+   "publisher": "Phys. Rev. Lett. 95 (2005) 171301",
+   "status": "live",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 03.02",
+   "topics": [
+    "quantum-gravity",
+    "dimension"
+   ],
+   "source": {
+    "canonical_url": "https://arxiv.org/pdf/hep-th/0505113"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:32Z",
+    "reachable": true,
+    "http_status": 200
+   },
+   "status_since": "2026-11-06"
+  },
+  {
+   "id": "wilson-1971",
+   "title": "Renormalization group and critical phenomena",
+   "type": "paper",
+   "description": "The renormalization group and its fixed points.",
+   "publisher": "Phys. Rev. B 4 (1971) 3174 and 3184",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 03.02",
+   "topics": [
+    "scale"
+   ],
+   "source": {
+    "canonical_url": "https://doi.org/10.1103/PhysRevB.4.3174"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:32Z",
+    "reachable": false,
+    "http_status": 403
+   }
+  },
+  {
+   "id": "wolfram-1983",
+   "title": "Statistical mechanics of cellular automata",
+   "type": "paper",
+   "description": "Elementary cellular automata and their classes of behaviour.",
+   "publisher": "Rev. Mod. Phys. 55 (1983) 601",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 03.02",
+   "topics": [
+    "computation"
+   ],
+   "source": {
+    "canonical_url": "https://doi.org/10.1103/RevModPhys.55.601"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:33Z",
+    "reachable": false,
+    "http_status": 403
+   }
+  },
+  {
+   "id": "cook-2004",
+   "title": "Universality in elementary cellular automata",
+   "type": "paper",
+   "description": "Rule 110 is computationally universal.",
+   "publisher": "Complex Systems 15 (2004) 1",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 03.02",
+   "topics": [
+    "computation"
+   ],
+   "recovery": [
+    {
+     "url": "https://content.wolfram.com/sites/13/2023/02/15-1-1.pdf",
+     "via": "Wolfram, for Complex Systems",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "the journal article"
+    }
+   ]
+  },
+  {
+   "id": "jacobson-1995",
+   "title": "Thermodynamics of spacetime: the Einstein equation of state",
+   "type": "paper",
+   "description": "Einstein's equation follows from dQ = T dS on local horizons with entropy proportional to area.",
+   "publisher": "Phys. Rev. Lett. 75 (1995) 1260",
+   "status": "live",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 04.01",
+   "topics": [
+    "gravity",
+    "thermodynamics"
+   ],
+   "source": {
+    "canonical_url": "https://arxiv.org/pdf/gr-qc/9504004"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:33Z",
+    "reachable": true,
+    "http_status": 200
+   },
+   "status_since": "2026-11-06"
+  },
+  {
+   "id": "verlinde-2011",
+   "title": "On the origin of gravity and the laws of Newton",
+   "type": "paper",
+   "description": "Gravity proposed as an entropic force.",
+   "publisher": "JHEP 04 (2011) 029",
+   "status": "live",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 04.01",
+   "topics": [
+    "gravity",
+    "thermodynamics"
+   ],
+   "source": {
+    "canonical_url": "https://arxiv.org/pdf/1001.0785"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:33Z",
+    "reachable": true,
+    "http_status": 200
+   },
+   "status_since": "2026-11-06"
+  },
+  {
+   "id": "ryu-takayanagi-2006",
+   "title": "Holographic derivation of entanglement entropy from AdS/CFT",
+   "type": "paper",
+   "description": "In holographic theories, a region's entanglement entropy is a minimal bulk surface's area over 4G.",
+   "publisher": "Phys. Rev. Lett. 96 (2006) 181602",
+   "status": "live",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 04.02",
+   "topics": [
+    "entanglement",
+    "holography"
+   ],
+   "source": {
+    "canonical_url": "https://arxiv.org/pdf/hep-th/0603001"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:33Z",
+    "reachable": true,
+    "http_status": 200
+   },
+   "status_since": "2026-11-06"
+  },
+  {
+   "id": "van-raamsdonk-2010",
+   "title": "Building up spacetime with quantum entanglement",
+   "type": "paper",
+   "description": "Removing entanglement between two regions pulls the spacetime between them apart.",
+   "publisher": "Gen. Rel. Grav. 42 (2010) 2323",
+   "status": "live",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 04.02",
+   "topics": [
+    "entanglement",
+    "holography"
+   ],
+   "source": {
+    "canonical_url": "https://arxiv.org/pdf/1005.3035"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:33Z",
+    "reachable": true,
+    "http_status": 200
+   },
+   "status_since": "2026-11-06"
+  },
+  {
+   "id": "maldacena-susskind-2013",
+   "title": "Cool horizons for entangled black holes",
+   "type": "paper",
+   "description": "ER = EPR: the conjecture that entangled pairs are joined by non-traversable wormholes.",
+   "publisher": "Fortschr. Phys. 61 (2013) 781",
+   "status": "live",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 04.02",
+   "topics": [
+    "entanglement",
+    "holography"
+   ],
+   "source": {
+    "canonical_url": "https://arxiv.org/pdf/1306.0533"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:34Z",
+    "reachable": true,
+    "http_status": 200
+   },
+   "status_since": "2026-11-06"
+  },
+  {
+   "id": "casimir-1948",
+   "title": "On the attraction between two perfectly conducting plates",
+   "type": "paper",
+   "description": "Two uncharged plates attract: an effect of the vacuum's modes.",
+   "publisher": "Proc. KNAW 51 (1948) 793",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 05.01",
+   "topics": [
+    "vacuum"
+   ],
+   "recovery": [
+    {
+     "url": "https://www.ph.nat.tum.de/fileadmin/w00bya/t75/pdf/Casimir1948.pdf",
+     "via": "TU Munich physics",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "reprint, scanned pages"
+    }
+   ]
+  },
+  {
+   "id": "planck-1900",
+   "title": "Ueber irreversible Strahlungsvorgänge",
+   "type": "paper",
+   "description": "§26, natural units: units of length, mass, time and temperature from his two radiation constants, c and the gravitational constant, meaningful for all times and cultures.",
+   "publisher": "Ann. Phys. 1 (1900) 69",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 01.01",
+   "topics": [
+    "constants"
+   ],
+   "recovery": [
+    {
+     "url": "https://archive.org/download/sim_annalen-der-physik_1900_1_1/sim_annalen-der-physik_1900_1_1_djvu.txt",
+     "via": "Internet Archive (Serials in Microfilm)",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "OCR text of the whole issue, Ann. Phys. 1 no. 1 (1900); the paper is pages 69-122, its natural units §26"
+    }
+   ]
+  },
+  {
+   "id": "nernst-1912",
+   "title": "Thermodynamik und spezifische Wärme",
+   "type": "paper",
+   "description": "The unattainability principle: no change of matter reaches absolute zero from any temperature, however low.",
+   "publisher": "Sitzungsber. Preuss. Akad. Wiss. (1912) 134",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 05.01",
+   "topics": [
+    "thermodynamics"
+   ],
+   "recovery": [
+    {
+     "url": "https://archive.org/download/in.ernet.dli.2015.105015/2015.105015.Der-Koniglich-Preussischen-Akademie-Der-Wissenschaften-januar-Bis-Juni-1912_djvu.txt",
+     "via": "Internet Archive, from the Digital Library of India",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "OCR text of the Sitzungsberichte, January to June 1912; the paper is pages 134-140"
+    }
+   ]
+  },
+  {
+   "id": "planck-1913",
+   "title": "The Theory of Heat Radiation",
+   "type": "book",
+   "description": "§140: at absolute zero an oscillator system's energy is Nhν/2, not 0; §164: natural units.",
+   "publisher": "Blakiston, Philadelphia, 1914 (Masius's translation of the 1913 second edition)",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 01.01, 05.01",
+   "topics": [
+    "vacuum",
+    "constants"
+   ],
+   "recovery": [
+    {
+     "url": "https://www.gutenberg.org/files/40030/40030-pdf.pdf",
+     "via": "Project Gutenberg",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "the 1914 English translation, typeset from the Internet Archive's scans"
+    }
+   ]
+  },
+  {
+   "id": "weyl-1922",
+   "title": "Space-Time-Matter",
+   "type": "book",
+   "description": "Weyl's own book account of his 1918 theory: the Action invariant under re-calibration by an arbitrary positive function of position.",
+   "publisher": "Methuen, London, 1922 (Brose's translation of the fourth edition, 1921)",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 02.02",
+   "topics": [
+    "gauge"
+   ],
+   "recovery": [
+    {
+     "url": "https://www.gutenberg.org/files/43006/43006-pdf.pdf",
+     "via": "Project Gutenberg",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "the 1922 English translation, typeset from the University of Toronto's scans"
+    }
+   ]
+  },
+  {
+   "id": "planck-1911",
+   "title": "Eine neue Strahlungshypothese",
+   "type": "paper",
+   "description": "The second theory: an oscillator's mean energy is the earlier value plus the constant hν/2.",
+   "publisher": "Verh. Dtsch. Phys. Ges. 13 (1911) 138",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 05.01",
+   "topics": [
+    "vacuum",
+    "thermodynamics"
+   ],
+   "recovery": [
+    {
+     "url": "https://www.roe.ac.uk/~jap/zpe/planck1911_german.pdf",
+     "via": "a staff page at the Royal Observatory Edinburgh",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "German, retyped (not a scan), 11 pages"
+    }
+   ]
+  },
+  {
+   "id": "einstein-stern-1913",
+   "title": "Einige Argumente für die Annahme einer molekularen Agitation beim absoluten Nullpunkt",
+   "type": "paper",
+   "description": "Arguments for a zero-point energy, from the specific heat of hydrogen and a derivation of Planck's law.",
+   "publisher": "Ann. Phys. 40 (1913) 551",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 05.01",
+   "topics": [
+    "vacuum",
+    "thermodynamics"
+   ],
+   "source": {
+    "canonical_url": "https://doi.org/10.1002/andp.19133450309"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:34Z",
+    "reachable": false,
+    "http_status": 403
+   },
+   "recovery": [
+    {
+     "url": "https://zenodo.org/records/1424262/files/article.pdf",
+     "via": "Zenodo, a CC0 deposit (uploader not named; the work is public domain in the US)",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "scan of the original, 10 pages, OCR text layer"
+    }
+   ]
+  },
+  {
+   "id": "nernst-1906",
+   "title": "Über die Berechnung chemischer Gleichgewichte aus thermischen Messungen",
+   "type": "paper",
+   "description": "The heat theorem, as a hypothesis about maximal work and energy near absolute zero.",
+   "publisher": "Nachr. Ges. Wiss. Göttingen (1906) 1",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 05.01",
+   "topics": [
+    "thermodynamics"
+   ],
+   "recovery": [
+    {
+     "url": "https://academicweb.nd.edu/~powers/ame.20231/nernst1906.pdf",
+     "via": "Notre Dame course site",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "scan of the Göttingen Nachrichten"
+    }
+   ]
+  },
+  {
+   "id": "penrose-1965",
+   "title": "Gravitational collapse and space-time singularities",
+   "type": "paper",
+   "description": "Under general conditions gravitational collapse ends in a singularity.",
+   "publisher": "Phys. Rev. Lett. 14 (1965) 57",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 05.01",
+   "topics": [
+    "gravity"
+   ],
+   "source": {
+    "canonical_url": "https://doi.org/10.1103/PhysRevLett.14.57"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:34Z",
+    "reachable": false,
+    "http_status": 403
+   },
+   "recovery": [
+    {
+     "url": "https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.14.57",
+     "via": "APS, downloaded in a browser by the person running the ledger",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "kept by hash in keep/.provided.jsonl; scripts get 403"
+    }
+   ]
+  },
+  {
+   "id": "shannon-1948",
+   "title": "A mathematical theory of communication",
+   "type": "paper",
+   "description": "Information as a measurable quantity; the limits of compression.",
+   "publisher": "Bell Syst. Tech. J. 27 (1948) 379",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 06.01",
+   "topics": [
+    "information"
+   ],
+   "source": {
+    "canonical_url": "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:34Z",
+    "reachable": false,
+    "http_status": 202
+   },
+   "recovery": [
+    {
+     "url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+     "via": "Harvard mathematics",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "the 1948 reprint with corrections, both parts"
+    }
+   ]
+  },
+  {
+   "id": "solomonoff-1964",
+   "title": "A formal theory of inductive inference, part I",
+   "type": "paper",
+   "description": "Induction as finding the shortest program that produces the data.",
+   "publisher": "Information and Control 7 (1964) 1",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 06.01; the publisher answers 200 with a 2.6 KB redirect page (ScienceDirect), so not live",
+   "topics": [
+    "information"
+   ],
+   "source": {
+    "canonical_url": "https://doi.org/10.1016/S0019-9958(64)90223-2"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:35Z",
+    "reachable": true,
+    "http_status": 200
+   },
+   "recovery": [
+    {
+     "url": "https://world.std.com/~rjs/1964pt1.pdf",
+     "via": "the author's site",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "part I"
+    }
+   ]
+  },
+  {
+   "id": "huh-2024",
+   "title": "The Platonic Representation Hypothesis",
+   "type": "paper",
+   "description": "Evidence that larger models' representations grow more alike, and the hypothesis that they converge on a shared model of reality.",
+   "publisher": "ICML 2024",
+   "status": "live",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 06.01",
+   "topics": [
+    "representation"
+   ],
+   "source": {
+    "canonical_url": "https://arxiv.org/pdf/2405.07987"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:35Z",
+    "reachable": true,
+    "http_status": 200
+   },
+   "status_since": "2026-11-06"
+  },
+  {
+   "id": "willow-kernel",
+   "title": "Willow kernel.py",
+   "type": "code",
+   "description": "Serves passages with file and line only when they hold half a question's words; an append-only hash chain whose root is the zero hash; the boot row is numbered 0.",
+   "publisher": "willow-memory/Willow",
+   "status": "live",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 06.02",
+   "topics": [
+    "willow"
+   ],
+   "source": {
+    "canonical_url": "https://raw.githubusercontent.com/willow-memory/Willow/275f15d55d6f14ed966b395db923c344ec0382a3/kernel.py"
+   },
+   "observed": {
+    "checked": "2026-11-06T15:17:35Z",
+    "reachable": true,
+    "http_status": 200
+   },
+   "status_since": "2026-11-06"
+  },
+  {
+   "id": "leibniz-clarke-1717-third",
+   "title": "A Collection of Papers which passed between the late Learned Mr. Leibnitz and Dr. Clarke (Leibniz's third paper)",
+   "type": "book",
+   "description": "Leibniz's third paper, TEI transcription, CC BY-NC-ND, held by The Newton Project",
+   "publisher": "London, 1717 (letters of 1715-16)",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 02.02",
+   "topics": [
+    "relationalism"
+   ],
+   "recovery": [
+    {
+     "url": "https://newtonproject.ox.ac.uk/view/texts/xml/THEM00230",
+     "via": "The Newton Project",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "Leibniz's third paper, TEI transcription, CC BY-NC-ND"
+    }
+   ]
+  },
+  {
+   "id": "dedekind-1888-english",
+   "title": "Was sind und was sollen die Zahlen? (Beman's English translation (1901))",
+   "type": "book",
+   "description": "Beman's English translation (1901), The Nature and Meaning of Numbers, in Essays on the Theory of Numbers, held by Project Gutenberg",
+   "publisher": "Vieweg, Braunschweig, 1888",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 05.02",
+   "topics": [
+    "set-theory"
+   ],
+   "recovery": [
+    {
+     "url": "https://www.gutenberg.org/files/21016/21016-pdf.pdf",
+     "via": "Project Gutenberg",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "Beman's English translation (1901), The Nature and Meaning of Numbers, in Essays on the Theory of Numbers"
+    }
+   ]
+  },
+  {
+   "id": "goldstone-1961-preprint",
+   "title": "Field theories with superconductor solutions (Goldstone's preprint)",
+   "type": "paper",
+   "description": "Goldstone's preprint, scanned, 16 pages, held by CERN Document Server (CERN-TH-118, 1960), downloaded in a browser",
+   "publisher": "Nuovo Cimento 19 (1961) 154",
+   "status": "cited",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 02.03",
+   "topics": [
+    "symmetry-breaking"
+   ],
+   "recovery": [
+    {
+     "url": "https://cds.cern.ch/record/343400/files/CM-P00057225.pdf",
+     "via": "CERN Document Server (CERN-TH-118, 1960), downloaded in a browser",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "Goldstone's preprint, scanned, 16 pages; kept by hash in keep/.provided.jsonl; scripts get a bot check"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,368 @@
+[
+[
+"04.01-a",
+"jacobson-1995.pdf",
+"holds",
+"The Einstein equation is derived from the proportionality of entropy and horizon area together with the fundamental relation δQ = T dS"
+],
+[
+"04.01-b",
+"verlinde-2011.pdf",
+"holds",
+"Gravity is explained as an entropic force caused by changes in the information associated with the positions of material bodies."
+],
+[
+"04.02-a",
+"ryu-takayanagi-2006.pdf",
+"holds with a change",
+"we propose the following 'area law'"
+],
+[
+"04.02-b",
+"van-raamsdonk-2010.pdf",
+"holds",
+"the two regions of spacetime pull apart and pinch off from each other"
+],
+[
+"04.02-c",
+"maldacena-susskind-2013.pdf",
+"holds",
+"claim that even for an entangled pair of particles, in a quantum theory of gravity there must be a Planckian bridge between them"
+],
+[
+"04.02-d",
+"van-raamsdonk-2010.pdf",
+"does not hold",
+"decreases, in direct proportionality to the decrease in entanglement entropy"
+],
+[
+"06.01-a",
+"shannon-1948.pdf",
+"holds",
+"This is the maximum compression possible when we encode into the same alphabet."
+],
+[
+"06.01-b",
+"solomonoff-1964.pdf",
+"holds with a change",
+"The weight assigned to a description of length N is 2^{-N}."
+],
+[
+"06.01-c",
+"huh-2024.pdf",
+"holds",
+"We hypothesize that this convergence is driving toward a shared statistical model of reality, akin to Plato's concept of an ideal reality."
+],
+[
+"06.01-d",
+"huh-2024.pdf",
+"does not hold",
+"We hypothesize that this convergence is driving toward a shared statistical model of reality"
+],
+[
+"03.02-a",
+"ajl-2005.pdf",
+"holds",
+"While four-dimensional on large scales, the quantum universe appears two-dimensional at short distances."
+],
+[
+"03.02-b",
+"cook-2004.pdf",
+"holds",
+"an elementary one dimensional cellular automaton known as \"Rule 110\" is capable of universal computation."
+],
+[
+"01.02-a",
+"tegmark-1997.pdf",
+"holds with a change",
+"it is not implausible that only a 3+1-dimensional spacetime can contain observers"
+],
+[
+"02.01-a",
+"sakharov-1967-open.pdf",
+"holds with a change",
+"To explain baryon asymmetry, we propose in addition an approximate character for the baryon conservation law."
+],
+[
+"02.01-b",
+"sakharov-1967-open.pdf",
+"does not hold",
+"We assume that the baryon and muon conservation laws are not absolute"
+],
+[
+"02.01-c",
+"planck-2018-parameters.pdf",
+"not found in this text",
+"baryon density Ωb h2 = 0.0224 ± 0.0001"
+],
+[
+"02.03-a/eb",
+"englert-brout-1964.pdf",
+"holds with a change",
+"we shall show that in certain cases vector mesons do indeed acquire mass when the vacuum is degenerate with respect to a compact Lie group."
+],
+[
+"02.03-a/higgs",
+"higgs-1964.pdf",
+"holds with a change",
+"the spin-one quanta of some of the gauge fields acquire mass"
+],
+[
+"02.03-a/ghk",
+"ghk-1964.pdf",
+"holds with a change",
+"to form the three components of a massive vector field"
+],
+[
+"02.03-b",
+"higgs-1964.pdf",
+"holds",
+"the prediction of incomplete multiplets of scalar and vector bosons."
+],
+[
+"02.03-c",
+"ghk-1964.pdf",
+"holds with a change",
+"While one sees by inspection that there is a massless particle in the theory, it is easily seen that it is completely decoupled from the other (massive) excitations"
+],
+[
+"01.02-b",
+"einstein-1915.html",
+"holds",
+"Wir setzen"
+],
+[
+"01.02-c",
+"kaluza-1921.pdf",
+"holds",
+"A unique potential tensor generates a universal field which splits, in ordinary condition, into a gravitational and electromagnetic part."
+],
+[
+"01.02-d",
+"klein-1926-open.pdf",
+"holds with a change",
+"bei denen die fünfte Dimension rein harmonisch auftritt mit einer bestimmten mit der Planckschen Konstante zusammenhängenden Periode"
+],
+[
+"05.01-a",
+"casimir-1948.pdf",
+"holds with a change",
+"This force may be interpreted as a zero point pressure of electromagnetic waves."
+],
+[
+"05.01-b",
+"nernst-1906.pdf",
+"holds with a change",
+"So drängte sich die Annahme auf, daß in solchen Fällen in der nächsten Nähe des absoluten Nullpunktes ein völliges Zusammenfallen beider Größen stattfindet"
+],
+[
+"03.01-a",
+"julia-1918.pdf",
+"holds",
+"Le Mémoire que je soumets au jugement de l'Académie est consacré à l'étude de l'itération d'une fraction rationnelle"
+],
+[
+"03.01-b",
+"fatou-1919.pdf",
+"holds",
+"Me bornant à l'étude de l'itération des substitutions rationnelles effectuées sur une seule variable complexe, et des équations fonctionnelles qui s'y rattachent"
+],
+[
+"02.02-a",
+"mach-1883.html",
+"holds",
+"When a body moves relatively to the fixed stars, centrifugal forces are produced"
+],
+[
+"02.02-b",
+"leibniz-clarke-1717",
+"not found in this text",
+"Sir Isaac Newton says, that Space is an Organ, which God makes use of to perceive Things by."
+],
+[
+"02.02-b2",
+"leibniz-clarke-1717-third",
+"holds",
+"I hold Space to be something merely relative, as Time is; that I hold it to be an Order of Coexistences, as Time is an Order of Successions."
+],
+[
+"02.02-c",
+"leibniz-clarke-1717-third",
+"holds",
+"those two States, the one such as it now is, the other supposed to be the quite contrary way, would not at all differ from one another."
+],
+[
+"02.03-d",
+"nambu-2008.pdf",
+"holds",
+"The ground state has huge degeneracy. A symmetry operation takes one ground state to another."
+],
+[
+"02.03-e",
+"goldstone-1961-preprint.pdf",
+"holds",
+"By choosing one solution, the reflection symmetry is effectively destroyed."
+],
+[
+"02.03-f",
+"goldstone-1961-preprint.pdf",
+"holds",
+"The phase of χ is not determined. Fixing it destroys the symmetry."
+],
+[
+"02.02-d",
+"newton-1687.html",
+"holds",
+"Absolute Space, in its own nature, without relation to anything external, remains always similar and immovable."
+],
+[
+"02.02-a2",
+"mach-1883.html",
+"holds",
+"they are pure things of thought, pure mental constructs"
+],
+[
+"05.01-c",
+"mach-1883.html",
+"holds",
+"Nature was thought to possess the power of preventing the formation of a vacuum"
+],
+[
+"0003a",
+"zermelo-1908-open",
+"holds",
+"„Zahlenreihe“ ... weil ihre Elemente die Stelle der Zahlzeichen vertreten können"
+],
+[
+"05.01-d",
+"planck-1911.pdf",
+"holds",
+"von dem früheren Werte 11) verschieden um die additive Konstante hν/2"
+],
+[
+"05.01-e",
+"einstein-stern-1913",
+"holds",
+"Nach Formel (2) hat der Resonator beim absoluten Nullpunkt die Energie hν/2"
+],
+[
+"05.02-a",
+"zermelo-1908-open",
+"holds",
+"kann nicht befriedigen, da er von der „Menge alles Denkbaren“ ausgeht"
+],
+[
+"05.02-b",
+"frege-1884.txt",
+"holds",
+"0 ist die Anzahl, welche dem Begriffe »sich selbst ungleich« zukommt"
+],
+[
+"05.02-c",
+"dedekind-1888.txt",
+"holds",
+"das wir im Folgenden durch das Symbol 1 bezeichnen wollen"
+],
+[
+"0003",
+"vonneumann-1923.pdf",
+"holds",
+"Jede Ordnungszahl ist die Menge der ihr vorangehenden Ordnungszahlen."
+],
+[
+"01.01-b",
+"planck-1901.txt",
+"holds",
+"Hieraus und aus (14) ergeben sich die Werte der Naturconstanten"
+],
+[
+"01.01-c",
+"planck-1900.txt",
+"holds with a change",
+"„natürliche Maasseinheiten“ ... für alle Zeiten und für alle, auch ausserirdische und aussermenschliche Culturen"
+],
+[
+"05.01-f",
+"nernst-1912.txt",
+"holds",
+"Es ist unmöglich, durch irgendwelche stoffliche Veränderungen von einer selbst beliebig tiefen Temperatur bis zum absoluten Nullpunkt zu gelangen."
+],
+[
+"05.01-g",
+"penrose-1965.pdf",
+"holds with a change",
+"the existence of a trapped surface implies—irrespective of symmetry—that singularities necessarily develop"
+],
+[
+"05.01-h",
+"planck-1913.pdf",
+"holds",
+"for the zero point of the absolute temperature E becomes, not 0, but Nhν/2"
+],
+[
+"02.02-w",
+"weyl-1922.pdf",
+"holds",
+"in which λ is an arbitrary positive function of position"
+],
+[
+"01.02-b",
+"ehrenfest-1917.pdf",
+"holds with a change",
+"In Rn for n > 3 the planet falls on the attracting centre or flies away infinitely."
+],
+[
+"01.01-d",
+"planck-1901.txt",
+"holds",
+"nicht annähernde, sondern absolute Gültigkeit"
+],
+[
+"05.02-d",
+"julia-1918.pdf",
+"holds",
+"on peut supposer que cette racine a été amenée à l'origine, c'est-à-dire F(o) = o"
+],
+[
+"0001c",
+"frege-1884.txt",
+"holds",
+"Die Null, die Eins sind Gegenstände, die uns nicht sinnlich gegeben werden können"
+],
+[
+"0002a",
+"dedekind-1888.txt",
+"holds",
+"Dagegen wollen wir das leere System, welches gar kein Element enthält, aus gewissen Gründen hier ganz ausschließen"
+],
+[
+"05.02-e",
+"julia-1918.pdf",
+"holds",
+"Pour ne pas raisonner dans le vide, il importe d'abord de prouver que E contient toujours des points"
+],
+[
+"05.02-f",
+"frege-1884.txt",
+"holds",
+"dass a + b ein leeres Zeichen wäre"
+],
+[
+"02.02-l",
+"leibniz-clarke-1717-third",
+"holds",
+"Nothing happens without a sufficient reason, why it should be So, rather than otherwise"
+],
+[
+"02.02-w2",
+"weyl-1922.pdf",
+"holds",
+"the shadow-like extended medium that serves as a link between material things"
+],
+[
+"02.02-m",
+"mach-1883.html",
+"holds",
+"No one is warranted in extending these principles beyond the boundaries of experience"
+]
+]

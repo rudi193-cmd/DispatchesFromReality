@@ -1,0 +1,125 @@
+# SOIL-PHYS-001: the willow stack
+
+**Sean Campbell** · Working stack · November 2026
+
+The [SOIL-PHYS-001 ledger](../README.md)'s sources, kept the way willow keeps
+sources: by address, time and SHA-256, never their text. It runs on the
+[willow](https://github.com/willow-memory/Willow) kernel and its stdlib
+add-ons, local only, standard library only.
+
+| File | What |
+|------|------|
+| [build.sh](build.sh) | Makes the folder: clones this repo, fetches every open source with almanac-keep and holds it to its logged hash, turns them into text with willow's readers, starts three boxes |
+| [stack.md](stack.md) | 93 steps in 13 pools, 72 add-ons: the ledger against its sources, the catalog and nuggets, the sources asked directly and in their own languages, kept and sealed, the packet and the repo read across, privacy and code guards, the record, what it makes in `out/`, and play |
+| `sections.txt` | The ledger's six sections as `sort` categories, in the ledger's own words |
+| `stack/catalog/catalog.json` | An Almanac catalog: each cited work with its venue, what it shows, the ledger lines that use it, its address, each probe's answer, and its open or provided copies |
+| `stack/nuggets/soil-phys-001.json` | A Jeles seed: each work as a question and the answer it gives, with its address as evidence and the ledger line as the reason; unsigned, so Jeles sets the rung |
+| `make_stack.py` | Writes both from one table; `--probe` asks each address once and appends the answer to `probes.jsonl` |
+| `make_kept.py` | Writes [KEPT.md](../KEPT.md) from the catalog and the kept files |
+| `probes.jsonl` | Every probe, never rewritten: a later 403 or 429 is a holder's block or rate limit, not the page gone |
+| `keep/.snapshots.jsonl` | almanac-keep's log: each fetched copy's address, time, bytes and SHA-256 |
+| `keep/.provided.jsonl` | Copies downloaded in a browser where a script is refused: where from, when, and SHA-256 |
+| `keep/.text.jsonl` | Each kept web page's text hash: a page is rebuilt on every request, so its bytes never match twice, and its text is what's held |
+| [questions/](questions/README.md) | The sources asked 7,637 questions at once with willow's `scan`: what many questions lead to, which papers answer each other, which ideas meet and which never do |
+| `checks.json` | The 61 lines checked, each with its file, verdict and deciding quote, as [CHECKS.md](../CHECKS.md) shows them |
+
+The kept files themselves are not here: several are paywalled, and the repo
+keeps sources by hash. To hold them again:
+
+    python3 WILLOW/adapters/stdlib/almanac-keep/keep.py --catalog stack/catalog/catalog.json --id ID --to keep
+
+for each entry, then compare each file's SHA-256 with the logs. A copy marked
+as downloaded in a browser has to be downloaded by hand again; the log says
+from where.
+
+Read the catalog and the nuggets as passages:
+
+    python3 WILLOW/adapters/stdlib/almanac/almanac.py mirror --from stack/catalog --to MIRROR/almanac
+    python3 WILLOW/adapters/stdlib/jeles/jeles.py mirror --from stack/nuggets --to MIRROR/jeles
+
+then point a box at MIRROR.
+
+---
+
+## 81 add-ons
+
+Willow has 337 add-ons. This stack uses every one that has something to say
+about this packet, 81 with the ones `build.sh` runs and `snapshot` under
+`almanac-keep`; each was run on the built boxes before it went in. The rest
+don't fit, and why:
+
+| Left out | Why |
+|---|---|
+| Readers of other kinds of file (86 of willow's 93 readers) | The pile is PDFs, web pages, TEI, Markdown and the packet's catalog and seed; `build.sh` uses the seven readers for those |
+| Life logs (garden, car, pets, budget, baby-log and the like) | They each said, correctly, that nothing here is a garden or a car |
+| Editor and assistant setup (aider, cursor, vscode, vim and the like) | They print a config to paste, not a check |
+| Anything that needs an approved answer (export's answers, static-search, annotations, rss-out, badge's count, pile-gold, pile-sweep, quantized, deep-links) | Approving is the key's, and the key is Sean's; nothing here is approved |
+| `predict ask` | `stack` adds `--json` to a report add-on's step, and `ask` takes none: willow bug #285; run it by hand |
+| `browse`, `pipe` | One waits at a prompt, the other reads its standard input |
+| Model, network and sealing add-ons | The stack runs local and offline, and never seals |
+
+---
+
+## A run, 2026-11-06
+
+`build.sh` from scratch, then the stack, on willow's main (93b2add):
+
+- **Sources:** 27 held to their SHA-256 (every PDF and text file, the four browser downloads among them); 4 web pages whose bytes changed and whose text didn't; 5 live pages (Springer's and the reprint's) whose text changed too, an access counter or a notice, so the packet's copy is the record; Solomonoff's publisher page, a redirect stub, set aside. Weyl's page answered 429 the first time, a rate limit.
+- **The ledger's quotes** (`quotes`): 33 in DRAFT.md, 10 as written, 19 almost, 4 not there. The four: Klein's words in English (his paper is German), Casimir's and Goldstone's (scans), and "deletion is an appended tombstone", revision 1's claim about willow, which nothing holds. Most of the "almost" are the pdf reader's: a word split at a line end ("univer se", "multi plets") or a ligature left as one character ("oﬀ") (willow's bug #112); the rest are the ledger quoting its own earlier wording in CHANGED lines, which no source holds.
+- **The deciding quotes** (`misquote`): 6 of 6 as written, Leibniz's "would not at all differ" among them, which willow's study of these sources missed because its runner kept each of Leibniz's paragraphs on one line, past the 500 characters the kernel reads (bug #89); `build.sh` breaks such lines with the text add-on.
+- **Short claims** (`claim-check`): "gravity is an entropic force" has every part in Verlinde, "Rule 110 is capable of universal computation" in Cook; "the metric is proportional to entanglement" has every part nowhere.
+- **Asked directly** (`fair-merge`): "is space absolute or relative" serves Leibniz's third paper first; "what happens to the ground state when a symmetry is broken" serves Nambu's lecture first.
+- **The repo** (`xref`): 305 references, none broken. (`pair-drift`): this packet's README holds a "256" its draft doesn't, the 256 of SHA-256; across the repo it flags figures in three other packets' READMEs that their drafts don't hold.
+- **The full stack, again from scratch:** `build.sh` in 66 seconds (27 sources held to their hashes, 0 differ), the 86 steps in 180 seconds, none refused, 14 with something for you, 8 files in `out/` (a PROV record, an in-toto statement, a folder card, a timeline, a calendar of what's coming up, CloudEvents, a printable answer, a badge). Among them: `thesis` puts each of the draft's 167 sentences to the sources and finds 11 held whole in one passage; `sort` places 25 of the 35 source files in the ledger's sections; `stems` reads "Feldgleichung" as Einstein's "Feldgleichungen"; `launcher` finds Mach's "absolute space and absolute motion ... are pure things of thought"; `a11y-check` finds one heading that skips a level, in `creative/`; `fixity` and `changed` fingerprint the 35 source files so a later run says what moved.
+- **pile-poetry**, seeded "the vault is sean's key":
+
+      Un point c ζ à y any set
+      So daß die berechnung des transcendantes
+      La moitié droite de l itération des z
+      Im and similarly we get a be treated
+
+## A run with the zero sources, 2026-11-06
+
+`build.sh` from scratch with Zermelo, Frege, Dedekind, Planck 1911 and Einstein and Stern added, on willow's 9aa277b: 42 seconds, 43 sources held to their SHA-256 and none differ; the 93 steps in 292 seconds.
+
+- **`sort`, first with the ledger's English words:** the zero section still caught only Casimir, the five new sources unsorted, and Frege's German filed under "models and willow" on ten hits of "information", every one in Project Gutenberg's English licence. `build.sh` now reads a Gutenberg text between its START and END lines.
+- **`sort`, with the German words the ledger now quotes** (Nullpunkt, Nullpunktsenergie, Nullmenge, Zahlenreihe): the zero section holds 7 sources, Casimir, Nernst, Planck, Einstein and Stern, Zermelo, Frege and Dedekind; 33 of 42 files sorted, up from 28.
+- **The new quotes** (`quotes`, `misquote`): each found in its source, Frege's and Dedekind's as written, the scans' "almost" through their OCR ("behiedigen" for "befriedigen", "hu" for "hν"). One OCR word was wrong in the first draft: Einstein and Stern's "einer" read as "her", corrected by reading the scanned page.
+- **Run again in the same folder,** `fixity` and `changed` flagged `frege-1884.txt.txt` as edited, which it was (the licence taken off), and the eight steps that write into `out/` refused, because their files were there: neither add-on overwrites.
+
+## A run with von Neumann, Nernst and Planck held, 2026-11-06
+
+`build.sh` from scratch with von Neumann (1923), Nernst (1912) and Planck (1900, 1901) added: 47 sources held to their SHA-256, none differ; the 95 steps in 548 seconds, 18 with something for you.
+
+- **`misquote`:** von Neumann's "Jede Ordnungszahl ist die Menge der ihr vorangehenden Ordnungszahlen" and Nernst's unattainability sentence each found in their source, Nernst's as "almost" through the OCR ("unmoglich dutch").
+- **`sort`, zero:** 8 sources now, Nernst 1912 among them.
+- **`sort`, constants:** still none, and for a reason worth knowing. `sort` puts each file in the one section it holds most, and Planck's 1900 paper holds "Natürliche Maasseinheiten" once and "Vacuum" 28 times: his German spelling is the English word, so the file sorts under "seed and anchor". Planck's 1901 file sorts under "models and willow" on "Compression", which is another paper in the same journal issue: the kept text is the whole issue's OCR.
+- **`sort`, von Neumann:** unsorted. His paper says "Ordnungszahl", "Menge" and "leere Menge", none of them a phrase of the ledger's.
+- **The pile's size:** Nernst's kept volume is 1.4 MB, and the kernel reads at most 1,000,000 bytes of a file, so the text add-on wrote it as two files (`nernst-1912.txt.txt` and `.part2`); the paper is in the first.
+
+## The Project Gutenberg companions, 2026-11-06
+
+Planck's *Theory of Heat Radiation*, Weyl's *Space-Time-Matter* and Dedekind's essay in Beman's translation, each Project Gutenberg's typeset PDF. `build.sh` from scratch: 51 sources held to their SHA-256, none differ. Each Gutenberg file in the pile now starts at its "*** START OF TH(E|IS) PROJECT GUTENBERG" line, whether it came as text or as a PDF.
+
+- **`misquote`:** Dedekind's "which we shall denote in what follows by the symbol 1, the base-element" as written; Planck's §140 and Weyl's re-calibration sentence as "almost", in the right files, where the PDF reader runs a word into the symbol after it ("temperatureE", "whichλis").
+- **`sort`:** none of the three lands where the ledger uses it. Planck's book sorts under "seed and anchor" on 55 hits of "vacuum"; Weyl's under "models and willow" on 38 of "representation" (his "representation of the metrical field"); Dedekind's translation under "zero" on "distinction" and one "zero point". The words a section is named by are not the words its sources use.
+
+## The full stack over the full pile, 2026-11-06
+
+`build.sh` from scratch, 52 sources held to their SHA-256, none differ; the 95 steps in 11 minutes 36 seconds, 18 with something for you. What came out the far side:
+
+- **`quotes`** matched the ledger's von Neumann notation, "0 = O, 1 = (O), 2 = (O, (O))", "almost" in Julia's 1918 memoir: his Greek Φ and ο read like von Neumann's O's. Wrong for the quote, and the passage it found is Julia moving a fixed point to the origin, F(o) = o. It is in the ledger now, as a SOURCE in 05.02.
+- **`fair-merge`**, asked "is space absolute or relative", served fourth a passage from Planck's Elementarquanta paper, in the same kept issue as his 1901 one, on the words "absolute" and "relativ": his constants' relations claim "absolute Gültigkeit". In the ledger now, in 01.01.
+- **`plain`**, asked "what is the zero point energy of an oscillator", serves Planck's 1913 book §140 first: "E becomes, not 0, but Nhν/2".
+- **`surprise`** drew Mach on Wallis: two inelastic bodies with equal and opposite momenta, "rest will ensue after impact".
+- **`pile-poetry`**, seeded "the vault is sean's key": "Recognise that may be directly that is the / Mit der missionar / Aber der jugend / Induction um sie die leere menge m et". The missionary is another paper in the Academy volume that holds Nernst's 1912 one; "leere Menge" is von Neumann's empty set.
+- **`thesis`**: 12 of the draft's 240 sentences held whole in one passage. **`why-not`**: revision 1's "deletion is an appended tombstone" still has no source; the nearest words in the pile are "depletion" and "selection".
+
+## The pile trimmed to the cited papers, 2026-11-06
+
+Three sources are kept as the OCR of a whole volume or issue: Nernst's 1912 paper in the Academy's January-to-June Sitzungsberichte, Planck's 1900 and 1901 papers in their Annalen issues. Random draws from the box kept landing in other people's papers there (a missionary's songs, a jaw's mechanics, an expedition report), and two of eight came from Nernst's volume alone. `build.sh` now cuts each to the cited paper's lines, by markers in the OCR, before the pile is made; the kept file and its hash are unchanged, and a marker not found keeps the file whole and says so.
+
+- Nernst's volume, 1.4 MB, is 14 KB of his paper (pages 134 to 140), so the kernel no longer splits it in two. Planck 1900 is its pages 69 to 122; Planck 1901 is his radiation-law paper with the Elementarquanta paper that follows it.
+- Every quote the ledger takes from the three is still found by `misquote`; none of eight random draws comes from another author's paper; and `sort` puts its first source in "constants and arena": Planck 1901, on "Naturconstanten". 41 of 51 files sorted, in all six sections.
+- Left out by the cut, and worth knowing: the paper right after Nernst's in the volume is A. Eucken's on the molecular heat of hydrogen at low temperatures, the "Euckenschen Resultate" Einstein and Stern's zero-point argument rests on (05.01).
+
