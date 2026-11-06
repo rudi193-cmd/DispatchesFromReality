@@ -43,7 +43,7 @@ Of the ledger's 53 works: **42 held in full** (by the work itself, a reprint, a 
 | newton-1687 | full text | `newton-1687.html` | 156,702 | `5bc43da2034f6dea…` | the Definitions and Scholium in Motte's 1729 translation, Wikisource's transcription (the long s kept in markup) |
 | penrose-1965 | full text | `penrose-1965.pdf` | 265,270 | `ce054908ed51850d…` | the PRL pages, 3 (the paper with the end of the one before), downloaded in a browser from APS |
 | planck-1900 | full text | `planck-1900.txt` | 426,362 | `cee3088ff76198a2…` | the Internet Archive's OCR text of the whole issue, Ann. Phys. 1 no. 1 (1900); the paper is pages 69-122 |
-| planck-1901 | full text | `planck-1901.txt` | 425,575 | `91dc821257230ef3…` | the Internet Archive's OCR text of the whole issue, Ann. Phys. 4 no. 3 (1901); the paper is pages 553-563 |
+| planck-1901 | full text | `planck-1901.txt` | 425,575 | `91dc821257230ef3…` | the Internet Archive's OCR text of the whole issue, Ann. Phys. 4 no. 3 (1901); the paper is pages 553-563, and his Elementarquanta paper follows it |
 | planck-1911 | full text | `planck-1911.pdf` | 89,328 | `82f492fa93ebbf31…` | the German text retyped (not a scan of the Verhandlungen), 11 pages; a staff page at the Royal Observatory Edinburgh |
 | planck-1913 | full text | `planck-1913.pdf` | 1,415,134 | `5d99e069a5ff483f…` | Masius's 1914 translation of the 1913 second edition; Project Gutenberg's typeset PDF |
 | planck-2018-parameters | full text | `planck-2018-parameters.pdf` | 9,317,371 | `8e172730faf07c9f…` | full text (arXiv PDF) |

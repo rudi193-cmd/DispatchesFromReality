@@ -56,7 +56,9 @@ Revision 2's lines, plus three of revision 1's stronger claims (marked rev 1), c
 | 05.01-h | Planck's book: at absolute zero the energy is Nhν/2, not 0 | **holds** | "for the zero point of the absolute temperature E becomes, not 0, but Nhν/2" (planck-1913.pdf) | found, the fraction typeset |
 | 02.02-w | Weyl: gauge invariance, the freedom to re-choose a local reference | **holds**, on his 1922 book's account: in 1918 the reference is the local scale | "in which λ is an arbitrary positive function of position" (weyl-1922.pdf) | found word for word |
 | 01.02-b | Ehrenfest: stable planetary orbits and stable atoms only for n = 3 | **holds with a change**: orbits fail for n > 3, and are bounded in R₂ too; atoms change character (n = 4 singular), not "stable only in 3" | "In Rₙ for n > 3 the planet falls on the attracting centre or flies away infinitely." (ehrenfest-1917.pdf) | read on the scanned page (200) |
+| 01.01-d | Planck: his constants' relations claim absolute validity | **holds** | "nicht annähernde, sondern absolute Gültigkeit" (planck-1901.txt (the issue, Elementarquanta)) | found in the issue's OCR |
+| 05.02-d | Julia: a fixed point moved to the origin by a linear substitution, F(o) = o | **holds** | "on peut supposer que cette racine a été amenée à l'origine, c'est-à-dire F(o) = o" (julia-1918.pdf) | read on the scanned page (64); the OCR has "011" for "on" |
 
-**52 checked:** 33 holds, 14 holds with a change, 3 does not hold, 2 not found in this text (both now settled by later texts: Leibniz's third paper, 02.02-b2; and the ground-state half of 02.03 by Nambu and Goldstone, 02.03-d to f).
+**54 checked:** 35 holds, 14 holds with a change, 3 does not hold, 2 not found in this text (both now settled by later texts: Leibniz's third paper, 02.02-b2; and the ground-state half of 02.03 by Nambu and Goldstone, 02.03-d to f).
 
 The three rev 1 claims tested (the metric ∝ entanglement, Sakharov's conserved offset, the geometry of physics) all fail on their own sources' words.

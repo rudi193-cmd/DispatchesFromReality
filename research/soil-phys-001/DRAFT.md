@@ -37,7 +37,9 @@ actually does is in Section 06.
 - CHANGED (rev 3): the natural units are in this 1900 Annalen paper, which Planck "für die Annalen bearbeitet" (reworked for the Annalen) from his Berlin reports of 1897 to 1899, not in the 1901 one; and they are built from his constants a and b (b the later h, a the later h/k), not ħ and k_B.
 - SOURCE: Dirac, "The Cosmological Constants", Nature 139 (1937) 323: the large-number coincidences.
 - READING: Natural units show only ratios carry physical meaning, so law has no external origin.
+- SOURCE: Planck, "Ueber die Elementarquanta der Materie und der Elektricität" (Verh. Dtsch. Phys. Ges. 2 (1900) 244, reprinted in the same Annalen issue as the 1901 paper, right after it), on the constants he has just computed: "Alle diese Beziehungen beanspruchen, wenn die Theorie überhaupt richtig ist, nicht annähernde, sondern absolute Gültigkeit" (all these relations claim, if the theory is right at all, not approximate but absolute validity). CHECKED (OCR of the issue's scan).
 - READING: Planck's own reason is nearly this line's: units free of "irdischen Cultur" (earthly culture), water and the Earth's turning. But he hangs them on the laws staying valid, which is a condition, not an origin.
+- READING: And where this line says only ratios carry meaning, Planck, computing the constants, claims for them "absolute Gültigkeit", absolute validity, if the theory is right at all. The two can stand together (the numbers absolute, their units chosen), but the ledger's line is not his.
 - CHANGED: Planck's 1900 result is in the Physical Society's proceedings; the Annalen paper is 1901.
 
 **[01.02] Why 3 + 1**
@@ -140,12 +142,14 @@ actually does is in Section 06.
 - SOURCE: Frege, *Die Grundlagen der Arithmetik* (1884), §74: "Weil unter den Begriff »sich selbst ungleich« nichts fällt, erkläre ich: 0 ist die Anzahl, welche dem Begriffe »sich selbst ungleich« zukommt" (since nothing falls under the concept "not identical with itself", I define: 0 is the number belonging to that concept); §77: "1 ist die Anzahl, welche dem Begriffe »gleich 0« zukommt" (1 is the number belonging to the concept "identical with 0"). CHECKED (Project Gutenberg's transcription).
 - SOURCE: Dedekind, *Was sind und was sollen die Zahlen?* (1888), §71: the base element of a simply infinite system, "das wir im Folgenden durch das Symbol 1 bezeichnen wollen" (which we will denote by the symbol 1). Beman's 1901 translation: "which we shall denote in what follows by the symbol 1, the base-element". His number series begins at 1, and his preface puts zero among the later extensions of the number concept: "die Schöpfung der Null, der negativen, gebrochenen, irrationalen und complexen Zahlen" (the creation of zero, of the negative, fractional, irrational and complex numbers). CHECKED (OCR of the 1888 scan, and the translation).
 - READING: Three founders, three zeros. Frege's counts a concept nothing can fall under, a contradiction put to work; Dedekind starts at 1 and calls zero a later creation; Zermelo admits one as improper. Each puts 1 straight on top of it: Frege's 1 counts the concept "identical with 0", Zermelo's next set is {0}. The mathematics makes zero the empty thing and at once puts it in a container, which is the ledger's {0}. Whether a physical zero is ever empty is not a question these sources ask.
+- SOURCE: Julia, J. Math. Pures Appl. (1918), p. 64: with a root of F(Z) − Z = 0, a fixed point, inside a circle, "En soumettant le plan des Z à une substitution linéaire qui conserve le cercle C₁, on peut supposer que cette racine a été amenée à l'origine, c'est-à-dire F(o) = o" (subjecting the Z plane to a linear substitution that keeps the circle, one may suppose this root has been brought to the origin, that is, F(o) = o). CHECKED (read on the scanned page).
 - SOURCE: Spencer-Brown, *Laws of Form* (1969): the calculus starts from one act, drawing a distinction.
 
 **[05.03] The synthesis: {(0)}** (all READING)
 
 - { }, the boundary: horizon, causal patch, container.
 - (0), the arbitrary ground coordinate, the relational origin.
+- Julia's fixed point is this in practice: a mathematician's zero is often where a chosen point has been moved to, F(o) = o, by a change of coordinates that keeps everything else in place (Section 05.02).
 - {(0)}, the unit, 1: in von Neumann's terms literally so, and here the non-zero root everything else is built from.
 - That holds with the round brackets read as grouping, so that {(0)} is {0}. In von Neumann's own notation round brackets make a set: there (0) is already 1, and {(0)} would be {1}, which is none of his numbers but is Zermelo's 2 (line 0003a). The ledger's notation means the first reading.
 

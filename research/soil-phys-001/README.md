@@ -15,7 +15,7 @@ For the broader research map, see [Research Portfolio](../README.md). For the pr
 | Version | Form | Status | Purpose |
 |---------|------|--------|---------|
 | **Rev 3** | The ledger | [DRAFT.md](DRAFT.md) | Every entry marked SOURCE (what a cited work shows), READING (this ledger's interpretation) or CHANGED (what an earlier revision said and why it moved); SOURCE lines checked against their texts marked CHECKED |
-| **Checks** | Claim table | [CHECKS.md](CHECKS.md) | 52 lines, each with its verdict and the source's own deciding words |
+| **Checks** | Claim table | [CHECKS.md](CHECKS.md) | 54 lines, each with its verdict and the source's own deciding words |
 | **Kept** | Source table | [KEPT.md](KEPT.md) | The 53 cited works: which are held, as what, by SHA-256 |
 | **Stack** | willow | [willow/README.md](willow/README.md) | The sources as an Almanac catalog, the SOURCE lines as Jeles nuggets, and the scripts that rebuild both |
 | Packet | Public summary | This file | Scope, method, evidence, claim boundaries |
@@ -43,7 +43,7 @@ The ledger argues that true zero is never observed: every physical "zero" is a g
 
 | Verdict | Lines |
 |---------|-------|
-| Holds | 33 |
+| Holds | 35 |
 | Holds once reworded | 14 |
 | Does not hold | 3 |
 | Not in the text held | 2, both since settled by later texts |
@@ -71,6 +71,8 @@ So the mathematics makes zero the empty thing and at once puts it in a container
 **Section 01's Planck units have their source now, and it moves a citation.** The ledger credited Planck units to the 1901 radiation-law paper; that paper ends with the values of h and k. The units are in Planck's 1900 Annalen paper, §26, "Natürliche Maasseinheiten" (natural units), built from his constants a and b, c and the gravitational constant, meant to keep their meaning "für alle Zeiten und für alle, auch ausserirdische und aussermenschliche Culturen" (for all times and for all cultures, even extraterrestrial and non-human ones), as long as gravitation, light's propagation and the two laws of thermodynamics hold.
 
 **The plainest statement of line 0001 is Planck's, in 1913.** His *Theory of Heat Radiation*, on Project Gutenberg in its 1914 translation: "for the zero point of the absolute temperature E becomes, not 0, but Nhν/2", and "That the oscillators are said to perform vibrations even at the temperature zero ... may at first sight seem strange." Gutenberg holds only one of the ledger's works directly (Frege's *Grundlagen*), but three of its books are now companions: Planck's, Dedekind's *Nature and Meaning of Numbers* in Beman's translation, and Weyl's *Space-Time-Matter*, his own account of the 1918 theory the ledger cites but doesn't hold.
+
+**Two more from the far side of the pile.** A full run of the stack turned up two passages no section asked for. Julia, moving a fixed point of his function to zero by a change of coordinates, "on peut supposer que cette racine a été amenée à l'origine, c'est-à-dire F(o) = o": the ledger's "(0), the arbitrary ground coordinate", done as a matter of course in 1918. And Planck, in a second paper printed in the same 1901 issue, on the constants: "nicht annähernde, sondern absolute Gültigkeit" (not approximate but absolute validity), which section 01's reading, that only ratios carry meaning, has to stand beside. The stack found both by accident (the first through Julia's Greek letters looking like von Neumann's notation, the second through the words "absolute" and "relativ"); the reading decided they belong.
 
 **Penrose, read, says less than the ledger did and offers more.** Revision 2 had collapse ending in a singularity where general relativity fails. His 1965 letter proves that once a trapped surface forms, "singularities necessarily develop", irrespective of symmetry; and if they are not to occur, one of four things holds, the last being that "the concept of space-time loses its meaning at very high curvatures—possibly because of quantum phenomena". He calls the choice among them "partly one of attitude of mind". The line now says that; (d) is the nearest he comes to the ledger's reading, and it is one option of four, not his conclusion.
 

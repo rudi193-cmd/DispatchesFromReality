@@ -39,7 +39,7 @@ what = {
  "planck-1911": (FULL, "the German text retyped (not a scan of the Verhandlungen), 11 pages; a staff page at the Royal Observatory Edinburgh"),
  "vonneumann-1923": (FULL, "scan of the journal pages, 10, with an OCR text layer; the University of Szeged Library"),
  "planck-1900": (FULL, "the Internet Archive's OCR text of the whole issue, Ann. Phys. 1 no. 1 (1900); the paper is pages 69-122"),
- "planck-1901": (FULL, "the Internet Archive's OCR text of the whole issue, Ann. Phys. 4 no. 3 (1901); the paper is pages 553-563"),
+ "planck-1901": (FULL, "the Internet Archive's OCR text of the whole issue, Ann. Phys. 4 no. 3 (1901); the paper is pages 553-563, and his Elementarquanta paper follows it"),
  "nernst-1912": (FULL, "the Internet Archive's OCR text of the Sitzungsberichte, January to June 1912 (from the Digital Library of India); the paper is pages 134-140"),
  "penrose-1965": (FULL, "the PRL pages, 3 (the paper with the end of the one before), downloaded in a browser from APS"),
  "planck-1913": (FULL, "Masius's 1914 translation of the 1913 second edition; Project Gutenberg's typeset PDF"),

@@ -20,7 +20,7 @@ add-ons, local only, standard library only.
 | `keep/.snapshots.jsonl` | almanac-keep's log: each fetched copy's address, time, bytes and SHA-256 |
 | `keep/.provided.jsonl` | Copies downloaded in a browser where a script is refused: where from, when, and SHA-256 |
 | `keep/.text.jsonl` | Each kept web page's text hash: a page is rebuilt on every request, so its bytes never match twice, and its text is what's held |
-| `checks.json` | The 52 lines checked, each with its file, verdict and deciding quote, as [CHECKS.md](../CHECKS.md) shows them |
+| `checks.json` | The 54 lines checked, each with its file, verdict and deciding quote, as [CHECKS.md](../CHECKS.md) shows them |
 
 The kept files themselves are not here: several are paywalled, and the repo
 keeps sources by hash. To hold them again:
@@ -102,4 +102,15 @@ Planck's *Theory of Heat Radiation*, Weyl's *Space-Time-Matter* and Dedekind's e
 
 - **`misquote`:** Dedekind's "which we shall denote in what follows by the symbol 1, the base-element" as written; Planck's §140 and Weyl's re-calibration sentence as "almost", in the right files, where the PDF reader runs a word into the symbol after it ("temperatureE", "whichλis").
 - **`sort`:** none of the three lands where the ledger uses it. Planck's book sorts under "seed and anchor" on 55 hits of "vacuum"; Weyl's under "models and willow" on 38 of "representation" (his "representation of the metrical field"); Dedekind's translation under "zero" on "distinction" and one "zero point". The words a section is named by are not the words its sources use.
+
+## The full stack over the full pile, 2026-11-06
+
+`build.sh` from scratch, 52 sources held to their SHA-256, none differ; the 95 steps in 11 minutes 36 seconds, 18 with something for you. What came out the far side:
+
+- **`quotes`** matched the ledger's von Neumann notation, "0 = O, 1 = (O), 2 = (O, (O))", "almost" in Julia's 1918 memoir: his Greek Φ and ο read like von Neumann's O's. Wrong for the quote, and the passage it found is Julia moving a fixed point to the origin, F(o) = o. It is in the ledger now, as a SOURCE in 05.02.
+- **`fair-merge`**, asked "is space absolute or relative", served fourth a passage from Planck's Elementarquanta paper, in the same kept issue as his 1901 one, on the words "absolute" and "relativ": his constants' relations claim "absolute Gültigkeit". In the ledger now, in 01.01.
+- **`plain`**, asked "what is the zero point energy of an oscillator", serves Planck's 1913 book §140 first: "E becomes, not 0, but Nhν/2".
+- **`surprise`** drew Mach on Wallis: two inelastic bodies with equal and opposite momenta, "rest will ensue after impact".
+- **`pile-poetry`**, seeded "the vault is sean's key": "Recognise that may be directly that is the / Mit der missionar / Aber der jugend / Induction um sie die leere menge m et". The missionary is another paper in the Academy volume that holds Nernst's 1912 one; "leere Menge" is von Neumann's empty set.
+- **`thesis`**: 12 of the draft's 240 sentences held whole in one passage. **`why-not`**: revision 1's "deletion is an appended tombstone" still has no source; the nearest words in the pile are "depletion" and "selection".
 
