@@ -58,7 +58,14 @@ Revision 2's lines, plus three of revision 1's stronger claims (marked rev 1), c
 | 01.02-b | Ehrenfest: stable planetary orbits and stable atoms only for n = 3 | **holds with a change**: orbits fail for n > 3, and are bounded in R₂ too; atoms change character (n = 4 singular), not "stable only in 3" | "In Rₙ for n > 3 the planet falls on the attracting centre or flies away infinitely." (ehrenfest-1917.pdf) | read on the scanned page (200) |
 | 01.01-d | Planck: his constants' relations claim absolute validity | **holds** | "nicht annähernde, sondern absolute Gültigkeit" (planck-1901.txt (the issue, Elementarquanta)) | found in the issue's OCR |
 | 05.02-d | Julia: a fixed point moved to the origin by a linear substitution, F(o) = o | **holds** | "on peut supposer que cette racine a été amenée à l'origine, c'est-à-dire F(o) = o" (julia-1918.pdf) | read on the scanned page (64); the OCR has "011" for "on" |
+| 0001c | Frege: zero and one cannot be given through the senses | **holds** | "Die Null, die Eins sind Gegenstände, die uns nicht sinnlich gegeben werden können" (frege-1884.txt) | found word for word |
+| 0002a | Dedekind: the singleton admitted, the empty system excluded, one 'erdichten' | **holds** | "Dagegen wollen wir das leere System, welches gar kein Element enthält, aus gewissen Gründen hier ganz ausschließen" (dedekind-1888.txt) | found in the OCR ("Grümden" for "Gründen"); the translation word for word |
+| 05.02-e | Julia: prove E has points, so as not to reason in the void | **holds** | "Pour ne pas raisonner dans le vide, il importe d'abord de prouver que E contient toujours des points" (julia-1918.pdf) | read on the scanned page (84); the OCR has "rie" for "ne" and "K" for "E" |
+| 05.02-f | Frege: a + b an empty sign unless its member exists; Grassmann assumes it | **holds** | "dass a + b ein leeres Zeichen wäre" (frege-1884.txt) | found word for word |
+| 02.02-l | Leibniz: nothing without sufficient reason; absolute space an idol | **holds** | "Nothing happens without a sufficient reason, why it should be So, rather than otherwise" (leibniz-clarke-1717-third) | found word for word |
+| 02.02-w2 | Weyl: the field powerless, a shadow-like medium | **holds** | "the shadow-like extended medium that serves as a link between material things" (weyl-1922.pdf) | found word for word |
+| 02.02-m | Mach: no one may extend the principles beyond experience | **holds** | "No one is warranted in extending these principles beyond the boundaries of experience" (mach-1883.html) | found word for word |
 
-**54 checked:** 35 holds, 14 holds with a change, 3 does not hold, 2 not found in this text (both now settled by later texts: Leibniz's third paper, 02.02-b2; and the ground-state half of 02.03 by Nambu and Goldstone, 02.03-d to f).
+**61 checked:** 42 holds, 14 holds with a change, 3 does not hold, 2 not found in this text (both now settled by later texts: Leibniz's third paper, 02.02-b2; and the ground-state half of 02.03 by Nambu and Goldstone, 02.03-d to f).
 
 The three rev 1 claims tested (the metric ∝ entanglement, Sakharov's conserved offset, the geometry of physics) all fail on their own sources' words.

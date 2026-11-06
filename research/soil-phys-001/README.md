@@ -15,7 +15,7 @@ For the broader research map, see [Research Portfolio](../README.md). For the pr
 | Version | Form | Status | Purpose |
 |---------|------|--------|---------|
 | **Rev 3** | The ledger | [DRAFT.md](DRAFT.md) | Every entry marked SOURCE (what a cited work shows), READING (this ledger's interpretation) or CHANGED (what an earlier revision said and why it moved); SOURCE lines checked against their texts marked CHECKED |
-| **Checks** | Claim table | [CHECKS.md](CHECKS.md) | 54 lines, each with its verdict and the source's own deciding words |
+| **Checks** | Claim table | [CHECKS.md](CHECKS.md) | 61 lines, each with its verdict and the source's own deciding words |
 | **Kept** | Source table | [KEPT.md](KEPT.md) | The 53 cited works: which are held, as what, by SHA-256 |
 | **Stack** | willow | [willow/README.md](willow/README.md) | The sources as an Almanac catalog, the SOURCE lines as Jeles nuggets, and the scripts that rebuild both |
 | Packet | Public summary | This file | Scope, method, evidence, claim boundaries |
@@ -43,7 +43,7 @@ The ledger argues that true zero is never observed: every physical "zero" is a g
 
 | Verdict | Lines |
 |---------|-------|
-| Holds | 35 |
+| Holds | 42 |
 | Holds once reworded | 14 |
 | Does not hold | 3 |
 | Not in the text held | 2, both since settled by later texts |
@@ -71,6 +71,12 @@ So the mathematics makes zero the empty thing and at once puts it in a container
 **Section 01's Planck units have their source now, and it moves a citation.** The ledger credited Planck units to the 1901 radiation-law paper; that paper ends with the values of h and k. The units are in Planck's 1900 Annalen paper, §26, "Natürliche Maasseinheiten" (natural units), built from his constants a and b, c and the gravitational constant, meant to keep their meaning "für alle Zeiten und für alle, auch ausserirdische und aussermenschliche Culturen" (for all times and for all cultures, even extraterrestrial and non-human ones), as long as gravitation, light's propagation and the two laws of thermodynamics hold.
 
 **The plainest statement of line 0001 is Planck's, in 1913.** His *Theory of Heat Radiation*, on Project Gutenberg in its 1914 translation: "for the zero point of the absolute temperature E becomes, not 0, but Nhν/2", and "That the oscillators are said to perform vibrations even at the temperature zero ... may at first sight seem strange." Gutenberg holds only one of the ledger's works directly (Frege's *Grundlagen*), but three of its books are now companions: Planck's, Dedekind's *Nature and Meaning of Numbers* in Beman's translation, and Weyl's *Space-Time-Matter*, his own account of the 1918 theory the ledger cites but doesn't hold.
+
+**The box asked everything, and it answered with Dedekind.** 7,637 questions went to the sources through willow's `scan`, with the kernel's ranking and with BM25: the 332 questions the papers ask, every pair of 70 of the ledger's ideas in English, German and French, and the ledger's own lines ([willow/questions](willow/questions/README.md)). The passage served first most often, for 99 questions, is Dedekind's §2: the one-element system admitted "for uniformity", the empty system excluded as something one would have to "erdichten", make up. It is the nearest a source comes to line 0002. The same run found Frege's "Die Null, die Eins sind Gegenstände, die uns nicht sinnlich gegeben werden können" (zero and one cannot be given through the senses), and, in Julia and Frege, mathematics' own horror vacui: prove a set is not empty before reasoning about it.
+
+**What the box can't find is as telling.** "Container" never meets "empty", "element" or "ground state" in any passage, in any of three languages; "zero" never meets "void"; "empty" never meets "quantum", "temperature" or "symmetry". The kernel answers 24 of the ledger's 39 SOURCE lines and 4 of its 21 READING lines: the readings are the ledger's own words, and the box measures that.
+
+**Where the ledger stands.** Line 0001d is Sean's conclusion, in Sean's words: zero exists, too small in time and space to detect, and never will be found, "because of the things that don't fit into the pools". It sits beside its nearest sources (Nernst's unattainability, Frege's zero beyond the senses, Mach's principle that fits until a case doesn't) and the one against it (Planck's zero point, "not 0, but Nhν/2"), marked READING: as written, no measurement could count against it.
 
 **Two more from the far side of the pile.** A full run of the stack turned up two passages no section asked for. Julia, moving a fixed point of his function to zero by a change of coordinates, "on peut supposer que cette racine a été amenée à l'origine, c'est-à-dire F(o) = o": the ledger's "(0), the arbitrary ground coordinate", done as a matter of course in 1918. And Planck, in a second paper printed in the same 1901 issue, on the constants: "nicht annähernde, sondern absolute Gültigkeit" (not approximate but absolute validity), which section 01's reading, that only ratios carry meaning, has to stand beside. The stack found both by accident (the first through Julia's Greek letters looking like von Neumann's notation, the second through the words "absolute" and "relativ"); the reading decided they belong.
 
@@ -118,4 +124,5 @@ A CHECKED line held against a reprint, a translation or an author's later lectur
 - **Some checks rest on secondary forms of a work:** Sakharov's 1991 reprint, Kaluza in translation, Mach's 1893 translation, Casimir's academy reprint, Nambu's 2008 Nobel lecture for his 1960 idea. Each is named where it is used.
 - **Some open copies are not the holder's own:** Zermelo's and Einstein and Stern's scans are CC0 deposits on Zenodo whose uploader isn't named (both works are public domain in the US, and each was read against its printed page numbers); Planck's 1911 paper is a retyped German text on a staff page at the Royal Observatory Edinburgh, not a scan; Frege's is Project Gutenberg's transcription; Dedekind's is the Internet Archive's OCR of RCIN's scan of the 1888 edition. Planck's 1900 and 1901 papers and Nernst's 1912 are held as the OCR text of the whole journal issue or volume they are in, each with its page range said; the deciding lines were read on the scanned page where the OCR breaks them.
 - **Scans were read, not searched,** where they have no text layer: Solomonoff, Klein, Casimir and Goldstone's preprint.
+- **Some of the ledger's images are its own, by measure:** the container, zero beside void, and emptiness in physics meet in no source passage (willow/questions). They are READING, and the ledger says so.
 - **Nothing here says the thesis is right.** The checks show what the cited works say. Whether {0} is the right picture of physics is the ledger's READING, and stays one.
