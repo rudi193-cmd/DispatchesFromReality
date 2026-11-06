@@ -18,6 +18,7 @@ This section collects the research work that sits behind the public writing and 
 | [Tabletop mechanical engines](tabletop-mechanical-engines/README.md) | Rules as engines, probability, emergent narrative, constraint design, the Gateway Momentum Engine | Working draft v1 + public packet |
 | [Nobody counts the ad breaks](childrens-software-interruption/README.md) | Children's software, interruption as an unmeasured fact, provenance states, the measurement sold to publishers | Working draft v1 + public packet + shipped artifact |
 | [The Fever Chart in Bursts](fever-chart-in-bursts/README.md) | Crane Brinton's *Anatomy of Revolution* read against 2008 to 2026: moderates, Thermidor from inside, dual sovereignty, bursts that fade while capacity pools | Working draft v1 + public packet |
+| [SOIL-PHYS-001: the arbitrary seed and the bounded void](soil-phys-001/README.md) | A speculative ledger on zero, symmetry breaking and holography, every line marked source or reading and the sources held by hash; 35 lines checked against their texts | Ledger rev 3 + checks + packet |
 | [Adversarially verified knowledge corpus](knowledge-corpus/README.md) | Cross-domain knowledge base (science, infrastructure, people, economics, law, health, labor), adversarially fact-checked and contradiction-challenged | v1 bundle + packet |
 
 ---
