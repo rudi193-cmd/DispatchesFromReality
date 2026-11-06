@@ -114,3 +114,11 @@ Planck's *Theory of Heat Radiation*, Weyl's *Space-Time-Matter* and Dedekind's e
 - **`pile-poetry`**, seeded "the vault is sean's key": "Recognise that may be directly that is the / Mit der missionar / Aber der jugend / Induction um sie die leere menge m et". The missionary is another paper in the Academy volume that holds Nernst's 1912 one; "leere Menge" is von Neumann's empty set.
 - **`thesis`**: 12 of the draft's 240 sentences held whole in one passage. **`why-not`**: revision 1's "deletion is an appended tombstone" still has no source; the nearest words in the pile are "depletion" and "selection".
 
+## The pile trimmed to the cited papers, 2026-11-06
+
+Three sources are kept as the OCR of a whole volume or issue: Nernst's 1912 paper in the Academy's January-to-June Sitzungsberichte, Planck's 1900 and 1901 papers in their Annalen issues. Random draws from the box kept landing in other people's papers there (a missionary's songs, a jaw's mechanics, an expedition report), and two of eight came from Nernst's volume alone. `build.sh` now cuts each to the cited paper's lines, by markers in the OCR, before the pile is made; the kept file and its hash are unchanged, and a marker not found keeps the file whole and says so.
+
+- Nernst's volume, 1.4 MB, is 14 KB of his paper (pages 134 to 140), so the kernel no longer splits it in two. Planck 1900 is its pages 69 to 122; Planck 1901 is his radiation-law paper with the Elementarquanta paper that follows it.
+- Every quote the ledger takes from the three is still found by `misquote`; none of eight random draws comes from another author's paper; and `sort` puts its first source in "constants and arena": Planck 1901, on "Naturconstanten". 41 of 51 files sorted, in all six sections.
+- Left out by the cut, and worth knowing: the paper right after Nernst's in the volume is A. Eucken's on the molecular heat of hydrogen at low temperatures, the "Euckenschen Resultate" Einstein and Stern's zero-point argument rests on (05.01).
+

@@ -17,8 +17,10 @@
 #   HOME_DIR/pile/repo      the repo's Markdown, markup off, lines over 500
 #                           characters broken (markdown, then text add-on)
 #   HOME_DIR/pile/sources   the sources as text: pdf and web-pages readers,
-#                           the Newton Project's TEI with its tags off, every
-#                           line over 500 characters broken by the text add-on
+#                           the Newton Project's TEI with its tags off, a
+#                           Gutenberg licence and a whole issue's other papers
+#                           cut away, every line over 500 characters broken by
+#                           the text add-on
 #   HOME_DIR/pile/stack     the packet's Almanac catalog and Jeles seed, as passages
 #   HOME_DIR/boxes/whole    a box over the whole pile
 #   HOME_DIR/boxes/sources  a box over the sources only, so a check of the
@@ -135,6 +137,31 @@ for p in Path(sys.argv[1]).rglob("*.txt"):
     m = list(mark.finditer(t))
     if len(m) >= 2 and m[0].group(1) == "START" and m[-1].group(1) == "END":
         p.write_text(t[m[0].start():m[-1].end()] + "\n", encoding="utf-8")
+PY
+# Three sources are kept as the OCR of a whole journal issue or Academy volume;
+# the pile holds only the cited paper's pages, so the issue's other papers
+# (a missionary's songs, a jaw's mechanics) don't answer for it. The kept file
+# and its hash are unchanged. A marker not found keeps the file whole, and says so.
+python3 - "$HOME_DIR/stage/text" <<'PY'
+import re, sys
+from pathlib import Path
+CUT = {  # file: (first line of the paper, the line it ends at, whether that line is its own)
+    "nernst-1912.txt": (r"^134 Sitz\w+ der physikalisch-mathematischen Classe", r"^A\. Eucken:", False),  # the OCR reads "Sitzimg"
+    "planck-1900.txt": (r"^4\. Ueber irreversible Strahlungsvorg", r"^5\. Ueber den Einfluss der Temperatur", False),
+    "planck-1901.txt": (r"^9\. Ueber das Gesetz", r"\(Eingegangen 9\. Januar 1901\)", True),  # with his Elementarquanta
+}
+for name, (start, end, keep_end) in CUT.items():
+    p = Path(sys.argv[1]) / name
+    if not p.exists():
+        continue
+    lines = p.read_text(encoding="utf-8").splitlines()
+    a = next((i for i, x in enumerate(lines) if re.search(start, x)), None)
+    z = next((i for i, x in enumerate(lines) if a is not None and i > a and re.search(end, x)), None)
+    if a is None or z is None:
+        print(f"trim: {name}: its markers weren't found; kept whole")
+        continue
+    p.write_text("\n".join(lines[a : z + keep_end]) + "\n", encoding="utf-8")
+    print(f"trim: {name}: lines {a + 1} to {z + keep_end} of {len(lines)}")
 PY
 python3 "$WILLOW/adapters/stdlib/web-pages/web_pages.py" mirror --from "$HOME_DIR/stage/html" --to "$HOME_DIR/stage/text/html"
 python3 "$WILLOW/adapters/stdlib/text/text.py" mirror --from "$HOME_DIR/stage/text" --to "$HOME_DIR/pile/sources"
