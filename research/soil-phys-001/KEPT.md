@@ -2,12 +2,13 @@
 
 Probed and kept 2026-11-06 with Willow's almanac-keep (each file's SHA-256 in full in `keep/.snapshots.jsonl`) or, where a script is refused, downloaded in a browser by the person running the ledger (`keep/.provided.jsonl`). Every probe is in `probes.jsonl`. An `-open` entry is a companion: the publisher's page answers with an abstract, and the open copy is kept beside it.
 
-Of the ledger's 53 works: **42 held in full** (by the work itself, a reprint, a transcription or a translation, each said), 0 in part, 4 only as a landing page, and 7 not held.
+Of the ledger's 59 works: **48 held in full** (by the work itself, a reprint, a transcription or a translation, each said), 0 in part, 4 only as a landing page, and 7 not held.
 
 | Source | Held | File | Bytes | SHA-256 | What it is |
 |---|---|---|---|---|---|
 | ajl-2005 | full text | `ajl-2005.pdf` | 136,521 | `66111197414ccb8f…` | full text (arXiv PDF) |
 | anderson-1963 | none | | | | APS: a sign-in for a browser, 403 for scripts |
+| carroll-2001 | full text | `carroll-2001.pdf` | 660,975 | `0c778fba771be252…` | full text (arXiv PDF) |
 | casimir-1948 | full text | `casimir-1948.pdf` | 110,073 | `ed23071262a61c96…` | the KNAW's reprint in 'Gems from a century of science' (2000), scanned, 4 pages; TU Munich physics |
 | codata-2022 | landing page | `codata-2022.html` | 13,736 | `c37e1f103b0650b2…` | NIST's constants index; the CODATA values are linked from it |
 | cook-2004 | full text | `cook-2004.pdf` | 903,483 | `c9a2885248ae2811…` | the journal article, 40 pages, hosted by Wolfram for Complex Systems |
@@ -27,6 +28,7 @@ Of the ledger's 53 works: **42 held in full** (by the work itself, a reprint, a 
 | higgs-1964 | full text | `higgs-1964.pdf` | 165,129 | `f76b7d68c615878d…` | the PRL pages, 2, APS free to read, downloaded in a browser |
 | huh-2024 | full text | `huh-2024.pdf` | 3,268,833 | `fa9b7cc99c1e8529…` | full text (arXiv PDF) |
 | jacobson-1995 | full text | `jacobson-1995.pdf` | 90,623 | `85ed65e912baf62c…` | full text (arXiv PDF) |
+| jaffe-2005 | full text | `jaffe-2005.pdf` | 107,530 | `1a7d3c3d6659701e…` | full text (arXiv PDF) |
 | julia-1918 | full text | `julia-1918.pdf` | 12,116,814 | `45ae89366dc78d6a…` | scan of the original, 200 pages; Numdam |
 | kaluza-1921 | full text | `kaluza-1921.pdf` | 96,071 | `344fe5b1c838bf4a…` | an English translation (arXiv:1803.08616), 7 pages; not the German original |
 | klein-1926 | landing page | `klein-1926.html` | 229,892 | `be32f2deb4481a6f…` | Springer's article page; the open copy is klein-1926-open |
@@ -36,6 +38,8 @@ Of the ledger's 53 works: **42 held in full** (by the work itself, a reprint, a 
 | mach-1883 | full text | `mach-1883.html` | 1,211,719 | `317815846bd56718…` | the 1893 English translation (of the 1888 second edition), the Internet Archive's full-text page, noisy OCR |
 | maldacena-susskind-2013 | full text | `maldacena-susskind-2013.pdf` | 731,058 | `5e2ae91af67cd84c…` | full text (arXiv PDF) |
 | mandelbrot-1982 | none | | | | a book under copyright: no lawful open copy |
+| masanes-oppenheim-2017 | full text | `masanes-oppenheim-2017.pdf` | 765,752 | `bc74c80a0be450c3…` | full text (arXiv PDF) |
+| mohideen-roy-1998 | full text | `mohideen-roy-1998.pdf` | 89,090 | `b86d435becdffe9a…` | full text (arXiv PDF) |
 | nambu-1960 | none | | | | APS: a sign-in for a browser, 403 for scripts |
 | nambu-2008 | full text | `nambu-2008.pdf` | 565,867 | `ef5f473e5ca73576…` | Nambu's Nobel lecture, 7 pages, nobelprize.org (the same bytes as the copy you sent) |
 | nernst-1906 | full text | `nernst-1906.pdf` | 3,807,269 | `d2e289921437b4e9…` | scan of the Göttingen Nachrichten, 40 pages, noisy OCR; a Notre Dame course page |
@@ -48,8 +52,10 @@ Of the ledger's 53 works: **42 held in full** (by the work itself, a reprint, a 
 | planck-1913 | full text | `planck-1913.pdf` | 1,415,134 | `5d99e069a5ff483f…` | Masius's 1914 translation of the 1913 second edition; Project Gutenberg's typeset PDF |
 | planck-2018-parameters | full text | `planck-2018-parameters.pdf` | 9,317,371 | `8e172730faf07c9f…` | full text (arXiv PDF) |
 | ryu-takayanagi-2006 | full text | `ryu-takayanagi-2006.pdf` | 187,229 | `2c8802f8ce95275b…` | full text (arXiv PDF) |
+| safavi-naeini-2012 | full text | `safavi-naeini-2012.pdf` | 1,395,607 | `1230a6cd5fa0e89c…` | full text (arXiv PDF) |
 | sakharov-1967 | landing page | `sakharov-1967.html` | 16,570 | `5cea74444c928f75…` | Physics-Uspekhi's page for the reprint; the open copy is sakharov-1967-open |
 | sakharov-1967-open | full text | `sakharov-1967-open.pdf` | 174,633 | `8fb4ed6f83c086a5…` | the 1991 Physics-Uspekhi reprint, English, 2 pages, citing JETP Lett. 5 (1967) 24; Physics-Uspekhi's own archive |
+| senovilla-garfinkle-2014 | full text | `senovilla-garfinkle-2014.pdf` | 749,013 | `dc0479b6e8985a7e…` | full text (arXiv PDF) |
 | shannon-1948 | full text | `shannon-1948.pdf` | 366,296 | `6e4e3411984f3edf…` | the 1948 reprint with corrections, both parts, 55 pages; Harvard mathematics |
 | solomonoff-1964 | full text | `solomonoff-1964.pdf` | 219,388 | `a4858f9369c83279…` | part I, the author's retypeset copy citing Information and Control 7 (1964) 1, 20 pages; the publisher's address gave a 2.6 KB redirect, set aside |
 | spencer-brown-1969 | none | | | | a book under copyright: no lawful open copy |

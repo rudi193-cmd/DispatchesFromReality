@@ -15,8 +15,8 @@ For the broader research map, see [Research Portfolio](../README.md). For the pr
 | Version | Form | Status | Purpose |
 |---------|------|--------|---------|
 | **Rev 3** | The ledger | [DRAFT.md](DRAFT.md) | Every entry marked SOURCE (what a cited work shows), READING (this ledger's interpretation) or CHANGED (what an earlier revision said and why it moved); SOURCE lines checked against their texts marked CHECKED |
-| **Checks** | Claim table | [CHECKS.md](CHECKS.md) | 61 lines, each with its verdict and the source's own deciding words |
-| **Kept** | Source table | [KEPT.md](KEPT.md) | The 53 cited works: which are held, as what, by SHA-256 |
+| **Checks** | Claim table | [CHECKS.md](CHECKS.md) | 67 lines, each with its verdict and the source's own deciding words |
+| **Kept** | Source table | [KEPT.md](KEPT.md) | The 59 cited works: which are held, as what, by SHA-256 |
 | **Stack** | willow | [willow/README.md](willow/README.md) | The sources as an Almanac catalog, the SOURCE lines as Jeles nuggets, and the scripts that rebuild both |
 | Packet | Public summary | This file | Scope, method, evidence, claim boundaries |
 
@@ -43,7 +43,7 @@ The ledger argues that true zero is never observed: every physical "zero" is a g
 
 | Verdict | Lines |
 |---------|-------|
-| Holds | 42 |
+| Holds | 48 |
 | Holds once reworded | 14 |
 | Does not hold | 3 |
 | Not in the text held | 2, both since settled by later texts |
@@ -75,6 +75,8 @@ So the mathematics makes zero the empty thing and at once puts it in a container
 **The box asked everything, and it answered with Dedekind.** 7,637 questions went to the sources through willow's `scan`, with the kernel's ranking and with BM25: the 332 questions the papers ask, every pair of 70 of the ledger's ideas in English, German and French, and the ledger's own lines ([willow/questions](willow/questions/README.md)). The passage served first most often, for 99 questions, is Dedekind's §2: the one-element system admitted "for uniformity", the empty system excluded as something one would have to "erdichten", make up. It is the nearest a source comes to line 0002. The same run found Frege's "Die Null, die Eins sind Gegenstände, die uns nicht sinnlich gegeben werden können" (zero and one cannot be given through the senses), and, in Julia and Frege, mathematics' own horror vacui: prove a set is not empty before reasoning about it.
 
 **What the box can't find is as telling.** "Container" never meets "empty", "element" or "ground state" in any passage, in any of three languages; "zero" never meets "void"; "empty" never meets "quantum", "temperature" or "symmetry". The kernel answers 24 of the ledger's 39 SOURCE lines and 4 of its 21 READING lines: the readings are the ledger's own words, and the box measures that.
+
+**The zero section has its modern sources too.** Six open papers, from 1998 to 2017, each checked: Mohideen and Roy measure the Casimir force to 1%; Jaffe argues it is no more evidence for the vacuum's energy than any other one-loop effect, "simply the (relativistic, retarded) van der Waals force between the metal plates"; Masanes and Oppenheim prove Nernst's unattainability for any cooling process, quantum ones included, the temperature reached scaling "as an inverse power of the cooling time"; Safavi-Naeini et al. measure an oscillator's zero-point motion, the "+1" in "⟨n⟩ + 1" that stays when ⟨n⟩ goes to zero; Carroll puts the vacuum energy's prediction 120 orders of magnitude from its measure, with "no special symmetry which could enforce a vanishing vacuum energy"; and Senovilla and Garfinkle find that every singularity theorem since Penrose proves geodesic incompleteness, his option (c).
 
 **Where the ledger stands.** Line 0001d is Sean's conclusion, in Sean's words: zero exists, too small in time and space to detect, and never will be found, "because of the things that don't fit into the pools". It sits beside its nearest sources (Nernst's unattainability, Frege's zero beyond the senses, Mach's principle that fits until a case doesn't) and the one against it (Planck's zero point, "not 0, but Nhν/2"), marked READING: as written, no measurement could count against it.
 
@@ -120,7 +122,7 @@ A CHECKED line held against a reprint, a translation or an author's later lectur
 
 ## Claim boundaries
 
-- **Held in full: 42 of 53 works.** Not held in full: Weyl (1918, 1929; his 1918 theory is held as his 1922 book's account), Anderson, Wilson, Wolfram, Dirac, Feigenbaum and Nambu's 1960 paper (paywalled, or no open copy found), two books under copyright (Spencer-Brown, Mandelbrot), and CODATA, held as NIST's index page. Einstein's hole argument (1913-14) is cited in a line but not catalogued. Their SOURCE lines are `assumed`.
+- **Held in full: 48 of 59 works.** Not held in full: Weyl (1918, 1929; his 1918 theory is held as his 1922 book's account), Anderson, Wilson, Wolfram, Dirac, Feigenbaum and Nambu's 1960 paper (paywalled, or no open copy found), two books under copyright (Spencer-Brown, Mandelbrot), and CODATA, held as NIST's index page. Einstein's hole argument (1913-14) is cited in a line but not catalogued. Their SOURCE lines are `assumed`.
 - **Some checks rest on secondary forms of a work:** Sakharov's 1991 reprint, Kaluza in translation, Mach's 1893 translation, Casimir's academy reprint, Nambu's 2008 Nobel lecture for his 1960 idea. Each is named where it is used.
 - **Some open copies are not the holder's own:** Zermelo's and Einstein and Stern's scans are CC0 deposits on Zenodo whose uploader isn't named (both works are public domain in the US, and each was read against its printed page numbers); Planck's 1911 paper is a retyped German text on a staff page at the Royal Observatory Edinburgh, not a scan; Frege's is Project Gutenberg's transcription; Dedekind's is the Internet Archive's OCR of RCIN's scan of the 1888 edition. Planck's 1900 and 1901 papers and Nernst's 1912 are held as the OCR text of the whole journal issue or volume they are in, each with its page range said; the deciding lines were read on the scanned page where the OCR breaks them.
 - **Scans were read, not searched,** where they have no text layer: Solomonoff, Klein, Casimir and Goldstone's preprint.

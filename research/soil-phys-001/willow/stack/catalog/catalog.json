@@ -37,7 +37,7 @@
     "canonical_url": "https://doi.org/10.1007/BF01449999"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:46Z",
+    "checked": "2026-11-06T22:20:26Z",
     "reachable": true,
     "http_status": 200
    },
@@ -134,7 +134,7 @@
     "canonical_url": "https://physics.nist.gov/cuu/Constants/"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:16Z",
+    "checked": "2026-11-06T22:20:29Z",
     "reachable": true,
     "http_status": 200
    },
@@ -156,7 +156,7 @@
     "canonical_url": "https://doi.org/10.1002/andp.19013090310"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:16Z",
+    "checked": "2026-11-06T22:20:29Z",
     "reachable": false,
     "http_status": 403
    },
@@ -186,9 +186,9 @@
     "canonical_url": "https://doi.org/10.1038/139323a0"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:17Z",
-    "reachable": true,
-    "http_status": 200
+    "checked": "2026-11-06T22:20:29Z",
+    "reachable": false,
+    "http_status": 429
    },
    "status_since": "2026-11-06"
   },
@@ -249,7 +249,7 @@
     "canonical_url": "https://arxiv.org/pdf/gr-qc/9702052"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:19Z",
+    "checked": "2026-11-06T22:20:31Z",
     "reachable": true,
     "http_status": 200
    },
@@ -291,7 +291,7 @@
     "canonical_url": "https://doi.org/10.1007/BF01397481"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:19Z",
+    "checked": "2026-11-06T22:20:31Z",
     "reachable": true,
     "http_status": 200
    },
@@ -334,7 +334,7 @@
     "canonical_url": "https://arxiv.org/pdf/1807.06209"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:22Z",
+    "checked": "2026-11-06T22:20:33Z",
     "reachable": true,
     "http_status": 200
    },
@@ -355,7 +355,7 @@
     "canonical_url": "https://doi.org/10.1070/PU1991v034n05ABEH002497"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:22Z",
+    "checked": "2026-11-06T22:20:33Z",
     "reachable": true,
     "http_status": 200
    },
@@ -472,9 +472,9 @@
     "canonical_url": "https://doi.org/10.1007/BF01339504"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:24Z",
-    "reachable": false,
-    "http_status": 429
+    "checked": "2026-11-06T22:20:51Z",
+    "reachable": true,
+    "http_status": 200
    },
    "status_since": "2026-11-06"
   },
@@ -493,7 +493,7 @@
     "canonical_url": "https://doi.org/10.1103/PhysRev.117.648"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:25Z",
+    "checked": "2026-11-06T22:20:54Z",
     "reachable": false,
     "http_status": 403
    }
@@ -513,7 +513,7 @@
     "canonical_url": "https://www.nobelprize.org/uploads/2018/06/nambu_lecture.pdf"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:26Z",
+    "checked": "2026-11-06T22:20:54Z",
     "reachable": true,
     "http_status": 200
    },
@@ -534,7 +534,7 @@
     "canonical_url": "https://doi.org/10.1007/BF02812722"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:26Z",
+    "checked": "2026-11-06T22:20:54Z",
     "reachable": true,
     "http_status": 200
    },
@@ -555,7 +555,7 @@
     "canonical_url": "https://doi.org/10.1103/PhysRev.130.439"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:29Z",
+    "checked": "2026-11-06T22:20:57Z",
     "reachable": false,
     "http_status": 403
    }
@@ -575,7 +575,7 @@
     "canonical_url": "https://doi.org/10.1103/PhysRevLett.13.321"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:29Z",
+    "checked": "2026-11-06T22:20:57Z",
     "reachable": false,
     "http_status": 403
    },
@@ -604,7 +604,7 @@
     "canonical_url": "https://doi.org/10.1103/PhysRevLett.13.508"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:29Z",
+    "checked": "2026-11-06T22:20:57Z",
     "reachable": false,
     "http_status": 403
    },
@@ -633,7 +633,7 @@
     "canonical_url": "https://doi.org/10.1103/PhysRevLett.13.585"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:30Z",
+    "checked": "2026-11-06T22:20:58Z",
     "reachable": false,
     "http_status": 403
    },
@@ -716,7 +716,7 @@
     "canonical_url": "https://doi.org/10.1007/BF01020332"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:30Z",
+    "checked": "2026-11-06T22:20:58Z",
     "reachable": true,
     "http_status": 200
    },
@@ -738,7 +738,7 @@
     "canonical_url": "https://arxiv.org/pdf/hep-th/0505113"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:32Z",
+    "checked": "2026-11-06T22:21:00Z",
     "reachable": true,
     "http_status": 200
    },
@@ -759,7 +759,7 @@
     "canonical_url": "https://doi.org/10.1103/PhysRevB.4.3174"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:32Z",
+    "checked": "2026-11-06T22:21:00Z",
     "reachable": false,
     "http_status": 403
    }
@@ -779,7 +779,7 @@
     "canonical_url": "https://doi.org/10.1103/RevModPhys.55.601"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:33Z",
+    "checked": "2026-11-06T22:21:01Z",
     "reachable": false,
     "http_status": 403
    }
@@ -821,7 +821,7 @@
     "canonical_url": "https://arxiv.org/pdf/gr-qc/9504004"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:33Z",
+    "checked": "2026-11-06T22:21:01Z",
     "reachable": true,
     "http_status": 200
    },
@@ -843,7 +843,7 @@
     "canonical_url": "https://arxiv.org/pdf/1001.0785"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:33Z",
+    "checked": "2026-11-06T22:21:01Z",
     "reachable": true,
     "http_status": 200
    },
@@ -865,7 +865,7 @@
     "canonical_url": "https://arxiv.org/pdf/hep-th/0603001"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:33Z",
+    "checked": "2026-11-06T22:21:01Z",
     "reachable": true,
     "http_status": 200
    },
@@ -887,7 +887,7 @@
     "canonical_url": "https://arxiv.org/pdf/1005.3035"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:33Z",
+    "checked": "2026-11-06T22:21:01Z",
     "reachable": true,
     "http_status": 200
    },
@@ -909,7 +909,7 @@
     "canonical_url": "https://arxiv.org/pdf/1306.0533"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:34Z",
+    "checked": "2026-11-06T22:21:02Z",
     "reachable": true,
     "http_status": 200
    },
@@ -1059,7 +1059,7 @@
     "canonical_url": "https://doi.org/10.1002/andp.19133450309"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:34Z",
+    "checked": "2026-11-06T22:21:02Z",
     "reachable": false,
     "http_status": 403
    },
@@ -1109,7 +1109,7 @@
     "canonical_url": "https://doi.org/10.1103/PhysRevLett.14.57"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:34Z",
+    "checked": "2026-11-06T22:21:02Z",
     "reachable": false,
     "http_status": 403
    },
@@ -1122,6 +1122,133 @@
      "note": "kept by hash in keep/.provided.jsonl; scripts get 403"
     }
    ]
+  },
+  {
+   "id": "masanes-oppenheim-2017",
+   "title": "A derivation (and quantification) of the third law of thermodynamics",
+   "type": "paper",
+   "description": "The unattainability principle derived for any cooling process, quantum ones included; the temperature reached scales as an inverse power of the cooling time.",
+   "publisher": "Nat. Commun. 8 (2017) 14538",
+   "status": "live",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 05.01",
+   "topics": [
+    "thermodynamics"
+   ],
+   "source": {
+    "canonical_url": "https://arxiv.org/pdf/1412.3828"
+   },
+   "observed": {
+    "checked": "2026-11-06T22:21:02Z",
+    "reachable": true,
+    "http_status": 200
+   },
+   "status_since": "2026-11-06"
+  },
+  {
+   "id": "safavi-naeini-2012",
+   "title": "Measurement of the quantum zero-point motion of a nanomechanical resonator",
+   "type": "paper",
+   "description": "A mechanical oscillator cooled near its ground state, and its zero-point motion measured by sideband asymmetry.",
+   "publisher": "Phys. Rev. Lett. 108 (2012) 033602",
+   "status": "live",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 05.01",
+   "topics": [
+    "vacuum"
+   ],
+   "source": {
+    "canonical_url": "https://arxiv.org/pdf/1108.4680"
+   },
+   "observed": {
+    "checked": "2026-11-06T22:21:03Z",
+    "reachable": true,
+    "http_status": 200
+   },
+   "status_since": "2026-11-06"
+  },
+  {
+   "id": "mohideen-roy-1998",
+   "title": "Precision measurement of the Casimir force from 0.1 to 0.9 microns",
+   "type": "paper",
+   "description": "The Casimir force measured with an atomic force microscope, within 1% of theory at the smallest separation.",
+   "publisher": "Phys. Rev. Lett. 81 (1998) 4549",
+   "status": "live",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 05.01",
+   "topics": [
+    "vacuum"
+   ],
+   "source": {
+    "canonical_url": "https://arxiv.org/pdf/physics/9805038"
+   },
+   "observed": {
+    "checked": "2026-11-06T22:21:03Z",
+    "reachable": true,
+    "http_status": 200
+   },
+   "status_since": "2026-11-06"
+  },
+  {
+   "id": "jaffe-2005",
+   "title": "The Casimir effect and the quantum vacuum",
+   "type": "paper",
+   "description": "The Casimir effect computed without zero-point energies: no more evidence for the vacuum's energy than any other one-loop QED effect.",
+   "publisher": "Phys. Rev. D 72 (2005) 021301",
+   "status": "live",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 05.01",
+   "topics": [
+    "vacuum"
+   ],
+   "source": {
+    "canonical_url": "https://arxiv.org/pdf/hep-th/0503158"
+   },
+   "observed": {
+    "checked": "2026-11-06T22:21:03Z",
+    "reachable": true,
+    "http_status": 200
+   },
+   "status_since": "2026-11-06"
+  },
+  {
+   "id": "carroll-2001",
+   "title": "The cosmological constant",
+   "type": "paper",
+   "description": "The vacuum energy's predicted and observed values, 120 orders of magnitude apart, and no known symmetry holding it at zero.",
+   "publisher": "Living Rev. Relativ. 4 (2001) 1",
+   "status": "live",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 05.01",
+   "topics": [
+    "vacuum",
+    "gravity"
+   ],
+   "source": {
+    "canonical_url": "https://arxiv.org/pdf/astro-ph/0004075"
+   },
+   "observed": {
+    "checked": "2026-11-06T22:21:03Z",
+    "reachable": true,
+    "http_status": 200
+   },
+   "status_since": "2026-11-06"
+  },
+  {
+   "id": "senovilla-garfinkle-2014",
+   "title": "The 1965 Penrose singularity theorem",
+   "type": "paper",
+   "description": "A review of Penrose's theorem: the closed trapped surface it introduced, and the singularity theorems after it, which prove geodesic incompleteness.",
+   "publisher": "arXiv:1410.5226 (2014)",
+   "status": "live",
+   "status_source": "probe by make_stack.py; cited at SOIL-PHYS-001 rev 2, line 05.01",
+   "topics": [
+    "gravity"
+   ],
+   "source": {
+    "canonical_url": "https://arxiv.org/pdf/1410.5226"
+   },
+   "observed": {
+    "checked": "2026-11-06T22:21:03Z",
+    "reachable": true,
+    "http_status": 200
+   },
+   "status_since": "2026-11-06"
   },
   {
    "id": "shannon-1948",
@@ -1138,7 +1265,7 @@
     "canonical_url": "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:34Z",
+    "checked": "2026-11-06T22:21:03Z",
     "reachable": false,
     "http_status": 202
    },
@@ -1167,7 +1294,7 @@
     "canonical_url": "https://doi.org/10.1016/S0019-9958(64)90223-2"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:35Z",
+    "checked": "2026-11-06T22:21:03Z",
     "reachable": true,
     "http_status": 200
    },
@@ -1196,7 +1323,7 @@
     "canonical_url": "https://arxiv.org/pdf/2405.07987"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:35Z",
+    "checked": "2026-11-06T22:21:04Z",
     "reachable": true,
     "http_status": 200
    },
@@ -1217,7 +1344,7 @@
     "canonical_url": "https://raw.githubusercontent.com/willow-memory/Willow/275f15d55d6f14ed966b395db923c344ec0382a3/kernel.py"
    },
    "observed": {
-    "checked": "2026-11-06T15:17:35Z",
+    "checked": "2026-11-06T22:21:04Z",
     "reachable": true,
     "http_status": 200
    },

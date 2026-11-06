@@ -328,6 +328,54 @@
    ]
   },
   {
+   "source_text": "What does A derivation (and quantification) of the third law of thermodynamics (Nat. Commun. 8 (2017) 14538) show?",
+   "target_text": "The unattainability principle derived for any cooling process, quantum ones included; the temperature reached scales as an inverse power of the cooling time.",
+   "reason": "SOIL-PHYS-001 rev 2, 05.01: SOURCE",
+   "evidence_urls": [
+    "https://arxiv.org/pdf/1412.3828"
+   ]
+  },
+  {
+   "source_text": "What does Measurement of the quantum zero-point motion of a nanomechanical resonator (Phys. Rev. Lett. 108 (2012) 033602) show?",
+   "target_text": "A mechanical oscillator cooled near its ground state, and its zero-point motion measured by sideband asymmetry.",
+   "reason": "SOIL-PHYS-001 rev 2, 05.01: SOURCE",
+   "evidence_urls": [
+    "https://arxiv.org/pdf/1108.4680"
+   ]
+  },
+  {
+   "source_text": "What does Precision measurement of the Casimir force from 0.1 to 0.9 microns (Phys. Rev. Lett. 81 (1998) 4549) show?",
+   "target_text": "The Casimir force measured with an atomic force microscope, within 1% of theory at the smallest separation.",
+   "reason": "SOIL-PHYS-001 rev 2, 05.01: SOURCE",
+   "evidence_urls": [
+    "https://arxiv.org/pdf/physics/9805038"
+   ]
+  },
+  {
+   "source_text": "What does The Casimir effect and the quantum vacuum (Phys. Rev. D 72 (2005) 021301) show?",
+   "target_text": "The Casimir effect computed without zero-point energies: no more evidence for the vacuum's energy than any other one-loop QED effect.",
+   "reason": "SOIL-PHYS-001 rev 2, 05.01: SOURCE",
+   "evidence_urls": [
+    "https://arxiv.org/pdf/hep-th/0503158"
+   ]
+  },
+  {
+   "source_text": "What does The cosmological constant (Living Rev. Relativ. 4 (2001) 1) show?",
+   "target_text": "The vacuum energy's predicted and observed values, 120 orders of magnitude apart, and no known symmetry holding it at zero.",
+   "reason": "SOIL-PHYS-001 rev 2, 05.01: SOURCE",
+   "evidence_urls": [
+    "https://arxiv.org/pdf/astro-ph/0004075"
+   ]
+  },
+  {
+   "source_text": "What does The 1965 Penrose singularity theorem (arXiv:1410.5226 (2014)) show?",
+   "target_text": "A review of Penrose's theorem: the closed trapped surface it introduced, and the singularity theorems after it, which prove geodesic incompleteness.",
+   "reason": "SOIL-PHYS-001 rev 2, 05.01: SOURCE",
+   "evidence_urls": [
+    "https://arxiv.org/pdf/1410.5226"
+   ]
+  },
+  {
    "source_text": "What does A mathematical theory of communication (Bell Syst. Tech. J. 27 (1948) 379) show?",
    "target_text": "Information as a measurable quantity; the limits of compression.",
    "reason": "SOIL-PHYS-001 rev 2, 06.01: SOURCE",

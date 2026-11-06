@@ -65,7 +65,13 @@ Revision 2's lines, plus three of revision 1's stronger claims (marked rev 1), c
 | 02.02-l | Leibniz: nothing without sufficient reason; absolute space an idol | **holds** | "Nothing happens without a sufficient reason, why it should be So, rather than otherwise" (leibniz-clarke-1717-third) | found word for word |
 | 02.02-w2 | Weyl: the field powerless, a shadow-like medium | **holds** | "the shadow-like extended medium that serves as a link between material things" (weyl-1922.pdf) | found word for word |
 | 02.02-m | Mach: no one may extend the principles beyond experience | **holds** | "No one is warranted in extending these principles beyond the boundaries of experience" (mach-1883.html) | found word for word |
+| 05.01-i | Mohideen and Roy: the Casimir force measured, within 1% at the smallest gap | **holds** | "corresponds to a 1% deviation at the smallest separation" (mohideen-roy-1998.pdf) | found word for word (the arXiv version) |
+| 05.01-j | Jaffe: the Casimir effect no more evidence for vacuum energy than any one-loop effect | **holds** | "the Casimir effect gives no more (or less) support for the "reality" of the vacuum energy" (jaffe-2005.pdf) | found word for word (the arXiv version) |
+| 05.01-k | Masanes and Oppenheim: unattainability derived for any cooling, with a rate | **holds** | "the obtainable temperature can scale as an inverse power of the cooling time" (masanes-oppenheim-2017.pdf) | found word for word (the arXiv version) |
+| 05.01-l | Safavi-Naeini et al.: zero-point motion measured by sideband asymmetry | **holds** | "the displacement noise power associated with the quantum zero-point motion" (safavi-naeini-2012.pdf) | found word for word (the arXiv version) |
+| 05.01-m | Carroll: 120 orders of magnitude; no symmetry enforces zero vacuum energy | **holds** | "We know of no special symmetry which could enforce a vanishing vacuum energy" (carroll-2001.pdf) | found word for word (the arXiv version) |
+| 05.01-n | Senovilla and Garfinkle: theorems after Penrose prove geodesic incompleteness | **holds** | "prove merely the existence of geodesic incompleteness" (senovilla-garfinkle-2014.pdf) | found word for word (the arXiv version) |
 
-**61 checked:** 42 holds, 14 holds with a change, 3 does not hold, 2 not found in this text (both now settled by later texts: Leibniz's third paper, 02.02-b2; and the ground-state half of 02.03 by Nambu and Goldstone, 02.03-d to f).
+**67 checked:** 48 holds, 14 holds with a change, 3 does not hold, 2 not found in this text (both now settled by later texts: Leibniz's third paper, 02.02-b2; and the ground-state half of 02.03 by Nambu and Goldstone, 02.03-d to f).
 
 The three rev 1 claims tested (the metric ∝ entanglement, Sakharov's conserved offset, the geometry of physics) all fail on their own sources' words.
