@@ -86,3 +86,13 @@ don't fit, and why:
 - **The new quotes** (`quotes`, `misquote`): each found in its source, Frege's and Dedekind's as written, the scans' "almost" through their OCR ("behiedigen" for "befriedigen", "hu" for "hν"). One OCR word was wrong in the first draft: Einstein and Stern's "einer" read as "her", corrected by reading the scanned page.
 - **Run again in the same folder,** `fixity` and `changed` flagged `frege-1884.txt.txt` as edited, which it was (the licence taken off), and the eight steps that write into `out/` refused, because their files were there: neither add-on overwrites.
 
+## A run with von Neumann, Nernst and Planck held, 2026-11-06
+
+`build.sh` from scratch with von Neumann (1923), Nernst (1912) and Planck (1900, 1901) added: 47 sources held to their SHA-256, none differ; the 95 steps in 548 seconds, 18 with something for you.
+
+- **`misquote`:** von Neumann's "Jede Ordnungszahl ist die Menge der ihr vorangehenden Ordnungszahlen" and Nernst's unattainability sentence each found in their source, Nernst's as "almost" through the OCR ("unmoglich dutch").
+- **`sort`, zero:** 8 sources now, Nernst 1912 among them.
+- **`sort`, constants:** still none, and for a reason worth knowing. `sort` puts each file in the one section it holds most, and Planck's 1900 paper holds "Natürliche Maasseinheiten" once and "Vacuum" 28 times: his German spelling is the English word, so the file sorts under "seed and anchor". Planck's 1901 file sorts under "models and willow" on "Compression", which is another paper in the same journal issue: the kept text is the whole issue's OCR.
+- **`sort`, von Neumann:** unsorted. His paper says "Ordnungszahl", "Menge" and "leere Menge", none of them a phrase of the ledger's.
+- **The pile's size:** Nernst's kept volume is 1.4 MB, and the kernel reads at most 1,000,000 bytes of a file, so the text add-on wrote it as two files (`nernst-1912.txt.txt` and `.part2`); the paper is in the first.
+
