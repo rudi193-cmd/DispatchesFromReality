@@ -47,7 +47,7 @@ Revision 2's lines, plus three of revision 1's stronger claims (marked rev 1), c
 | 05.01-e | Einstein and Stern: hν/2 at absolute zero, and hν for the radiation law | **holds** | "Nach Formel (2) hat der Resonator beim absoluten Nullpunkt die Energie hν/2" (einstein-stern-1913) | read on the scanned pages (555, 558, 560); the OCR reads hν as "hu" |
 | 05.02-a | Zermelo: Dedekind's proof of infinity cannot satisfy | **holds** | "kann nicht befriedigen, da er von der „Menge alles Denkbaren“ ausgeht" (zermelo-1908-open) | found in a scan's OCR, through its noise |
 | 05.02-b | Frege: 0 for the concept nothing falls under; 1 for the concept identical with 0 | **holds** | "0 ist die Anzahl, welche dem Begriffe »sich selbst ungleich« zukommt" (frege-1884.txt) | found word for word |
-| 05.02-c | Dedekind: the number series starts at 1 | **holds** | "das wir im Folgenden durch das Symbol 1 bezeichnen wollen" (dedekind-1888.txt) | found word for word (OCR of the 1888 scan) |
+| 05.02-c | Dedekind: the number series starts at 1; zero a later creation | **holds** | "das wir im Folgenden durch das Symbol 1 bezeichnen wollen" (dedekind-1888.txt) | found word for word (OCR of the 1888 scan) |
 
 **44 checked:** 28 holds, 11 holds with a change, 3 does not hold, 2 not found in this text (both now settled by later texts: Leibniz's third paper, 02.02-b2; and the ground-state half of 02.03 by Nambu and Goldstone, 02.03-d to f).
 

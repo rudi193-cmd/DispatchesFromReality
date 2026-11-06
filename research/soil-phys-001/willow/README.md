@@ -10,7 +10,7 @@ add-ons, local only, standard library only.
 | File | What |
 |------|------|
 | [build.sh](build.sh) | Makes the folder: clones this repo, fetches every open source with almanac-keep and holds it to its logged hash, turns them into text with willow's readers, starts three boxes |
-| [stack.md](stack.md) | 86 steps in 13 pools, 72 add-ons: the ledger against its sources, the catalog and nuggets, the sources asked directly and in their own languages, kept and sealed, the packet and the repo read across, privacy and code guards, the record, what it makes in `out/`, and play |
+| [stack.md](stack.md) | 93 steps in 13 pools, 72 add-ons: the ledger against its sources, the catalog and nuggets, the sources asked directly and in their own languages, kept and sealed, the packet and the repo read across, privacy and code guards, the record, what it makes in `out/`, and play |
 | `sections.txt` | The ledger's six sections as `sort` categories, in the ledger's own words |
 | `stack/catalog/catalog.json` | An Almanac catalog: each cited work with its venue, what it shows, the ledger lines that use it, its address, each probe's answer, and its open or provided copies |
 | `stack/nuggets/soil-phys-001.json` | A Jeles seed: each work as a question and the answer it gives, with its address as evidence and the ledger line as the reason; unsigned, so Jeles sets the rung |
@@ -20,7 +20,7 @@ add-ons, local only, standard library only.
 | `keep/.snapshots.jsonl` | almanac-keep's log: each fetched copy's address, time, bytes and SHA-256 |
 | `keep/.provided.jsonl` | Copies downloaded in a browser where a script is refused: where from, when, and SHA-256 |
 | `keep/.text.jsonl` | Each kept web page's text hash: a page is rebuilt on every request, so its bytes never match twice, and its text is what's held |
-| `checks.json` | The 35 lines checked, each with its file, verdict and deciding quote, as [CHECKS.md](../CHECKS.md) shows them |
+| `checks.json` | The 44 lines checked, each with its file, verdict and deciding quote, as [CHECKS.md](../CHECKS.md) shows them |
 
 The kept files themselves are not here: several are paywalled, and the repo
 keeps sources by hash. To hold them again:
@@ -76,3 +76,13 @@ don't fit, and why:
       So daß die berechnung des transcendantes
       La moitié droite de l itération des z
       Im and similarly we get a be treated
+
+## A run with the zero sources, 2026-11-06
+
+`build.sh` from scratch with Zermelo, Frege, Dedekind, Planck 1911 and Einstein and Stern added, on willow's 9aa277b: 42 seconds, 43 sources held to their SHA-256 and none differ; the 93 steps in 292 seconds.
+
+- **`sort`, first with the ledger's English words:** the zero section still caught only Casimir, the five new sources unsorted, and Frege's German filed under "models and willow" on ten hits of "information", every one in Project Gutenberg's English licence. `build.sh` now reads a Gutenberg text between its START and END lines.
+- **`sort`, with the German words the ledger now quotes** (Nullpunkt, Nullpunktsenergie, Nullmenge, Zahlenreihe): the zero section holds 7 sources, Casimir, Nernst, Planck, Einstein and Stern, Zermelo, Frege and Dedekind; 33 of 42 files sorted, up from 28.
+- **The new quotes** (`quotes`, `misquote`): each found in its source, Frege's and Dedekind's as written, the scans' "almost" through their OCR ("behiedigen" for "befriedigen", "hu" for "hν"). One OCR word was wrong in the first draft: Einstein and Stern's "einer" read as "her", corrected by reading the scanned page.
+- **Run again in the same folder,** `fixity` and `changed` flagged `frege-1884.txt.txt` as edited, which it was (the licence taken off), and the eight steps that write into `out/` refused, because their files were there: neither add-on overwrites.
+
