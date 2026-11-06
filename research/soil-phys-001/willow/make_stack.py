@@ -59,6 +59,8 @@ S = [
  ("casimir-1948", "On the attraction between two perfectly conducting plates", "paper", "Proc. KNAW 51 (1948) 793", None, "05.01", "Two uncharged plates attract: an effect of the vacuum's modes.", ["vacuum"]),
  ("planck-1900", "Ueber irreversible Strahlungsvorgänge", "paper", "Ann. Phys. 1 (1900) 69", None, "01.01", "§26, natural units: units of length, mass, time and temperature from his two radiation constants, c and the gravitational constant, meaningful for all times and cultures.", ["constants"]),
  ("nernst-1912", "Thermodynamik und spezifische Wärme", "paper", "Sitzungsber. Preuss. Akad. Wiss. (1912) 134", None, "05.01", "The unattainability principle: no change of matter reaches absolute zero from any temperature, however low.", ["thermodynamics"]),
+ ("planck-1913", "The Theory of Heat Radiation", "book", "Blakiston, Philadelphia, 1914 (Masius's translation of the 1913 second edition)", None, "01.01, 05.01", "§140: at absolute zero an oscillator system's energy is Nhν/2, not 0; §164: natural units.", ["vacuum", "constants"]),
+ ("weyl-1922", "Space-Time-Matter", "book", "Methuen, London, 1922 (Brose's translation of the fourth edition, 1921)", None, "02.02", "Weyl's own book account of his 1918 theory: the Action invariant under re-calibration by an arbitrary positive function of position.", ["gauge"]),
  ("planck-1911", "Eine neue Strahlungshypothese", "paper", "Verh. Dtsch. Phys. Ges. 13 (1911) 138", None, "05.01", "The second theory: an oscillator's mean energy is the earlier value plus the constant hν/2.", ["vacuum", "thermodynamics"]),
  ("einstein-stern-1913", "Einige Argumente für die Annahme einer molekularen Agitation beim absoluten Nullpunkt", "paper", "Ann. Phys. 40 (1913) 551", D+"10.1002/andp.19133450309", "05.01", "Arguments for a zero-point energy, from the specific heat of hydrogen and a derivation of Planck's law.", ["vacuum", "thermodynamics"]),
  ("nernst-1906", "Über die Berechnung chemischer Gleichgewichte aus thermischen Messungen", "paper", "Nachr. Ges. Wiss. Göttingen (1906) 1", None, "05.01", "The heat theorem, as a hypothesis about maximal work and energy near absolute zero.", ["thermodynamics"]),
@@ -107,6 +109,8 @@ OPEN = {
  "dedekind-1888": ("https://archive.org/download/rcin.org.pl.WA35_13030_4797_Was-sind_5138/WA35_13030_4797_Was-sind_djvu.txt", "Internet Archive, from RCIN (the Polish academies' digital repository)", "OCR text of a scan of the 1888 first edition"),
  "planck-1911": ("https://www.roe.ac.uk/~jap/zpe/planck1911_german.pdf", "a staff page at the Royal Observatory Edinburgh", "German, retyped (not a scan), 11 pages"),
  "einstein-stern-1913": ("https://zenodo.org/records/1424262/files/article.pdf", "Zenodo, a CC0 deposit (uploader not named; the work is public domain in the US)", "scan of the original, 10 pages, OCR text layer"),
+ "planck-1913": ("https://www.gutenberg.org/files/40030/40030-pdf.pdf", "Project Gutenberg", "the 1914 English translation, typeset from the Internet Archive's scans"),
+ "weyl-1922": ("https://www.gutenberg.org/files/43006/43006-pdf.pdf", "Project Gutenberg", "the 1922 English translation, typeset from the University of Toronto's scans"),
  "cook-2004": ("https://content.wolfram.com/sites/13/2023/02/15-1-1.pdf", "Wolfram, for Complex Systems", "the journal article"),
 }
 PROBES = OUT.parent / "probes.jsonl"
@@ -131,6 +135,7 @@ def history() -> list[dict]:
 #: id -> (the work's id, address, via, what, provided by hand?)
 EXTRA = {
  "leibniz-clarke-1717-third": ("leibniz-clarke-1717", "https://newtonproject.ox.ac.uk/view/texts/xml/THEM00230", "The Newton Project", "Leibniz's third paper, TEI transcription, CC BY-NC-ND", False),
+ "dedekind-1888-english": ("dedekind-1888", "https://www.gutenberg.org/files/21016/21016-pdf.pdf", "Project Gutenberg", "Beman's English translation (1901), The Nature and Meaning of Numbers, in Essays on the Theory of Numbers", False),
  "goldstone-1961-preprint": ("goldstone-1961", "https://cds.cern.ch/record/343400/files/CM-P00057225.pdf", "CERN Document Server (CERN-TH-118, 1960), downloaded in a browser", "Goldstone's preprint, scanned, 16 pages", True),
 }
 entries, pairs = [], []

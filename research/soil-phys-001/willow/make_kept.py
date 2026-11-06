@@ -42,6 +42,9 @@ what = {
  "planck-1901": (FULL, "the Internet Archive's OCR text of the whole issue, Ann. Phys. 4 no. 3 (1901); the paper is pages 553-563"),
  "nernst-1912": (FULL, "the Internet Archive's OCR text of the Sitzungsberichte, January to June 1912 (from the Digital Library of India); the paper is pages 134-140"),
  "penrose-1965": (FULL, "the PRL pages, 3 (the paper with the end of the one before), downloaded in a browser from APS"),
+ "planck-1913": (FULL, "Masius's 1914 translation of the 1913 second edition; Project Gutenberg's typeset PDF"),
+ "weyl-1922": (FULL, "Brose's 1922 translation of the fourth edition; Project Gutenberg's typeset PDF"),
+ "dedekind-1888-english": (FULL, "Beman's English translation (1901), in Essays on the Theory of Numbers; Project Gutenberg's typeset PDF"),
  "ghk-1964": (FULL, "the PRL pages, 3 (the paper with the end of the one before), APS free to read, downloaded in a browser"),
 }
 NONE = {
@@ -62,7 +65,7 @@ for e in sorted(cat, key=lambda e: e["id"]):
         f = files[0]
         h = hashlib.sha256(f.read_bytes()).hexdigest()
         k, w = what.get(i, (FULL, "full text (arXiv PDF)") if f.suffix == ".pdf" else (PAGE, "page"))
-        base = re.sub(r"-(open|preprint|third)$", "", i)
+        base = re.sub(r"-(open|preprint|third|english)$", "", i)
         if k == FULL:
             full.add(base)
         elif k == "part":
@@ -73,7 +76,7 @@ for e in sorted(cat, key=lambda e: e["id"]):
         rows.append(f"| {i} | none | | | | {NONE.get(i, 'no address yet')} |")
 part = len(parts - full)
 page = sum(1 for r in rows if "| landing page |" in r and r.split(" | ")[0].strip("| ") not in {x for x in full})
-works = len({re.sub(r"-(open|preprint|third)$", "", e["id"]) for e in cat})
+works = len({re.sub(r"-(open|preprint|third|english)$", "", e["id"]) for e in cat})
 doc = ["# SOIL-PHYS-001: what is kept", "",
        "Probed and kept 2026-11-06 with Willow's almanac-keep (each file's SHA-256 in full in "
        "`keep/.snapshots.jsonl`) or, where a script is refused, downloaded in a browser by the person "

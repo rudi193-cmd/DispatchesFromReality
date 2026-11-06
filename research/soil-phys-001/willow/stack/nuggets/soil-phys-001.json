@@ -292,6 +292,16 @@
    "reason": "SOIL-PHYS-001 rev 2, 05.01: SOURCE"
   },
   {
+   "source_text": "What does The Theory of Heat Radiation (Blakiston, Philadelphia, 1914 (Masius's translation of the 1913 second edition)) show?",
+   "target_text": "§140: at absolute zero an oscillator system's energy is Nhν/2, not 0; §164: natural units.",
+   "reason": "SOIL-PHYS-001 rev 2, 01.01, 05.01: SOURCE"
+  },
+  {
+   "source_text": "What does Space-Time-Matter (Methuen, London, 1922 (Brose's translation of the fourth edition, 1921)) show?",
+   "target_text": "Weyl's own book account of his 1918 theory: the Action invariant under re-calibration by an arbitrary positive function of position.",
+   "reason": "SOIL-PHYS-001 rev 2, 02.02: SOURCE"
+  },
+  {
    "source_text": "What does Eine neue Strahlungshypothese (Verh. Dtsch. Phys. Ges. 13 (1911) 138) show?",
    "target_text": "The second theory: an oscillator's mean energy is the earlier value plus the constant hν/2.",
    "reason": "SOIL-PHYS-001 rev 2, 05.01: SOURCE"

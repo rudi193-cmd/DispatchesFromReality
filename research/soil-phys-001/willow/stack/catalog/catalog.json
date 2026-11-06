@@ -970,6 +970,49 @@
    ]
   },
   {
+   "id": "planck-1913",
+   "title": "The Theory of Heat Radiation",
+   "type": "book",
+   "description": "§140: at absolute zero an oscillator system's energy is Nhν/2, not 0; §164: natural units.",
+   "publisher": "Blakiston, Philadelphia, 1914 (Masius's translation of the 1913 second edition)",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 01.01, 05.01",
+   "topics": [
+    "vacuum",
+    "constants"
+   ],
+   "recovery": [
+    {
+     "url": "https://www.gutenberg.org/files/40030/40030-pdf.pdf",
+     "via": "Project Gutenberg",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "the 1914 English translation, typeset from the Internet Archive's scans"
+    }
+   ]
+  },
+  {
+   "id": "weyl-1922",
+   "title": "Space-Time-Matter",
+   "type": "book",
+   "description": "Weyl's own book account of his 1918 theory: the Action invariant under re-calibration by an arbitrary positive function of position.",
+   "publisher": "Methuen, London, 1922 (Brose's translation of the fourth edition, 1921)",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 02.02",
+   "topics": [
+    "gauge"
+   ],
+   "recovery": [
+    {
+     "url": "https://www.gutenberg.org/files/43006/43006-pdf.pdf",
+     "via": "Project Gutenberg",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "the 1922 English translation, typeset from the University of Toronto's scans"
+    }
+   ]
+  },
+  {
    "id": "planck-1911",
    "title": "Eine neue Strahlungshypothese",
    "type": "paper",
@@ -1189,6 +1232,27 @@
      "authenticity": "asserted",
      "permission": "ok",
      "note": "Leibniz's third paper, TEI transcription, CC BY-NC-ND"
+    }
+   ]
+  },
+  {
+   "id": "dedekind-1888-english",
+   "title": "Was sind und was sollen die Zahlen? (Beman's English translation (1901))",
+   "type": "book",
+   "description": "Beman's English translation (1901), The Nature and Meaning of Numbers, in Essays on the Theory of Numbers, held by Project Gutenberg",
+   "publisher": "Vieweg, Braunschweig, 1888",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 05.02",
+   "topics": [
+    "set-theory"
+   ],
+   "recovery": [
+    {
+     "url": "https://www.gutenberg.org/files/21016/21016-pdf.pdf",
+     "via": "Project Gutenberg",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "Beman's English translation (1901), The Nature and Meaning of Numbers, in Essays on the Theory of Numbers"
     }
    ]
   },

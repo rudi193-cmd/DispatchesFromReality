@@ -105,12 +105,8 @@ for f in "$HOME_DIR"/keep/*; do
     # Wikisource marks each long s as a span, and willow's HTML reader puts a
     # space at every tag (bug #284), so "similar" would read "s imilar": unwrap them
     *.html) sed -E 's#<span class="typographic-long-s"[^>]*>s</span>#s#g' "$f" > "$HOME_DIR/stage/html/$(basename "$f")" ;;
-    # an OCR of old type keeps the long s (Dedekind's "Syſtem"): read it as s;
-    # a Project Gutenberg text is read between its START and END lines, without
-    # the English licence around it (Frege's German would sort as "information")
-    *.txt) if grep -q '^\*\*\* START OF THE PROJECT GUTENBERG' "$f"; then
-             sed -n '/^\*\*\* START OF THE PROJECT GUTENBERG/,/^\*\*\* END OF THE PROJECT GUTENBERG/p' "$f"
-           else cat "$f"; fi | sed 's/ſ/s/g' > "$HOME_DIR/stage/text/$(basename "$f")" ;;
+    # an OCR of old type keeps the long s (Dedekind's "Syſtem"): read it as s
+    *.txt) sed 's/ſ/s/g' "$f" > "$HOME_DIR/stage/text/$(basename "$f")" ;;
     # a copy almanac-keep saved with no extension (the server didn't name its
     # type): a PDF by its first bytes, otherwise a Newton Project TEI file
     *) if [ "$(head -c 4 "$f")" = "%PDF" ]; then cp "$f" "$HOME_DIR/stage/pdf/$(basename "$f").pdf"; continue; fi
@@ -127,6 +123,19 @@ PY
 done
 python3 "$WILLOW/adapters/deps/pdf/pdf.py" mirror --from "$HOME_DIR/stage/pdf" --to "$HOME_DIR/stage/text/pdf" 2>&1 \
   | grep -v "fontTools is required" || true  # pypdf's note on old fonts, once a page
+# A Project Gutenberg book, as text or as its typeset PDF, is read between its
+# START and END lines, without the English licence around it (Frege's German
+# would otherwise sort as "information")
+python3 - "$HOME_DIR/stage/text" <<'PY'
+import re, sys
+from pathlib import Path
+mark = re.compile(r"\*\*\* ?(START|END) OF TH(E|IS) PROJECT GUTENBERG")
+for p in Path(sys.argv[1]).rglob("*.txt"):
+    t = p.read_text(encoding="utf-8", errors="replace")
+    m = list(mark.finditer(t))
+    if len(m) >= 2 and m[0].group(1) == "START" and m[-1].group(1) == "END":
+        p.write_text(t[m[0].start():m[-1].end()] + "\n", encoding="utf-8")
+PY
 python3 "$WILLOW/adapters/stdlib/web-pages/web_pages.py" mirror --from "$HOME_DIR/stage/html" --to "$HOME_DIR/stage/text/html"
 python3 "$WILLOW/adapters/stdlib/text/text.py" mirror --from "$HOME_DIR/stage/text" --to "$HOME_DIR/pile/sources"
 

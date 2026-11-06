@@ -2,7 +2,7 @@
 
 Probed and kept 2026-11-06 with Willow's almanac-keep (each file's SHA-256 in full in `keep/.snapshots.jsonl`) or, where a script is refused, downloaded in a browser by the person running the ledger (`keep/.provided.jsonl`). Every probe is in `probes.jsonl`. An `-open` entry is a companion: the publisher's page answers with an abstract, and the open copy is kept beside it.
 
-Of the ledger's 51 works: **39 held in full** (by the work itself, a reprint, a transcription or a translation, each said), 0 in part, 4 only as a landing page, and 8 not held.
+Of the ledger's 53 works: **41 held in full** (by the work itself, a reprint, a transcription or a translation, each said), 0 in part, 4 only as a landing page, and 8 not held.
 
 | Source | Held | File | Bytes | SHA-256 | What it is |
 |---|---|---|---|---|---|
@@ -12,6 +12,7 @@ Of the ledger's 51 works: **39 held in full** (by the work itself, a reprint, a 
 | codata-2022 | landing page | `codata-2022.html` | 13,736 | `c37e1f103b0650b2…` | NIST's constants index; the CODATA values are linked from it |
 | cook-2004 | full text | `cook-2004.pdf` | 903,483 | `c9a2885248ae2811…` | the journal article, 40 pages, hosted by Wolfram for Complex Systems |
 | dedekind-1888 | full text | `dedekind-1888.txt` | 123,222 | `314524f0c0213b0e…` | the Internet Archive's OCR text of RCIN's scan of the 1888 first edition (old type, long s kept) |
+| dedekind-1888-english | full text | `dedekind-1888-english.pdf` | 468,165 | `d8e8bc66697760a2…` | Beman's English translation (1901), in Essays on the Theory of Numbers; Project Gutenberg's typeset PDF |
 | dirac-1937 | landing page | `dirac-1937.html` | 214,619 | `8402f56dd686d5dc…` | Nature's article page: abstract and preview; the paper is paywalled |
 | ehrenfest-1917 | none | | | | in the KNAW Digital Library, but its record number wasn't found |
 | einstein-1915 | full text | `einstein-1915.html` | 116,577 | `6306b58be5b3e24a…` | Wikisource's German transcription; the scan is in the 1915 Sitzungsberichte on the Internet Archive |
@@ -44,6 +45,7 @@ Of the ledger's 51 works: **39 held in full** (by the work itself, a reprint, a 
 | planck-1900 | full text | `planck-1900.txt` | 426,362 | `cee3088ff76198a2…` | the Internet Archive's OCR text of the whole issue, Ann. Phys. 1 no. 1 (1900); the paper is pages 69-122 |
 | planck-1901 | full text | `planck-1901.txt` | 425,575 | `91dc821257230ef3…` | the Internet Archive's OCR text of the whole issue, Ann. Phys. 4 no. 3 (1901); the paper is pages 553-563 |
 | planck-1911 | full text | `planck-1911.pdf` | 89,328 | `82f492fa93ebbf31…` | the German text retyped (not a scan of the Verhandlungen), 11 pages; a staff page at the Royal Observatory Edinburgh |
+| planck-1913 | full text | `planck-1913.pdf` | 1,415,134 | `5d99e069a5ff483f…` | Masius's 1914 translation of the 1913 second edition; Project Gutenberg's typeset PDF |
 | planck-2018-parameters | full text | `planck-2018-parameters.pdf` | 9,317,371 | `8e172730faf07c9f…` | full text (arXiv PDF) |
 | ryu-takayanagi-2006 | full text | `ryu-takayanagi-2006.pdf` | 187,229 | `2c8802f8ce95275b…` | full text (arXiv PDF) |
 | sakharov-1967 | landing page | `sakharov-1967.html` | 16,570 | `5cea74444c928f75…` | Physics-Uspekhi's page for the reprint; the open copy is sakharov-1967-open |
@@ -56,6 +58,7 @@ Of the ledger's 51 works: **39 held in full** (by the work itself, a reprint, a 
 | verlinde-2011 | full text | `verlinde-2011.pdf` | 981,053 | `427de7805bac04b9…` | full text (arXiv PDF) |
 | vonneumann-1923 | full text | `vonneumann-1923.pdf` | 1,062,288 | `e2b9b4fbfdaa1ba7…` | scan of the journal pages, 10, with an OCR text layer; the University of Szeged Library |
 | weyl-1918 | none | | | | no open copy found |
+| weyl-1922 | full text | `weyl-1922.pdf` | 2,454,764 | `755c84c63c29f10f…` | Brose's 1922 translation of the fourth edition; Project Gutenberg's typeset PDF |
 | weyl-1929 | landing page | `weyl-1929.html` | 212,758 | `d9e45e2e473a3449…` | Springer's article page: abstract and preview; paywalled. No open copy found |
 | willow-kernel | full text | `willow-kernel.txt` | 47,896 | `0f6f34eabdc4f4ec…` | full source, pinned to a commit |
 | wilson-1971 | none | | | | APS: a sign-in for a browser, 403 for scripts |
