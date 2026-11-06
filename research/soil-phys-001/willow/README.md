@@ -49,7 +49,7 @@ don't fit, and why:
 
 | Left out | Why |
 |---|---|
-| Readers of other kinds of file (93) | The pile is PDFs, web pages, TEI and Markdown; `build.sh` uses the readers for those |
+| Readers of other kinds of file (86 of willow's 93 readers) | The pile is PDFs, web pages, TEI, Markdown and the packet's catalog and seed; `build.sh` uses the seven readers for those |
 | Life logs (garden, car, pets, budget, baby-log and the like) | They each said, correctly, that nothing here is a garden or a car |
 | Editor and assistant setup (aider, cursor, vscode, vim and the like) | They print a config to paste, not a check |
 | Anything that needs an approved answer (export's answers, static-search, annotations, rss-out, badge's count, pile-gold, pile-sweep, quantized, deep-links) | Approving is the key's, and the key is Sean's; nothing here is approved |
