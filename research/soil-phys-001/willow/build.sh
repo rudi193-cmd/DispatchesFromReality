@@ -102,7 +102,9 @@ mkdir -p "$HOME_DIR/stage/pdf" "$HOME_DIR/stage/html" "$HOME_DIR/stage/text"
 for f in "$HOME_DIR"/keep/*; do
   case "$f" in
     *.pdf) cp "$f" "$HOME_DIR/stage/pdf/" ;;
-    *.html) cp "$f" "$HOME_DIR/stage/html/" ;;
+    # Wikisource marks each long s as a span, and willow's HTML reader puts a
+    # space at every tag, so "similar" would read "s imilar": unwrap them
+    *.html) sed -E 's#<span class="typographic-long-s"[^>]*>s</span>#s#g' "$f" > "$HOME_DIR/stage/html/$(basename "$f")" ;;
     *.txt) cp "$f" "$HOME_DIR/stage/text/" ;;
     *) python3 - "$f" "$HOME_DIR/stage/text/$(basename "$f").txt" <<'PY'
 import re, sys

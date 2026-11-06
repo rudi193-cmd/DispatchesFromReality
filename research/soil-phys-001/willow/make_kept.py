@@ -30,6 +30,7 @@ what = {
  "nambu-2008": (FULL, "Nambu's Nobel lecture, 7 pages, nobelprize.org (the same bytes as the copy you sent)"),
  "goldstone-1961-preprint": (FULL, "Goldstone's 1960 CERN preprint (CERN-TH-118), scanned, 16 pages; downloaded in a browser"),
  "leibniz-clarke-1717-third": (FULL, "Leibniz's third paper, TEI transcription; the Newton Project, CC BY-NC-ND"),
+ "newton-1687": (FULL, "the Definitions and Scholium in Motte's 1729 translation, Wikisource's transcription (the long s kept in markup)"),
  "ghk-1964": (FULL, "the PRL pages, 3 (the paper with the end of the one before), APS free to read, downloaded in a browser"),
 }
 NONE = {

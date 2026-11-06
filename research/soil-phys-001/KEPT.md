@@ -2,7 +2,7 @@
 
 Probed and kept 2026-11-06 with Willow's almanac-keep (each file's SHA-256 in full in `keep/.snapshots.jsonl`) or, where a script is refused, downloaded in a browser by the person running the ledger (`keep/.provided.jsonl`). Every probe is in `probes.jsonl`. An `-open` entry is a companion: the publisher's page answers with an abstract, and the open copy is kept beside it.
 
-Of the ledger's 43 works: **28 held in full** (by the work itself, a reprint, a transcription or a translation, each said), 0 in part, 4 only as a landing page, and 11 not held.
+Of the ledger's 44 works: **29 held in full** (by the work itself, a reprint, a transcription or a translation, each said), 0 in part, 4 only as a landing page, and 11 not held.
 
 | Source | Held | File | Bytes | SHA-256 | What it is |
 |---|---|---|---|---|---|
@@ -35,6 +35,7 @@ Of the ledger's 43 works: **28 held in full** (by the work itself, a reprint, a 
 | nambu-1960 | none | | | | APS: a sign-in for a browser, 403 for scripts |
 | nambu-2008 | full text | `nambu-2008.pdf` | 565,867 | `ef5f473e5ca73576…` | Nambu's Nobel lecture, 7 pages, nobelprize.org (the same bytes as the copy you sent) |
 | nernst-1906 | full text | `nernst-1906.pdf` | 3,807,269 | `d2e289921437b4e9…` | scan of the Göttingen Nachrichten, 40 pages, noisy OCR; a Notre Dame course page |
+| newton-1687 | full text | `newton-1687.html` | 156,702 | `5bc43da2034f6dea…` | the Definitions and Scholium in Motte's 1729 translation, Wikisource's transcription (the long s kept in markup) |
 | penrose-1965 | none | | | | APS: a sign-in for a browser, 403 for scripts; copies found were re-uploads, excluded |
 | planck-1901 | none | | | | Wiley: a sign-in for a browser, 403 for scripts; a Zenodo upload exists, uploader unknown, not used |
 | planck-2018-parameters | full text | `planck-2018-parameters.pdf` | 9,317,371 | `8e172730faf07c9f…` | full text (arXiv PDF) |

@@ -292,6 +292,27 @@
    ]
   },
   {
+   "id": "newton-1687",
+   "title": "Philosophiae Naturalis Principia Mathematica: the Scholium to the Definitions (Motte's translation, 1729)",
+   "type": "book",
+   "description": "Absolute space and time, against which relative space is a movable measure: the view Leibniz and Mach argue against.",
+   "publisher": "London, 1687; Motte's English translation, 1729",
+   "status": "cited",
+   "status_source": "SOIL-PHYS-001 rev 2, line 02.02",
+   "topics": [
+    "relationalism"
+   ],
+   "recovery": [
+    {
+     "url": "https://en.wikisource.org/wiki/The_Mathematical_Principles_of_Natural_Philosophy_(1729)/Definitions",
+     "via": "Wikisource",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "the 1729 English translation, Definitions and Scholium, long s in markup"
+    }
+   ]
+  },
+  {
    "id": "mach-1883",
    "title": "Die Mechanik in ihrer Entwickelung",
    "type": "book",

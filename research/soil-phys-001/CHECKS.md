@@ -39,7 +39,10 @@ Revision 2's lines, plus three of revision 1's stronger claims (marked rev 1), c
 | 02.03-d | Nambu: many equivalent ground states; one is realized | **holds** (his 2008 Nobel lecture, not the 1960 paper) | "The ground state has huge degeneracy. A symmetry operation takes one ground state to another." (nambu-2008.pdf) | found word for word |
 | 02.03-e | Goldstone: choosing one of the equivalent solutions breaks the symmetry | **holds** | "By choosing one solution, the reflection symmetry is effectively destroyed." (goldstone-1961-preprint.pdf) | read on the scanned page (p. 11) |
 | 02.03-f | Goldstone: a continuous symmetry, its phase undetermined, broken by fixing it | **holds** | "The phase of χ is not determined. Fixing it destroys the symmetry." (goldstone-1961-preprint.pdf) | read on the scanned page (p. 13) |
+| 02.02-d | Newton: absolute space, without relation to anything external | **holds** | "Absolute Space, in its own nature, without relation to anything external, remains always similar and immovable." (newton-1687.html) | found word for word, once the long s spans are unwrapped |
+| 02.02-a2 | Mach: absolute space and motion are things of thought | **holds** | "they are pure things of thought, pure mental constructs" (mach-1883.html) | found word for word; the OCR scrambles the sentence's start |
+| 05.01-c | Mach: the doctrine of horror vacui, credited and then limited | **holds** | "Nature was thought to possess the power of preventing the formation of a vacuum" (mach-1883.html) | found word for word |
 
-**35 checked:** 19 holds, 11 holds with a change, 3 does not hold, 2 not found in this text (both now settled by later texts: Leibniz's third paper, 02.02-b2; and the ground-state half of 02.03 by Nambu and Goldstone, 02.03-d to f).
+**38 checked:** 22 holds, 11 holds with a change, 3 does not hold, 2 not found in this text (both now settled by later texts: Leibniz's third paper, 02.02-b2; and the ground-state half of 02.03 by Nambu and Goldstone, 02.03-d to f).
 
 The three rev 1 claims tested (the metric ∝ entanglement, Sakharov's conserved offset, the geometry of physics) all fail on their own sources' words.

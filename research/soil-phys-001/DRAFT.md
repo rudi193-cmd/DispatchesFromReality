@@ -19,6 +19,8 @@ actually does is in Section 06.
 | Line | Mark | Statement |
 |---|---|---|
 | 0001 | READING | True nullity is never observed: every physical "zero" turns out to be a ground state with something in it (Section 05). |
+| 0001a | SOURCE | The line has an ancestor. Mach (1883, the 1893 translation) on the old doctrine of *horror vacui*: "Nature was thought to possess the power of preventing the formation of a vacuum by laying hold of the first adjacent thing, whatsoever it was, and immediately filling up with it any empty space that arose. Apart from the ungrounded speculative element which this view contains, it must be conceded, that to a certain extent it really represents the phenomenon." And then: "This principle, however, does not fit all cases." CHECKED. |
+| 0001b | READING | Line 0001 is *horror vacui* restated for ground states: nature doesn't fill the void, there is no void to fill. Mach's two sentences are its warning: a principle that "really represents the phenomenon" can still fail to fit all cases, and the cases decide. |
 | 0002 | READING | The minimal non-trivial existence condition is the singleton container {0}. |
 | 0003 | SOURCE | In von Neumann's construction the number 1 *is* {0} = {∅}: the set whose only member is the empty set. Its cardinality is 1 (von Neumann 1923). |
 | 0004 | READING | The boundary makes the first bit; the container is the state. (Spencer-Brown 1969 takes "draw a distinction" as the primitive act, which is this line's nearest source.) |
@@ -57,7 +59,9 @@ actually does is in Section 06.
 **[02.02] The origin is arbitrary**
 
 - SOURCE: Leibniz-Clarke correspondence (1715-16): Leibniz holds "Space to be something merely relative, as Time is; ... an Order of Coexistences, as Time is an Order of Successions", and a world with East changed into West, the bodies' relations kept, "would not at all differ" from this one. CHECKED (his third paper; his first attacks Newton's "Space is an Organ, which God makes use of to perceive Things by").
-- SOURCE: Mach, *Die Mechanik in ihrer Entwickelung* (1883): "When a body moves relatively to the fixed stars, centrifugal forces are produced". CHECKED (the 1893 translation).
+- SOURCE: Newton, *Principia* (1687), the Scholium to the Definitions, the view the rest of this entry argues against: "Absolute Space, in its own nature, without relation to anything external, remains always similar and immovable. Relative Space is some movable dimension or measure of the absolute spaces". CHECKED (Motte's translation, 1729).
+- SOURCE: Mach, *Die Mechanik in ihrer Entwickelung* (1883): "When a body moves relatively to the fixed stars, centrifugal forces are produced"; and of Newton's absolute space and motion, "they are pure things of thought, pure mental constructs, that cannot be produced in experience." CHECKED (the 1893 translation).
+- CHANGED (rev 3): Newton added: revision 2 gave only the relationalists' side of an argument they made against him.
 - SOURCE: Einstein's hole argument (1913-14) and its resolution (1915): in general relativity only coincidences between events are physical; coordinates are not.
 - SOURCE: Weyl, Sitzungsber. Preuss. Akad. Wiss. (1918) 465, and Z. Phys. 56 (1929) 330: gauge invariance, the freedom to re-choose a local reference.
 - READING: The axis N sits on is unobservable; only relational differences and holonomies are physical.

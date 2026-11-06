@@ -24,6 +24,8 @@ stack reorders the pools tallest first; this is reading order, not run order.
 - misquote -- --box boxes/sources "it is not implausible that only a 3+1-dimensional spacetime can contain observers"
 - misquote -- --box boxes/sources "I hold Space to be something merely relative, as Time is"
 - misquote -- --box boxes/sources "those two States, the one such as it now is, the other supposed to be the quite contrary way, would not at all differ from one another"
+- misquote -- --box boxes/sources "Absolute Space, in its own nature, without relation to anything external, remains always similar and immovable"
+- misquote -- --box boxes/sources "Nature was thought to possess the power of preventing the formation of a vacuum"
 - quote-check -- --box boxes/sources "the two regions of spacetime pull apart and pinch off from each other"
 - quote-check -- --box boxes/sources "The phase of the field is not determined"
 # claim-check finds where to read, and never reads; it works on a claim of a
