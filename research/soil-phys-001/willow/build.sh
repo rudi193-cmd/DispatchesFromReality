@@ -19,10 +19,12 @@
 #   HOME_DIR/pile/sources   the sources as text: pdf and web-pages readers,
 #                           the Newton Project's TEI with its tags off, every
 #                           line over 500 characters broken by the text add-on
+#   HOME_DIR/pile/stack     the packet's Almanac catalog and Jeles seed, as passages
 #   HOME_DIR/boxes/whole    a box over the whole pile
 #   HOME_DIR/boxes/sources  a box over the sources only, so a check of the
 #                           ledger never finds the ledger quoting itself
-#   HOME_DIR/boxes/links    a box over the raw repo, for xref
+#   HOME_DIR/boxes/links    a box over the raw repo, for xref and the repo checks
+#   HOME_DIR/out            what the stack's "made" pool writes (prov, a card, a timeline)
 # Re-running it pulls the repo, fetches what's missing, rebuilds the piles,
 # and leaves the boxes and keys alone.
 # SOIL_BRANCH=NAME clones a branch other than research/soil-phys-001.
@@ -35,7 +37,7 @@ W="research/soil-phys-001/willow"
 
 [ -f "$WILLOW/kernel.py" ] || { echo "no kernel.py in $WILLOW"; exit 2; }
 case "$KEY_DIR/" in "$HOME_DIR"/*) echo "keep KEY_DIR outside $HOME_DIR"; exit 2;; esac
-mkdir -p "$HOME_DIR/keep" "$HOME_DIR/boxes" "$KEY_DIR"
+mkdir -p "$HOME_DIR/keep" "$HOME_DIR/boxes" "$HOME_DIR/out" "$KEY_DIR"
 
 if [ -d "$HOME_DIR/repo/.git" ]; then
   git -C "$HOME_DIR/repo" pull --ff-only
@@ -117,6 +119,11 @@ python3 "$WILLOW/adapters/deps/pdf/pdf.py" mirror --from "$HOME_DIR/stage/pdf" -
   | grep -v "fontTools is required" || true  # pypdf's note on old fonts, once a page
 python3 "$WILLOW/adapters/stdlib/web-pages/web_pages.py" mirror --from "$HOME_DIR/stage/html" --to "$HOME_DIR/stage/text/html"
 python3 "$WILLOW/adapters/stdlib/text/text.py" mirror --from "$HOME_DIR/stage/text" --to "$HOME_DIR/pile/sources"
+
+# The packet's Almanac catalog and Jeles seed, as passages (almanac, jeles add-ons).
+rm -rf "$HOME_DIR/pile/stack"
+python3 "$WILLOW/adapters/stdlib/almanac/almanac.py" mirror --from "$HOME_DIR/repo/$W/stack/catalog" --to "$HOME_DIR/pile/stack/almanac"
+python3 "$WILLOW/adapters/stdlib/jeles/jeles.py" mirror --from "$HOME_DIR/repo/$W/stack/nuggets" --to "$HOME_DIR/pile/stack/jeles"
 
 cp "$HOME_DIR/repo/$W/stack.md" "$HOME_DIR/stack.md"
 
