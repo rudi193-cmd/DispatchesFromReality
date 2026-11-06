@@ -96,3 +96,10 @@ don't fit, and why:
 - **`sort`, von Neumann:** unsorted. His paper says "Ordnungszahl", "Menge" and "leere Menge", none of them a phrase of the ledger's.
 - **The pile's size:** Nernst's kept volume is 1.4 MB, and the kernel reads at most 1,000,000 bytes of a file, so the text add-on wrote it as two files (`nernst-1912.txt.txt` and `.part2`); the paper is in the first.
 
+## The Project Gutenberg companions, 2026-11-06
+
+Planck's *Theory of Heat Radiation*, Weyl's *Space-Time-Matter* and Dedekind's essay in Beman's translation, each Project Gutenberg's typeset PDF. `build.sh` from scratch: 51 sources held to their SHA-256, none differ. Each Gutenberg file in the pile now starts at its "*** START OF TH(E|IS) PROJECT GUTENBERG" line, whether it came as text or as a PDF.
+
+- **`misquote`:** Dedekind's "which we shall denote in what follows by the symbol 1, the base-element" as written; Planck's §140 and Weyl's re-calibration sentence as "almost", in the right files, where the PDF reader runs a word into the symbol after it ("temperatureE", "whichλis").
+- **`sort`:** none of the three lands where the ledger uses it. Planck's book sorts under "seed and anchor" on 55 hits of "vacuum"; Weyl's under "models and willow" on 38 of "representation" (his "representation of the metrical field"); Dedekind's translation under "zero" on "distinction" and one "zero point". The words a section is named by are not the words its sources use.
+
