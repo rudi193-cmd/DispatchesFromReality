@@ -76,7 +76,7 @@ stack reorders the pools tallest first; this is reading order, not run order.
 # come to; score grades them once the bites are taken. Ask it outside the
 # stack (python3 WILLOW/adapters/stdlib/predict/predict.py ask --box
 # boxes/sources "QUESTION"): stack adds --json to a report add-on's step, and
-# predict's ask takes none
+# predict's ask takes none (willow bug #285)
 - predict -- score --box boxes/sources
 
 ## does the packet hold together

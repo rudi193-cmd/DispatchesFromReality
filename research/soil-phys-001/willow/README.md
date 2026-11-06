@@ -53,7 +53,7 @@ don't fit, and why:
 | Life logs (garden, car, pets, budget, baby-log and the like) | They each said, correctly, that nothing here is a garden or a car |
 | Editor and assistant setup (aider, cursor, vscode, vim and the like) | They print a config to paste, not a check |
 | Anything that needs an approved answer (export's answers, static-search, annotations, rss-out, badge's count, pile-gold, pile-sweep, quantized, deep-links) | Approving is the key's, and the key is Sean's; nothing here is approved |
-| `predict ask` | `stack` adds `--json` to a report add-on's step, and `ask` takes none; run it by hand |
+| `predict ask` | `stack` adds `--json` to a report add-on's step, and `ask` takes none: willow bug #285; run it by hand |
 | `browse`, `pipe` | One waits at a prompt, the other reads its standard input |
 | Model, network and sealing add-ons | The stack runs local and offline, and never seals |
 
@@ -64,8 +64,8 @@ don't fit, and why:
 `build.sh` from scratch, then the stack, on willow's main (93b2add):
 
 - **Sources:** 27 held to their SHA-256 (every PDF and text file, the four browser downloads among them); 4 web pages whose bytes changed and whose text didn't; 5 live pages (Springer's and the reprint's) whose text changed too, an access counter or a notice, so the packet's copy is the record; Solomonoff's publisher page, a redirect stub, set aside. Weyl's page answered 429 the first time, a rate limit.
-- **The ledger's quotes** (`quotes`): 33 in DRAFT.md, 10 as written, 19 almost, 4 not there. The four: Klein's words in English (his paper is German), Casimir's and Goldstone's (scans), and "deletion is an appended tombstone", revision 1's claim about willow, which nothing holds. Most of the "almost" are the pdf reader's: a word split at a line end ("univer se", "multi plets") or a ligature left as one character ("oﬀ"); the rest are the ledger quoting its own earlier wording in CHANGED lines, which no source holds.
-- **The deciding quotes** (`misquote`): 6 of 6 as written, Leibniz's "would not at all differ" among them, which willow's study of these sources missed because its runner kept each of Leibniz's paragraphs on one line; `build.sh` breaks such lines with the text add-on.
+- **The ledger's quotes** (`quotes`): 33 in DRAFT.md, 10 as written, 19 almost, 4 not there. The four: Klein's words in English (his paper is German), Casimir's and Goldstone's (scans), and "deletion is an appended tombstone", revision 1's claim about willow, which nothing holds. Most of the "almost" are the pdf reader's: a word split at a line end ("univer se", "multi plets") or a ligature left as one character ("oﬀ") (willow's bug #112); the rest are the ledger quoting its own earlier wording in CHANGED lines, which no source holds.
+- **The deciding quotes** (`misquote`): 6 of 6 as written, Leibniz's "would not at all differ" among them, which willow's study of these sources missed because its runner kept each of Leibniz's paragraphs on one line, past the 500 characters the kernel reads (bug #89); `build.sh` breaks such lines with the text add-on.
 - **Short claims** (`claim-check`): "gravity is an entropic force" has every part in Verlinde, "Rule 110 is capable of universal computation" in Cook; "the metric is proportional to entanglement" has every part nowhere.
 - **Asked directly** (`fair-merge`): "is space absolute or relative" serves Leibniz's third paper first; "what happens to the ground state when a symmetry is broken" serves Nambu's lecture first.
 - **The repo** (`xref`): 305 references, none broken. (`pair-drift`): this packet's README holds a "256" its draft doesn't, the 256 of SHA-256; across the repo it flags figures in three other packets' READMEs that their drafts don't hold.

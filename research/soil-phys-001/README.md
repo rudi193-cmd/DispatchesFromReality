@@ -72,7 +72,7 @@ stand in for reading these sources? Frozen before it ran, run once:
 
 | Tool | Result |
 |------|--------|
-| `misquote`, each deciding quote in its source | 29 of 30 readable quotes found; the one missed, Leibniz's, was past the 500 characters the kernel reads of a line in that study's text, and is found once the line is broken ([willow/README.md](willow/README.md)) |
+| `misquote`, each deciding quote in its source | 29 of 30 readable quotes found; the one missed, Leibniz's, was past the 500 characters the kernel (willow's known bug #89) reads of a line in that study's text, and is found once the line is broken ([willow/README.md](willow/README.md)) |
 | `claim-check`, every part of a true line in one passage of the right source | 6 of 25; a claim of eight to fifteen words rarely has every word in one passage, and six sources aren't in English |
 | The kernel, a plain question per line, the right source in its top three | 17 of 25, but it also served something to 8 of 10 off-topic questions: a short question over a large pile |
 
