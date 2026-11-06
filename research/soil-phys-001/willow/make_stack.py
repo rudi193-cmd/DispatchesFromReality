@@ -74,7 +74,10 @@ PROVIDED = {
  "englert-brout-1964": "https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.13.321",
  "higgs-1964": "https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.13.508",
  "ghk-1964": "https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.13.585",
+ "penrose-1965": "https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.14.57",
 }
+#: how a provided copy was had, where not the 1964 papers' "free to read"
+PROVIDED_VIA = {"penrose-1965": "APS, downloaded in a browser by the person running the ledger"}
 #: addresses that answer 200 with no work behind them
 STUBS = {"solomonoff-1964": "a 2.6 KB redirect page (ScienceDirect)"}
 #: open copies other than the publisher's, found 2026-11-06 and kept by
@@ -168,7 +171,7 @@ for sid, title, kind, pub, url, lines, shows, topics in S:
                 e["status_source"] = "probe by make_stack.py; cited at " + e["status_source"]
     entries.append(e)
     if sid in PROVIDED:
-        e["recovery"] = [{"url": PROVIDED[sid], "via": "APS, free to read, downloaded in a browser",
+        e["recovery"] = [{"url": PROVIDED[sid], "via": PROVIDED_VIA.get(sid, "APS, free to read, downloaded in a browser"),
                           "authenticity": "asserted", "permission": "ok",
                           "note": "kept by hash in keep/.provided.jsonl; scripts get 403"}]
     if sid in OPEN:

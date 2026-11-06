@@ -20,7 +20,7 @@ add-ons, local only, standard library only.
 | `keep/.snapshots.jsonl` | almanac-keep's log: each fetched copy's address, time, bytes and SHA-256 |
 | `keep/.provided.jsonl` | Copies downloaded in a browser where a script is refused: where from, when, and SHA-256 |
 | `keep/.text.jsonl` | Each kept web page's text hash: a page is rebuilt on every request, so its bytes never match twice, and its text is what's held |
-| `checks.json` | The 48 lines checked, each with its file, verdict and deciding quote, as [CHECKS.md](../CHECKS.md) shows them |
+| `checks.json` | The 49 lines checked, each with its file, verdict and deciding quote, as [CHECKS.md](../CHECKS.md) shows them |
 
 The kept files themselves are not here: several are paywalled, and the repo
 keeps sources by hash. To hold them again:

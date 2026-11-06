@@ -2,7 +2,7 @@
 
 Probed and kept 2026-11-06 with Willow's almanac-keep (each file's SHA-256 in full in `keep/.snapshots.jsonl`) or, where a script is refused, downloaded in a browser by the person running the ledger (`keep/.provided.jsonl`). Every probe is in `probes.jsonl`. An `-open` entry is a companion: the publisher's page answers with an abstract, and the open copy is kept beside it.
 
-Of the ledger's 51 works: **38 held in full** (by the work itself, a reprint, a transcription or a translation, each said), 0 in part, 4 only as a landing page, and 9 not held.
+Of the ledger's 51 works: **39 held in full** (by the work itself, a reprint, a transcription or a translation, each said), 0 in part, 4 only as a landing page, and 8 not held.
 
 | Source | Held | File | Bytes | SHA-256 | What it is |
 |---|---|---|---|---|---|
@@ -40,7 +40,7 @@ Of the ledger's 51 works: **38 held in full** (by the work itself, a reprint, a 
 | nernst-1906 | full text | `nernst-1906.pdf` | 3,807,269 | `d2e289921437b4e9…` | scan of the Göttingen Nachrichten, 40 pages, noisy OCR; a Notre Dame course page |
 | nernst-1912 | full text | `nernst-1912.txt` | 1,376,975 | `780f9fa4c7ebd57f…` | the Internet Archive's OCR text of the Sitzungsberichte, January to June 1912 (from the Digital Library of India); the paper is pages 134-140 |
 | newton-1687 | full text | `newton-1687.html` | 156,702 | `5bc43da2034f6dea…` | the Definitions and Scholium in Motte's 1729 translation, Wikisource's transcription (the long s kept in markup) |
-| penrose-1965 | none | | | | APS: a sign-in for a browser, 403 for scripts; copies found were re-uploads, excluded |
+| penrose-1965 | full text | `penrose-1965.pdf` | 265,270 | `ce054908ed51850d…` | the PRL pages, 3 (the paper with the end of the one before), downloaded in a browser from APS |
 | planck-1900 | full text | `planck-1900.txt` | 426,362 | `cee3088ff76198a2…` | the Internet Archive's OCR text of the whole issue, Ann. Phys. 1 no. 1 (1900); the paper is pages 69-122 |
 | planck-1901 | full text | `planck-1901.txt` | 425,575 | `91dc821257230ef3…` | the Internet Archive's OCR text of the whole issue, Ann. Phys. 4 no. 3 (1901); the paper is pages 553-563 |
 | planck-1911 | full text | `planck-1911.pdf` | 89,328 | `82f492fa93ebbf31…` | the German text retyped (not a scan of the Verhandlungen), 11 pages; a staff page at the Royal Observatory Edinburgh |

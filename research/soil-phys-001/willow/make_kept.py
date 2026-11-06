@@ -41,6 +41,7 @@ what = {
  "planck-1900": (FULL, "the Internet Archive's OCR text of the whole issue, Ann. Phys. 1 no. 1 (1900); the paper is pages 69-122"),
  "planck-1901": (FULL, "the Internet Archive's OCR text of the whole issue, Ann. Phys. 4 no. 3 (1901); the paper is pages 553-563"),
  "nernst-1912": (FULL, "the Internet Archive's OCR text of the Sitzungsberichte, January to June 1912 (from the Digital Library of India); the paper is pages 134-140"),
+ "penrose-1965": (FULL, "the PRL pages, 3 (the paper with the end of the one before), downloaded in a browser from APS"),
  "ghk-1964": (FULL, "the PRL pages, 3 (the paper with the end of the one before), APS free to read, downloaded in a browser"),
 }
 NONE = {
@@ -49,7 +50,6 @@ NONE = {
   "wolfram-1983": "APS blocks scripts (403); Wolfram's own publications site doesn't resolve from this environment",
  "weyl-1918": "no open copy found",
  "ehrenfest-1917": "in the KNAW Digital Library, but its record number wasn't found",
- "penrose-1965": "APS: a sign-in for a browser, 403 for scripts; copies found were re-uploads, excluded",
  "wilson-1971": "APS: a sign-in for a browser, 403 for scripts",
  "nambu-1960": "APS: a sign-in for a browser, 403 for scripts",
  "anderson-1963": "APS: a sign-in for a browser, 403 for scripts",

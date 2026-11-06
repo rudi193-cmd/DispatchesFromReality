@@ -1060,7 +1060,16 @@
     "checked": "2026-11-06T15:17:34Z",
     "reachable": false,
     "http_status": 403
-   }
+   },
+   "recovery": [
+    {
+     "url": "https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.14.57",
+     "via": "APS, downloaded in a browser by the person running the ledger",
+     "authenticity": "asserted",
+     "permission": "ok",
+     "note": "kept by hash in keep/.provided.jsonl; scripts get 403"
+    }
+   ]
   },
   {
    "id": "shannon-1948",
