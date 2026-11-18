@@ -9,6 +9,8 @@ Are the results accepted without a rival claim to their authority? This is the
 dual sovereignty test asked directly. Look for: concessions, certification
 disputes, any claim that a result does not bind.
 
+Result: [checkins/2026-11-18-acceptance.md](../checkins/2026-11-18-acceptance.md)
+
 ## 2026-12-04 check-in: the insiders
 Do Republicans who distanced themselves before the election close ranks after
 it, or does their self-preservation math now point to a coordinated break?
